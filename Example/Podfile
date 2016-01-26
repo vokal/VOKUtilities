@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'VOKUtilities', :exclusive => true do
+  pod "VOKUtilities", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+    pod "VOKUtilities", :path => "../"
+end
+
+target 'UITests', :exclusive => true do
+  pod "VOKUtilities", :path => "../"
+  pod "KIF", "~>3.3"
+end
