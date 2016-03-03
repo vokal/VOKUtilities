@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface UIView (VOKDebug)
 
 /**
@@ -30,6 +32,8 @@
  *
  *  @return The test finger view, or nil if that view was not added. 
  */
-- (UIView *)vok_addGestureRecognizerWithTestFinger:(UIGestureRecognizer *)gestureRecognizer;
+- (nullable UIView *)vok_addGestureRecognizerWithTestFinger:(UIGestureRecognizer *)gestureRecognizer;
 
 @end
+
+NS_ASSUME_NONNULL_END

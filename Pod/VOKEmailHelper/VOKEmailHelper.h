@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import <MessageUI/MessageUI.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface VOKEmailHelper : NSObject
 
 /**
@@ -23,10 +25,10 @@
  *  @return YES if the device can send email, NO if it cannot (will return YES in the sim, alert handles that case). 
  */
 + (BOOL)sendEmailWithSubject:(NSString *)subject
-                 receipients:(NSArray *)recipientEmails
+                 receipients:(nullable NSArray<NSString *> *)recipientEmails
                         body:(NSString *)body
                       fromVC:(UIViewController *)presenter
-         withComposeDelegate:(id<MFMailComposeViewControllerDelegate>)delegate;
+         withComposeDelegate:(nullable id<MFMailComposeViewControllerDelegate>)delegate;
 
 /**
  *  Sets up an HTML email to send (or shows an alert if on the simulator)
@@ -40,10 +42,10 @@
  *  @return YES if the device can send email, NO if it cannot (will return YES in the sim, alert handles that case).
  */
 + (BOOL)sendHTMLEmailWithSubject:(NSString *)subject
-                     receipients:(NSArray *)recipientEmails
+                     receipients:(nullable NSArray<NSString *> *)recipientEmails
                             body:(NSString *)htmlBody
                           fromVC:(UIViewController *)presenter
-             withComposeDelegate:(id<MFMailComposeViewControllerDelegate>)delegate;
+             withComposeDelegate:(nullable id<MFMailComposeViewControllerDelegate>)delegate;
 
 /**
  * @return The message that the simulator would return for a given 
@@ -51,7 +53,7 @@
  * work even when simulator mail is being dumb.
  */
 + (NSString *)simulatorBorkedMessageForSubject:(NSString *)subject
-                                        emails:(NSArray *)emails
+                                        emails:(nullable NSArray<NSString *> *)emails
                                           body:(NSString *)body;
 
 /**
@@ -65,3 +67,5 @@
 + (NSString *)simulatorBorkedButtonTitle;
 
 @end
+
+NS_ASSUME_NONNULL_END

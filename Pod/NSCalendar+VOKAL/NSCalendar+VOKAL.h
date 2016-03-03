@@ -18,6 +18,8 @@ typedef NS_ENUM(NSUInteger, VOKDateComponentsWeekday) {
     VOKDateComponentsWeekdaySaturday = 7,
 };
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface NSCalendar (VOKAL)
 
 /**
@@ -27,6 +29,8 @@ typedef NS_ENUM(NSUInteger, VOKDateComponentsWeekday) {
  *
  *  @return The most recent weekday before the given date
  */
-- (NSDate *)vok_lastWeekdayBeforeDate:(NSDate *)date;
+- (nullable NSDate *)vok_lastWeekdayBeforeDate:(NSDate *)date;
 
 @end
+
+NS_ASSUME_NONNULL_END

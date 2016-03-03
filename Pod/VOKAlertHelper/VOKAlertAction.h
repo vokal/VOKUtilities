@@ -10,10 +10,12 @@
 
 typedef void(^VOKAlertActionBlock)(void);
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface VOKAlertAction : NSObject
 
 @property (nonatomic, copy, readonly) NSString *title;
-@property (nonatomic, copy, readonly) VOKAlertActionBlock actionBlock;
+@property (nonatomic, copy, readonly, nullable) VOKAlertActionBlock actionBlock;
 
 /**
  *  Designated initializer for VOKAlertAction class.
@@ -23,6 +25,8 @@ typedef void(^VOKAlertActionBlock)(void);
  *
  *  @return An instance of the VOKAlertAction class.
  */
-- (instancetype)initWithTitle:(NSString *)title actionBlock:(VOKAlertActionBlock)actionBlock;
+- (instancetype)initWithTitle:(NSString *)title actionBlock:(nullable VOKAlertActionBlock)actionBlock;
 
 @end
+
+NS_ASSUME_NONNULL_END

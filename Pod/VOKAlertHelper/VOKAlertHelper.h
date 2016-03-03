@@ -12,6 +12,8 @@
 
 typedef void(^VOKAlertHelperActionBlock)(void);
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface VOKAlertHelper : NSObject
 
 /**
@@ -23,8 +25,10 @@ typedef void(^VOKAlertHelperActionBlock)(void);
  *  @param buttons        Array of VOKAlertAction objects that correspond to button(s). Must have at least one object.
  */
 + (void)showAlertFromViewController:(UIViewController *)viewController
-                          withTitle:(NSString *)title
-                            message:(NSString *)message
-                            buttons:(NSArray *)buttons;
+                          withTitle:(nullable NSString *)title
+                            message:(nullable NSString *)message
+                            buttons:(NSArray<VOKAlertAction *> *)buttons;
 
 @end
+
+NS_ASSUME_NONNULL_END
