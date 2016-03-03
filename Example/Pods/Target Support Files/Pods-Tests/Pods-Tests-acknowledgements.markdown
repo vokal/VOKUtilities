@@ -3,6 +3,8 @@ This application makes use of the following third party libraries:
 
 ## VOKUtilities
 
+The MIT License (MIT)
+
 Copyright (c) 2014-2016 Vokal
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
