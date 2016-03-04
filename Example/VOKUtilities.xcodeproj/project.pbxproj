@@ -9,20 +9,28 @@
 /* Begin PBXBuildFile section */
 		0053277E091BAFE30ABDFAEB7CE28E73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24926CDA7FBB04AFC767AEF5B9BB7A42 /* CoreGraphics.framework */; };
 		0529F65AEC801852D6EC3E948E7D2EAC /* NSCalendar_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B3EC1E9A081DFD3E84F73606C4FFF9 /* NSCalendar_VOKAL_Tests.m */; };
+		164906665CBA68AAC2384170975E05AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA936DC1D941D75B58380CDE427BEB2A /* main.m */; };
 		2DB1DDCB4DFAD0F456DD71758947C216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 189C69E5C7BB81B5DA6529C87719C553 /* InfoPlist.strings */; };
 		2EF8BF9A7382D975A58C9C7104DFF8A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CD2B98C25A86899F736FEF4E148322F /* Foundation.framework */; };
+		32F25DEE7B5E76F4C3DB4E8C96208710 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120F654AF5DE8F532A09C168F72D2F0A /* ViewController.m */; };
+		37638418B39D8A1FFC9BF2568375E1FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB086D8F4109A2A2A6C66784212DADD1 /* AppDelegate.m */; };
 		3EFA9339B89C87119C873EFB476B6ED3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135B1F314C9ADE2AFE962AC23EF4E680 /* UIKit.framework */; };
 		50C91464E6FA9E82C648B7C1A453B40B /* UIColor_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3B7342011ECC58611A62CD7DDEE16 /* UIColor_VOKAL_Tests.m */; };
+		53530FC838BB9E3D7237DA5C45FAA09B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 208068955258414E6A43799EE974CEBA /* main.m */; };
 		57C827C7DF572F8B9C0C8458F271AAE8 /* UIView_VOKDebug_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C17071E967154CD9456A6D0F1C3692F1 /* UIView_VOKDebug_UITests.m */; };
+		587E9CC2D7350ED52484C90B1AB4337C /* libPods-VOKUtilities-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5FD5F942C7D939FB8F5800EB3C0854 /* libPods-VOKUtilities-OSX.a */; };
 		5A35D91522E68EA1EC370C51492F2688 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CD2B98C25A86899F736FEF4E148322F /* Foundation.framework */; };
 		5C86A1DEEE565D527AF1CFE2616D4FA9 /* VOKAlertHelper_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD369650F89B53A3EE34BF5F6F3AC6B /* VOKAlertHelper_Tests.m */; };
+		5D29FBAAC2372A2B7E30036A57D4D9AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20BE48FF7B95B870F262A31BF373054E /* Assets.xcassets */; };
 		617F084F0350DF60335FC9D8B60D277E /* VOKEmailHelper_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 764BDA8BACDC7E825E3B48AB7B6CE77E /* VOKEmailHelper_UITests.m */; };
 		6180CC94D58ACF7E3B1253B8E39BC4BD /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C082F262B8772102EF995F8F737B31C0 /* TestViewController.m */; };
+		638EF0F70C3449A50D7699D2048E4388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149C4EECDD54AC318C09018A3551CD79 /* Main.storyboard */; };
 		723A8F421F8D0FF752564E87F378A08C /* VOKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A994C16B7246E172908D4DC8954B9B85 /* VOKAppDelegate.m */; };
 		83F9FBB51AE06D5C4B74D5793F51D3B2 /* UIViewController_VOKKeyboard_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D80FCEB83D06907EEECCB4E59E640343 /* UIViewController_VOKKeyboard_Tests.m */; };
 		85883CF6A2710A9D37414606C4EE4B78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5707297BB8525593A9C9D65D6E6B900 /* main.m */; };
 		93399C2AF001CC7CA820506A591F99C6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1414AF7F8D2543DF6DA238BB32F258E2 /* XCTest.framework */; };
 		A3BD758D681FFFE094FDDE68E20392C3 /* NSPredicate_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FEE28427C1277C3D9CD5B1716EF9FF /* NSPredicate_VOKAL_Tests.m */; };
+		AAF74A2E8F360E378FF73CF0BF75D32B /* libPods-VOKUtilities-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9DDFCBEA320D0945D876D8EFA0E454 /* libPods-VOKUtilities-tvOS.a */; };
 		B055004A95DAD2F86284B6A148CC464A /* UIView_VOKDebug_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD0E90C9086C74B623837E86F8893F3 /* UIView_VOKDebug_Tests.m */; };
 		B80649E6539B2AEC765DE7F59A3D8B58 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8428880378805CF08926FAB186DEAA7D /* Launch Screen.xib */; };
 		C08E9D824FDDFD8FF2FA9A2DD46B8207 /* libPods-VOKUtilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7654C9915A23CC1C724E5817757D9CD2 /* libPods-VOKUtilities.a */; };
@@ -53,18 +61,39 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3D78611DF0EE4434036FDE647E950572 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0239E8D9B313DFB2386AC62A961CA172 /* VOKUtilities-OSX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "VOKUtilities-OSX"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06CC4F454A8ABD3FDE282DA9D1A2A0A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09FEE28427C1277C3D9CD5B1716EF9FF /* NSPredicate_VOKAL_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSPredicate_VOKAL_Tests.m; sourceTree = "<group>"; };
+		120F654AF5DE8F532A09C168F72D2F0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		135B1F314C9ADE2AFE962AC23EF4E680 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1414AF7F8D2543DF6DA238BB32F258E2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1793E1B80CD837881D3C8BB838C43626 /* VOKUtilities.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VOKUtilities.podspec; path = ../VOKUtilities.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F88E78D868C63542B448F2AD800774C /* Pods-VOKUtilities-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-tvOS/Pods-VOKUtilities-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		208068955258414E6A43799EE974CEBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20BE48FF7B95B870F262A31BF373054E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		243AE69A2ED0BD1458330FF1FA5F4EB1 /* VOKUtilities-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VOKUtilities-Prefix.pch"; sourceTree = "<group>"; };
 		24926CDA7FBB04AFC767AEF5B9BB7A42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2BEDCE992688B1AD9DC1B29BE1A4110F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34162771EE911347CD85AE181E8B33FF /* libPods-UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D5FDE7C6A774D4D63BE08861719979 /* NSString_VOKValidation_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_VOKValidation_Tests.m; sourceTree = "<group>"; };
+		41300325A877D2E149E0FEB2DEF80906 /* Pods-VOKUtilities-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-tvOS/Pods-VOKUtilities-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		4FB1A1804D66D20509D274DFEBC1CB6D /* VOKUtilities-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VOKUtilities-Info.plist"; sourceTree = "<group>"; };
+		506CB71E7E56BC59F748CEB8F93D5CB5 /* VOKUtilities-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VOKUtilities-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51BDC109343039C79604575A3960E060 /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A622A81D619649F75DDE2EE6CEFF36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57FDD4E0D337F3AC5A11511F64396B2B /* NSNumberFormatter_VOKAL_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNumberFormatter_VOKAL_Tests.m; sourceTree = "<group>"; };
 		58AEBDF4BFC08CC392E4668EFCC3A396 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5D203223FC626726A02E9E3A9BB0A85F /* Pods-VOKUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities/Pods-VOKUtilities.debug.xcconfig"; sourceTree = "<group>"; };
@@ -76,17 +105,24 @@
 		7654C9915A23CC1C724E5817757D9CD2 /* libPods-VOKUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOKUtilities.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB3B7342011ECC58611A62CD7DDEE16 /* UIColor_VOKAL_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIColor_VOKAL_Tests.m; sourceTree = "<group>"; };
 		7DD33C4D0624B360DF55B4A0B66A5465 /* Pods-VOKUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities.release.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities/Pods-VOKUtilities.release.xcconfig"; sourceTree = "<group>"; };
+		80046744D2FDCFAF04F4A34B2ADF38E4 /* Pods-VOKUtilities-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-OSX/Pods-VOKUtilities-OSX.release.xcconfig"; sourceTree = "<group>"; };
 		81B3EC1E9A081DFD3E84F73606C4FFF9 /* NSCalendar_VOKAL_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCalendar_VOKAL_Tests.m; sourceTree = "<group>"; };
 		8428880378805CF08926FAB186DEAA7D /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Launch Screen.xib"; path = "../Tests/Launch Screen.xib"; sourceTree = "<group>"; };
 		8DD369650F89B53A3EE34BF5F6F3AC6B /* VOKAlertHelper_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOKAlertHelper_Tests.m; sourceTree = "<group>"; };
+		8F63C235044BFE715494785F4A969DE7 /* Pods-VOKUtilities-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-OSX/Pods-VOKUtilities-OSX.debug.xcconfig"; sourceTree = "<group>"; };
 		9B4E1D9D28A1C431A7D8CA048B8EF552 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B9DDFCBEA320D0945D876D8EFA0E454 /* libPods-VOKUtilities-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOKUtilities-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5FD5F942C7D939FB8F5800EB3C0854 /* libPods-VOKUtilities-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOKUtilities-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD0E90C9086C74B623837E86F8893F3 /* UIView_VOKDebug_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_VOKDebug_Tests.m; sourceTree = "<group>"; };
 		A994C16B7246E172908D4DC8954B9B85 /* VOKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VOKAppDelegate.m; sourceTree = "<group>"; };
+		AA936DC1D941D75B58380CDE427BEB2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AF2F72FFF4E1589EB05D34C3165267EE /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		B3A2D7D14F627BD4E168827BA17DB1D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BB086D8F4109A2A2A6C66784212DADD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BCF5D613930EC4457F251AE98727FAF5 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		C082F262B8772102EF995F8F737B31C0 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		C17071E967154CD9456A6D0F1C3692F1 /* UIView_VOKDebug_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView_VOKDebug_UITests.m; sourceTree = "<group>"; };
+		CF2E8F1849126C5213B3B9B63C531B87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D41B2812C0679EFFEE1550990A872125 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D80FCEB83D06907EEECCB4E59E640343 /* UIViewController_VOKKeyboard_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewController_VOKKeyboard_Tests.m; sourceTree = "<group>"; };
 		D955E61C07478EB709FBDDE6BAFD0FE2 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,12 +131,21 @@
 		E5707297BB8525593A9C9D65D6E6B900 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E7552BEB87465D2E10EF50AAE9FF47A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA3245BA7936D3912265264E79B268C3 /* VOKAlertHelper_UITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOKAlertHelper_UITests.m; sourceTree = "<group>"; };
+		EBAA229BD093805D0AF071C4207442C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EC567129692943AF031477472C20E99D /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8AEB46740D689AD3F96AF62A4A2206 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FE547A360A750EDDF66E482164D312D8 /* VOKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VOKAppDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		99334927FE3735882F0AB1F48FD436EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587E9CC2D7350ED52484C90B1AB4337C /* libPods-VOKUtilities-OSX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AF334327685969BC4BF6A591FCAE5BF4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -120,6 +165,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D306CCE0FC7EDB6F38EDD4E2FDFFAB10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF74A2E8F360E378FF73CF0BF75D32B /* libPods-VOKUtilities-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E98B5C33F18F40464298585D6719E708 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -134,6 +187,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35E9562459EA25E89DEC85EE8D284E1F /* VOKUtilities-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E994E9E1FF2DC3E8C780C8706EA29D5 /* Supporting Files */,
+				EBAA229BD093805D0AF071C4207442C2 /* AppDelegate.h */,
+				BB086D8F4109A2A2A6C66784212DADD1 /* AppDelegate.m */,
+				20BE48FF7B95B870F262A31BF373054E /* Assets.xcassets */,
+				06CC4F454A8ABD3FDE282DA9D1A2A0A5 /* Info.plist */,
+				149C4EECDD54AC318C09018A3551CD79 /* Main.storyboard */,
+				CF2E8F1849126C5213B3B9B63C531B87 /* ViewController.h */,
+				120F654AF5DE8F532A09C168F72D2F0A /* ViewController.m */,
+			);
+			path = "VOKUtilities-tvOS";
+			sourceTree = "<group>";
+		};
 		38681EC238B0D9BCF0C5B3E27996428F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,11 +210,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3E994E9E1FF2DC3E8C780C8706EA29D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				208068955258414E6A43799EE974CEBA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		437A445BA5ADF63473E0781F3A1E91AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				0239E8D9B313DFB2386AC62A961CA172 /* VOKUtilities-OSX */,
 				EC567129692943AF031477472C20E99D /* Tests.xctest */,
 				51BDC109343039C79604575A3960E060 /* UITests.xctest */,
+				506CB71E7E56BC59F748CEB8F93D5CB5 /* VOKUtilities-tvOS.app */,
 				663FC58F7A0062944780CF838603620B /* VOKUtilities.app */,
 			);
 			name = Products;
@@ -173,6 +251,8 @@
 				1414AF7F8D2543DF6DA238BB32F258E2 /* XCTest.framework */,
 				9B4E1D9D28A1C431A7D8CA048B8EF552 /* libPods-Tests.a */,
 				34162771EE911347CD85AE181E8B33FF /* libPods-UITests.a */,
+				9F5FD5F942C7D939FB8F5800EB3C0854 /* libPods-VOKUtilities-OSX.a */,
+				9B9DDFCBEA320D0945D876D8EFA0E454 /* libPods-VOKUtilities-tvOS.a */,
 				7654C9915A23CC1C724E5817757D9CD2 /* libPods-VOKUtilities.a */,
 			);
 			name = Frameworks;
@@ -209,6 +289,8 @@
 				C892AAE855053F8DEA6457F1EE4F0456 /* Tests */,
 				70BBE9C2BD2B1E455FC52ECCAD471D04 /* UITests */,
 				F2C1E16840103910EB8E35DEEF50D8D6 /* VOKUtilities */,
+				A0AA25F7358F80BA78EF4B1C53F81E90 /* VOKUtilities-OSX */,
+				35E9562459EA25E89DEC85EE8D284E1F /* VOKUtilities-tvOS */,
 			);
 			sourceTree = "<group>";
 		};
@@ -219,10 +301,22 @@
 				D955E61C07478EB709FBDDE6BAFD0FE2 /* Pods-Tests.release.xcconfig */,
 				DDF3E0DDFFB1021D290FF3EC679EEF98 /* Pods-UITests.debug.xcconfig */,
 				68BEB26BCFB0FEC75E8E4A09401E6F0F /* Pods-UITests.release.xcconfig */,
+				8F63C235044BFE715494785F4A969DE7 /* Pods-VOKUtilities-OSX.debug.xcconfig */,
+				80046744D2FDCFAF04F4A34B2ADF38E4 /* Pods-VOKUtilities-OSX.release.xcconfig */,
+				1F88E78D868C63542B448F2AD800774C /* Pods-VOKUtilities-tvOS.debug.xcconfig */,
+				41300325A877D2E149E0FEB2DEF80906 /* Pods-VOKUtilities-tvOS.release.xcconfig */,
 				5D203223FC626726A02E9E3A9BB0A85F /* Pods-VOKUtilities.debug.xcconfig */,
 				7DD33C4D0624B360DF55B4A0B66A5465 /* Pods-VOKUtilities.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0AA25F7358F80BA78EF4B1C53F81E90 /* VOKUtilities-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				AA936DC1D941D75B58380CDE427BEB2A /* main.m */,
+			);
+			path = "VOKUtilities-OSX";
 			sourceTree = "<group>";
 		};
 		C892AAE855053F8DEA6457F1EE4F0456 /* Tests */ = {
@@ -288,6 +382,26 @@
 			productReference = 51BDC109343039C79604575A3960E060 /* UITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		2592C00B66F969978BF043B7BEB434FA /* VOKUtilities-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21467F06BA859B3FDF3CF1DE41E4BF8F /* Build configuration list for PBXNativeTarget "VOKUtilities-tvOS" */;
+			buildPhases = (
+				D110D0DE40F2A5CE2A7682A61DB59575 /* Check Pods Manifest.lock */,
+				637465CE75EE27F59842F47A205DB1EC /* Sources */,
+				D306CCE0FC7EDB6F38EDD4E2FDFFAB10 /* Frameworks */,
+				1B2EEC7486962DD7B5A59E3518E94049 /* Resources */,
+				C4368C1F80E2357A1D7759003F910015 /* Embed Pods Frameworks */,
+				DA87B3AFFC4C60D884441A1E5736404C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VOKUtilities-tvOS";
+			productName = "VOKUtilities-tvOS";
+			productReference = 506CB71E7E56BC59F748CEB8F93D5CB5 /* VOKUtilities-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		7CA3933B530891BE88AE9AC6A9D3D26D /* VOKUtilities */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71E6A39317B1DAFB22F6FC4307FFFC89 /* Build configuration list for PBXNativeTarget "VOKUtilities" */;
@@ -307,6 +421,25 @@
 			productName = VOKUtilities;
 			productReference = 663FC58F7A0062944780CF838603620B /* VOKUtilities.app */;
 			productType = "com.apple.product-type.application";
+		};
+		91AF48AB6ABCD9D2C72AC18C2B29D373 /* VOKUtilities-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D56F88A6B9B0F89C26298F3A485F4A9 /* Build configuration list for PBXNativeTarget "VOKUtilities-OSX" */;
+			buildPhases = (
+				C0CF9B484FE0DC883E9CCC6BA9161DB8 /* Check Pods Manifest.lock */,
+				3C9F4F73FE82C5566F481A3DC0357EB1 /* Sources */,
+				99334927FE3735882F0AB1F48FD436EA /* Frameworks */,
+				3D78611DF0EE4434036FDE647E950572 /* CopyFiles */,
+				5AEF100A5F16C1F61E44554B7B077183 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VOKUtilities-OSX";
+			productName = "VOKUtilities-OSX";
+			productReference = 0239E8D9B313DFB2386AC62A961CA172 /* VOKUtilities-OSX */;
+			productType = "com.apple.product-type.tool";
 		};
 		EF45837D9703D909959FA55BAE72D405 /* Tests */ = {
 			isa = PBXNativeTarget;
@@ -343,6 +476,12 @@
 						CreatedOnToolsVersion = 6.3.1;
 						TestTargetID = 7CA3933B530891BE88AE9AC6A9D3D26D;
 					};
+					2592C00B66F969978BF043B7BEB434FA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					91AF48AB6ABCD9D2C72AC18C2B29D373 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					EF45837D9703D909959FA55BAE72D405 = {
 						TestTargetID = 7CA3933B530891BE88AE9AC6A9D3D26D;
 					};
@@ -362,6 +501,8 @@
 			projectRoot = "";
 			targets = (
 				7CA3933B530891BE88AE9AC6A9D3D26D /* VOKUtilities */,
+				91AF48AB6ABCD9D2C72AC18C2B29D373 /* VOKUtilities-OSX */,
+				2592C00B66F969978BF043B7BEB434FA /* VOKUtilities-tvOS */,
 				EF45837D9703D909959FA55BAE72D405 /* Tests */,
 				0FE8AE4C42948F6E01DD688F1190501D /* UITests */,
 			);
@@ -375,6 +516,15 @@
 			files = (
 				E1E41020DCE2111E07532B53A02762F8 /* InfoPlist.strings in Resources */,
 				B80649E6539B2AEC765DE7F59A3D8B58 /* Launch Screen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B2EEC7486962DD7B5A59E3518E94049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D29FBAAC2372A2B7E30036A57D4D9AF /* Assets.xcassets in Resources */,
+				638EF0F70C3449A50D7699D2048E4388 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +559,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UITests/Pods-UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D110D0DE40F2A5CE2A7682A61DB59575 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		24F23F459D25A758BC3C893518D789C9 /* Check Pods Manifest.lock */ = {
@@ -456,6 +621,36 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities/Pods-VOKUtilities-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DA87B3AFFC4C60D884441A1E5736404C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-tvOS/Pods-VOKUtilities-tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AEF100A5F16C1F61E44554B7B077183 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-OSX/Pods-VOKUtilities-OSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		66D7A4297C375DB391743D0780DC319F /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -486,6 +681,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C4368C1F80E2357A1D7759003F910015 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-tvOS/Pods-VOKUtilities-tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BC5188D4E235F708D01AE7F061C3A46A /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -499,6 +709,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities/Pods-VOKUtilities-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0CF9B484FE0DC883E9CCC6BA9161DB8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		DCDC85324700CE63674290B9D6B9BA54 /* Embed Pods Frameworks */ = {
@@ -550,6 +775,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3C9F4F73FE82C5566F481A3DC0357EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164906665CBA68AAC2384170975E05AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637465CE75EE27F59842F47A205DB1EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37638418B39D8A1FFC9BF2568375E1FC /* AppDelegate.m in Sources */,
+				32F25DEE7B5E76F4C3DB4E8C96208710 /* ViewController.m in Sources */,
+				53530FC838BB9E3D7237DA5C45FAA09B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		718F0B3302177ABD0FD654A04047E54D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -586,6 +829,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		149C4EECDD54AC318C09018A3551CD79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57A622A81D619649F75DDE2EE6CEFF36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		189C69E5C7BB81B5DA6529C87719C553 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -650,6 +901,49 @@
 			};
 			name = Release;
 		};
+		6EA2DCD1A45352D97F717AC5F27C4730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F88E78D868C63542B448F2AD800774C /* Pods-VOKUtilities-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "VOKUtilities-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.vokal.VOKUtilities-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		604F053811187E1770F866C595E2B5D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41300325A877D2E149E0FEB2DEF80906 /* Pods-VOKUtilities-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "VOKUtilities-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.vokal.VOKUtilities-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
 		6B32657091487014BD510665AB951E0A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7DD33C4D0624B360DF55B4A0B66A5465 /* Pods-VOKUtilities.release.xcconfig */;
@@ -662,6 +956,23 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6D9B14CAE3A9E34A6299730F7CC38469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80046744D2FDCFAF04F4A34B2ADF38E4 /* Pods-VOKUtilities-OSX.release.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -717,6 +1028,22 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7A3B26EBD4A7809BD693EA7C998EE3C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F63C235044BFE715494785F4A969DE7 /* Pods-VOKUtilities-OSX.debug.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -811,6 +1138,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5D56F88A6B9B0F89C26298F3A485F4A9 /* Build configuration list for PBXNativeTarget "VOKUtilities-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A3B26EBD4A7809BD693EA7C998EE3C7 /* Debug */,
+				6D9B14CAE3A9E34A6299730F7CC38469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		71E6A39317B1DAFB22F6FC4307FFFC89 /* Build configuration list for PBXNativeTarget "VOKUtilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -834,6 +1170,15 @@
 			buildConfigurations = (
 				E5C68F28896F11E8CD9B4BD436D0DC24 /* Debug */,
 				59B6E3F84ABA50014C4CD2C542E3C273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21467F06BA859B3FDF3CF1DE41E4BF8F /* Build configuration list for PBXNativeTarget "VOKUtilities-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA2DCD1A45352D97F717AC5F27C4730 /* Debug */,
+				604F053811187E1770F866C595E2B5D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

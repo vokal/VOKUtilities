@@ -1,14 +1,24 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'VOKUtilities', :exclusive => true do
-  pod "VOKUtilities", :path => "../"
+  pod 'VOKUtilities', :path => '../'
+end
+
+target 'VOKUtilities-tvOS', :exclusive => true do
+  platform :tvos, '9.0'
+  pod 'VOKUtilities', :path => '../'
+end
+
+target 'VOKUtilities-OSX', :exclusive => true do
+  platform :osx, '10.9'
+  pod 'VOKUtilities', :path => '../'
 end
 
 target 'Tests', :exclusive => true do
-    pod "VOKUtilities", :path => "../"
+  pod 'VOKUtilities', :path => '../'
 end
 
 target 'UITests', :exclusive => true do
-  pod "VOKUtilities", :path => "../"
-  pod "KIF", "~>3.3"
+  pod 'VOKUtilities', :path => '../'
+  pod 'KIF', '~> 3.3'
 end
