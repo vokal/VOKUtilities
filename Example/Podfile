@@ -1,24 +1,33 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'VOKUtilities', :exclusive => true do
+def utilities_pod
   pod 'VOKUtilities', :path => '../'
 end
 
-target 'VOKUtilities-tvOS', :exclusive => true do
+target 'VOKUtilities' do
+  utilities_pod
+
+  #nested target block will inherit all settings from parent
+  target 'Tests' do
+  end
+
+  target 'UITests' do
+    pod 'KIF', '~> 3.3'
+  end
+end
+
+target 'VOKUtilities-tvOS' do
   platform :tvos, '9.0'
-  pod 'VOKUtilities', :path => '../'
+  utilities_pod
+
+  target 'Tests-tvOS' do
+  end
 end
 
-target 'VOKUtilities-OSX', :exclusive => true do
+target 'VOKUtilities-OSX' do
   platform :osx, '10.9'
-  pod 'VOKUtilities', :path => '../'
-end
+  utilities_pod
 
-target 'Tests', :exclusive => true do
-  pod 'VOKUtilities', :path => '../'
-end
-
-target 'UITests', :exclusive => true do
-  pod 'VOKUtilities', :path => '../'
-  pod 'KIF', '~> 3.3'
+  target 'Tests-OSX' do
+  end
 end

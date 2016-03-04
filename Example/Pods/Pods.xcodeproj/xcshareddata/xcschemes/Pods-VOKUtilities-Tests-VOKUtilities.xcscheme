@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4C914099D276C36B7080BB41'
-               BlueprintName = 'Pods-VOKUtilities-OSX-VOKUtilities'
+               BlueprintIdentifier = '66CA4AD942644BF507725711'
+               BlueprintName = 'Pods-VOKUtilities-Tests-VOKUtilities'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-VOKUtilities-OSX-VOKUtilities.a'>
+               BuildableName = 'libPods-VOKUtilities-Tests-VOKUtilities.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
