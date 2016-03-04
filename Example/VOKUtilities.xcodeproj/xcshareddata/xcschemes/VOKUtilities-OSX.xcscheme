@@ -38,6 +38,20 @@
                ReferencedContainer = "container:VOKUtilities.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "77AEA97F928530117E076CB03353ECCC"
+               BuildableName = "Tests-OSX.xctest"
+               BlueprintName = "Tests-OSX"
+               ReferencedContainer = "container:VOKUtilities.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -50,7 +64,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DE1B454E1C8A2CD600E9AF0A"
+               BlueprintIdentifier = "77AEA97F928530117E076CB03353ECCC"
                BuildableName = "Tests-OSX.xctest"
                BlueprintName = "Tests-OSX"
                ReferencedContainer = "container:VOKUtilities.xcodeproj">
