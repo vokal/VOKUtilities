@@ -117,8 +117,11 @@
     XCTAssertThrows([NSPredicate vok_predicateWithKeyPath:@"keyname"
                                              inCollection:notACollection]);
     
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wnonnull"
     XCTAssertThrows([NSPredicate vok_predicateWithKeyPath:@"keyname"
                                              inCollection:nil]);
+#pragma clang diagnostic pop
 }
 
 - (void)testPredicateWithKeyInCollection
