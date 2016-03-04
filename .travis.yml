@@ -2,15 +2,14 @@ language: objective-c
 osx_image: xcode7.2
 before_install:
   - brew update > /dev/null; if brew outdated | grep -qx xctool; then brew upgrade xctool; fi  # Ensure that xctool is up-to-date
-before_script:
-  - chmod +x travis/*.sh # Ensure that scripts are executable
-script: ./travis/build.sh  # Primary (simulator) build & test.
-env:
-  global:
-  - XC_WORKSPACE="Example/VOKUtilities.xcworkspace"
-  - XC_SCHEME="VOKUtilities-Example"
-  - XC_CONFIGURATION="Release"
-  - SDK_VERSION=9.2
-  - APPNAME="VOKUtilities"
+xcode_workspace: 'Example/VOKUtilities.xcworkspace'
+matrix:
+  include:
+    - xcode_scheme: VOKUtilities-Example
+      xcode_sdk: iphonesimulator
+    - xcode_scheme: VOKUtilities-tvOS
+      xcode_sdk: appletvsimulator
+    - xcode_scheme: VOKUtilities-OSX
+      xcode_sdk: macosx
 after_script:
     - pod lib lint
