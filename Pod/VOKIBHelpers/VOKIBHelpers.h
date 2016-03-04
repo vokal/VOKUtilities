@@ -9,6 +9,8 @@
 #ifndef Pods_VOKIBHelpers_h
 #define Pods_VOKIBHelpers_h
 
+#import <Foundation/Foundation.h>
+
 /**
  *  This header file is for exposing existing framework properties to interface builder through IBInspectable.
  *  To expose a property, add the relevant class extension declaration if needed. Then, copy and paste the property
@@ -16,16 +18,20 @@
  *  Interface builder should now display the exposed property in the attributes inspector.
  */
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface UIView ()
 
-@property (nonatomic, copy) IBInspectable NSString *accessibilityIdentifier;
+@property (nullable, nonatomic, copy) IBInspectable NSString *accessibilityIdentifier;
 
 @end
 
 @interface NSLayoutConstraint ()
 
-@property (copy) IBInspectable NSString *identifier;
+@property (nullable, copy) IBInspectable NSString *identifier;
 
 @end
+
+NS_ASSUME_NONNULL_END
 
 #endif

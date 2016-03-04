@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface NSPredicate (VOKAL)
 
 /**
@@ -18,7 +20,7 @@
  @param value The value to include in the predicate format
  @param keyPath The key path to include in the predicate format
  */
-+ (instancetype)vok_predicateWithValue:(id)value forKeyPath:(NSString *)keyPath;
++ (instancetype)vok_predicateWithValue:(nullable id)value forKeyPath:(NSString *)keyPath;
 
 /**
  Create and return a predicate to match the value for the given key path in the given collection using
@@ -34,3 +36,5 @@
 + (instancetype)vok_predicateWithKeyPath:(NSString *)keyPath inCollection:(id)collection;
 
 @end
+
+NS_ASSUME_NONNULL_END

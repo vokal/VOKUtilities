@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9EE4FE30CFD0A811171A2BA0"
-               BuildableName = "libPods-UITests-VOKUtilities.a"
-               BlueprintName = "Pods-UITests-VOKUtilities"
+               BlueprintIdentifier = "7BF6F455B6726E7C85743DC17CAFDD20"
+               BuildableName = "libVOKUtilities.a"
+               BlueprintName = "VOKUtilities"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9EE4FE30CFD0A811171A2BA0"
-            BuildableName = "libPods-UITests-VOKUtilities.a"
-            BlueprintName = "Pods-UITests-VOKUtilities"
+            BlueprintIdentifier = "7BF6F455B6726E7C85743DC17CAFDD20"
+            BuildableName = "libVOKUtilities.a"
+            BlueprintName = "VOKUtilities"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -28,7 +28,9 @@
                             message:(NSString *)message
                             buttons:(NSArray *)buttons
 {
+#ifdef DEBUG
     [self validateButtonsArray:buttons];
+#endif
     
     Class VOKAlertHelperSubclass;
     if ([UIAlertController class]) {
@@ -45,10 +47,12 @@
 
 + (void)validateButtonsArray:(NSArray *)buttons
 {
+#ifdef DEBUG
     NSAssert(buttons.count > 0, @"Buttons array cannot be nil or empty");
     for (NSObject *obj in buttons) {
         NSAssert([obj isKindOfClass:[VOKAlertAction class]], @"Buttons array must be composed of VOKAlertAction objects");
     }
+#endif
 }
 
 @end

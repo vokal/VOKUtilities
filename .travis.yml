@@ -1,19 +1,16 @@
 language: objective-c
-osx_image: xcode7.1
+osx_image: xcode7.2
 before_install:
   - brew update > /dev/null; if brew outdated | grep -qx xctool; then brew upgrade xctool; fi  # Ensure that xctool is up-to-date
 before_script:
   - chmod +x travis/*.sh # Ensure that scripts are executable
 script: ./travis/build.sh  # Primary (simulator) build & test.
-podfile: Example/Podfile # TODO: Remove this and just commit pods.
 env:
   global:
-  - XC_WORKSPACE="Example/VOKUtilities.xcworkspace"  # Put your workspace filename (or path relative to the root of the repo) here.
-  - XC_SCHEME="VOKUtilities-Example"  # Put your primary scheme name here - it should be shared by default.
-  - XC_CONFIGURATION="Release"  # Put your build configuration name here.
-  - SDK_VERSION=9.1
-  - APPNAME="VOKUtilities"  # Put your app name here.
-git:
-  depth: 10000  # For the auto-incrementing build number script to work, we need to clone with a basically-infinite depth.
+  - XC_WORKSPACE="Example/VOKUtilities.xcworkspace"
+  - XC_SCHEME="VOKUtilities-Example"
+  - XC_CONFIGURATION="Release"
+  - SDK_VERSION=9.2
+  - APPNAME="VOKUtilities"
 after_script:
-    - pod lib lint --allow-warnings
+    - pod lib lint

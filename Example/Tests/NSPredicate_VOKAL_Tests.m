@@ -60,7 +60,12 @@
     
     XCTAssertEqualObjects([[self setForTesting] filteredSetUsingPredicate:sixesPredicate],
                           [NSSet setWithArray:expectedArray]);
-    
+}
+
+- (void)testPredicateWithNullValueForKey
+{
+    XCTAssertEqualObjects([NSPredicate vok_predicateWithValue:nil forKeyPath:@"foo"],
+                          [NSPredicate predicateWithFormat:@"foo == null"]);
 }
 
 - (void)testPredicateWithValueForKeyPath

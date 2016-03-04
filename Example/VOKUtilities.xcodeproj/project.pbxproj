@@ -37,14 +37,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CF03491C9BEEA99CB187E25061D2274C /* PBXContainerItemProxy */ = {
+		031B162111CEB883B0F2C02C277BE615 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 173BA12A6A91E5EE6D4AE6F03810A4CD /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7CA3933B530891BE88AE9AC6A9D3D26D;
 			remoteInfo = VOKUtilities;
 		};
-		031B162111CEB883B0F2C02C277BE615 /* PBXContainerItemProxy */ = {
+		CF03491C9BEEA99CB187E25061D2274C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 173BA12A6A91E5EE6D4AE6F03810A4CD /* Project object */;
 			proxyType = 1;
@@ -109,17 +109,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E98B5C33F18F40464298585D6719E708 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0053277E091BAFE30ABDFAEB7CE28E73 /* CoreGraphics.framework in Frameworks */,
-				5A35D91522E68EA1EC370C51492F2688 /* Foundation.framework in Frameworks */,
-				3EFA9339B89C87119C873EFB476B6ED3 /* UIKit.framework in Frameworks */,
-				C08E9D824FDDFD8FF2FA9A2DD46B8207 /* libPods-VOKUtilities.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BC11CC1E5856A04B19BCF227272AE6BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -131,20 +120,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E98B5C33F18F40464298585D6719E708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0053277E091BAFE30ABDFAEB7CE28E73 /* CoreGraphics.framework in Frameworks */,
+				5A35D91522E68EA1EC370C51492F2688 /* Foundation.framework in Frameworks */,
+				3EFA9339B89C87119C873EFB476B6ED3 /* UIKit.framework in Frameworks */,
+				C08E9D824FDDFD8FF2FA9A2DD46B8207 /* libPods-VOKUtilities.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		90F0A3B3B8828F61ECDBC37E18FA2567 /* Pods */ = {
+		38681EC238B0D9BCF0C5B3E27996428F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				58AEBDF4BFC08CC392E4668EFCC3A396 /* Pods-Tests.debug.xcconfig */,
-				D955E61C07478EB709FBDDE6BAFD0FE2 /* Pods-Tests.release.xcconfig */,
-				DDF3E0DDFFB1021D290FF3EC679EEF98 /* Pods-UITests.debug.xcconfig */,
-				68BEB26BCFB0FEC75E8E4A09401E6F0F /* Pods-UITests.release.xcconfig */,
-				5D203223FC626726A02E9E3A9BB0A85F /* Pods-VOKUtilities.debug.xcconfig */,
-				7DD33C4D0624B360DF55B4A0B66A5465 /* Pods-VOKUtilities.release.xcconfig */,
+				2BEDCE992688B1AD9DC1B29BE1A4110F /* Info.plist */,
 			);
-			name = Pods;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		437A445BA5ADF63473E0781F3A1E91AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC567129692943AF031477472C20E99D /* Tests.xctest */,
+				51BDC109343039C79604575A3960E060 /* UITests.xctest */,
+				663FC58F7A0062944780CF838603620B /* VOKUtilities.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48F5195A0BD209E0D03E61201E98D3F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64A536D2BECDE1E3C9125554D817D3DA /* InfoPlist.strings */,
+				8428880378805CF08926FAB186DEAA7D /* Launch Screen.xib */,
+				4FB1A1804D66D20509D274DFEBC1CB6D /* VOKUtilities-Info.plist */,
+				243AE69A2ED0BD1458330FF1FA5F4EB1 /* VOKUtilities-Prefix.pch */,
+				E5707297BB8525593A9C9D65D6E6B900 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C31899DA183E80FB0C244FB7C3E222D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24926CDA7FBB04AFC767AEF5B9BB7A42 /* CoreGraphics.framework */,
+				6CD2B98C25A86899F736FEF4E148322F /* Foundation.framework */,
+				135B1F314C9ADE2AFE962AC23EF4E680 /* UIKit.framework */,
+				1414AF7F8D2543DF6DA238BB32F258E2 /* XCTest.framework */,
+				9B4E1D9D28A1C431A7D8CA048B8EF552 /* libPods-Tests.a */,
+				34162771EE911347CD85AE181E8B33FF /* libPods-UITests.a */,
+				7654C9915A23CC1C724E5817757D9CD2 /* libPods-VOKUtilities.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		70BBE9C2BD2B1E455FC52ECCAD471D04 /* UITests */ = {
@@ -158,10 +189,12 @@
 			path = UITests;
 			sourceTree = "<group>";
 		};
-		38681EC238B0D9BCF0C5B3E27996428F /* Supporting Files */ = {
+		7CC8F5330184AA24D1C85C4555CAD942 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2BEDCE992688B1AD9DC1B29BE1A4110F /* Info.plist */,
+				189C69E5C7BB81B5DA6529C87719C553 /* InfoPlist.strings */,
+				AF2F72FFF4E1589EB05D34C3165267EE /* Tests-Info.plist */,
+				BCF5D613930EC4457F251AE98727FAF5 /* Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -179,52 +212,17 @@
 			);
 			sourceTree = "<group>";
 		};
-		437A445BA5ADF63473E0781F3A1E91AD /* Products */ = {
+		90F0A3B3B8828F61ECDBC37E18FA2567 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EC567129692943AF031477472C20E99D /* Tests.xctest */,
-				51BDC109343039C79604575A3960E060 /* UITests.xctest */,
-				663FC58F7A0062944780CF838603620B /* VOKUtilities.app */,
+				58AEBDF4BFC08CC392E4668EFCC3A396 /* Pods-Tests.debug.xcconfig */,
+				D955E61C07478EB709FBDDE6BAFD0FE2 /* Pods-Tests.release.xcconfig */,
+				DDF3E0DDFFB1021D290FF3EC679EEF98 /* Pods-UITests.debug.xcconfig */,
+				68BEB26BCFB0FEC75E8E4A09401E6F0F /* Pods-UITests.release.xcconfig */,
+				5D203223FC626726A02E9E3A9BB0A85F /* Pods-VOKUtilities.debug.xcconfig */,
+				7DD33C4D0624B360DF55B4A0B66A5465 /* Pods-VOKUtilities.release.xcconfig */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6C31899DA183E80FB0C244FB7C3E222D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				24926CDA7FBB04AFC767AEF5B9BB7A42 /* CoreGraphics.framework */,
-				6CD2B98C25A86899F736FEF4E148322F /* Foundation.framework */,
-				135B1F314C9ADE2AFE962AC23EF4E680 /* UIKit.framework */,
-				1414AF7F8D2543DF6DA238BB32F258E2 /* XCTest.framework */,
-				9B4E1D9D28A1C431A7D8CA048B8EF552 /* libPods-Tests.a */,
-				34162771EE911347CD85AE181E8B33FF /* libPods-UITests.a */,
-				7654C9915A23CC1C724E5817757D9CD2 /* libPods-VOKUtilities.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F2C1E16840103910EB8E35DEEF50D8D6 /* VOKUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				48F5195A0BD209E0D03E61201E98D3F9 /* Supporting Files */,
-				DE0B92743B9DDA88B921DD1EB224C3BD /* TestViewController.h */,
-				C082F262B8772102EF995F8F737B31C0 /* TestViewController.m */,
-				FE547A360A750EDDF66E482164D312D8 /* VOKAppDelegate.h */,
-				A994C16B7246E172908D4DC8954B9B85 /* VOKAppDelegate.m */,
-			);
-			path = VOKUtilities;
-			sourceTree = "<group>";
-		};
-		48F5195A0BD209E0D03E61201E98D3F9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				64A536D2BECDE1E3C9125554D817D3DA /* InfoPlist.strings */,
-				8428880378805CF08926FAB186DEAA7D /* Launch Screen.xib */,
-				4FB1A1804D66D20509D274DFEBC1CB6D /* VOKUtilities-Info.plist */,
-				243AE69A2ED0BD1458330FF1FA5F4EB1 /* VOKUtilities-Prefix.pch */,
-				E5707297BB8525593A9C9D65D6E6B900 /* main.m */,
-			);
-			name = "Supporting Files";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		C892AAE855053F8DEA6457F1EE4F0456 /* Tests */ = {
@@ -244,16 +242,6 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		7CC8F5330184AA24D1C85C4555CAD942 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				189C69E5C7BB81B5DA6529C87719C553 /* InfoPlist.strings */,
-				AF2F72FFF4E1589EB05D34C3165267EE /* Tests-Info.plist */,
-				BCF5D613930EC4457F251AE98727FAF5 /* Tests-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		ED870DB805325931554AE10382512E09 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,6 +250,18 @@
 				1793E1B80CD837881D3C8BB838C43626 /* VOKUtilities.podspec */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		F2C1E16840103910EB8E35DEEF50D8D6 /* VOKUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				48F5195A0BD209E0D03E61201E98D3F9 /* Supporting Files */,
+				DE0B92743B9DDA88B921DD1EB224C3BD /* TestViewController.h */,
+				C082F262B8772102EF995F8F737B31C0 /* TestViewController.m */,
+				FE547A360A750EDDF66E482164D312D8 /* VOKAppDelegate.h */,
+				A994C16B7246E172908D4DC8954B9B85 /* VOKAppDelegate.m */,
+			);
+			path = VOKUtilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +276,7 @@
 				AF334327685969BC4BF6A591FCAE5BF4 /* Frameworks */,
 				39C5F72561448B3048D047D7DB526445 /* Resources */,
 				19A7E3CB3A36CB9E4E268F6AB3578467 /* Copy Pods Resources */,
+				DCDC85324700CE63674290B9D6B9BA54 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -296,6 +297,7 @@
 				E98B5C33F18F40464298585D6719E708 /* Frameworks */,
 				15A27A23ED62A0BA11F8DB5E62DB2905 /* Resources */,
 				BC5188D4E235F708D01AE7F061C3A46A /* Copy Pods Resources */,
+				3A751D011FD8167E6F1BEC664909F654 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -315,6 +317,7 @@
 				BC11CC1E5856A04B19BCF227272AE6BD /* Frameworks */,
 				659EB1A68B03F349E82DC9721F50800A /* Resources */,
 				E1FDC73EC447136F4B811EC24C05DB43 /* Copy Pods Resources */,
+				94D785AC3A8AA149FD45AB2EB8C28D6B /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -366,19 +369,19 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		39C5F72561448B3048D047D7DB526445 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		15A27A23ED62A0BA11F8DB5E62DB2905 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E1E41020DCE2111E07532B53A02762F8 /* InfoPlist.strings in Resources */,
 				B80649E6539B2AEC765DE7F59A3D8B58 /* Launch Screen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C5F72561448B3048D047D7DB526445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +396,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		DCDC85324700CE63674290B9D6B9BA54 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UITests/Pods-UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19A7E3CB3A36CB9E4E268F6AB3578467 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UITests/Pods-UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24F23F459D25A758BC3C893518D789C9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		258B27A51C3867CAB42BE986B1CE555E /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -408,7 +456,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		24F23F459D25A758BC3C893518D789C9 /* Check Pods Manifest.lock */ = {
+		66D7A4297C375DB391743D0780DC319F /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -438,19 +486,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities/Pods-VOKUtilities-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		19A7E3CB3A36CB9E4E268F6AB3578467 /* Copy Pods Resources */ = {
+		94D785AC3A8AA149FD45AB2EB8C28D6B /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UITests/Pods-UITests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E1FDC73EC447136F4B811EC24C05DB43 /* Copy Pods Resources */ = {
@@ -468,24 +516,40 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		66D7A4297C375DB391743D0780DC319F /* Check Pods Manifest.lock */ = {
+		3A751D011FD8167E6F1BEC664909F654 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities/Pods-VOKUtilities-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2783A2DDABC7EF418B6F32E05EEEF9EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0529F65AEC801852D6EC3E948E7D2EAC /* NSCalendar_VOKAL_Tests.m in Sources */,
+				E18633348D706743144B98222999CB4A /* NSNumberFormatter_VOKAL_Tests.m in Sources */,
+				A3BD758D681FFFE094FDDE68E20392C3 /* NSPredicate_VOKAL_Tests.m in Sources */,
+				ECA11D82737DF4A99D60E235A24329D0 /* NSString_VOKValidation_Tests.m in Sources */,
+				50C91464E6FA9E82C648B7C1A453B40B /* UIColor_VOKAL_Tests.m in Sources */,
+				83F9FBB51AE06D5C4B74D5793F51D3B2 /* UIViewController_VOKKeyboard_Tests.m in Sources */,
+				C68F32857F07A8C4386D1DD3C8C6194D /* UIView_VOKCircle_Tests.m in Sources */,
+				B055004A95DAD2F86284B6A148CC464A /* UIView_VOKDebug_Tests.m in Sources */,
+				5C86A1DEEE565D527AF1CFE2616D4FA9 /* VOKAlertHelper_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		718F0B3302177ABD0FD654A04047E54D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -506,50 +570,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2783A2DDABC7EF418B6F32E05EEEF9EC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0529F65AEC801852D6EC3E948E7D2EAC /* NSCalendar_VOKAL_Tests.m in Sources */,
-				E18633348D706743144B98222999CB4A /* NSNumberFormatter_VOKAL_Tests.m in Sources */,
-				A3BD758D681FFFE094FDDE68E20392C3 /* NSPredicate_VOKAL_Tests.m in Sources */,
-				ECA11D82737DF4A99D60E235A24329D0 /* NSString_VOKValidation_Tests.m in Sources */,
-				50C91464E6FA9E82C648B7C1A453B40B /* UIColor_VOKAL_Tests.m in Sources */,
-				83F9FBB51AE06D5C4B74D5793F51D3B2 /* UIViewController_VOKKeyboard_Tests.m in Sources */,
-				C68F32857F07A8C4386D1DD3C8C6194D /* UIView_VOKCircle_Tests.m in Sources */,
-				B055004A95DAD2F86284B6A148CC464A /* UIView_VOKDebug_Tests.m in Sources */,
-				5C86A1DEEE565D527AF1CFE2616D4FA9 /* VOKAlertHelper_Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		412E8842E7B04E94C191E6A84F8AD71C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7CA3933B530891BE88AE9AC6A9D3D26D /* VOKUtilities */;
-			targetProxy = CF03491C9BEEA99CB187E25061D2274C /* PBXContainerItemProxy */;
-		};
 		20B5C46FB779241F0E6EB04A03B56F68 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7CA3933B530891BE88AE9AC6A9D3D26D /* VOKUtilities */;
 			targetProxy = 031B162111CEB883B0F2C02C277BE615 /* PBXContainerItemProxy */;
 		};
+		412E8842E7B04E94C191E6A84F8AD71C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CA3933B530891BE88AE9AC6A9D3D26D /* VOKUtilities */;
+			targetProxy = CF03491C9BEEA99CB187E25061D2274C /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		64A536D2BECDE1E3C9125554D817D3DA /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E7552BEB87465D2E10EF50AAE9FF47A0 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		189C69E5C7BB81B5DA6529C87719C553 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FA8AEB46740D689AD3F96AF62A4A2206 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64A536D2BECDE1E3C9125554D817D3DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7552BEB87465D2E10EF50AAE9FF47A0 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -587,30 +635,38 @@
 			};
 			name = Debug;
 		};
-		F0BA93F1F6EAF7539926CFE27943F2D0 /* Release */ = {
+		59B6E3F84ABA50014C4CD2C542E3C273 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68BEB26BCFB0FEC75E8E4A09401E6F0F /* Pods-UITests.release.xcconfig */;
+			baseConfigurationReference = D955E61C07478EB709FBDDE6BAFD0FE2 /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VOKUtilities.app/VOKUtilities";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = UITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vokal.$(PRODUCT_NAME:rfc1034identifier)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VOKUtilities.app/VOKUtilities";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		6B32657091487014BD510665AB951E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DD33C4D0624B360DF55B4A0B66A5465 /* Pods-VOKUtilities.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VOKUtilities/VOKUtilities-Prefix.pch";
+				INFOPLIST_FILE = "VOKUtilities/VOKUtilities-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -654,6 +710,21 @@
 			};
 			name = Debug;
 		};
+		77D9DA96CE0786D8321AE8D10D135017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D203223FC626726A02E9E3A9BB0A85F /* Pods-VOKUtilities.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VOKUtilities/VOKUtilities-Prefix.pch";
+				INFOPLIST_FILE = "VOKUtilities/VOKUtilities-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
 		D38EC7C7C08AA218F6A45210010ECB7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -687,36 +758,6 @@
 			};
 			name = Release;
 		};
-		77D9DA96CE0786D8321AE8D10D135017 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D203223FC626726A02E9E3A9BB0A85F /* Pods-VOKUtilities.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VOKUtilities/VOKUtilities-Prefix.pch";
-				INFOPLIST_FILE = "VOKUtilities/VOKUtilities-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		6B32657091487014BD510665AB951E0A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DD33C4D0624B360DF55B4A0B66A5465 /* Pods-VOKUtilities.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VOKUtilities/VOKUtilities-Prefix.pch";
-				INFOPLIST_FILE = "VOKUtilities/VOKUtilities-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 		E5C68F28896F11E8CD9B4BD436D0DC24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 58AEBDF4BFC08CC392E4668EFCC3A396 /* Pods-Tests.debug.xcconfig */;
@@ -741,23 +782,30 @@
 			};
 			name = Debug;
 		};
-		59B6E3F84ABA50014C4CD2C542E3C273 /* Release */ = {
+		F0BA93F1F6EAF7539926CFE27943F2D0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D955E61C07478EB709FBDDE6BAFD0FE2 /* Pods-Tests.release.xcconfig */;
+			baseConfigurationReference = 68BEB26BCFB0FEC75E8E4A09401E6F0F /* Pods-UITests.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VOKUtilities.app/VOKUtilities";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vokal.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VOKUtilities.app/VOKUtilities";
 			};
 			name = Release;
 		};
@@ -773,20 +821,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A180C7D61796989FD16088108F3C96CF /* Build configuration list for PBXProject "VOKUtilities" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6E17AB5718EBFBA2A8712F1E875483AF /* Debug */,
-				D38EC7C7C08AA218F6A45210010ECB7F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		71E6A39317B1DAFB22F6FC4307FFFC89 /* Build configuration list for PBXNativeTarget "VOKUtilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				77D9DA96CE0786D8321AE8D10D135017 /* Debug */,
 				6B32657091487014BD510665AB951E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A180C7D61796989FD16088108F3C96CF /* Build configuration list for PBXProject "VOKUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E17AB5718EBFBA2A8712F1E875483AF /* Debug */,
+				D38EC7C7C08AA218F6A45210010ECB7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
