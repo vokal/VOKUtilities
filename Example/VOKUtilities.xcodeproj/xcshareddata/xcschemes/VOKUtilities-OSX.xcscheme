@@ -14,7 +14,7 @@
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "DE1B44FF1C89FC4F00E9AF0A"
+                     BlueprintIdentifier = "91AF48AB6ABCD9D2C72AC18C2B29D373"
                      BuildableName = "VOKUtilities-OSX"
                      BlueprintName = "VOKUtilities-OSX"
                      ReferencedContainer = "container:VOKUtilities.xcodeproj">
@@ -32,7 +32,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DE1B44FF1C89FC4F00E9AF0A"
+               BlueprintIdentifier = "91AF48AB6ABCD9D2C72AC18C2B29D373"
                BuildableName = "VOKUtilities-OSX"
                BlueprintName = "VOKUtilities-OSX"
                ReferencedContainer = "container:VOKUtilities.xcodeproj">
@@ -46,11 +46,21 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DE1B454E1C8A2CD600E9AF0A"
+               BuildableName = "Tests-OSX.xctest"
+               BlueprintName = "Tests-OSX"
+               ReferencedContainer = "container:VOKUtilities.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE1B44FF1C89FC4F00E9AF0A"
+            BlueprintIdentifier = "91AF48AB6ABCD9D2C72AC18C2B29D373"
             BuildableName = "VOKUtilities-OSX"
             BlueprintName = "VOKUtilities-OSX"
             ReferencedContainer = "container:VOKUtilities.xcodeproj">
@@ -73,7 +83,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE1B44FF1C89FC4F00E9AF0A"
+            BlueprintIdentifier = "91AF48AB6ABCD9D2C72AC18C2B29D373"
             BuildableName = "VOKUtilities-OSX"
             BlueprintName = "VOKUtilities-OSX"
             ReferencedContainer = "container:VOKUtilities.xcodeproj">
@@ -92,7 +102,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE1B44FF1C89FC4F00E9AF0A"
+            BlueprintIdentifier = "91AF48AB6ABCD9D2C72AC18C2B29D373"
             BuildableName = "VOKUtilities-OSX"
             BlueprintName = "VOKUtilities-OSX"
             ReferencedContainer = "container:VOKUtilities.xcodeproj">
