@@ -41,6 +41,8 @@ static NSString *const OK = @"OK";
 
 - (void)testNilInputs
 {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wnonnull"
     VOKAlertAction *alertActionNoBlock = [[VOKAlertAction alloc] initWithTitle:OK actionBlock:nil];
     
     XCTAssertThrows([[VOKAlertAction alloc] initWithTitle:nil actionBlock:nil]);
@@ -76,6 +78,7 @@ static NSString *const OK = @"OK";
                                                       withTitle:AlertTitle
                                                         message:AlertMessage
                                                         buttons:@[]]);
+#pragma clang diagnostic pop
 }
 
 - (void)testInvalidButtonsArray
