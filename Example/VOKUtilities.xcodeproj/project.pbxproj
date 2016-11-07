@@ -22,6 +22,7 @@
 		40F952AA033F761173EDDC80E881A223 /* libPods-VOKUtilities-OSX-Tests-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B2FF42B0073883959676E05CF20383 /* libPods-VOKUtilities-OSX-Tests-OSX.a */; };
 		4A53F6ECB4903343320425802676EC2A /* NSString_VOKValidation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D5FDE7C6A774D4D63BE08861719979 /* NSString_VOKValidation_Tests.m */; };
 		50C91464E6FA9E82C648B7C1A453B40B /* UIColor_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3B7342011ECC58611A62CD7DDEE16 /* UIColor_VOKAL_Tests.m */; };
+		516C16BBD54D8E5CF8AC05E125DA7415 /* libPods-VOKUtilities-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CABECBDA7E21B068191A9B3BF4C1F1 /* libPods-VOKUtilities-Tests.a */; };
 		53530FC838BB9E3D7237DA5C45FAA09B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 208068955258414E6A43799EE974CEBA /* main.m */; };
 		57C827C7DF572F8B9C0C8458F271AAE8 /* UIView_VOKDebug_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C17071E967154CD9456A6D0F1C3692F1 /* UIView_VOKDebug_UITests.m */; };
 		587E9CC2D7350ED52484C90B1AB4337C /* libPods-VOKUtilities-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5FD5F942C7D939FB8F5800EB3C0854 /* libPods-VOKUtilities-OSX.a */; };
@@ -94,6 +95,7 @@
 
 /* Begin PBXFileReference section */
 		0239E8D9B313DFB2386AC62A961CA172 /* VOKUtilities-OSX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "VOKUtilities-OSX"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CABECBDA7E21B068191A9B3BF4C1F1 /* libPods-VOKUtilities-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOKUtilities-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06CC4F454A8ABD3FDE282DA9D1A2A0A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09FEE28427C1277C3D9CD5B1716EF9FF /* NSPredicate_VOKAL_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSPredicate_VOKAL_Tests.m; sourceTree = "<group>"; };
 		11F5E0180B9240FD939BD8DF293E67E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		57FDD4E0D337F3AC5A11511F64396B2B /* NSNumberFormatter_VOKAL_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNumberFormatter_VOKAL_Tests.m; sourceTree = "<group>"; };
 		5D203223FC626726A02E9E3A9BB0A85F /* Pods-VOKUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities/Pods-VOKUtilities.debug.xcconfig"; sourceTree = "<group>"; };
 		663FC58F7A0062944780CF838603620B /* VOKUtilities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VOKUtilities.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C730E89F192265DD7A5362032076DB6 /* Pods-VOKUtilities-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-Tests/Pods-VOKUtilities-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6CD2B98C25A86899F736FEF4E148322F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7204D657702E967C62E84EB3DDE5E9C5 /* UIView_VOKCircle_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_VOKCircle_Tests.m; sourceTree = "<group>"; };
 		764BDA8BACDC7E825E3B48AB7B6CE77E /* VOKEmailHelper_UITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOKEmailHelper_UITests.m; sourceTree = "<group>"; };
@@ -161,6 +164,7 @@
 		EA3245BA7936D3912265264E79B268C3 /* VOKAlertHelper_UITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOKAlertHelper_UITests.m; sourceTree = "<group>"; };
 		EBAA229BD093805D0AF071C4207442C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EC567129692943AF031477472C20E99D /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF36D46E43717DA75A14A173A965547F /* Pods-VOKUtilities-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-Tests/Pods-VOKUtilities-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F70EC628505DE650B5BA42383B1F08D1 /* Tests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8AEB46740D689AD3F96AF62A4A2206 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FE547A360A750EDDF66E482164D312D8 /* VOKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VOKAppDelegate.h; sourceTree = "<group>"; };
@@ -206,6 +210,7 @@
 				2EF8BF9A7382D975A58C9C7104DFF8A7 /* Foundation.framework in Frameworks */,
 				C7AEC7FAC5DF5050C23E14EB3F0B1660 /* UIKit.framework in Frameworks */,
 				93399C2AF001CC7CA820506A591F99C6 /* XCTest.framework in Frameworks */,
+				516C16BBD54D8E5CF8AC05E125DA7415 /* libPods-VOKUtilities-Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +313,7 @@
 				34162771EE911347CD85AE181E8B33FF /* libPods-UITests.a */,
 				A1B2FF42B0073883959676E05CF20383 /* libPods-VOKUtilities-OSX-Tests-OSX.a */,
 				9F5FD5F942C7D939FB8F5800EB3C0854 /* libPods-VOKUtilities-OSX.a */,
+				03CABECBDA7E21B068191A9B3BF4C1F1 /* libPods-VOKUtilities-Tests.a */,
 				2672D8C9487E58B8556A9E76913F3856 /* libPods-VOKUtilities-UITests.a */,
 				51F01D609ECF7FC23D60D5D99476C930 /* libPods-VOKUtilities-tvOS-Tests-tvOS.a */,
 				9B9DDFCBEA320D0945D876D8EFA0E454 /* libPods-VOKUtilities-tvOS.a */,
@@ -361,6 +367,8 @@
 				34864754358EBA07330BFA2A4366A3C0 /* Pods-VOKUtilities-OSX-Tests-OSX.release.xcconfig */,
 				8F63C235044BFE715494785F4A969DE7 /* Pods-VOKUtilities-OSX.debug.xcconfig */,
 				80046744D2FDCFAF04F4A34B2ADF38E4 /* Pods-VOKUtilities-OSX.release.xcconfig */,
+				6C730E89F192265DD7A5362032076DB6 /* Pods-VOKUtilities-Tests.debug.xcconfig */,
+				EF36D46E43717DA75A14A173A965547F /* Pods-VOKUtilities-Tests.release.xcconfig */,
 				CE4310B3DAC4174D0A7C1B07A16E3558 /* Pods-VOKUtilities-UITests.debug.xcconfig */,
 				34B3FCD9C5060F07079FD94C9F480641 /* Pods-VOKUtilities-UITests.release.xcconfig */,
 				B4316EB70BC4FACE65D71C10EBE4A754 /* Pods-VOKUtilities-tvOS-Tests-tvOS.debug.xcconfig */,
@@ -435,12 +443,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 450E9E4E97A28F431103DD991FBBED0C /* Build configuration list for PBXNativeTarget "UITests" */;
 			buildPhases = (
-				258B27A51C3867CAB42BE986B1CE555E /* Check Pods Manifest.lock */,
+				A1392E44FA51480A28968C3BA07AD8BD /* [CP] Check Pods Manifest.lock */,
 				718F0B3302177ABD0FD654A04047E54D /* Sources */,
 				AF334327685969BC4BF6A591FCAE5BF4 /* Frameworks */,
 				39C5F72561448B3048D047D7DB526445 /* Resources */,
-				7F064390DE4436546720CABD89045CE3 /* Copy Pods Resources */,
-				2F938492AE38480CC99C77EE5D96F186 /* Embed Pods Frameworks */,
+				7F064390DE4436546720CABD89045CE3 /* [CP] Copy Pods Resources */,
+				2F938492AE38480CC99C77EE5D96F186 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -456,12 +464,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21467F06BA859B3FDF3CF1DE41E4BF8F /* Build configuration list for PBXNativeTarget "VOKUtilities-tvOS" */;
 			buildPhases = (
-				D110D0DE40F2A5CE2A7682A61DB59575 /* Check Pods Manifest.lock */,
+				D5862005ACFF0E76141956EA98AA322C /* [CP] Check Pods Manifest.lock */,
 				637465CE75EE27F59842F47A205DB1EC /* Sources */,
 				D306CCE0FC7EDB6F38EDD4E2FDFFAB10 /* Frameworks */,
 				1B2EEC7486962DD7B5A59E3518E94049 /* Resources */,
-				C4368C1F80E2357A1D7759003F910015 /* Embed Pods Frameworks */,
-				DA87B3AFFC4C60D884441A1E5736404C /* Copy Pods Resources */,
+				C4368C1F80E2357A1D7759003F910015 /* [CP] Embed Pods Frameworks */,
+				DA87B3AFFC4C60D884441A1E5736404C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -476,12 +484,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D57E1C23BBDFD20A6C5171E7FDAA6BAD /* Build configuration list for PBXNativeTarget "Tests-OSX" */;
 			buildPhases = (
-				7B0F272592F37EFAC497F4AD0C933AE1 /* Check Pods Manifest.lock */,
+				CC416DFA40199A68C1E0478FD6C1842B /* [CP] Check Pods Manifest.lock */,
 				E72AE795AA70DF80555FE0B46EC73F9B /* Sources */,
 				BA409C1C15A1F58EAF886BA3029AD651 /* Frameworks */,
 				F3817FA1229584D7544CEB84E7492A04 /* Resources */,
-				0EF3B3C34347072DE1499A09D16A6566 /* Embed Pods Frameworks */,
-				1AA822B73FC37DD50D78592EAC6AD991 /* Copy Pods Resources */,
+				0EF3B3C34347072DE1499A09D16A6566 /* [CP] Embed Pods Frameworks */,
+				1AA822B73FC37DD50D78592EAC6AD991 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -496,12 +504,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 035C1D2B283E1B5BADCCEDBB5D71D493 /* Build configuration list for PBXNativeTarget "Tests-tvOS" */;
 			buildPhases = (
-				D1B986370846643405C21A6232239CD9 /* Check Pods Manifest.lock */,
+				418553557648719149E52C7B0E9044A6 /* [CP] Check Pods Manifest.lock */,
 				1C4751B71A7B9D6BF99E515E57E120AB /* Sources */,
 				69E7E0CDEF78188FAC070AFA350D372B /* Frameworks */,
 				B5F5988D5DD4F30EA23044CF16F39B9D /* Resources */,
-				D9C2A6F3E9F9278B2AD04ED3DA5CD33D /* Embed Pods Frameworks */,
-				799B46C337D75F050228E6DDCAF66C9B /* Copy Pods Resources */,
+				D9C2A6F3E9F9278B2AD04ED3DA5CD33D /* [CP] Embed Pods Frameworks */,
+				799B46C337D75F050228E6DDCAF66C9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -517,12 +525,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71E6A39317B1DAFB22F6FC4307FFFC89 /* Build configuration list for PBXNativeTarget "VOKUtilities" */;
 			buildPhases = (
-				24F23F459D25A758BC3C893518D789C9 /* Check Pods Manifest.lock */,
+				9FE70BAE0CC32593290CA95CAA890959 /* [CP] Check Pods Manifest.lock */,
 				7B735B4F1696852ED7F2583EC7F99F25 /* Sources */,
 				E98B5C33F18F40464298585D6719E708 /* Frameworks */,
 				15A27A23ED62A0BA11F8DB5E62DB2905 /* Resources */,
-				BC5188D4E235F708D01AE7F061C3A46A /* Copy Pods Resources */,
-				3A751D011FD8167E6F1BEC664909F654 /* Embed Pods Frameworks */,
+				BC5188D4E235F708D01AE7F061C3A46A /* [CP] Copy Pods Resources */,
+				3A751D011FD8167E6F1BEC664909F654 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -537,11 +545,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D56F88A6B9B0F89C26298F3A485F4A9 /* Build configuration list for PBXNativeTarget "VOKUtilities-OSX" */;
 			buildPhases = (
-				C0CF9B484FE0DC883E9CCC6BA9161DB8 /* Check Pods Manifest.lock */,
+				F26B063BD9BC74D6DEEC7C5371A2640F /* [CP] Check Pods Manifest.lock */,
 				3C9F4F73FE82C5566F481A3DC0357EB1 /* Sources */,
 				99334927FE3735882F0AB1F48FD436EA /* Frameworks */,
 				3D78611DF0EE4434036FDE647E950572 /* CopyFiles */,
-				5AEF100A5F16C1F61E44554B7B077183 /* Copy Pods Resources */,
+				5AEF100A5F16C1F61E44554B7B077183 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -556,12 +564,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3FE8680E7CD441D227E4FB803E56E57 /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
-				66D7A4297C375DB391743D0780DC319F /* Check Pods Manifest.lock */,
+				12C68279EDEA24F51D587B8EE41F0D09 /* [CP] Check Pods Manifest.lock */,
 				2783A2DDABC7EF418B6F32E05EEEF9EC /* Sources */,
 				BC11CC1E5856A04B19BCF227272AE6BD /* Frameworks */,
 				659EB1A68B03F349E82DC9721F50800A /* Resources */,
-				AEDBF84442BE9BF10F35231FD5F2078A /* Copy Pods Resources */,
-				0FD604EBE1B7E92F6F4C47088742F9B8 /* Embed Pods Frameworks */,
+				AEDBF84442BE9BF10F35231FD5F2078A /* [CP] Copy Pods Resources */,
+				0FD604EBE1B7E92F6F4C47088742F9B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -680,14 +688,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0EF3B3C34347072DE1499A09D16A6566 /* Embed Pods Frameworks */ = {
+		0EF3B3C34347072DE1499A09D16A6566 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -695,164 +703,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-OSX-Tests-OSX/Pods-VOKUtilities-OSX-Tests-OSX-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1AA822B73FC37DD50D78592EAC6AD991 /* Copy Pods Resources */ = {
+		0FD604EBE1B7E92F6F4C47088742F9B8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-OSX-Tests-OSX/Pods-VOKUtilities-OSX-Tests-OSX-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		24F23F459D25A758BC3C893518D789C9 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		258B27A51C3867CAB42BE986B1CE555E /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		2F938492AE38480CC99C77EE5D96F186 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-UITests/Pods-VOKUtilities-UITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3A751D011FD8167E6F1BEC664909F654 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities/Pods-VOKUtilities-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5AEF100A5F16C1F61E44554B7B077183 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-OSX/Pods-VOKUtilities-OSX-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		66D7A4297C375DB391743D0780DC319F /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		799B46C337D75F050228E6DDCAF66C9B /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-tvOS-Tests-tvOS/Pods-VOKUtilities-tvOS-Tests-tvOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7B0F272592F37EFAC497F4AD0C933AE1 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		7F064390DE4436546720CABD89045CE3 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-UITests/Pods-VOKUtilities-UITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0FD604EBE1B7E92F6F4C47088742F9B8 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -860,14 +718,179 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-Tests/Pods-VOKUtilities-Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BC5188D4E235F708D01AE7F061C3A46A /* Copy Pods Resources */ = {
+		1AA822B73FC37DD50D78592EAC6AD991 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-OSX-Tests-OSX/Pods-VOKUtilities-OSX-Tests-OSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FE70BAE0CC32593290CA95CAA890959 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1392E44FA51480A28968C3BA07AD8BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2F938492AE38480CC99C77EE5D96F186 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-UITests/Pods-VOKUtilities-UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A751D011FD8167E6F1BEC664909F654 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities/Pods-VOKUtilities-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AEF100A5F16C1F61E44554B7B077183 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-OSX/Pods-VOKUtilities-OSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12C68279EDEA24F51D587B8EE41F0D09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		799B46C337D75F050228E6DDCAF66C9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-tvOS-Tests-tvOS/Pods-VOKUtilities-tvOS-Tests-tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC416DFA40199A68C1E0478FD6C1842B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F064390DE4436546720CABD89045CE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-UITests/Pods-VOKUtilities-UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEDBF84442BE9BF10F35231FD5F2078A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-Tests/Pods-VOKUtilities-Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC5188D4E235F708D01AE7F061C3A46A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -875,29 +898,29 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities/Pods-VOKUtilities-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C0CF9B484FE0DC883E9CCC6BA9161DB8 /* Check Pods Manifest.lock */ = {
+		F26B063BD9BC74D6DEEC7C5371A2640F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		C4368C1F80E2357A1D7759003F910015 /* Embed Pods Frameworks */ = {
+		C4368C1F80E2357A1D7759003F910015 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -905,44 +928,44 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-tvOS/Pods-VOKUtilities-tvOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D110D0DE40F2A5CE2A7682A61DB59575 /* Check Pods Manifest.lock */ = {
+		D5862005ACFF0E76141956EA98AA322C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		D1B986370846643405C21A6232239CD9 /* Check Pods Manifest.lock */ = {
+		418553557648719149E52C7B0E9044A6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		D9C2A6F3E9F9278B2AD04ED3DA5CD33D /* Embed Pods Frameworks */ = {
+		D9C2A6F3E9F9278B2AD04ED3DA5CD33D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -950,34 +973,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-tvOS-Tests-tvOS/Pods-VOKUtilities-tvOS-Tests-tvOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DA87B3AFFC4C60D884441A1E5736404C /* Copy Pods Resources */ = {
+		DA87B3AFFC4C60D884441A1E5736404C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-tvOS/Pods-VOKUtilities-tvOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AEDBF84442BE9BF10F35231FD5F2078A /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-Tests/Pods-VOKUtilities-Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1159,7 +1167,7 @@
 		};
 		59B6E3F84ABA50014C4CD2C542E3C273 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DD33C4D0624B360DF55B4A0B66A5465 /* Pods-VOKUtilities.release.xcconfig */;
+			baseConfigurationReference = EF36D46E43717DA75A14A173A965547F /* Pods-VOKUtilities-Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VOKUtilities.app/VOKUtilities";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1399,7 +1407,7 @@
 		};
 		E5C68F28896F11E8CD9B4BD436D0DC24 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D203223FC626726A02E9E3A9BB0A85F /* Pods-VOKUtilities.debug.xcconfig */;
+			baseConfigurationReference = 6C730E89F192265DD7A5362032076DB6 /* Pods-VOKUtilities-Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VOKUtilities.app/VOKUtilities";
 				FRAMEWORK_SEARCH_PATHS = (
