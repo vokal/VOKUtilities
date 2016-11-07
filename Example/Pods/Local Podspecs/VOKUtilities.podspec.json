@@ -15,7 +15,7 @@
     "tag": "0.9.1"
   },
   "platforms": {
-    "ios": "8.0",
+    "ios": "7.0",
     "tvos": "9.0",
     "osx": "10.9"
   },
@@ -76,21 +76,21 @@
     {
       "name": "UIViewController+VOKKeyboard",
       "platforms": {
-        "ios": "8.0"
+        "ios": "7.0"
       },
       "source_files": "Pod/UIViewController+VOKKeyboard/*.{h,m}"
     },
     {
       "name": "VOKEmailHelper",
       "platforms": {
-        "ios": "8.0"
+        "ios": "7.0"
       },
       "source_files": "Pod/VOKEmailHelper/*.{h,m}"
     },
     {
       "name": "VOKAlertHelper",
       "platforms": {
-        "ios": "8.0"
+        "ios": "7.0"
       },
       "source_files": "Pod/VOKAlertHelper/*.{h,m}"
     }
