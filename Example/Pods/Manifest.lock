@@ -1,43 +1,45 @@
 PODS:
-  - KIF (3.3.0):
-    - KIF/Core (= 3.3.0)
-  - KIF/Core (3.3.0)
-  - VOKUtilities (0.9.0):
-    - VOKUtilities/NSCalendar+VOKAL (= 0.9.0)
-    - VOKUtilities/NSNumberFormatter+VOKAL (= 0.9.0)
-    - VOKUtilities/NSPredicate+VOKAL (= 0.9.0)
-    - VOKUtilities/NSString+VOKValidation (= 0.9.0)
-    - VOKUtilities/UIColor+VOKAL (= 0.9.0)
-    - VOKUtilities/UIView+VOKCircle (= 0.9.0)
-    - VOKUtilities/UIView+VOKDebug (= 0.9.0)
-    - VOKUtilities/UIViewController+VOKKeyboard (= 0.9.0)
-    - VOKUtilities/VOKAlertHelper (= 0.9.0)
-    - VOKUtilities/VOKEmailHelper (= 0.9.0)
-    - VOKUtilities/VOKIBHelpers (= 0.9.0)
-    - VOKUtilities/VOKKeyPathHelper (= 0.9.0)
-  - VOKUtilities/NSCalendar+VOKAL (0.9.0)
-  - VOKUtilities/NSNumberFormatter+VOKAL (0.9.0)
-  - VOKUtilities/NSPredicate+VOKAL (0.9.0)
-  - VOKUtilities/NSString+VOKValidation (0.9.0)
-  - VOKUtilities/UIColor+VOKAL (0.9.0)
-  - VOKUtilities/UIView+VOKCircle (0.9.0)
-  - VOKUtilities/UIView+VOKDebug (0.9.0)
-  - VOKUtilities/UIViewController+VOKKeyboard (0.9.0)
-  - VOKUtilities/VOKAlertHelper (0.9.0)
-  - VOKUtilities/VOKEmailHelper (0.9.0)
-  - VOKUtilities/VOKIBHelpers (0.9.0)
-  - VOKUtilities/VOKKeyPathHelper (0.9.0)
+  - KIF (3.5.1):
+    - KIF/Core (= 3.5.1)
+  - KIF/Core (3.5.1)
+  - VOKUtilities (0.9.1):
+    - VOKUtilities/NSCalendar+VOKAL (= 0.9.1)
+    - VOKUtilities/NSNumberFormatter+VOKAL (= 0.9.1)
+    - VOKUtilities/NSPredicate+VOKAL (= 0.9.1)
+    - VOKUtilities/NSString+VOKValidation (= 0.9.1)
+    - VOKUtilities/UIColor+VOKAL (= 0.9.1)
+    - VOKUtilities/UIView+VOKCircle (= 0.9.1)
+    - VOKUtilities/UIView+VOKDebug (= 0.9.1)
+    - VOKUtilities/UIViewController+VOKKeyboard (= 0.9.1)
+    - VOKUtilities/VOKAlertHelper (= 0.9.1)
+    - VOKUtilities/VOKEmailHelper (= 0.9.1)
+    - VOKUtilities/VOKIBHelpers (= 0.9.1)
+    - VOKUtilities/VOKKeyPathHelper (= 0.9.1)
+  - VOKUtilities/NSCalendar+VOKAL (0.9.1)
+  - VOKUtilities/NSNumberFormatter+VOKAL (0.9.1)
+  - VOKUtilities/NSPredicate+VOKAL (0.9.1)
+  - VOKUtilities/NSString+VOKValidation (0.9.1)
+  - VOKUtilities/UIColor+VOKAL (0.9.1)
+  - VOKUtilities/UIView+VOKCircle (0.9.1)
+  - VOKUtilities/UIView+VOKDebug (0.9.1)
+  - VOKUtilities/UIViewController+VOKKeyboard (0.9.1)
+  - VOKUtilities/VOKAlertHelper (0.9.1)
+  - VOKUtilities/VOKEmailHelper (0.9.1)
+  - VOKUtilities/VOKIBHelpers (0.9.1)
+  - VOKUtilities/VOKKeyPathHelper (0.9.1)
 
 DEPENDENCIES:
-  - KIF (~> 3.3)
+  - KIF (~> 3.5)
   - VOKUtilities (from `../`)
 
 EXTERNAL SOURCES:
   VOKUtilities:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  KIF: 0a82046d06f3648799cac522d2d0f7934214caac
-  VOKUtilities: 083abe85880a8bc3d2d51fa8c665643020b167ff
+  KIF: 082eb65279e51c3092923802849eb796a04982ab
+  VOKUtilities: 9e9562a6221125304925ab9ce5bed7ac92b4ba5d
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 9ccc53b03f9e3a9710f9636b4227ff058e608662
+
+COCOAPODS: 1.1.1

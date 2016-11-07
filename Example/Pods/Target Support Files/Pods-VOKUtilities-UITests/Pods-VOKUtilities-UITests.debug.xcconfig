@@ -1,6 +1,10 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
 FRAMEWORK_SEARCH_PATHS = $(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks "$(PLATFORM_DIR)/Developer/Library/Frameworks"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/KIF" "${PODS_ROOT}/Headers/Public/VOKUtilities"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/KIF" "$PODS_CONFIGURATION_BUILD_DIR/VOKUtilities"
 OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/KIF" -isystem "${PODS_ROOT}/Headers/Public/VOKUtilities"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"KIF" -l"Pods-VOKUtilities-UITests-VOKUtilities" -framework "CoreGraphics" -framework "IOKit" -framework "XCTest"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"KIF" -l"VOKUtilities" -framework "CoreGraphics" -framework "IOKit" -framework "QuartzCore" -framework "XCTest"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}/Pods
