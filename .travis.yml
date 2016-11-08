@@ -1,15 +1,15 @@
 language: objective-c
 osx_image: xcode7.2
-before_install:
-  - brew update > /dev/null; if brew outdated | grep -qx xctool; then brew upgrade xctool; fi  # Ensure that xctool is up-to-date
-xcode_workspace: 'Example/VOKUtilities.xcworkspace'
-matrix:
-  include:
-    - xcode_scheme: VOKUtilities-Example
-      xcode_sdk: iphonesimulator
-    - xcode_scheme: VOKUtilities-tvOS
-      xcode_sdk: appletvsimulator
-    - xcode_scheme: VOKUtilities-OSX
-      xcode_sdk: macosx
+env:
+  global:
+    - SCAN_WORKSPACE="Example/VOKUtilities.xcworkspace"
+  matrix:
+    # Define the details for each test suite that should be run
+    - SCAN_SCHEME="VOKUtilities-Example" SCAN_SDK="iphonesimulator"
+    - SCAN_SCHEME="VOKUtilities-tvOS"    SCAN_SDK="appletvsimulator"
+    - SCAN_SCHEME="VOKUtilities-OSX"     SCAN_SDK="macosx"
+script: bundle exec scan
 after_script:
-    - pod lib lint
+  - bundle exec pod lib lint
+cache:
+  - bundler  # After main-repo builds, save the "bundler" (local Ruby gems) stuff to cache for future builds.

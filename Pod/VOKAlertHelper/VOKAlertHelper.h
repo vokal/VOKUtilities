@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <VOKAlertAction.h>
+#import "VOKAlertAction.h"
 
 typedef void(^VOKAlertHelperActionBlock)(void);
 

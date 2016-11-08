@@ -32,3 +32,6 @@ env.sh
 
 # OS X Finder stuff
 .DS_Store
+
+# scan output
+Example/test_output
