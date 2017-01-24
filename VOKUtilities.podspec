@@ -74,5 +74,10 @@ Pod::Spec.new do |s|
     ss.platform = :ios
     ss.source_files = 'Pod/VOKAlertHelper/*.{h,m}'
   end
+
+  s.subspec 'VOKNavigationHelper' do |ss|
+    ss.platform = :ios
+    ss.source_files = 'Pod/VOKNavigationHelper/*.{h,m}'
+  end
   
 end
