@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "VOKUtilities"
-  s.version          = "0.9.1"
+  s.version          = "0.9.2"
   s.summary          = "Assorted category and utility classes for iDevelopment"
   s.homepage         = "https://github.com/vokal/VOKUtilities"
   s.license          = { :type => "MIT", :file => "LICENSE" }
