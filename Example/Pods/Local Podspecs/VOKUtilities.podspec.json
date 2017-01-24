@@ -93,6 +93,13 @@
         "ios": "7.0"
       },
       "source_files": "Pod/VOKAlertHelper/*.{h,m}"
+    },
+    {
+      "name": "VOKNavigationHelper",
+      "platforms": {
+        "ios": "7.0"
+      },
+      "source_files": "Pod/VOKNavigationHelper/*.{h,m}"
     }
   ]
 }
