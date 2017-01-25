@@ -61,6 +61,36 @@
     }
 }
 
++ (void)clearExistingViewsAndAnimateToStoryboard:(UIStoryboard *)storyboard
+                                        duration:(NSTimeInterval)duration
+                                         options:(UIViewAnimationOptions)options
+                                      completion:(void (^)(BOOL))completion
+{
+    NSParameterAssert(storyboard);
+    UIViewController *viewController = [storyboard instantiateInitialViewController];
+    if (viewController) {
+        [self clearExistingViewsAndAnimateToViewController:viewController
+                                                  duration:duration
+                                                   options:options
+                                                completion:completion];
+    }
+}
+
++ (void)clearExistingViewsAndAnimateToStoryboardNamed:(NSString *)storyboardName
+                                             duration:(NSTimeInterval)duration
+                                              options:(UIViewAnimationOptions)options
+                                           completion:(void (^)(BOOL))completion
+{
+    NSParameterAssert(storyboardName);
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle:nil];
+    if (storyboard) {
+        [self clearExistingViewsAndAnimateToStoryboard:storyboard
+                                              duration:duration
+                                               options:options
+                                            completion:completion];
+    }
+}
+
 + (void)clearExistingViewsAndSwitchToViewController:(UIViewController *)viewController
 {
     NSParameterAssert(viewController);
@@ -73,19 +103,20 @@
 + (void)clearExistingViewsAndSwitchToStoryboard:(UIStoryboard *)storyboard
 {
     NSParameterAssert(storyboard);
-    UIViewController *viewController = [storyboard instantiateInitialViewController];
-    if (viewController) {
-        [self clearExistingViewsAndSwitchToViewController:viewController];
-    }
+    [self clearExistingViewsAndAnimateToStoryboard:storyboard
+                                               duration:0
+                                                options:0
+                                             completion:nil];
 }
 
 + (void)clearExistingViewsAndSwitchToStoryboardNamed:(NSString *)storyboardName
 {
     NSParameterAssert(storyboardName);
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle:nil];
-    if (storyboard) {
-        [self clearExistingViewsAndSwitchToStoryboard:storyboard];
-    }
+    
+    [self clearExistingViewsAndAnimateToStoryboardNamed:storyboardName
+                                               duration:0
+                                                options:0
+                                             completion:nil];
 }
 
 @end

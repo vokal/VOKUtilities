@@ -10,6 +10,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+ * This class provides a method to replace the root view controller of the application's window
+ * using provided animation options:
+ *     clearExistingViewsAndAnimateToViewController:duration:options:completion:
+ *
+ * The rest of the methods provided here are just convenience methods to make use of that main one.
+ */
 @interface VOKNavigationHelper : NSObject
 
 /**
@@ -28,6 +35,36 @@ NS_ASSUME_NONNULL_BEGIN
                                             duration:(NSTimeInterval)duration
                                              options:(UIViewAnimationOptions)options
                                           completion:(void (^ __nullable)(BOOL finished))completion;
+
+/**
+ * Replace the root view controller of the app delegate's window with the initial view controller in
+ * the provided storyboard, using the provided animation options.
+ * Makes use of the clearExistingViewsAndAnimateToViewController:duration:options:completion method.
+ *
+ * @param storyboard      Storyboard from which to display the initial view controller
+ * @param duration        Animation duration
+ * @param options         Animation options
+ * @param completion      Completion block to execute after the animation completes
+ */
++ (void)clearExistingViewsAndAnimateToStoryboard:(UIStoryboard *)storyboard
+                                        duration:(NSTimeInterval)duration
+                                         options:(UIViewAnimationOptions)options
+                                      completion:(void (^ __nullable)(BOOL finished))completion;
+
+/**
+ * Replace the root view controller of the app delegate's window with the initial view controller in
+ * the storyboard named, loaded from the main bundle, using the provided animation options.
+ * Makes use of the clearExistingViewsAndAnimateToViewController:duration:options:completion method.
+ *
+ * @param storyboardName  Name of the storyboard (in the main bundle) from which to display the initial view controller
+ * @param duration        Animation duration
+ * @param options         Animation options
+ * @param completion      Completion block to execute after the animation completes
+ */
++ (void)clearExistingViewsAndAnimateToStoryboardNamed:(NSString *)storyboardName
+                                             duration:(NSTimeInterval)duration
+                                              options:(UIViewAnimationOptions)options
+                                           completion:(void (^ __nullable)(BOOL finished))completion;
 
 /**
  * Replace the root view controller of the app delegate's window with the provided view controller.
@@ -50,6 +87,7 @@ NS_ASSUME_NONNULL_BEGIN
  * Replace the root view controller of the app delegate's window with the initial view controller in
  * the storyboard named, loaded from the main bundle. If the storyboard is not found, no action is
  * taken.
+ * Makes use of the clearExistingViewsAndSwitchToStoryboard: method.
  *
  * @param storyboardName  Name of the storyboard (in the main bundle) from which to display the initial view controller
  */

@@ -42,16 +42,15 @@
 - (void)testSlowMotionViewControllerReplacement
 {
     XCTestExpectation *animationFinish = [self expectationWithDescription:@"Animation will finish"];
-    UIViewController *viewController = [[AnotherViewController alloc] init];
-    [VOKNavigationHelper animateToViewController:viewController
-                                        duration:3
-                                         options:UIViewAnimationOptionTransitionFlipFromLeft
-                                      completion:^(BOOL finished) {
-                                          [animationFinish fulfill];
-                                      }];
+    [VOKNavigationHelper clearExistingViewsAndAnimateToStoryboardNamed:@"First"
+                                                              duration:3
+                                                               options:UIViewAnimationOptionTransitionFlipFromLeft
+                                                            completion:^(BOOL finished) {
+                                                                [animationFinish fulfill];
+                                                            }];
     // This test succeeds almost immediately, since the view controller is added to the hierarchy
     // before the animation starts
-    [tester waitForViewWithAccessibilityLabel:@"This is a label from code"];
+    [tester waitForViewWithAccessibilityLabel:@"This is in the first storyboard"];
     // Wait for the animation to actually finish
     [self waitForExpectationsWithTimeout:4 handler:nil];
 }
