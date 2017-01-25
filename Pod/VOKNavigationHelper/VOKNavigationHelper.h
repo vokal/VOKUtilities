@@ -13,10 +13,25 @@ NS_ASSUME_NONNULL_BEGIN
 @interface VOKNavigationHelper : NSObject
 
 /**
- * Replace the root view controller of the app delegate's window with the provided view controller.
+ * Replace the root view controller of the app delegate's window with the provided view controller,
+ * using the provided animation options.
  * This method will make all subviews on the window remove themselves from their superview, and
  * dismiss any presented view controller, to ensure that the view stack is completely clear before
  * setting the rootViewController on the window.
+ *
+ * @param viewController  View controller to display
+ * @param duration        Animation duration
+ * @param options         Animation options
+ * @param completion      Completion block to execute after the animation completes
+ */
++ (void)clearExistingViewsAndAnimateToViewController:(UIViewController *)viewController
+                                            duration:(NSTimeInterval)duration
+                                             options:(UIViewAnimationOptions)options
+                                          completion:(void (^ __nullable)(BOOL finished))completion;
+
+/**
+ * Replace the root view controller of the app delegate's window with the provided view controller.
+ * Makes use of the clearExistingViewsAndAnimateToViewController:duration:options:completion method.
  *
  * @param viewController  View controller to display
  */
