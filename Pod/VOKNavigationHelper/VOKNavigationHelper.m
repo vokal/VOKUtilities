@@ -21,6 +21,16 @@
         return;
     }
     
+    // Helper block: execute the completion block (if there is one) on the main thread
+    void (^executeCompletionOnMainThread)() = ^void() {
+        if (completion) {
+            [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+                completion(YES);
+            }];
+        }
+    };
+
+    // Find the window in which this is all taking place
     id<UIApplicationDelegate> appDelegate = UIApplication.sharedApplication.delegate;
     
     if (!appDelegate.window) {
@@ -29,35 +39,42 @@
         [appDelegate.window makeKeyAndVisible];
     }
     UIWindow *appWindow = appDelegate.window;
+
+    // Snapshot the current view, if the transition will be animated
+    UIView *snapshot;
+    if (duration > 0) {
+        snapshot = [UIScreen.mainScreen snapshotViewAfterScreenUpdates:NO];
+    }
     
-    UIView *snapshot = [UIScreen.mainScreen snapshotViewAfterScreenUpdates:NO];
-    
+    // Helper block: replace the root view controller, and animate the transition if desired
+    void (^switchToNewViewController)() = ^void() {
+        appWindow.rootViewController = viewController;
+        if (duration > 0 && snapshot != nil) {
+            [appWindow addSubview:snapshot];
+            [UIView transitionFromView:snapshot
+                                toView:viewController.view
+                              duration:duration
+                               options:options
+                            completion:^(BOOL finished) {
+                                [snapshot removeFromSuperview];
+                                executeCompletionOnMainThread();
+                            }];
+        } else {
+            executeCompletionOnMainThread();
+        }
+    };
+
     // Get rid of old VC's and views
     [appWindow.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
-    
+
+    // Dismiss any presented view controllers, then [potentially] animate in the new VC
     if (appWindow.rootViewController.presentedViewController) {
         [appWindow.rootViewController dismissViewControllerAnimated:NO
                                                          completion:^{
-                                                             appWindow.rootViewController = viewController;
+                                                             switchToNewViewController();
                                                          }];
     } else {
-        appWindow.rootViewController = viewController;
-    }
-    
-    if (duration > 0) {
-        [appWindow addSubview:snapshot];
-        [UIView transitionFromView:snapshot
-                            toView:viewController.view
-                          duration:duration
-                           options:options
-                        completion:^(BOOL finished) {
-                            [snapshot removeFromSuperview];
-                            if (completion) {
-                                completion(YES);
-                            }
-                        }];
-    } else if (completion) {
-        completion(YES);
+        switchToNewViewController();
     }
 }
 
