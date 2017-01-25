@@ -11,6 +11,9 @@
 #import "AnotherViewController.h"
 #import "TestViewController.h"
 
+static NSString *FirstStoryboardLabelText = @"This is in the first storyboard";
+static NSString *SecondStoryboardLabelText = @"This is in the second storyboard";
+
 @interface VOKNavigationHelper_UITests : KIFTestCase
 
 @end
@@ -27,16 +30,16 @@
 - (void)testStoryboardJumping
 {
     [VOKNavigationHelper clearExistingViewsAndSwitchToStoryboardNamed:@"First"];
-    [tester waitForViewWithAccessibilityLabel:@"This is in the first storyboard"];
+    [tester waitForViewWithAccessibilityLabel:FirstStoryboardLabelText];
     [VOKNavigationHelper clearExistingViewsAndSwitchToStoryboardNamed:@"Second"];
-    [tester waitForViewWithAccessibilityLabel:@"This is in the second storyboard"];
+    [tester waitForViewWithAccessibilityLabel:SecondStoryboardLabelText];
 }
 
 - (void)testViewControllerJumping
 {
     UIViewController *viewController = [[AnotherViewController alloc] init];
     [VOKNavigationHelper clearExistingViewsAndSwitchToViewController:viewController];
-    [tester waitForViewWithAccessibilityLabel:@"This is a label from code"];
+    [tester waitForViewWithAccessibilityLabel:AnotherViewControllerLabelText];
 }
 
 - (void)testSlowMotionViewControllerReplacement
@@ -50,7 +53,7 @@
                                                             }];
     // This test succeeds almost immediately, since the view controller is added to the hierarchy
     // before the animation starts
-    [tester waitForViewWithAccessibilityLabel:@"This is in the first storyboard"];
+    [tester waitForViewWithAccessibilityLabel:FirstStoryboardLabelText];
     // Wait for the animation to actually finish
     [self waitForExpectationsWithTimeout:4 handler:nil];
 }

@@ -8,6 +8,8 @@
 
 #import "AnotherViewController.h"
 
+NSString *AnotherViewControllerLabelText = @"This is a label from code";
+
 @implementation AnotherViewController
 
 - (void)viewDidLoad
@@ -16,7 +18,7 @@
 
     // Add a dummy label to the view, for UI test
     UILabel *label = [[UILabel alloc] init];
-    label.text = @"This is a label from code";
+    label.text = AnotherViewControllerLabelText;
     label.translatesAutoresizingMaskIntoConstraints = NO;
     
     self.view.backgroundColor = [UIColor whiteColor];
