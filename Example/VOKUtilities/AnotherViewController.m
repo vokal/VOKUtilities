@@ -10,12 +10,16 @@
 
 @implementation AnotherViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
 
     // Add a dummy label to the view, for UI test
     UILabel *label = [[UILabel alloc] init];
     label.text = @"This is a label from code";
+    label.translatesAutoresizingMaskIntoConstraints = NO;
+    
+    self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:label];
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:label
                                                           attribute:NSLayoutAttributeCenterX
