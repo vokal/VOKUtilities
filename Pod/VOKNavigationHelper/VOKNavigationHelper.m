@@ -16,34 +16,36 @@
                                           completion:(void (^ __nullable)(BOOL finished))completion
 {
     // Enforce the non-null
+    NSParameterAssert(viewController != nil);
     if (viewController == nil) {
         return;
     }
     
-    id<UIApplicationDelegate> appDelegate = [UIApplication sharedApplication].delegate;
+    id<UIApplicationDelegate> appDelegate = UIApplication.sharedApplication.delegate;
     
     if (!appDelegate.window) {
         appDelegate.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
         appDelegate.window.screen = UIScreen.mainScreen;
         [appDelegate.window makeKeyAndVisible];
     }
+    UIWindow *appWindow = appDelegate.window;
     
     UIView *snapshot = [UIScreen.mainScreen snapshotViewAfterScreenUpdates:NO];
     
     // Get rid of old VC's and views
-    [appDelegate.window.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
+    [appWindow.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
     
-    if (appDelegate.window.rootViewController.presentedViewController) {
-        [appDelegate.window.rootViewController dismissViewControllerAnimated:NO
-                                                                  completion:^{
-                                                                      appDelegate.window.rootViewController = viewController;
-                                                                  }];
+    if (appWindow.rootViewController.presentedViewController) {
+        [appWindow.rootViewController dismissViewControllerAnimated:NO
+                                                         completion:^{
+                                                             appWindow.rootViewController = viewController;
+                                                         }];
     } else {
-        appDelegate.window.rootViewController = viewController;
+        appWindow.rootViewController = viewController;
     }
     
     if (duration > 0) {
-        [appDelegate.window addSubview:snapshot];
+        [appWindow addSubview:snapshot];
         [UIView transitionFromView:snapshot
                             toView:viewController.view
                           duration:duration
@@ -61,6 +63,7 @@
 
 + (void)clearExistingViewsAndSwitchToViewController:(UIViewController *)viewController
 {
+    NSParameterAssert(viewController);
     [self clearExistingViewsAndAnimateToViewController:viewController
                                               duration:0
                                                options:0
@@ -69,6 +72,7 @@
 
 + (void)clearExistingViewsAndSwitchToStoryboard:(UIStoryboard *)storyboard
 {
+    NSParameterAssert(storyboard);
     UIViewController *viewController = [storyboard instantiateInitialViewController];
     if (viewController) {
         [self clearExistingViewsAndSwitchToViewController:viewController];
@@ -77,6 +81,7 @@
 
 + (void)clearExistingViewsAndSwitchToStoryboardNamed:(NSString *)storyboardName
 {
+    NSParameterAssert(storyboardName);
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle:nil];
     if (storyboard) {
         [self clearExistingViewsAndSwitchToStoryboard:storyboard];
