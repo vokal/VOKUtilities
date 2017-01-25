@@ -10,6 +10,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/// Signature for the completion block in UIView's transitionFromView:toView:duration:options:completion:
+typedef void (^VOKViewAnimationCompletionBlock)(BOOL);
+
+
 /**
  * This class provides a method to replace the root view controller of the application's window
  * using provided animation options:
@@ -34,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)clearExistingViewsAndAnimateToViewController:(UIViewController *)viewController
                                             duration:(NSTimeInterval)duration
                                              options:(UIViewAnimationOptions)options
-                                          completion:(void (^ __nullable)(BOOL finished))completion;
+                                          completion:(VOKViewAnimationCompletionBlock)completion;
 
 /**
  * Replace the root view controller of the app delegate's window with the initial view controller in
@@ -49,7 +53,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)clearExistingViewsAndAnimateToStoryboard:(UIStoryboard *)storyboard
                                         duration:(NSTimeInterval)duration
                                          options:(UIViewAnimationOptions)options
-                                      completion:(void (^ __nullable)(BOOL finished))completion;
+                                      completion:(VOKViewAnimationCompletionBlock)completion;
 
 /**
  * Replace the root view controller of the app delegate's window with the initial view controller in
@@ -64,7 +68,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)clearExistingViewsAndAnimateToStoryboardNamed:(NSString *)storyboardName
                                              duration:(NSTimeInterval)duration
                                               options:(UIViewAnimationOptions)options
-                                           completion:(void (^ __nullable)(BOOL finished))completion;
+                                           completion:(VOKViewAnimationCompletionBlock)completion;
 
 /**
  * Replace the root view controller of the app delegate's window with the provided view controller.

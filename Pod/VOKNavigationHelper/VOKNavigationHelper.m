@@ -13,7 +13,7 @@
 + (void)clearExistingViewsAndAnimateToViewController:(UIViewController *)viewController
                                             duration:(NSTimeInterval)duration
                                              options:(UIViewAnimationOptions)options
-                                          completion:(void (^ __nullable)(BOOL finished))completion
+                                          completion:(VOKViewAnimationCompletionBlock)completion
 {
     // Enforce the non-null
     NSParameterAssert(viewController != nil);
@@ -64,7 +64,7 @@
 + (void)clearExistingViewsAndAnimateToStoryboard:(UIStoryboard *)storyboard
                                         duration:(NSTimeInterval)duration
                                          options:(UIViewAnimationOptions)options
-                                      completion:(void (^)(BOOL))completion
+                                      completion:(VOKViewAnimationCompletionBlock)completion
 {
     NSParameterAssert(storyboard);
     UIViewController *viewController = [storyboard instantiateInitialViewController];
@@ -79,7 +79,7 @@
 + (void)clearExistingViewsAndAnimateToStoryboardNamed:(NSString *)storyboardName
                                              duration:(NSTimeInterval)duration
                                               options:(UIViewAnimationOptions)options
-                                           completion:(void (^)(BOOL))completion
+                                           completion:(VOKViewAnimationCompletionBlock)completion
 {
     NSParameterAssert(storyboardName);
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle:nil];
