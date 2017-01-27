@@ -38,7 +38,7 @@ typedef void (^VOKViewAnimationCompletionBlock)(BOOL);
 + (void)clearExistingViewsAndAnimateToViewController:(UIViewController *)viewController
                                             duration:(NSTimeInterval)duration
                                              options:(UIViewAnimationOptions)options
-                                          completion:(VOKViewAnimationCompletionBlock)completion;
+                                          completion:(nullable VOKViewAnimationCompletionBlock)completion;
 
 /**
  * Replace the root view controller of the app delegate's window with the initial view controller in
@@ -53,7 +53,7 @@ typedef void (^VOKViewAnimationCompletionBlock)(BOOL);
 + (void)clearExistingViewsAndAnimateToStoryboard:(UIStoryboard *)storyboard
                                         duration:(NSTimeInterval)duration
                                          options:(UIViewAnimationOptions)options
-                                      completion:(VOKViewAnimationCompletionBlock)completion;
+                                      completion:(nullable VOKViewAnimationCompletionBlock)completion;
 
 /**
  * Replace the root view controller of the app delegate's window with the initial view controller in
@@ -68,7 +68,7 @@ typedef void (^VOKViewAnimationCompletionBlock)(BOOL);
 + (void)clearExistingViewsAndAnimateToStoryboardNamed:(NSString *)storyboardName
                                              duration:(NSTimeInterval)duration
                                               options:(UIViewAnimationOptions)options
-                                           completion:(VOKViewAnimationCompletionBlock)completion;
+                                           completion:(nullable VOKViewAnimationCompletionBlock)completion;
 
 /**
  * Replace the root view controller of the app delegate's window with the provided view controller.
