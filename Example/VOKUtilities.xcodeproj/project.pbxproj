@@ -12,6 +12,7 @@
 		0B8ED12CD8AF9F9763B3643D73D46DB5 /* libPods-VOKUtilities-tvOS-Tests-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F01D609ECF7FC23D60D5D99476C930 /* libPods-VOKUtilities-tvOS-Tests-tvOS.a */; };
 		164906665CBA68AAC2384170975E05AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA936DC1D941D75B58380CDE427BEB2A /* main.m */; };
 		250859DE7206E0781673C92BAF8FD500 /* NSPredicate_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FEE28427C1277C3D9CD5B1716EF9FF /* NSPredicate_VOKAL_Tests.m */; };
+		29A196E01DFE523E7440EAAE760233F3 /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C931322F94DB48A1D1591FC9C2A954E /* First.storyboard */; };
 		2C9B92D12A58F3CF7C559224EED1DC0C /* NSNumberFormatter_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FDD4E0D337F3AC5A11511F64396B2B /* NSNumberFormatter_VOKAL_Tests.m */; };
 		2DB1DDCB4DFAD0F456DD71758947C216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 189C69E5C7BB81B5DA6529C87719C553 /* InfoPlist.strings */; };
 		2EF8BF9A7382D975A58C9C7104DFF8A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CD2B98C25A86899F736FEF4E148322F /* Foundation.framework */; };
@@ -31,6 +32,7 @@
 		5D29FBAAC2372A2B7E30036A57D4D9AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20BE48FF7B95B870F262A31BF373054E /* Assets.xcassets */; };
 		617F084F0350DF60335FC9D8B60D277E /* VOKEmailHelper_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 764BDA8BACDC7E825E3B48AB7B6CE77E /* VOKEmailHelper_UITests.m */; };
 		6180CC94D58ACF7E3B1253B8E39BC4BD /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C082F262B8772102EF995F8F737B31C0 /* TestViewController.m */; };
+		620401D799C1A78E1454012EC4BBB879 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4C7A685419F98B8CF77C1826CE7EDC2 /* Second.storyboard */; };
 		62AD3C5EB78AA0F41990EB26207BFFA9 /* NSCalendar_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B3EC1E9A081DFD3E84F73606C4FFF9 /* NSCalendar_VOKAL_Tests.m */; };
 		638EF0F70C3449A50D7699D2048E4388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149C4EECDD54AC318C09018A3551CD79 /* Main.storyboard */; };
 		723A8F421F8D0FF752564E87F378A08C /* VOKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A994C16B7246E172908D4DC8954B9B85 /* VOKAppDelegate.m */; };
@@ -43,12 +45,14 @@
 		A922AB203650A638CF03E178468CEE4A /* NSString_VOKValidation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D5FDE7C6A774D4D63BE08861719979 /* NSString_VOKValidation_Tests.m */; };
 		AAF74A2E8F360E378FF73CF0BF75D32B /* libPods-VOKUtilities-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9DDFCBEA320D0945D876D8EFA0E454 /* libPods-VOKUtilities-tvOS.a */; };
 		B055004A95DAD2F86284B6A148CC464A /* UIView_VOKDebug_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD0E90C9086C74B623837E86F8893F3 /* UIView_VOKDebug_Tests.m */; };
+		B18A990492A13281338DF7AFE25FFF86 /* VOKNavigationHelper_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF1E1983B777FDCA208B3A8AED7561 /* VOKNavigationHelper_UITests.m */; };
 		B4BA3EB758FEF3216A1C13ABF18B546F /* UIView_VOKCircle_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7204D657702E967C62E84EB3DDE5E9C5 /* UIView_VOKCircle_Tests.m */; };
 		B80649E6539B2AEC765DE7F59A3D8B58 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8428880378805CF08926FAB186DEAA7D /* Launch Screen.xib */; };
 		C08E9D824FDDFD8FF2FA9A2DD46B8207 /* libPods-VOKUtilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7654C9915A23CC1C724E5817757D9CD2 /* libPods-VOKUtilities.a */; };
 		C68F32857F07A8C4386D1DD3C8C6194D /* UIView_VOKCircle_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7204D657702E967C62E84EB3DDE5E9C5 /* UIView_VOKCircle_Tests.m */; };
 		C7AEC7FAC5DF5050C23E14EB3F0B1660 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135B1F314C9ADE2AFE962AC23EF4E680 /* UIKit.framework */; };
 		CB8BA1879BF2D6442AD602BE6DEBE3F3 /* libPods-VOKUtilities-UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2672D8C9487E58B8556A9E76913F3856 /* libPods-VOKUtilities-UITests.a */; };
+		CE81964C6E11C5CC61343780ACE5D50B /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AB01577E64C958FC240CE2E4BCE683 /* AnotherViewController.m */; };
 		E18633348D706743144B98222999CB4A /* NSNumberFormatter_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FDD4E0D337F3AC5A11511F64396B2B /* NSNumberFormatter_VOKAL_Tests.m */; };
 		E1E41020DCE2111E07532B53A02762F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64A536D2BECDE1E3C9125554D817D3DA /* InfoPlist.strings */; };
 		ECA11D82737DF4A99D60E235A24329D0 /* NSString_VOKValidation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D5FDE7C6A774D4D63BE08861719979 /* NSString_VOKValidation_Tests.m */; };
@@ -142,6 +146,7 @@
 		985FAF06CDDC26B6F5FEBD8208432C33 /* Pods-VOKUtilities-OSX-Tests-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-OSX-Tests-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-OSX-Tests-OSX/Pods-VOKUtilities-OSX-Tests-OSX.debug.xcconfig"; sourceTree = "<group>"; };
 		9B4E1D9D28A1C431A7D8CA048B8EF552 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9DDFCBEA320D0945D876D8EFA0E454 /* libPods-VOKUtilities-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOKUtilities-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C931322F94DB48A1D1591FC9C2A954E /* First.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
 		9F5FD5F942C7D939FB8F5800EB3C0854 /* libPods-VOKUtilities-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOKUtilities-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD0E90C9086C74B623837E86F8893F3 /* UIView_VOKDebug_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_VOKDebug_Tests.m; sourceTree = "<group>"; };
 		A1B2FF42B0073883959676E05CF20383 /* libPods-VOKUtilities-OSX-Tests-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOKUtilities-OSX-Tests-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,6 +155,7 @@
 		AF2F72FFF4E1589EB05D34C3165267EE /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		B3A2D7D14F627BD4E168827BA17DB1D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B4316EB70BC4FACE65D71C10EBE4A754 /* Pods-VOKUtilities-tvOS-Tests-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-tvOS-Tests-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-tvOS-Tests-tvOS/Pods-VOKUtilities-tvOS-Tests-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B4C7A685419F98B8CF77C1826CE7EDC2 /* Second.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
 		BB086D8F4109A2A2A6C66784212DADD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BCF5D613930EC4457F251AE98727FAF5 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		C082F262B8772102EF995F8F737B31C0 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
@@ -157,15 +163,18 @@
 		CE4310B3DAC4174D0A7C1B07A16E3558 /* Pods-VOKUtilities-UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-UITests/Pods-VOKUtilities-UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CF2E8F1849126C5213B3B9B63C531B87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D41B2812C0679EFFEE1550990A872125 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D5AB01577E64C958FC240CE2E4BCE683 /* AnotherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherViewController.m; sourceTree = "<group>"; };
 		D80FCEB83D06907EEECCB4E59E640343 /* UIViewController_VOKKeyboard_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewController_VOKKeyboard_Tests.m; sourceTree = "<group>"; };
 		DE0B92743B9DDA88B921DD1EB224C3BD /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		E5707297BB8525593A9C9D65D6E6B900 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E7552BEB87465D2E10EF50AAE9FF47A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E95FDA376A7A8F90EE8C94F99F61163F /* AnotherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherViewController.h; sourceTree = "<group>"; };
 		EA3245BA7936D3912265264E79B268C3 /* VOKAlertHelper_UITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOKAlertHelper_UITests.m; sourceTree = "<group>"; };
 		EBAA229BD093805D0AF071C4207442C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EC567129692943AF031477472C20E99D /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF36D46E43717DA75A14A173A965547F /* Pods-VOKUtilities-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-Tests/Pods-VOKUtilities-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F70EC628505DE650B5BA42383B1F08D1 /* Tests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7AF1E1983B777FDCA208B3A8AED7561 /* VOKNavigationHelper_UITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOKNavigationHelper_UITests.m; sourceTree = "<group>"; };
 		FA8AEB46740D689AD3F96AF62A4A2206 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FE547A360A750EDDF66E482164D312D8 /* VOKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VOKAppDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -329,6 +338,7 @@
 				C17071E967154CD9456A6D0F1C3692F1 /* UIView_VOKDebug_UITests.m */,
 				EA3245BA7936D3912265264E79B268C3 /* VOKAlertHelper_UITests.m */,
 				764BDA8BACDC7E825E3B48AB7B6CE77E /* VOKEmailHelper_UITests.m */,
+				F7AF1E1983B777FDCA208B3A8AED7561 /* VOKNavigationHelper_UITests.m */,
 			);
 			path = UITests;
 			sourceTree = "<group>";
@@ -397,6 +407,15 @@
 			path = "VOKUtilities-OSX";
 			sourceTree = "<group>";
 		};
+		A1498A37F27AC2A8CB0CAB3DE41BE92F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9C931322F94DB48A1D1591FC9C2A954E /* First.storyboard */,
+				B4C7A685419F98B8CF77C1826CE7EDC2 /* Second.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		C892AAE855053F8DEA6457F1EE4F0456 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -427,7 +446,10 @@
 		F2C1E16840103910EB8E35DEEF50D8D6 /* VOKUtilities */ = {
 			isa = PBXGroup;
 			children = (
+				A1498A37F27AC2A8CB0CAB3DE41BE92F /* Storyboards */,
 				48F5195A0BD209E0D03E61201E98D3F9 /* Supporting Files */,
+				E95FDA376A7A8F90EE8C94F99F61163F /* AnotherViewController.h */,
+				D5AB01577E64C958FC240CE2E4BCE683 /* AnotherViewController.m */,
 				DE0B92743B9DDA88B921DD1EB224C3BD /* TestViewController.h */,
 				C082F262B8772102EF995F8F737B31C0 /* TestViewController.m */,
 				FE547A360A750EDDF66E482164D312D8 /* VOKAppDelegate.h */,
@@ -642,8 +664,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29A196E01DFE523E7440EAAE760233F3 /* First.storyboard in Resources */,
 				E1E41020DCE2111E07532B53A02762F8 /* InfoPlist.strings in Resources */,
 				B80649E6539B2AEC765DE7F59A3D8B58 /* Launch Screen.xib in Resources */,
+				620401D799C1A78E1454012EC4BBB879 /* Second.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,6 +742,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-Tests/Pods-VOKUtilities-Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		12C68279EDEA24F51D587B8EE41F0D09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		1AA822B73FC37DD50D78592EAC6AD991 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -731,36 +770,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-OSX-Tests-OSX/Pods-VOKUtilities-OSX-Tests-OSX-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9FE70BAE0CC32593290CA95CAA890959 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		A1392E44FA51480A28968C3BA07AD8BD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		2F938492AE38480CC99C77EE5D96F186 /* [CP] Embed Pods Frameworks */ = {
@@ -793,6 +802,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities/Pods-VOKUtilities-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		418553557648719149E52C7B0E9044A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		5AEF100A5F16C1F61E44554B7B077183 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -806,21 +830,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-OSX/Pods-VOKUtilities-OSX-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		12C68279EDEA24F51D587B8EE41F0D09 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		799B46C337D75F050228E6DDCAF66C9B /* [CP] Copy Pods Resources */ = {
@@ -838,7 +847,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-tvOS-Tests-tvOS/Pods-VOKUtilities-tvOS-Tests-tvOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CC416DFA40199A68C1E0478FD6C1842B /* [CP] Check Pods Manifest.lock */ = {
+		7F064390DE4436546720CABD89045CE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-UITests/Pods-VOKUtilities-UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FE70BAE0CC32593290CA95CAA890959 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -853,19 +877,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		7F064390DE4436546720CABD89045CE3 /* [CP] Copy Pods Resources */ = {
+		A1392E44FA51480A28968C3BA07AD8BD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-UITests/Pods-VOKUtilities-UITests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		AEDBF84442BE9BF10F35231FD5F2078A /* [CP] Copy Pods Resources */ = {
@@ -898,21 +922,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities/Pods-VOKUtilities-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F26B063BD9BC74D6DEEC7C5371A2640F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		C4368C1F80E2357A1D7759003F910015 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -928,7 +937,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-tvOS/Pods-VOKUtilities-tvOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D5862005ACFF0E76141956EA98AA322C /* [CP] Check Pods Manifest.lock */ = {
+		CC416DFA40199A68C1E0478FD6C1842B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -943,7 +952,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		418553557648719149E52C7B0E9044A6 /* [CP] Check Pods Manifest.lock */ = {
+		D5862005ACFF0E76141956EA98AA322C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -986,6 +995,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-tvOS/Pods-VOKUtilities-tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F26B063BD9BC74D6DEEC7C5371A2640F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1046,6 +1070,7 @@
 				57C827C7DF572F8B9C0C8458F271AAE8 /* UIView_VOKDebug_UITests.m in Sources */,
 				FA066F555BAF5195534EDAAE4208689C /* VOKAlertHelper_UITests.m in Sources */,
 				617F084F0350DF60335FC9D8B60D277E /* VOKEmailHelper_UITests.m in Sources */,
+				B18A990492A13281338DF7AFE25FFF86 /* VOKNavigationHelper_UITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1053,6 +1078,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE81964C6E11C5CC61343780ACE5D50B /* AnotherViewController.m in Sources */,
 				6180CC94D58ACF7E3B1253B8E39BC4BD /* TestViewController.m in Sources */,
 				723A8F421F8D0FF752564E87F378A08C /* VOKAppDelegate.m in Sources */,
 				85883CF6A2710A9D37414606C4EE4B78 /* main.m in Sources */,

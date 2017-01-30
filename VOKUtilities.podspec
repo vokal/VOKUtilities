@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "VOKUtilities"
-  s.version          = "0.9.1"
+  s.version          = "0.10.0"
   s.summary          = "Assorted category and utility classes for iDevelopment"
   s.homepage         = "https://github.com/vokal/VOKUtilities"
   s.license          = { :type => "MIT", :file => "LICENSE" }
@@ -73,6 +73,11 @@ Pod::Spec.new do |s|
   s.subspec 'VOKAlertHelper' do |ss|
     ss.platform = :ios
     ss.source_files = 'Pod/VOKAlertHelper/*.{h,m}'
+  end
+
+  s.subspec 'VOKNavigationHelper' do |ss|
+    ss.platform = :ios
+    ss.source_files = 'Pod/VOKNavigationHelper/*.{h,m}'
   end
   
 end
