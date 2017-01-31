@@ -9,7 +9,7 @@ Assorted category and utility classes for iDevelopment.  Licensed under [MIT Lic
 
 VOKUtilities requires Xcode 7 or higher.
 
-This pod is comprised of multiple standalone subspecs that each provide some narrow functionality. Rather than using the parent `VOKUtilities` pod in your Podfile, you should choose only the subspecs you need. All of these are available for iOS, and some subspecs are also available on OS X and tvOS platforms.  See the [podspec file](VOKUtilities.podspec) for specifics.
+This pod is comprised of multiple standalone subspecs that each provide some narrow functionality. Rather than using the parent `VOKUtilities` pod in your Podfile, you should choose only the subspecs you need. All of these are available for iOS, and some subspecs are also available on macOS and tvOS platforms.  See the [podspec file](VOKUtilities.podspec) for specifics.
 
 The available subspecs are listed below, in alphabetical order.
 
