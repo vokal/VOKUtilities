@@ -75,3 +75,4 @@ This header file is for exposing existing framework properties to interface buil
 Macros to help with keys and key paths with compile-time checking.
 
 ## VOKNavigationHelper
+This class provides a method to replace the root view controller of the application's window using provided animation options. Some convenienve methods are also included to simplify calls.
