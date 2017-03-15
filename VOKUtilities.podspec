@@ -37,25 +37,25 @@ Pod::Spec.new do |s|
   
   #UIKit specs:
   s.subspec 'UIColor+VOKAL' do |ss|
-    ss.ios.deployment_target = "7.0"
+    ss.ios.deployment_target = "8.0"
     ss.tvos.deployment_target = "9.0"
     ss.source_files = 'Pod/UIColor+VOKAL/*.{h,m}'
   end
   
   s.subspec 'VOKIBHelpers' do |ss|
-    ss.ios.deployment_target = "7.0"
+    ss.ios.deployment_target = "8.0"
     ss.tvos.deployment_target = "9.0"
     ss.source_files = 'Pod/VOKIBHelpers/*.{h,m}'
   end
 
   s.subspec 'UIView+VOKDebug' do |ss|
-    ss.ios.deployment_target = "7.0"
+    ss.ios.deployment_target = "8.0"
     ss.tvos.deployment_target = "9.0"
     ss.source_files = 'Pod/UIView+VOKDebug/*.{h,m}'
   end
   
   s.subspec 'UIView+VOKCircle' do |ss| 
-    ss.ios.deployment_target = "7.0"
+    ss.ios.deployment_target = "8.0"
     ss.tvos.deployment_target = "9.0"
     ss.source_files = 'Pod/UIView+VOKCircle/*.{h,m}'
   end
