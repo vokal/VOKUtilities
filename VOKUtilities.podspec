@@ -39,6 +39,9 @@ Pod::Spec.new do |s|
   s.subspec 'UIColor+VOKAL' do |ss|
     ss.ios.deployment_target = "8.0"
     ss.tvos.deployment_target = "9.0"
+    
+    #most of the rest of UIKit isn't available on the watch, but UIColor is.
+    ss.watchos.deployment_target = "3.0" 
     ss.source_files = 'Pod/UIColor+VOKAL/*.{h,m}'
   end
   
