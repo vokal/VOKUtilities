@@ -1,6 +1,6 @@
 {
   "name": "VOKUtilities",
-  "version": "1.0.0",
+  "version": "0.11.0",
   "summary": "Assorted category and utility classes for iDevelopment",
   "homepage": "https://github.com/vokal/VOKUtilities",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/vokal/VOKUtilities.git",
-    "tag": "1.0.0"
+    "tag": "0.11.0"
   },
   "platforms": {
     "ios": "8.0",
@@ -46,7 +46,8 @@
       "name": "UIColor+VOKAL",
       "platforms": {
         "ios": "8.0",
-        "tvos": "9.0"
+        "tvos": "9.0",
+        "watchos": "3.0"
       },
       "source_files": "Pod/UIColor+VOKAL/*.{h,m}"
     },
