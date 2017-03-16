@@ -1,6 +1,6 @@
 {
   "name": "VOKUtilities",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "summary": "Assorted category and utility classes for iDevelopment",
   "homepage": "https://github.com/vokal/VOKUtilities",
   "license": {
@@ -12,12 +12,13 @@
   },
   "source": {
     "git": "https://github.com/vokal/VOKUtilities.git",
-    "tag": "0.10.0"
+    "tag": "0.11.0"
   },
   "platforms": {
-    "ios": "7.0",
+    "ios": "8.0",
     "tvos": "9.0",
-    "osx": "10.9"
+    "osx": "10.9",
+    "watchos": "3.0"
   },
   "requires_arc": true,
   "subspecs": [
@@ -44,15 +45,16 @@
     {
       "name": "UIColor+VOKAL",
       "platforms": {
-        "ios": "7.0",
-        "tvos": "9.0"
+        "ios": "8.0",
+        "tvos": "9.0",
+        "watchos": "3.0"
       },
       "source_files": "Pod/UIColor+VOKAL/*.{h,m}"
     },
     {
       "name": "VOKIBHelpers",
       "platforms": {
-        "ios": "7.0",
+        "ios": "8.0",
         "tvos": "9.0"
       },
       "source_files": "Pod/VOKIBHelpers/*.{h,m}"
@@ -60,7 +62,7 @@
     {
       "name": "UIView+VOKDebug",
       "platforms": {
-        "ios": "7.0",
+        "ios": "8.0",
         "tvos": "9.0"
       },
       "source_files": "Pod/UIView+VOKDebug/*.{h,m}"
@@ -68,7 +70,7 @@
     {
       "name": "UIView+VOKCircle",
       "platforms": {
-        "ios": "7.0",
+        "ios": "8.0",
         "tvos": "9.0"
       },
       "source_files": "Pod/UIView+VOKCircle/*.{h,m}"
@@ -76,28 +78,28 @@
     {
       "name": "UIViewController+VOKKeyboard",
       "platforms": {
-        "ios": "7.0"
+        "ios": "8.0"
       },
       "source_files": "Pod/UIViewController+VOKKeyboard/*.{h,m}"
     },
     {
       "name": "VOKEmailHelper",
       "platforms": {
-        "ios": "7.0"
+        "ios": "8.0"
       },
       "source_files": "Pod/VOKEmailHelper/*.{h,m}"
     },
     {
       "name": "VOKAlertHelper",
       "platforms": {
-        "ios": "7.0"
+        "ios": "8.0"
       },
       "source_files": "Pod/VOKAlertHelper/*.{h,m}"
     },
     {
       "name": "VOKNavigationHelper",
       "platforms": {
-        "ios": "7.0"
+        "ios": "8.0"
       },
       "source_files": "Pod/VOKNavigationHelper/*.{h,m}"
     }

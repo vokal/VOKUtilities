@@ -31,3 +31,8 @@ target 'VOKUtilities-OSX' do
   target 'Tests-OSX' do
   end
 end
+
+target 'VOKUtilities-watchOS Extension' do
+    platform :watchos, '3.0'
+    utilities_pod
+end

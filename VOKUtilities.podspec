@@ -1,15 +1,16 @@
 Pod::Spec.new do |s|
   s.name             = "VOKUtilities"
-  s.version          = "0.10.1"
+  s.version          = "0.11.0"
   s.summary          = "Assorted category and utility classes for iDevelopment"
   s.homepage         = "https://github.com/vokal/VOKUtilities"
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { "Vokal" => "ios@vokal.io" }
   s.source           = { :git => "https://github.com/vokal/VOKUtilities.git", :tag => s.version.to_s }
 
-  s.ios.deployment_target = "7.0"
+  s.ios.deployment_target = "8.0"
   s.tvos.deployment_target = "9.0"
   s.osx.deployment_target = "10.9"
+  s.watchos.deployment_target = "3.0"
   s.requires_arc     = true
 
 
@@ -36,25 +37,28 @@ Pod::Spec.new do |s|
   
   #UIKit specs:
   s.subspec 'UIColor+VOKAL' do |ss|
-    ss.ios.deployment_target = "7.0"
+    ss.ios.deployment_target = "8.0"
     ss.tvos.deployment_target = "9.0"
+    
+    # most of the rest of UIKit isn't available on the watch, but UIColor is.
+    ss.watchos.deployment_target = "3.0" 
     ss.source_files = 'Pod/UIColor+VOKAL/*.{h,m}'
   end
   
   s.subspec 'VOKIBHelpers' do |ss|
-    ss.ios.deployment_target = "7.0"
+    ss.ios.deployment_target = "8.0"
     ss.tvos.deployment_target = "9.0"
     ss.source_files = 'Pod/VOKIBHelpers/*.{h,m}'
   end
 
   s.subspec 'UIView+VOKDebug' do |ss|
-    ss.ios.deployment_target = "7.0"
+    ss.ios.deployment_target = "8.0"
     ss.tvos.deployment_target = "9.0"
     ss.source_files = 'Pod/UIView+VOKDebug/*.{h,m}'
   end
   
   s.subspec 'UIView+VOKCircle' do |ss| 
-    ss.ios.deployment_target = "7.0"
+    ss.ios.deployment_target = "8.0"
     ss.tvos.deployment_target = "9.0"
     ss.source_files = 'Pod/UIView+VOKCircle/*.{h,m}'
   end

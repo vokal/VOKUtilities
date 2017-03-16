@@ -5,7 +5,7 @@ env:
     - SCAN_WORKSPACE="Example/VOKUtilities.xcworkspace"
   matrix:
     # Define the details for each test suite that should be run
-    - SCAN_SCHEME="VOKUtilities-Example" SCAN_SDK="iphonesimulator"
+    - SCAN_SCHEME="VOKUtilities-Example" 
     - SCAN_SCHEME="VOKUtilities-tvOS"    SCAN_SDK="appletvsimulator"
     - SCAN_SCHEME="VOKUtilities-OSX"     SCAN_SDK="macosx"
 script:

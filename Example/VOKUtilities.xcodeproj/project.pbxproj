@@ -11,6 +11,7 @@
 		0529F65AEC801852D6EC3E948E7D2EAC /* NSCalendar_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B3EC1E9A081DFD3E84F73606C4FFF9 /* NSCalendar_VOKAL_Tests.m */; };
 		0B8ED12CD8AF9F9763B3643D73D46DB5 /* libPods-VOKUtilities-tvOS-Tests-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F01D609ECF7FC23D60D5D99476C930 /* libPods-VOKUtilities-tvOS-Tests-tvOS.a */; };
 		164906665CBA68AAC2384170975E05AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA936DC1D941D75B58380CDE427BEB2A /* main.m */; };
+		216D206523C13A7775CE25E2ED058625 /* VOKUtilities-watchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F1748634007EEA6C5AF818F8C3B34F2B /* VOKUtilities-watchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		250859DE7206E0781673C92BAF8FD500 /* NSPredicate_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FEE28427C1277C3D9CD5B1716EF9FF /* NSPredicate_VOKAL_Tests.m */; };
 		29A196E01DFE523E7440EAAE760233F3 /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C931322F94DB48A1D1591FC9C2A954E /* First.storyboard */; };
 		2C9B92D12A58F3CF7C559224EED1DC0C /* NSNumberFormatter_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FDD4E0D337F3AC5A11511F64396B2B /* NSNumberFormatter_VOKAL_Tests.m */; };
@@ -19,6 +20,7 @@
 		3184FF096E7294079F3D24F6E46A89BB /* UIView_VOKDebug_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD0E90C9086C74B623837E86F8893F3 /* UIView_VOKDebug_Tests.m */; };
 		32F25DEE7B5E76F4C3DB4E8C96208710 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120F654AF5DE8F532A09C168F72D2F0A /* ViewController.m */; };
 		37638418B39D8A1FFC9BF2568375E1FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB086D8F4109A2A2A6C66784212DADD1 /* AppDelegate.m */; };
+		3C6212ED933ABD6FD775F990DDDECF38 /* VOKUtilities-watchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 11A36D4228F2EBCEE3578CA009426401 /* VOKUtilities-watchOS.app */; };
 		3EFA9339B89C87119C873EFB476B6ED3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135B1F314C9ADE2AFE962AC23EF4E680 /* UIKit.framework */; };
 		40F952AA033F761173EDDC80E881A223 /* libPods-VOKUtilities-OSX-Tests-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B2FF42B0073883959676E05CF20383 /* libPods-VOKUtilities-OSX-Tests-OSX.a */; };
 		4A53F6ECB4903343320425802676EC2A /* NSString_VOKValidation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D5FDE7C6A774D4D63BE08861719979 /* NSString_VOKValidation_Tests.m */; };
@@ -40,21 +42,27 @@
 		7C8A1CF4A40E824A26A90DDD7F428BB4 /* NSPredicate_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FEE28427C1277C3D9CD5B1716EF9FF /* NSPredicate_VOKAL_Tests.m */; };
 		83F9FBB51AE06D5C4B74D5793F51D3B2 /* UIViewController_VOKKeyboard_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D80FCEB83D06907EEECCB4E59E640343 /* UIViewController_VOKKeyboard_Tests.m */; };
 		85883CF6A2710A9D37414606C4EE4B78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5707297BB8525593A9C9D65D6E6B900 /* main.m */; };
+		88B6A55D1DE41586FB8DEF1323EDE839 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4398514A99A7240965FBDA9627FD43 /* ExtensionDelegate.m */; };
 		93399C2AF001CC7CA820506A591F99C6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1414AF7F8D2543DF6DA238BB32F258E2 /* XCTest.framework */; };
+		A0B8F9231D209C27763CFEEF80AD632A /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2014524F61656C2D8929927C8F65CD6 /* InterfaceController.m */; };
 		A3BD758D681FFFE094FDDE68E20392C3 /* NSPredicate_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FEE28427C1277C3D9CD5B1716EF9FF /* NSPredicate_VOKAL_Tests.m */; };
 		A922AB203650A638CF03E178468CEE4A /* NSString_VOKValidation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D5FDE7C6A774D4D63BE08861719979 /* NSString_VOKValidation_Tests.m */; };
 		AAF74A2E8F360E378FF73CF0BF75D32B /* libPods-VOKUtilities-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9DDFCBEA320D0945D876D8EFA0E454 /* libPods-VOKUtilities-tvOS.a */; };
 		B055004A95DAD2F86284B6A148CC464A /* UIView_VOKDebug_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD0E90C9086C74B623837E86F8893F3 /* UIView_VOKDebug_Tests.m */; };
+		B0823CDD4A490A67728605FEC01C1E56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 021442BF4D397136DCAD730E54FB3023 /* Assets.xcassets */; };
 		B18A990492A13281338DF7AFE25FFF86 /* VOKNavigationHelper_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF1E1983B777FDCA208B3A8AED7561 /* VOKNavigationHelper_UITests.m */; };
 		B4BA3EB758FEF3216A1C13ABF18B546F /* UIView_VOKCircle_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7204D657702E967C62E84EB3DDE5E9C5 /* UIView_VOKCircle_Tests.m */; };
 		B80649E6539B2AEC765DE7F59A3D8B58 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8428880378805CF08926FAB186DEAA7D /* Launch Screen.xib */; };
+		BE5EE44DA1E98DBBACD1068DA23D5F0E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D34C3747C09D47E6A71CC0AACA6A8A /* Interface.storyboard */; };
 		C08E9D824FDDFD8FF2FA9A2DD46B8207 /* libPods-VOKUtilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7654C9915A23CC1C724E5817757D9CD2 /* libPods-VOKUtilities.a */; };
+		C56D80C9A42D0EB571581257A6DF88BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1246ACDF15685B4EAF629290A496AA1 /* Assets.xcassets */; };
 		C68F32857F07A8C4386D1DD3C8C6194D /* UIView_VOKCircle_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7204D657702E967C62E84EB3DDE5E9C5 /* UIView_VOKCircle_Tests.m */; };
 		C7AEC7FAC5DF5050C23E14EB3F0B1660 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135B1F314C9ADE2AFE962AC23EF4E680 /* UIKit.framework */; };
 		CB8BA1879BF2D6442AD602BE6DEBE3F3 /* libPods-VOKUtilities-UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2672D8C9487E58B8556A9E76913F3856 /* libPods-VOKUtilities-UITests.a */; };
 		CE81964C6E11C5CC61343780ACE5D50B /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AB01577E64C958FC240CE2E4BCE683 /* AnotherViewController.m */; };
 		E18633348D706743144B98222999CB4A /* NSNumberFormatter_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FDD4E0D337F3AC5A11511F64396B2B /* NSNumberFormatter_VOKAL_Tests.m */; };
 		E1E41020DCE2111E07532B53A02762F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64A536D2BECDE1E3C9125554D817D3DA /* InfoPlist.strings */; };
+		E3DD410F86AC0C9EAEA2C6FD39F32796 /* libPods-VOKUtilities-watchOS Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5129D7DAEA596DF6F813289D0E58737C /* libPods-VOKUtilities-watchOS Extension.a */; };
 		ECA11D82737DF4A99D60E235A24329D0 /* NSString_VOKValidation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D5FDE7C6A774D4D63BE08861719979 /* NSString_VOKValidation_Tests.m */; };
 		EE25B0317ACE82806F29E87895EBEEC9 /* UIColor_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3B7342011ECC58611A62CD7DDEE16 /* UIColor_VOKAL_Tests.m */; };
 		F2CD18DB49E94FBBD39CE1CD73E2F842 /* NSCalendar_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B3EC1E9A081DFD3E84F73606C4FFF9 /* NSCalendar_VOKAL_Tests.m */; };
@@ -68,6 +76,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 7CA3933B530891BE88AE9AC6A9D3D26D;
 			remoteInfo = VOKUtilities;
+		};
+		CC1C934B26FB265CAD60C5561DA791E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 173BA12A6A91E5EE6D4AE6F03810A4CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D4A4E86C0AA7CF51F27F6B4879C857B;
+			remoteInfo = "VOKUtilities-watchOS Extension";
+		};
+		3F973051C036EBDC14B0EA24D979F29E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 173BA12A6A91E5EE6D4AE6F03810A4CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 286BCC591584ADAF0020C6FBF221D00E;
+			remoteInfo = "VOKUtilities-watchOS";
 		};
 		CF03491C9BEEA99CB187E25061D2274C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -86,6 +108,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		B944BAAC4F4406C533B1A9DEF0C92C35 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				216D206523C13A7775CE25E2ED058625 /* VOKUtilities-watchOS Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B637E829DB2A4F5131A2C43E7DBF3E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3C6212ED933ABD6FD775F990DDDECF38 /* VOKUtilities-watchOS.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3D78611DF0EE4434036FDE647E950572 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -98,15 +142,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		021442BF4D397136DCAD730E54FB3023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0239E8D9B313DFB2386AC62A961CA172 /* VOKUtilities-OSX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "VOKUtilities-OSX"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03CABECBDA7E21B068191A9B3BF4C1F1 /* libPods-VOKUtilities-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOKUtilities-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06CC4F454A8ABD3FDE282DA9D1A2A0A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		076E5FF7CC6BCA912E463E33D107B99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09FEE28427C1277C3D9CD5B1716EF9FF /* NSPredicate_VOKAL_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSPredicate_VOKAL_Tests.m; sourceTree = "<group>"; };
+		11A36D4228F2EBCEE3578CA009426401 /* VOKUtilities-watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VOKUtilities-watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F5E0180B9240FD939BD8DF293E67E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		120F654AF5DE8F532A09C168F72D2F0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		135B1F314C9ADE2AFE962AC23EF4E680 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1414AF7F8D2543DF6DA238BB32F258E2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1793E1B80CD837881D3C8BB838C43626 /* VOKUtilities.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VOKUtilities.podspec; path = ../VOKUtilities.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1BD5DBA90601BA799C6E670784F74CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		1F88E78D868C63542B448F2AD800774C /* Pods-VOKUtilities-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-tvOS/Pods-VOKUtilities-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		208068955258414E6A43799EE974CEBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20BE48FF7B95B870F262A31BF373054E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -115,14 +163,18 @@
 		2672D8C9487E58B8556A9E76913F3856 /* libPods-VOKUtilities-UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOKUtilities-UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC4DD219F598B789ADD6A95BE6F0CBC /* Tests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BEDCE992688B1AD9DC1B29BE1A4110F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3231190F7A282B486196431662480034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34162771EE911347CD85AE181E8B33FF /* libPods-UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34864754358EBA07330BFA2A4366A3C0 /* Pods-VOKUtilities-OSX-Tests-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-OSX-Tests-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-OSX-Tests-OSX/Pods-VOKUtilities-OSX-Tests-OSX.release.xcconfig"; sourceTree = "<group>"; };
 		34B3FCD9C5060F07079FD94C9F480641 /* Pods-VOKUtilities-UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-UITests/Pods-VOKUtilities-UITests.release.xcconfig"; sourceTree = "<group>"; };
+		38621B8D501F617C329E5574FCD2C5D3 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
 		38D5FDE7C6A774D4D63BE08861719979 /* NSString_VOKValidation_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_VOKValidation_Tests.m; sourceTree = "<group>"; };
 		3B3A6408D5B0B0128224984F32B569EF /* libPods-Tests-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41300325A877D2E149E0FEB2DEF80906 /* Pods-VOKUtilities-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-tvOS/Pods-VOKUtilities-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		4FB1A1804D66D20509D274DFEBC1CB6D /* VOKUtilities-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VOKUtilities-Info.plist"; sourceTree = "<group>"; };
 		506CB71E7E56BC59F748CEB8F93D5CB5 /* VOKUtilities-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VOKUtilities-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C85F88B03E92D72BF689F85440E5D6 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		5129D7DAEA596DF6F813289D0E58737C /* libPods-VOKUtilities-watchOS Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOKUtilities-watchOS Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51BDC109343039C79604575A3960E060 /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F01D609ECF7FC23D60D5D99476C930 /* libPods-VOKUtilities-tvOS-Tests-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOKUtilities-tvOS-Tests-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A622A81D619649F75DDE2EE6CEFF36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -150,12 +202,17 @@
 		9F5FD5F942C7D939FB8F5800EB3C0854 /* libPods-VOKUtilities-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOKUtilities-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD0E90C9086C74B623837E86F8893F3 /* UIView_VOKDebug_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_VOKDebug_Tests.m; sourceTree = "<group>"; };
 		A1B2FF42B0073883959676E05CF20383 /* libPods-VOKUtilities-OSX-Tests-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOKUtilities-OSX-Tests-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2014524F61656C2D8929927C8F65CD6 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
 		A994C16B7246E172908D4DC8954B9B85 /* VOKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VOKAppDelegate.m; sourceTree = "<group>"; };
 		AA936DC1D941D75B58380CDE427BEB2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB96D2EBEB93B0A068A81DB7FB0AC91C /* Pods-VOKUtilities-watchOS Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-watchOS Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-watchOS Extension/Pods-VOKUtilities-watchOS Extension.release.xcconfig"; sourceTree = "<group>"; };
+		AC4398514A99A7240965FBDA9627FD43 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
 		AF2F72FFF4E1589EB05D34C3165267EE /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		B1246ACDF15685B4EAF629290A496AA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3A2D7D14F627BD4E168827BA17DB1D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B4316EB70BC4FACE65D71C10EBE4A754 /* Pods-VOKUtilities-tvOS-Tests-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-tvOS-Tests-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-tvOS-Tests-tvOS/Pods-VOKUtilities-tvOS-Tests-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		B4C7A685419F98B8CF77C1826CE7EDC2 /* Second.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+		B812E280F0826A6B74E1DFA2A8DC2A28 /* Pods-VOKUtilities-watchOS Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-watchOS Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-watchOS Extension/Pods-VOKUtilities-watchOS Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		BB086D8F4109A2A2A6C66784212DADD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BCF5D613930EC4457F251AE98727FAF5 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		C082F262B8772102EF995F8F737B31C0 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
@@ -173,6 +230,7 @@
 		EBAA229BD093805D0AF071C4207442C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EC567129692943AF031477472C20E99D /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF36D46E43717DA75A14A173A965547F /* Pods-VOKUtilities-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-Tests/Pods-VOKUtilities-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F1748634007EEA6C5AF818F8C3B34F2B /* VOKUtilities-watchOS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "VOKUtilities-watchOS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F70EC628505DE650B5BA42383B1F08D1 /* Tests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AF1E1983B777FDCA208B3A8AED7561 /* VOKNavigationHelper_UITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOKNavigationHelper_UITests.m; sourceTree = "<group>"; };
 		FA8AEB46740D689AD3F96AF62A4A2206 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -180,6 +238,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6627AD1E0930F144252B75C4D0C9AEC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3DD410F86AC0C9EAEA2C6FD39F32796 /* libPods-VOKUtilities-watchOS Extension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		69E7E0CDEF78188FAC070AFA350D372B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -193,6 +259,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				587E9CC2D7350ED52484C90B1AB4337C /* libPods-VOKUtilities-OSX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688C336EF850E0E39330223A8E6DFC48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +318,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E2CACD44BBB2E3B86E4C664DD488A8FB /* VOKUtilities-watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				021442BF4D397136DCAD730E54FB3023 /* Assets.xcassets */,
+				3231190F7A282B486196431662480034 /* Info.plist */,
+				98D34C3747C09D47E6A71CC0AACA6A8A /* Interface.storyboard */,
+			);
+			path = "VOKUtilities-watchOS";
+			sourceTree = "<group>";
+		};
+		73E4C8E52185A29044161365788F4EB6 /* VOKUtilities-watchOS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B1246ACDF15685B4EAF629290A496AA1 /* Assets.xcassets */,
+				50C85F88B03E92D72BF689F85440E5D6 /* ExtensionDelegate.h */,
+				AC4398514A99A7240965FBDA9627FD43 /* ExtensionDelegate.m */,
+				076E5FF7CC6BCA912E463E33D107B99F /* Info.plist */,
+				38621B8D501F617C329E5574FCD2C5D3 /* InterfaceController.h */,
+				A2014524F61656C2D8929927C8F65CD6 /* InterfaceController.m */,
+			);
+			path = "VOKUtilities-watchOS Extension";
+			sourceTree = "<group>";
+		};
 		35E9562459EA25E89DEC85EE8D284E1F /* VOKUtilities-tvOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -285,6 +381,8 @@
 				EC567129692943AF031477472C20E99D /* Tests.xctest */,
 				51BDC109343039C79604575A3960E060 /* UITests.xctest */,
 				506CB71E7E56BC59F748CEB8F93D5CB5 /* VOKUtilities-tvOS.app */,
+				F1748634007EEA6C5AF818F8C3B34F2B /* VOKUtilities-watchOS Extension.appex */,
+				11A36D4228F2EBCEE3578CA009426401 /* VOKUtilities-watchOS.app */,
 				663FC58F7A0062944780CF838603620B /* VOKUtilities.app */,
 			);
 			name = Products;
@@ -326,6 +424,7 @@
 				2672D8C9487E58B8556A9E76913F3856 /* libPods-VOKUtilities-UITests.a */,
 				51F01D609ECF7FC23D60D5D99476C930 /* libPods-VOKUtilities-tvOS-Tests-tvOS.a */,
 				9B9DDFCBEA320D0945D876D8EFA0E454 /* libPods-VOKUtilities-tvOS.a */,
+				5129D7DAEA596DF6F813289D0E58737C /* libPods-VOKUtilities-watchOS Extension.a */,
 				7654C9915A23CC1C724E5817757D9CD2 /* libPods-VOKUtilities.a */,
 			);
 			name = Frameworks;
@@ -367,6 +466,8 @@
 				F2C1E16840103910EB8E35DEEF50D8D6 /* VOKUtilities */,
 				A0AA25F7358F80BA78EF4B1C53F81E90 /* VOKUtilities-OSX */,
 				35E9562459EA25E89DEC85EE8D284E1F /* VOKUtilities-tvOS */,
+				E2CACD44BBB2E3B86E4C664DD488A8FB /* VOKUtilities-watchOS */,
+				73E4C8E52185A29044161365788F4EB6 /* VOKUtilities-watchOS Extension */,
 			);
 			sourceTree = "<group>";
 		};
@@ -385,6 +486,8 @@
 				95D338A52C82D3F4950BF51B71E2BE73 /* Pods-VOKUtilities-tvOS-Tests-tvOS.release.xcconfig */,
 				1F88E78D868C63542B448F2AD800774C /* Pods-VOKUtilities-tvOS.debug.xcconfig */,
 				41300325A877D2E149E0FEB2DEF80906 /* Pods-VOKUtilities-tvOS.release.xcconfig */,
+				B812E280F0826A6B74E1DFA2A8DC2A28 /* Pods-VOKUtilities-watchOS Extension.debug.xcconfig */,
+				AB96D2EBEB93B0A068A81DB7FB0AC91C /* Pods-VOKUtilities-watchOS Extension.release.xcconfig */,
 				5D203223FC626726A02E9E3A9BB0A85F /* Pods-VOKUtilities.debug.xcconfig */,
 				7DD33C4D0624B360DF55B4A0B66A5465 /* Pods-VOKUtilities.release.xcconfig */,
 			);
@@ -502,6 +605,44 @@
 			productReference = 506CB71E7E56BC59F748CEB8F93D5CB5 /* VOKUtilities-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
+		286BCC591584ADAF0020C6FBF221D00E /* VOKUtilities-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27EA9BE6BF2AA1BA543BAA9044CF9568 /* Build configuration list for PBXNativeTarget "VOKUtilities-watchOS" */;
+			buildPhases = (
+				A75C77471EB2E302405EB006016B03DC /* Resources */,
+				B944BAAC4F4406C533B1A9DEF0C92C35 /* Embed App Extensions */,
+				688C336EF850E0E39330223A8E6DFC48 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				863A50C10477DA2959641AF961F0ADE5 /* PBXTargetDependency */,
+			);
+			name = "VOKUtilities-watchOS";
+			productName = "VOKUtilities-watchOS";
+			productReference = 11A36D4228F2EBCEE3578CA009426401 /* VOKUtilities-watchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8D4A4E86C0AA7CF51F27F6B4879C857B /* VOKUtilities-watchOS Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FAFE1BE9F4B7EB330B32C86F9D0FFCC /* Build configuration list for PBXNativeTarget "VOKUtilities-watchOS Extension" */;
+			buildPhases = (
+				020CF5FA3589B05C0656D74FFDBC2755 /* [CP] Check Pods Manifest.lock */,
+				FA33137D11D89208DFBDE99829117224 /* Sources */,
+				6627AD1E0930F144252B75C4D0C9AEC4 /* Frameworks */,
+				A7DD722A2547BF8DF2951FCE7AF43E5C /* Resources */,
+				E58BB47E0A600AC1C8F3FCB5D921717A /* [CP] Embed Pods Frameworks */,
+				9E26D8823074901D1C1FB405E6299D00 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VOKUtilities-watchOS Extension";
+			productName = "VOKUtilities-watchOS Extension";
+			productReference = F1748634007EEA6C5AF818F8C3B34F2B /* VOKUtilities-watchOS Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		77AEA97F928530117E076CB03353ECCC /* Tests-OSX */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D57E1C23BBDFD20A6C5171E7FDAA6BAD /* Build configuration list for PBXNativeTarget "Tests-OSX" */;
@@ -553,10 +694,12 @@
 				15A27A23ED62A0BA11F8DB5E62DB2905 /* Resources */,
 				BC5188D4E235F708D01AE7F061C3A46A /* [CP] Copy Pods Resources */,
 				3A751D011FD8167E6F1BEC664909F654 /* [CP] Embed Pods Frameworks */,
+				91B637E829DB2A4F5131A2C43E7DBF3E /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DD5156B632AA47FE443C6F457947D0E6 /* PBXTargetDependency */,
 			);
 			name = VOKUtilities;
 			productName = VOKUtilities;
@@ -610,7 +753,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = "";
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Vokal;
 				TargetAttributes = {
 					0FE8AE4C42948F6E01DD688F1190501D = {
@@ -619,6 +762,15 @@
 					};
 					2592C00B66F969978BF043B7BEB434FA = {
 						CreatedOnToolsVersion = 7.2.1;
+					};
+					286BCC591584ADAF0020C6FBF221D00E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					8D4A4E86C0AA7CF51F27F6B4879C857B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4U392EMNT3;
+						ProvisioningStyle = Automatic;
 					};
 					77AEA97F928530117E076CB03353ECCC = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -655,6 +807,8 @@
 				0FE8AE4C42948F6E01DD688F1190501D /* UITests */,
 				77AEA97F928530117E076CB03353ECCC /* Tests-OSX */,
 				7B54E520894719930E76479C803DDF4B /* Tests-tvOS */,
+				286BCC591584ADAF0020C6FBF221D00E /* VOKUtilities-watchOS */,
+				8D4A4E86C0AA7CF51F27F6B4879C857B /* VOKUtilities-watchOS Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -677,6 +831,23 @@
 			files = (
 				5D29FBAAC2372A2B7E30036A57D4D9AF /* Assets.xcassets in Resources */,
 				638EF0F70C3449A50D7699D2048E4388 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75C77471EB2E302405EB006016B03DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0823CDD4A490A67728605FEC01C1E56 /* Assets.xcassets in Resources */,
+				BE5EE44DA1E98DBBACD1068DA23D5F0E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DD722A2547BF8DF2951FCE7AF43E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56D80C9A42D0EB571581257A6DF88BE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -712,6 +883,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		9E26D8823074901D1C1FB405E6299D00 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-watchOS Extension/Pods-VOKUtilities-watchOS Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		0EF3B3C34347072DE1499A09D16A6566 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -860,6 +1046,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-UITests/Pods-VOKUtilities-UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E58BB47E0A600AC1C8F3FCB5D921717A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-watchOS Extension/Pods-VOKUtilities-watchOS Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		020CF5FA3589B05C0656D74FFDBC2755 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		9FE70BAE0CC32593290CA95CAA890959 /* [CP] Check Pods Manifest.lock */ = {
@@ -1045,6 +1261,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA33137D11D89208DFBDE99829117224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B6A55D1DE41586FB8DEF1323EDE839 /* ExtensionDelegate.m in Sources */,
+				A0B8F9231D209C27763CFEEF80AD632A /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3C9F4F73FE82C5566F481A3DC0357EB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1109,6 +1334,16 @@
 			target = 7CA3933B530891BE88AE9AC6A9D3D26D /* VOKUtilities */;
 			targetProxy = 031B162111CEB883B0F2C02C277BE615 /* PBXContainerItemProxy */;
 		};
+		863A50C10477DA2959641AF961F0ADE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D4A4E86C0AA7CF51F27F6B4879C857B /* VOKUtilities-watchOS Extension */;
+			targetProxy = CC1C934B26FB265CAD60C5561DA791E3 /* PBXContainerItemProxy */;
+		};
+		DD5156B632AA47FE443C6F457947D0E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 286BCC591584ADAF0020C6FBF221D00E /* VOKUtilities-watchOS */;
+			targetProxy = 3F973051C036EBDC14B0EA24D979F29E /* PBXContainerItemProxy */;
+		};
 		412E8842E7B04E94C191E6A84F8AD71C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7CA3933B530891BE88AE9AC6A9D3D26D /* VOKUtilities */;
@@ -1133,6 +1368,14 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		98D34C3747C09D47E6A71CC0AACA6A8A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BD5DBA90601BA799C6E670784F74CC3 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		64A536D2BECDE1E3C9125554D817D3DA /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1144,6 +1387,108 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		50BA695641EB1F994A4C346DB6C6FD86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IBSC_MODULE = VOKUtilities_watchOS_Extension;
+				INFOPLIST_FILE = "VOKUtilities-watchOS/Info.plist";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.VOKUtilities.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		EB11DB5708438C4BB448029BF30A52E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IBSC_MODULE = VOKUtilities_watchOS_Extension;
+				INFOPLIST_FILE = "VOKUtilities-watchOS/Info.plist";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.VOKUtilities.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		0E879CD0931B02DC48F3CD6F3450C8A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B812E280F0826A6B74E1DFA2A8DC2A28 /* Pods-VOKUtilities-watchOS Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4U392EMNT3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "VOKUtilities-watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.VOKUtilities.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		D76713A8C20619BA4B8CABDC9CCEF245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB96D2EBEB93B0A068A81DB7FB0AC91C /* Pods-VOKUtilities-watchOS Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4U392EMNT3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "VOKUtilities-watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.VOKUtilities.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
 		4250A58A881F3C7053DDCE40E24CE053 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CE4310B3DAC4174D0A7C1B07A16E3558 /* Pods-VOKUtilities-UITests.debug.xcconfig */;
@@ -1277,14 +1622,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1297,7 +1647,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1410,20 +1760,25 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -1515,6 +1870,24 @@
 			buildConfigurations = (
 				6EA2DCD1A45352D97F717AC5F27C4730 /* Debug */,
 				604F053811187E1770F866C595E2B5D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FAFE1BE9F4B7EB330B32C86F9D0FFCC /* Build configuration list for PBXNativeTarget "VOKUtilities-watchOS Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E879CD0931B02DC48F3CD6F3450C8A3 /* Debug */,
+				D76713A8C20619BA4B8CABDC9CCEF245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27EA9BE6BF2AA1BA543BAA9044CF9568 /* Build configuration list for PBXNativeTarget "VOKUtilities-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50BA695641EB1F994A4C346DB6C6FD86 /* Debug */,
+				EB11DB5708438C4BB448029BF30A52E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
