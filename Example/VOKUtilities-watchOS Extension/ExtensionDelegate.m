@@ -13,12 +13,14 @@
 #import <VOKUtilities/NSString+VOKValidation.h>
 #import <VOKUtilities/NSPredicate+VOKAL.h>
 #import <VOKUtilities/NSNumberFormatter+VOKAL.h>
+#import <VOKUtilities/UIColor+VOKAL.h>
 
 @implementation ExtensionDelegate
 
 - (void)applicationDidFinishLaunching {
     
     //Make sure all core libs compile and can do stuff on a watch OS app
+    NSLog(@"Hex string for red: %@", [[UIColor redColor] vok_hexString]);
     
     //VOKKeyPathHelper
     VOKKeyForSelf(self);
