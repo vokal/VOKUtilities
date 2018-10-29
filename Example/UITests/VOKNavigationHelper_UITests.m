@@ -42,20 +42,4 @@ static NSString *SecondStoryboardLabelText = @"This is in the second storyboard"
     [tester waitForViewWithAccessibilityLabel:AnotherViewControllerLabelText];
 }
 
-- (void)testSlowMotionViewControllerReplacement
-{
-    XCTestExpectation *animationFinish = [self expectationWithDescription:@"Animation will finish"];
-    [VOKNavigationHelper clearExistingViewsAndAnimateToStoryboardNamed:@"First"
-                                                              duration:3
-                                                               options:UIViewAnimationOptionTransitionFlipFromLeft
-                                                            completion:^(BOOL finished) {
-                                                                [animationFinish fulfill];
-                                                            }];
-    // This test succeeds almost immediately, since the view controller is added to the hierarchy
-    // before the animation starts
-    [tester waitForViewWithAccessibilityLabel:FirstStoryboardLabelText];
-    // Wait for the animation to actually finish
-    [self waitForExpectationsWithTimeout:4 handler:nil];
-}
-
 @end
