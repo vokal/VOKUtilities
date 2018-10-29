@@ -22,7 +22,7 @@
     }
     
     // Helper block: execute the completion block (if there is one) on the main thread
-    void (^executeCompletionOnMainThread)() = ^void() {
+    void (^executeCompletionOnMainThread)(void) = ^void() {
         if (completion) {
             [[NSOperationQueue mainQueue] addOperationWithBlock:^{
                 completion(YES);
@@ -47,7 +47,7 @@
     }
     
     // Helper block: replace the root view controller, and animate the transition if desired
-    void (^switchToNewViewController)() = ^void() {
+    void (^switchToNewViewController)(void) = ^void() {
         appWindow.rootViewController = viewController;
         if (duration > 0 && snapshot != nil) {
             [appWindow addSubview:snapshot];
