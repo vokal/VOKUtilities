@@ -77,19 +77,19 @@
 			remoteGlobalIDString = 7CA3933B530891BE88AE9AC6A9D3D26D;
 			remoteInfo = VOKUtilities;
 		};
-		CC1C934B26FB265CAD60C5561DA791E3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 173BA12A6A91E5EE6D4AE6F03810A4CD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D4A4E86C0AA7CF51F27F6B4879C857B;
-			remoteInfo = "VOKUtilities-watchOS Extension";
-		};
 		3F973051C036EBDC14B0EA24D979F29E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 173BA12A6A91E5EE6D4AE6F03810A4CD /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 286BCC591584ADAF0020C6FBF221D00E;
 			remoteInfo = "VOKUtilities-watchOS";
+		};
+		CC1C934B26FB265CAD60C5561DA791E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 173BA12A6A91E5EE6D4AE6F03810A4CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D4A4E86C0AA7CF51F27F6B4879C857B;
+			remoteInfo = "VOKUtilities-watchOS Extension";
 		};
 		CF03491C9BEEA99CB187E25061D2274C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -108,16 +108,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B944BAAC4F4406C533B1A9DEF0C92C35 /* Embed App Extensions */ = {
+		3D78611DF0EE4434036FDE647E950572 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
 			files = (
-				216D206523C13A7775CE25E2ED058625 /* VOKUtilities-watchOS Extension.appex in Embed App Extensions */,
 			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 		91B637E829DB2A4F5131A2C43E7DBF3E /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -130,14 +128,16 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D78611DF0EE4434036FDE647E950572 /* CopyFiles */ = {
+		B944BAAC4F4406C533B1A9DEF0C92C35 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = "";
+			dstSubfolderSpec = 13;
 			files = (
+				216D206523C13A7775CE25E2ED058625 /* VOKUtilities-watchOS Extension.appex in Embed App Extensions */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -246,6 +246,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		688C336EF850E0E39330223A8E6DFC48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		69E7E0CDEF78188FAC070AFA350D372B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -259,13 +266,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				587E9CC2D7350ED52484C90B1AB4337C /* libPods-VOKUtilities-OSX.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		688C336EF850E0E39330223A8E6DFC48 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,29 +318,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E2CACD44BBB2E3B86E4C664DD488A8FB /* VOKUtilities-watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				021442BF4D397136DCAD730E54FB3023 /* Assets.xcassets */,
-				3231190F7A282B486196431662480034 /* Info.plist */,
-				98D34C3747C09D47E6A71CC0AACA6A8A /* Interface.storyboard */,
-			);
-			path = "VOKUtilities-watchOS";
-			sourceTree = "<group>";
-		};
-		73E4C8E52185A29044161365788F4EB6 /* VOKUtilities-watchOS Extension */ = {
-			isa = PBXGroup;
-			children = (
-				B1246ACDF15685B4EAF629290A496AA1 /* Assets.xcassets */,
-				50C85F88B03E92D72BF689F85440E5D6 /* ExtensionDelegate.h */,
-				AC4398514A99A7240965FBDA9627FD43 /* ExtensionDelegate.m */,
-				076E5FF7CC6BCA912E463E33D107B99F /* Info.plist */,
-				38621B8D501F617C329E5574FCD2C5D3 /* InterfaceController.h */,
-				A2014524F61656C2D8929927C8F65CD6 /* InterfaceController.m */,
-			);
-			path = "VOKUtilities-watchOS Extension";
-			sourceTree = "<group>";
-		};
 		35E9562459EA25E89DEC85EE8D284E1F /* VOKUtilities-tvOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -442,6 +419,19 @@
 			path = UITests;
 			sourceTree = "<group>";
 		};
+		73E4C8E52185A29044161365788F4EB6 /* VOKUtilities-watchOS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B1246ACDF15685B4EAF629290A496AA1 /* Assets.xcassets */,
+				50C85F88B03E92D72BF689F85440E5D6 /* ExtensionDelegate.h */,
+				AC4398514A99A7240965FBDA9627FD43 /* ExtensionDelegate.m */,
+				076E5FF7CC6BCA912E463E33D107B99F /* Info.plist */,
+				38621B8D501F617C329E5574FCD2C5D3 /* InterfaceController.h */,
+				A2014524F61656C2D8929927C8F65CD6 /* InterfaceController.m */,
+			);
+			path = "VOKUtilities-watchOS Extension";
+			sourceTree = "<group>";
+		};
 		7CC8F5330184AA24D1C85C4555CAD942 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -536,6 +526,16 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
+		E2CACD44BBB2E3B86E4C664DD488A8FB /* VOKUtilities-watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				021442BF4D397136DCAD730E54FB3023 /* Assets.xcassets */,
+				3231190F7A282B486196431662480034 /* Info.plist */,
+				98D34C3747C09D47E6A71CC0AACA6A8A /* Interface.storyboard */,
+			);
+			path = "VOKUtilities-watchOS";
+			sourceTree = "<group>";
+		};
 		ED870DB805325931554AE10382512E09 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
@@ -568,12 +568,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 450E9E4E97A28F431103DD991FBBED0C /* Build configuration list for PBXNativeTarget "UITests" */;
 			buildPhases = (
-				A1392E44FA51480A28968C3BA07AD8BD /* [CP] Check Pods Manifest.lock */,
+				D0F3BC78537BFD17AED41C754DF37E99 /* [CP] Check Pods Manifest.lock */,
 				718F0B3302177ABD0FD654A04047E54D /* Sources */,
 				AF334327685969BC4BF6A591FCAE5BF4 /* Frameworks */,
 				39C5F72561448B3048D047D7DB526445 /* Resources */,
-				7F064390DE4436546720CABD89045CE3 /* [CP] Copy Pods Resources */,
-				2F938492AE38480CC99C77EE5D96F186 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -589,12 +587,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21467F06BA859B3FDF3CF1DE41E4BF8F /* Build configuration list for PBXNativeTarget "VOKUtilities-tvOS" */;
 			buildPhases = (
-				D5862005ACFF0E76141956EA98AA322C /* [CP] Check Pods Manifest.lock */,
+				8F88E3AA284B9FA1DD5160E97AE4C9D4 /* [CP] Check Pods Manifest.lock */,
 				637465CE75EE27F59842F47A205DB1EC /* Sources */,
 				D306CCE0FC7EDB6F38EDD4E2FDFFAB10 /* Frameworks */,
 				1B2EEC7486962DD7B5A59E3518E94049 /* Resources */,
-				C4368C1F80E2357A1D7759003F910015 /* [CP] Embed Pods Frameworks */,
-				DA87B3AFFC4C60D884441A1E5736404C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -623,36 +619,14 @@
 			productReference = 11A36D4228F2EBCEE3578CA009426401 /* VOKUtilities-watchOS.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		8D4A4E86C0AA7CF51F27F6B4879C857B /* VOKUtilities-watchOS Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4FAFE1BE9F4B7EB330B32C86F9D0FFCC /* Build configuration list for PBXNativeTarget "VOKUtilities-watchOS Extension" */;
-			buildPhases = (
-				020CF5FA3589B05C0656D74FFDBC2755 /* [CP] Check Pods Manifest.lock */,
-				FA33137D11D89208DFBDE99829117224 /* Sources */,
-				6627AD1E0930F144252B75C4D0C9AEC4 /* Frameworks */,
-				A7DD722A2547BF8DF2951FCE7AF43E5C /* Resources */,
-				E58BB47E0A600AC1C8F3FCB5D921717A /* [CP] Embed Pods Frameworks */,
-				9E26D8823074901D1C1FB405E6299D00 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "VOKUtilities-watchOS Extension";
-			productName = "VOKUtilities-watchOS Extension";
-			productReference = F1748634007EEA6C5AF818F8C3B34F2B /* VOKUtilities-watchOS Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
-		};
 		77AEA97F928530117E076CB03353ECCC /* Tests-OSX */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D57E1C23BBDFD20A6C5171E7FDAA6BAD /* Build configuration list for PBXNativeTarget "Tests-OSX" */;
 			buildPhases = (
-				CC416DFA40199A68C1E0478FD6C1842B /* [CP] Check Pods Manifest.lock */,
+				C5BBF21FD1776DAB9889ED908CB17C1F /* [CP] Check Pods Manifest.lock */,
 				E72AE795AA70DF80555FE0B46EC73F9B /* Sources */,
 				BA409C1C15A1F58EAF886BA3029AD651 /* Frameworks */,
 				F3817FA1229584D7544CEB84E7492A04 /* Resources */,
-				0EF3B3C34347072DE1499A09D16A6566 /* [CP] Embed Pods Frameworks */,
-				1AA822B73FC37DD50D78592EAC6AD991 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -667,12 +641,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 035C1D2B283E1B5BADCCEDBB5D71D493 /* Build configuration list for PBXNativeTarget "Tests-tvOS" */;
 			buildPhases = (
-				418553557648719149E52C7B0E9044A6 /* [CP] Check Pods Manifest.lock */,
+				5A477E0EBC135C1EE9752EF03FCDB4AA /* [CP] Check Pods Manifest.lock */,
 				1C4751B71A7B9D6BF99E515E57E120AB /* Sources */,
 				69E7E0CDEF78188FAC070AFA350D372B /* Frameworks */,
 				B5F5988D5DD4F30EA23044CF16F39B9D /* Resources */,
-				D9C2A6F3E9F9278B2AD04ED3DA5CD33D /* [CP] Embed Pods Frameworks */,
-				799B46C337D75F050228E6DDCAF66C9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -688,12 +660,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71E6A39317B1DAFB22F6FC4307FFFC89 /* Build configuration list for PBXNativeTarget "VOKUtilities" */;
 			buildPhases = (
-				9FE70BAE0CC32593290CA95CAA890959 /* [CP] Check Pods Manifest.lock */,
+				13C0B16C513FFC43EE28C7F6CDA1C597 /* [CP] Check Pods Manifest.lock */,
 				7B735B4F1696852ED7F2583EC7F99F25 /* Sources */,
 				E98B5C33F18F40464298585D6719E708 /* Frameworks */,
 				15A27A23ED62A0BA11F8DB5E62DB2905 /* Resources */,
-				BC5188D4E235F708D01AE7F061C3A46A /* [CP] Copy Pods Resources */,
-				3A751D011FD8167E6F1BEC664909F654 /* [CP] Embed Pods Frameworks */,
 				91B637E829DB2A4F5131A2C43E7DBF3E /* Embed Watch Content */,
 			);
 			buildRules = (
@@ -706,15 +676,32 @@
 			productReference = 663FC58F7A0062944780CF838603620B /* VOKUtilities.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8D4A4E86C0AA7CF51F27F6B4879C857B /* VOKUtilities-watchOS Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FAFE1BE9F4B7EB330B32C86F9D0FFCC /* Build configuration list for PBXNativeTarget "VOKUtilities-watchOS Extension" */;
+			buildPhases = (
+				37C473E33DF28EC3FD3F19B2EC6777ED /* [CP] Check Pods Manifest.lock */,
+				FA33137D11D89208DFBDE99829117224 /* Sources */,
+				6627AD1E0930F144252B75C4D0C9AEC4 /* Frameworks */,
+				A7DD722A2547BF8DF2951FCE7AF43E5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VOKUtilities-watchOS Extension";
+			productName = "VOKUtilities-watchOS Extension";
+			productReference = F1748634007EEA6C5AF818F8C3B34F2B /* VOKUtilities-watchOS Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		91AF48AB6ABCD9D2C72AC18C2B29D373 /* VOKUtilities-OSX */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D56F88A6B9B0F89C26298F3A485F4A9 /* Build configuration list for PBXNativeTarget "VOKUtilities-OSX" */;
 			buildPhases = (
-				F26B063BD9BC74D6DEEC7C5371A2640F /* [CP] Check Pods Manifest.lock */,
+				9D8711C418B5141EE52813019A8A5AD4 /* [CP] Check Pods Manifest.lock */,
 				3C9F4F73FE82C5566F481A3DC0357EB1 /* Sources */,
 				99334927FE3735882F0AB1F48FD436EA /* Frameworks */,
 				3D78611DF0EE4434036FDE647E950572 /* CopyFiles */,
-				5AEF100A5F16C1F61E44554B7B077183 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -729,12 +716,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3FE8680E7CD441D227E4FB803E56E57 /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
-				12C68279EDEA24F51D587B8EE41F0D09 /* [CP] Check Pods Manifest.lock */,
+				8AB5FECB87C0F01C83E881FAF56515E3 /* [CP] Check Pods Manifest.lock */,
 				2783A2DDABC7EF418B6F32E05EEEF9EC /* Sources */,
 				BC11CC1E5856A04B19BCF227272AE6BD /* Frameworks */,
 				659EB1A68B03F349E82DC9721F50800A /* Resources */,
-				AEDBF84442BE9BF10F35231FD5F2078A /* [CP] Copy Pods Resources */,
-				0FD604EBE1B7E92F6F4C47088742F9B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -767,17 +752,17 @@
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
-					8D4A4E86C0AA7CF51F27F6B4879C857B = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 4U392EMNT3;
-						ProvisioningStyle = Automatic;
-					};
 					77AEA97F928530117E076CB03353ECCC = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
 					7B54E520894719930E76479C803DDF4B = {
 						CreatedOnToolsVersion = 7.2.1;
 						TestTargetID = 2592C00B66F969978BF043B7BEB434FA;
+					};
+					8D4A4E86C0AA7CF51F27F6B4879C857B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4U392EMNT3;
+						ProvisioningStyle = Automatic;
 					};
 					91AF48AB6ABCD9D2C72AC18C2B29D373 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -834,6 +819,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		39C5F72561448B3048D047D7DB526445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659EB1A68B03F349E82DC9721F50800A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB1DDCB4DFAD0F456DD71758947C216 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A75C77471EB2E302405EB006016B03DC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -848,21 +848,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C56D80C9A42D0EB571581257A6DF88BE /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		39C5F72561448B3048D047D7DB526445 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		659EB1A68B03F349E82DC9721F50800A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2DB1DDCB4DFAD0F456DD71758947C216 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -883,349 +868,148 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9E26D8823074901D1C1FB405E6299D00 /* [CP] Copy Pods Resources */ = {
+		37C473E33DF28EC3FD3F19B2EC6777ED /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-watchOS Extension/Pods-VOKUtilities-watchOS Extension-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0EF3B3C34347072DE1499A09D16A6566 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-OSX-Tests-OSX/Pods-VOKUtilities-OSX-Tests-OSX-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0FD604EBE1B7E92F6F4C47088742F9B8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-Tests/Pods-VOKUtilities-Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		12C68279EDEA24F51D587B8EE41F0D09 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VOKUtilities-watchOS Extension-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1AA822B73FC37DD50D78592EAC6AD991 /* [CP] Copy Pods Resources */ = {
+		8AB5FECB87C0F01C83E881FAF56515E3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-OSX-Tests-OSX/Pods-VOKUtilities-OSX-Tests-OSX-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2F938492AE38480CC99C77EE5D96F186 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-UITests/Pods-VOKUtilities-UITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3A751D011FD8167E6F1BEC664909F654 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities/Pods-VOKUtilities-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		418553557648719149E52C7B0E9044A6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VOKUtilities-Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5AEF100A5F16C1F61E44554B7B077183 /* [CP] Copy Pods Resources */ = {
+		5A477E0EBC135C1EE9752EF03FCDB4AA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-OSX/Pods-VOKUtilities-OSX-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		799B46C337D75F050228E6DDCAF66C9B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-tvOS-Tests-tvOS/Pods-VOKUtilities-tvOS-Tests-tvOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7F064390DE4436546720CABD89045CE3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-UITests/Pods-VOKUtilities-UITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E58BB47E0A600AC1C8F3FCB5D921717A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-watchOS Extension/Pods-VOKUtilities-watchOS Extension-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		020CF5FA3589B05C0656D74FFDBC2755 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VOKUtilities-tvOS-Tests-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9FE70BAE0CC32593290CA95CAA890959 /* [CP] Check Pods Manifest.lock */ = {
+		13C0B16C513FFC43EE28C7F6CDA1C597 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VOKUtilities-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A1392E44FA51480A28968C3BA07AD8BD /* [CP] Check Pods Manifest.lock */ = {
+		D0F3BC78537BFD17AED41C754DF37E99 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VOKUtilities-UITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AEDBF84442BE9BF10F35231FD5F2078A /* [CP] Copy Pods Resources */ = {
+		C5BBF21FD1776DAB9889ED908CB17C1F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-Tests/Pods-VOKUtilities-Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BC5188D4E235F708D01AE7F061C3A46A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities/Pods-VOKUtilities-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C4368C1F80E2357A1D7759003F910015 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-tvOS/Pods-VOKUtilities-tvOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CC416DFA40199A68C1E0478FD6C1842B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VOKUtilities-OSX-Tests-OSX-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D5862005ACFF0E76141956EA98AA322C /* [CP] Check Pods Manifest.lock */ = {
+		8F88E3AA284B9FA1DD5160E97AE4C9D4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VOKUtilities-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D9C2A6F3E9F9278B2AD04ED3DA5CD33D /* [CP] Embed Pods Frameworks */ = {
+		9D8711C418B5141EE52813019A8A5AD4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-tvOS-Tests-tvOS/Pods-VOKUtilities-tvOS-Tests-tvOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DA87B3AFFC4C60D884441A1E5736404C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOKUtilities-tvOS/Pods-VOKUtilities-tvOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F26B063BD9BC74D6DEEC7C5371A2640F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VOKUtilities-OSX-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1258,15 +1042,6 @@
 				C68F32857F07A8C4386D1DD3C8C6194D /* UIView_VOKCircle_Tests.m in Sources */,
 				B055004A95DAD2F86284B6A148CC464A /* UIView_VOKDebug_Tests.m in Sources */,
 				5C86A1DEEE565D527AF1CFE2616D4FA9 /* VOKAlertHelper_Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA33137D11D89208DFBDE99829117224 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				88B6A55D1DE41586FB8DEF1323EDE839 /* ExtensionDelegate.m in Sources */,
-				A0B8F9231D209C27763CFEEF80AD632A /* InterfaceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1321,6 +1096,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA33137D11D89208DFBDE99829117224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B6A55D1DE41586FB8DEF1323EDE839 /* ExtensionDelegate.m in Sources */,
+				A0B8F9231D209C27763CFEEF80AD632A /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1334,6 +1118,11 @@
 			target = 7CA3933B530891BE88AE9AC6A9D3D26D /* VOKUtilities */;
 			targetProxy = 031B162111CEB883B0F2C02C277BE615 /* PBXContainerItemProxy */;
 		};
+		412E8842E7B04E94C191E6A84F8AD71C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CA3933B530891BE88AE9AC6A9D3D26D /* VOKUtilities */;
+			targetProxy = CF03491C9BEEA99CB187E25061D2274C /* PBXContainerItemProxy */;
+		};
 		863A50C10477DA2959641AF961F0ADE5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8D4A4E86C0AA7CF51F27F6B4879C857B /* VOKUtilities-watchOS Extension */;
@@ -1343,11 +1132,6 @@
 			isa = PBXTargetDependency;
 			target = 286BCC591584ADAF0020C6FBF221D00E /* VOKUtilities-watchOS */;
 			targetProxy = 3F973051C036EBDC14B0EA24D979F29E /* PBXContainerItemProxy */;
-		};
-		412E8842E7B04E94C191E6A84F8AD71C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7CA3933B530891BE88AE9AC6A9D3D26D /* VOKUtilities */;
-			targetProxy = CF03491C9BEEA99CB187E25061D2274C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1368,14 +1152,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		98D34C3747C09D47E6A71CC0AACA6A8A /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1BD5DBA90601BA799C6E670784F74CC3 /* Base */,
-			);
-			name = Interface.storyboard;
-			sourceTree = "<group>";
-		};
 		64A536D2BECDE1E3C9125554D817D3DA /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1384,58 +1160,17 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		98D34C3747C09D47E6A71CC0AACA6A8A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BD5DBA90601BA799C6E670784F74CC3 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		50BA695641EB1F994A4C346DB6C6FD86 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IBSC_MODULE = VOKUtilities_watchOS_Extension;
-				INFOPLIST_FILE = "VOKUtilities-watchOS/Info.plist";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.VOKUtilities.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Debug;
-		};
-		EB11DB5708438C4BB448029BF30A52E5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IBSC_MODULE = VOKUtilities_watchOS_Extension;
-				INFOPLIST_FILE = "VOKUtilities-watchOS/Info.plist";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.VOKUtilities.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Release;
-		};
 		0E879CD0931B02DC48F3CD6F3450C8A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B812E280F0826A6B74E1DFA2A8DC2A28 /* Pods-VOKUtilities-watchOS Extension.debug.xcconfig */;
@@ -1461,33 +1196,6 @@
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
-		};
-		D76713A8C20619BA4B8CABDC9CCEF245 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB96D2EBEB93B0A068A81DB7FB0AC91C /* Pods-VOKUtilities-watchOS Extension.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 4U392EMNT3;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "VOKUtilities-watchOS Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.VOKUtilities.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Release;
 		};
 		4250A58A881F3C7053DDCE40E24CE053 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1535,6 +1243,30 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VOKUtilities-tvOS.app/VOKUtilities-tvOS";
 			};
 			name = Release;
+		};
+		50BA695641EB1F994A4C346DB6C6FD86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IBSC_MODULE = VOKUtilities_watchOS_Extension;
+				INFOPLIST_FILE = "VOKUtilities-watchOS/Info.plist";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.VOKUtilities.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
 		};
 		59B6E3F84ABA50014C4CD2C542E3C273 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1786,6 +1518,33 @@
 			};
 			name = Release;
 		};
+		D76713A8C20619BA4B8CABDC9CCEF245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB96D2EBEB93B0A068A81DB7FB0AC91C /* Pods-VOKUtilities-watchOS Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4U392EMNT3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "VOKUtilities-watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.VOKUtilities.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
 		E5C68F28896F11E8CD9B4BD436D0DC24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6C730E89F192265DD7A5362032076DB6 /* Pods-VOKUtilities-Tests.debug.xcconfig */;
@@ -1827,6 +1586,31 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.vokal.Tests-OSX";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EB11DB5708438C4BB448029BF30A52E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IBSC_MODULE = VOKUtilities_watchOS_Extension;
+				INFOPLIST_FILE = "VOKUtilities-watchOS/Info.plist";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.VOKUtilities.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
@@ -1874,15 +1658,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4FAFE1BE9F4B7EB330B32C86F9D0FFCC /* Build configuration list for PBXNativeTarget "VOKUtilities-watchOS Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0E879CD0931B02DC48F3CD6F3450C8A3 /* Debug */,
-				D76713A8C20619BA4B8CABDC9CCEF245 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		27EA9BE6BF2AA1BA543BAA9044CF9568 /* Build configuration list for PBXNativeTarget "VOKUtilities-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1897,6 +1672,15 @@
 			buildConfigurations = (
 				4250A58A881F3C7053DDCE40E24CE053 /* Debug */,
 				F0BA93F1F6EAF7539926CFE27943F2D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FAFE1BE9F4B7EB330B32C86F9D0FFCC /* Build configuration list for PBXNativeTarget "VOKUtilities-watchOS Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E879CD0931B02DC48F3CD6F3450C8A3 /* Debug */,
+				D76713A8C20619BA4B8CABDC9CCEF245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

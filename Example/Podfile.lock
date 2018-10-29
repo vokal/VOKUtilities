@@ -3,27 +3,27 @@ PODS:
     - KIF/Core (= 3.5.1)
   - KIF/Core (3.5.1)
   - VOKUtilities (0.11.0):
-    - VOKUtilities/NSCalendar+VOKAL (= 0.11.0)
-    - VOKUtilities/NSNumberFormatter+VOKAL (= 0.11.0)
-    - VOKUtilities/NSPredicate+VOKAL (= 0.11.0)
-    - VOKUtilities/NSString+VOKValidation (= 0.11.0)
-    - VOKUtilities/UIColor+VOKAL (= 0.11.0)
-    - VOKUtilities/UIView+VOKCircle (= 0.11.0)
-    - VOKUtilities/UIView+VOKDebug (= 0.11.0)
-    - VOKUtilities/UIViewController+VOKKeyboard (= 0.11.0)
+    - "VOKUtilities/NSCalendar+VOKAL (= 0.11.0)"
+    - "VOKUtilities/NSNumberFormatter+VOKAL (= 0.11.0)"
+    - "VOKUtilities/NSPredicate+VOKAL (= 0.11.0)"
+    - "VOKUtilities/NSString+VOKValidation (= 0.11.0)"
+    - "VOKUtilities/UIColor+VOKAL (= 0.11.0)"
+    - "VOKUtilities/UIView+VOKCircle (= 0.11.0)"
+    - "VOKUtilities/UIView+VOKDebug (= 0.11.0)"
+    - "VOKUtilities/UIViewController+VOKKeyboard (= 0.11.0)"
     - VOKUtilities/VOKAlertHelper (= 0.11.0)
     - VOKUtilities/VOKEmailHelper (= 0.11.0)
     - VOKUtilities/VOKIBHelpers (= 0.11.0)
     - VOKUtilities/VOKKeyPathHelper (= 0.11.0)
     - VOKUtilities/VOKNavigationHelper (= 0.11.0)
-  - VOKUtilities/NSCalendar+VOKAL (0.11.0)
-  - VOKUtilities/NSNumberFormatter+VOKAL (0.11.0)
-  - VOKUtilities/NSPredicate+VOKAL (0.11.0)
-  - VOKUtilities/NSString+VOKValidation (0.11.0)
-  - VOKUtilities/UIColor+VOKAL (0.11.0)
-  - VOKUtilities/UIView+VOKCircle (0.11.0)
-  - VOKUtilities/UIView+VOKDebug (0.11.0)
-  - VOKUtilities/UIViewController+VOKKeyboard (0.11.0)
+  - "VOKUtilities/NSCalendar+VOKAL (0.11.0)"
+  - "VOKUtilities/NSNumberFormatter+VOKAL (0.11.0)"
+  - "VOKUtilities/NSPredicate+VOKAL (0.11.0)"
+  - "VOKUtilities/NSString+VOKValidation (0.11.0)"
+  - "VOKUtilities/UIColor+VOKAL (0.11.0)"
+  - "VOKUtilities/UIView+VOKCircle (0.11.0)"
+  - "VOKUtilities/UIView+VOKDebug (0.11.0)"
+  - "VOKUtilities/UIViewController+VOKKeyboard (0.11.0)"
   - VOKUtilities/VOKAlertHelper (0.11.0)
   - VOKUtilities/VOKEmailHelper (0.11.0)
   - VOKUtilities/VOKIBHelpers (0.11.0)
@@ -34,14 +34,18 @@ DEPENDENCIES:
   - KIF (~> 3.5)
   - VOKUtilities (from `../`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - KIF
+
 EXTERNAL SOURCES:
   VOKUtilities:
     :path: "../"
 
 SPEC CHECKSUMS:
   KIF: 082eb65279e51c3092923802849eb796a04982ab
-  VOKUtilities: e831207f9217bd8060467d28f26b5f7a902db63c
+  VOKUtilities: 9e8c27c9db137652309ceaa263232800c58dfd93
 
 PODFILE CHECKSUM: b4c75412af7a62397b6f2a8345de8b99a9100467
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.5.3
