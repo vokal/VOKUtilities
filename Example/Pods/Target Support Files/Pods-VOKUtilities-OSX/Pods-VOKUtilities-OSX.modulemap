@@ -1,0 +1,6 @@
+module Pods_VOKUtilities_OSX {
+  umbrella header "Pods-VOKUtilities-OSX-umbrella.h"
+
+  export *
+  module * { export * }
+}

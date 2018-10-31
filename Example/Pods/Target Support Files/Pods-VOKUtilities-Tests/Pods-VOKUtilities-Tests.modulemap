@@ -1,0 +1,6 @@
+module Pods_VOKUtilities_Tests {
+  umbrella header "Pods-VOKUtilities-Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
