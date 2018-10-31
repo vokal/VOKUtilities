@@ -12,7 +12,7 @@ target 'VOKUtilities' do
   end
 
   target 'UITests' do
-    pod 'KIF', '~> 3.5'
+    pod 'KIF', '~> 3.7.4'
   end
 end
 

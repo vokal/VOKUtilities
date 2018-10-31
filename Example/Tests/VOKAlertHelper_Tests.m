@@ -83,6 +83,9 @@ static NSString *const OK = @"OK";
 
 - (void)testInvalidButtonsArray
 {
+    // We are temporarily silencing this warning since this test requires passing in bad data.
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wobjc-literal-conversion"
     //Passing in non-VOKAlertAction items to the buttons parameter should throw an assertion.
     XCTAssertThrows([VOKAlertHelper showAlertFromViewController:self.vc
                                                       withTitle:AlertTitle
@@ -100,6 +103,7 @@ static NSString *const OK = @"OK";
                                                         buttons:@[[UIAlertAction actionWithTitle:OK
                                                                                            style:UIAlertActionStyleDefault
                                                                                          handler:nil]]]);
+    #pragma clang diagnostic pop
 }
 
 - (void)testValidButtonsArray
