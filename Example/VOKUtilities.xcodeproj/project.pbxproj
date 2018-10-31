@@ -10,6 +10,7 @@
 		0053277E091BAFE30ABDFAEB7CE28E73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24926CDA7FBB04AFC767AEF5B9BB7A42 /* CoreGraphics.framework */; };
 		0529F65AEC801852D6EC3E948E7D2EAC /* NSCalendar_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B3EC1E9A081DFD3E84F73606C4FFF9 /* NSCalendar_VOKAL_Tests.m */; };
 		0B8ED12CD8AF9F9763B3643D73D46DB5 /* libPods-VOKUtilities-tvOS-Tests-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F01D609ECF7FC23D60D5D99476C930 /* libPods-VOKUtilities-tvOS-Tests-tvOS.a */; };
+		0FF8373B0EB3EA86A414212A736DB637 /* CollectionExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA495983AF48F5C2F1C1DACEBA20C19 /* CollectionExtensionsTests.swift */; };
 		164906665CBA68AAC2384170975E05AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA936DC1D941D75B58380CDE427BEB2A /* main.m */; };
 		216D206523C13A7775CE25E2ED058625 /* VOKUtilities-watchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F1748634007EEA6C5AF818F8C3B34F2B /* VOKUtilities-watchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		250859DE7206E0781673C92BAF8FD500 /* NSPredicate_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FEE28427C1277C3D9CD5B1716EF9FF /* NSPredicate_VOKAL_Tests.m */; };
@@ -199,6 +200,7 @@
 		9B4E1D9D28A1C431A7D8CA048B8EF552 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9DDFCBEA320D0945D876D8EFA0E454 /* libPods-VOKUtilities-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOKUtilities-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C931322F94DB48A1D1591FC9C2A954E /* First.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
+		9DA495983AF48F5C2F1C1DACEBA20C19 /* CollectionExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExtensionsTests.swift; sourceTree = "<group>"; };
 		9F5FD5F942C7D939FB8F5800EB3C0854 /* libPods-VOKUtilities-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOKUtilities-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD0E90C9086C74B623837E86F8893F3 /* UIView_VOKDebug_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_VOKDebug_Tests.m; sourceTree = "<group>"; };
 		A1B2FF42B0073883959676E05CF20383 /* libPods-VOKUtilities-OSX-Tests-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOKUtilities-OSX-Tests-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -513,6 +515,7 @@
 			isa = PBXGroup;
 			children = (
 				7CC8F5330184AA24D1C85C4555CAD942 /* Supporting Files */,
+				9DA495983AF48F5C2F1C1DACEBA20C19 /* CollectionExtensionsTests.swift */,
 				81B3EC1E9A081DFD3E84F73606C4FFF9 /* NSCalendar_VOKAL_Tests.m */,
 				57FDD4E0D337F3AC5A11511F64396B2B /* NSNumberFormatter_VOKAL_Tests.m */,
 				09FEE28427C1277C3D9CD5B1716EF9FF /* NSPredicate_VOKAL_Tests.m */,
@@ -1033,6 +1036,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF8373B0EB3EA86A414212A736DB637 /* CollectionExtensionsTests.swift in Sources */,
 				0529F65AEC801852D6EC3E948E7D2EAC /* NSCalendar_VOKAL_Tests.m in Sources */,
 				E18633348D706743144B98222999CB4A /* NSNumberFormatter_VOKAL_Tests.m in Sources */,
 				A3BD758D681FFFE094FDDE68E20392C3 /* NSPredicate_VOKAL_Tests.m in Sources */,
