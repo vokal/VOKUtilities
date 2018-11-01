@@ -7,7 +7,7 @@
 
 Assorted category and utility classes for iDevelopment.  Licensed under [MIT License](LICENSE).
 
-VOKUtilities requires Xcode 7 or higher.
+VOKUtilities requires Xcode 9 or higher.
 
 This pod is comprised of multiple standalone subspecs that each provide some narrow functionality. Rather than using the parent `VOKUtilities` pod in your Podfile, you should choose only the subspecs you need. All of these are available for iOS, and some subspecs are also available on macOS and tvOS platforms.  See the [podspec file](VOKUtilities.podspec) for specifics.
 
@@ -76,3 +76,9 @@ Macros to help with keys and key paths with compile-time checking.
 
 ## VOKNavigationHelper
 This class provides a method to replace the root view controller of the application's window using provided animation options. Some convenienve methods are also included to simplify calls.
+
+## VOKSwiftHelpers
+Assorted Swift convenience extension methods and classes.
+
+## VOKSwiftTestingHelpers
+Assorted Swift convenience extension methods and classes meant to be used for unit testing.

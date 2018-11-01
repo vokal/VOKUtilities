@@ -1,6 +1,6 @@
 {
   "name": "VOKUtilities",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "summary": "Assorted category and utility classes for iDevelopment",
   "homepage": "https://github.com/vokal/VOKUtilities",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/vokal/VOKUtilities.git",
-    "tag": "0.11.0"
+    "tag": "0.12.0"
   },
   "platforms": {
     "ios": "8.0",
@@ -21,6 +21,7 @@
     "watchos": "3.0"
   },
   "requires_arc": true,
+  "swift_version": "4.1",
   "subspecs": [
     {
       "name": "VOKKeyPathHelper",
@@ -41,6 +42,10 @@
     {
       "name": "NSNumberFormatter+VOKAL",
       "source_files": "Pod/NSNumberFormatter+VOKAL/*.{h,m}"
+    },
+    {
+      "name": "VOKSwiftHelpers",
+      "source_files": "Pod/VOKSwiftHelpers/*.swift"
     },
     {
       "name": "UIColor+VOKAL",
@@ -102,6 +107,13 @@
         "ios": "8.0"
       },
       "source_files": "Pod/VOKNavigationHelper/*.{h,m}"
+    },
+    {
+      "name": "VOKSwiftTestingHelpers",
+      "platforms": {
+        "ios": "8.0"
+      },
+      "source_files": "Pod/VOKSwiftTestingHelpers/*.swift"
     }
   ]
 }

@@ -1,0 +1,9 @@
+module VOKUtilities {
+  umbrella header "VOKUtilities-53b372b9-umbrella.h"
+  exclude header "VOKUtilities-umbrella.h"
+  exclude header "VOKUtilities-70146e9b-umbrella.h"
+  exclude header "VOKUtilities-16459c85-umbrella.h"
+
+  export *
+  module * { export * }
+}

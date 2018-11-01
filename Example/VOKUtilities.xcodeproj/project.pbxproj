@@ -10,7 +10,9 @@
 		0053277E091BAFE30ABDFAEB7CE28E73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24926CDA7FBB04AFC767AEF5B9BB7A42 /* CoreGraphics.framework */; };
 		0529F65AEC801852D6EC3E948E7D2EAC /* NSCalendar_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B3EC1E9A081DFD3E84F73606C4FFF9 /* NSCalendar_VOKAL_Tests.m */; };
 		0B8ED12CD8AF9F9763B3643D73D46DB5 /* libPods-VOKUtilities-tvOS-Tests-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F01D609ECF7FC23D60D5D99476C930 /* libPods-VOKUtilities-tvOS-Tests-tvOS.a */; };
+		0FF8373B0EB3EA86A414212A736DB637 /* CollectionExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA495983AF48F5C2F1C1DACEBA20C19 /* CollectionExtensionsTests.swift */; };
 		164906665CBA68AAC2384170975E05AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA936DC1D941D75B58380CDE427BEB2A /* main.m */; };
+		1CA8972DC23F195FDAFF4BB3AB3385B4 /* CollectionExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA495983AF48F5C2F1C1DACEBA20C19 /* CollectionExtensionsTests.swift */; };
 		216D206523C13A7775CE25E2ED058625 /* VOKUtilities-watchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F1748634007EEA6C5AF818F8C3B34F2B /* VOKUtilities-watchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		250859DE7206E0781673C92BAF8FD500 /* NSPredicate_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FEE28427C1277C3D9CD5B1716EF9FF /* NSPredicate_VOKAL_Tests.m */; };
 		29A196E01DFE523E7440EAAE760233F3 /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C931322F94DB48A1D1591FC9C2A954E /* First.storyboard */; };
@@ -60,6 +62,7 @@
 		C7AEC7FAC5DF5050C23E14EB3F0B1660 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135B1F314C9ADE2AFE962AC23EF4E680 /* UIKit.framework */; };
 		CB8BA1879BF2D6442AD602BE6DEBE3F3 /* libPods-VOKUtilities-UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2672D8C9487E58B8556A9E76913F3856 /* libPods-VOKUtilities-UITests.a */; };
 		CE81964C6E11C5CC61343780ACE5D50B /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AB01577E64C958FC240CE2E4BCE683 /* AnotherViewController.m */; };
+		DC035EB24EE1964FCB9E23C5004A13AD /* CollectionExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA495983AF48F5C2F1C1DACEBA20C19 /* CollectionExtensionsTests.swift */; };
 		E18633348D706743144B98222999CB4A /* NSNumberFormatter_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FDD4E0D337F3AC5A11511F64396B2B /* NSNumberFormatter_VOKAL_Tests.m */; };
 		E1E41020DCE2111E07532B53A02762F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64A536D2BECDE1E3C9125554D817D3DA /* InfoPlist.strings */; };
 		E3DD410F86AC0C9EAEA2C6FD39F32796 /* libPods-VOKUtilities-watchOS Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5129D7DAEA596DF6F813289D0E58737C /* libPods-VOKUtilities-watchOS Extension.a */; };
@@ -199,6 +202,7 @@
 		9B4E1D9D28A1C431A7D8CA048B8EF552 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9DDFCBEA320D0945D876D8EFA0E454 /* libPods-VOKUtilities-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOKUtilities-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C931322F94DB48A1D1591FC9C2A954E /* First.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
+		9DA495983AF48F5C2F1C1DACEBA20C19 /* CollectionExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExtensionsTests.swift; sourceTree = "<group>"; };
 		9F5FD5F942C7D939FB8F5800EB3C0854 /* libPods-VOKUtilities-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOKUtilities-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD0E90C9086C74B623837E86F8893F3 /* UIView_VOKDebug_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_VOKDebug_Tests.m; sourceTree = "<group>"; };
 		A1B2FF42B0073883959676E05CF20383 /* libPods-VOKUtilities-OSX-Tests-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOKUtilities-OSX-Tests-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -513,6 +517,7 @@
 			isa = PBXGroup;
 			children = (
 				7CC8F5330184AA24D1C85C4555CAD942 /* Supporting Files */,
+				9DA495983AF48F5C2F1C1DACEBA20C19 /* CollectionExtensionsTests.swift */,
 				81B3EC1E9A081DFD3E84F73606C4FFF9 /* NSCalendar_VOKAL_Tests.m */,
 				57FDD4E0D337F3AC5A11511F64396B2B /* NSNumberFormatter_VOKAL_Tests.m */,
 				09FEE28427C1277C3D9CD5B1716EF9FF /* NSPredicate_VOKAL_Tests.m */,
@@ -768,6 +773,7 @@
 						CreatedOnToolsVersion = 7.2.1;
 					};
 					EF45837D9703D909959FA55BAE72D405 = {
+						LastSwiftMigration = 0940;
 						TestTargetID = 7CA3933B530891BE88AE9AC6A9D3D26D;
 					};
 				};
@@ -1019,6 +1025,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CA8972DC23F195FDAFF4BB3AB3385B4 /* CollectionExtensionsTests.swift in Sources */,
 				F2CD18DB49E94FBBD39CE1CD73E2F842 /* NSCalendar_VOKAL_Tests.m in Sources */,
 				2C9B92D12A58F3CF7C559224EED1DC0C /* NSNumberFormatter_VOKAL_Tests.m in Sources */,
 				250859DE7206E0781673C92BAF8FD500 /* NSPredicate_VOKAL_Tests.m in Sources */,
@@ -1033,6 +1040,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF8373B0EB3EA86A414212A736DB637 /* CollectionExtensionsTests.swift in Sources */,
 				0529F65AEC801852D6EC3E948E7D2EAC /* NSCalendar_VOKAL_Tests.m in Sources */,
 				E18633348D706743144B98222999CB4A /* NSNumberFormatter_VOKAL_Tests.m in Sources */,
 				A3BD758D681FFFE094FDDE68E20392C3 /* NSPredicate_VOKAL_Tests.m in Sources */,
@@ -1089,6 +1097,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC035EB24EE1964FCB9E23C5004A13AD /* CollectionExtensionsTests.swift in Sources */,
 				62AD3C5EB78AA0F41990EB26207BFFA9 /* NSCalendar_VOKAL_Tests.m in Sources */,
 				7BE71B258EE539BD95E687B16C42D9C8 /* NSNumberFormatter_VOKAL_Tests.m in Sources */,
 				7C8A1CF4A40E824A26A90DDD7F428BB4 /* NSPredicate_VOKAL_Tests.m in Sources */,
@@ -1273,6 +1282,7 @@
 			baseConfigurationReference = EF36D46E43717DA75A14A173A965547F /* Pods-VOKUtilities-Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VOKUtilities.app/VOKUtilities";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -1280,8 +1290,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -1390,6 +1402,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -1528,6 +1541,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
@@ -1566,6 +1580,7 @@
 			baseConfigurationReference = 6C730E89F192265DD7A5362032076DB6 /* Pods-VOKUtilities-Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VOKUtilities.app/VOKUtilities";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -1577,8 +1592,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};

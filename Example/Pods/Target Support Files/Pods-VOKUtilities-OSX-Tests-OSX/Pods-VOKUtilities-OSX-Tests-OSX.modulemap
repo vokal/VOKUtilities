@@ -1,0 +1,6 @@
+module Pods_VOKUtilities_OSX_Tests_OSX {
+  umbrella header "Pods-VOKUtilities-OSX-Tests-OSX-umbrella.h"
+
+  export *
+  module * { export * }
+}
