@@ -1897,126 +1897,6 @@
 			};
 			name = Debug;
 		};
-		8165088054ABC807B9D325A89C821497 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20F4DBC781B7840612E1CBBB69994F84 /* VOKUtilities-53b372b9.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/VOKUtilities-53b372b9/VOKUtilities-53b372b9-prefix.pch";
-				MODULEMAP_FILE = "Headers/Public/VOKUtilities/VOKUtilities-53b372b9.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = VOKUtilities;
-				PRODUCT_NAME = "VOKUtilities-53b372b9";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.1;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Debug;
-		};
-		7FA657B0EB45BA521EE80CC189A18D93 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84DC51BF57AF57827E9A253D63707FF0 /* Pods-VOKUtilities-tvOS-Tests-tvOS.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VOKUtilities-tvOS-Tests-tvOS/Pods-VOKUtilities-tvOS-Tests-tvOS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		B66D8827B52235F82AD6CAFFAED84A0E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA244444FA745513389AB4AC30BB8402 /* VOKUtilities-70146e9b.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				GCC_PREFIX_HEADER = "Target Support Files/VOKUtilities-70146e9b/VOKUtilities-70146e9b-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Headers/Public/VOKUtilities/VOKUtilities-70146e9b.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = VOKUtilities;
-				PRODUCT_NAME = "VOKUtilities-70146e9b";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.1;
-			};
-			name = Release;
-		};
-		D78EF48B0F3173A8EFECFE2C804D4354 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F66D42ACC4DFF844005E41B9E0CBC148 /* VOKUtilities.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/VOKUtilities/VOKUtilities-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MODULEMAP_FILE = Headers/Public/VOKUtilities/VOKUtilities.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = VOKUtilities;
-				PRODUCT_NAME = VOKUtilities;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		342CA0F5F58115C1CD50F576462D8CBB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF15B543402F7F49A37C463991728D76 /* KIF.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/KIF/KIF-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = KIF;
-				PRODUCT_NAME = KIF;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		CA4F131465F9EC80A985ECD3CFF50214 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F66D42ACC4DFF844005E41B9E0CBC148 /* VOKUtilities.xcconfig */;
@@ -2037,8 +1917,30 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.1;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FA657B0EB45BA521EE80CC189A18D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84DC51BF57AF57827E9A253D63707FF0 /* Pods-VOKUtilities-tvOS-Tests-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VOKUtilities-tvOS-Tests-tvOS/Pods-VOKUtilities-tvOS-Tests-tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -2131,6 +2033,30 @@
 			};
 			name = Release;
 		};
+		8165088054ABC807B9D325A89C821497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20F4DBC781B7840612E1CBBB69994F84 /* VOKUtilities-53b372b9.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/VOKUtilities-53b372b9/VOKUtilities-53b372b9-prefix.pch";
+				MODULEMAP_FILE = "Headers/Public/VOKUtilities/VOKUtilities-53b372b9.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VOKUtilities;
+				PRODUCT_NAME = "VOKUtilities-53b372b9";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
 		83729DECF9C8FEC466E704645BB935C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8DA17411F3736DF097028C4A1D4898EE /* Pods-VOKUtilities-Tests.release.xcconfig */;
@@ -2149,6 +2075,105 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		489ACF41353EA16C894D479349DEA24C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAA562FAAFE0F72E5FF16D09A2220C8E /* VOKUtilities-16459c85.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/VOKUtilities-16459c85/VOKUtilities-16459c85-prefix.pch";
+				MODULEMAP_FILE = "Headers/Public/VOKUtilities/VOKUtilities-16459c85.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VOKUtilities;
+				PRODUCT_NAME = "VOKUtilities-16459c85";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		342CA0F5F58115C1CD50F576462D8CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF15B543402F7F49A37C463991728D76 /* KIF.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KIF/KIF-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KIF;
+				PRODUCT_NAME = KIF;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44BE43532ABD977C29B5BCEF5E3F4FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20F4DBC781B7840612E1CBBB69994F84 /* VOKUtilities-53b372b9.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/VOKUtilities-53b372b9/VOKUtilities-53b372b9-prefix.pch";
+				MODULEMAP_FILE = "Headers/Public/VOKUtilities/VOKUtilities-53b372b9.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VOKUtilities;
+				PRODUCT_NAME = "VOKUtilities-53b372b9";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25E8BAD6FF05FE5D0C6B0D6C3B7DB29F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF15B543402F7F49A37C463991728D76 /* KIF.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KIF/KIF-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KIF;
+				PRODUCT_NAME = KIF;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -2175,57 +2200,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		ED5D381843ADAAB5E34C0AD0B7767017 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA244444FA745513389AB4AC30BB8402 /* VOKUtilities-70146e9b.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				GCC_PREFIX_HEADER = "Target Support Files/VOKUtilities-70146e9b/VOKUtilities-70146e9b-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Headers/Public/VOKUtilities/VOKUtilities-70146e9b.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = VOKUtilities;
-				PRODUCT_NAME = "VOKUtilities-70146e9b";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.1;
-			};
-			name = Debug;
-		};
-		93A7EFBD859DC1C3E8CABC3F5DEF1E73 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAA562FAAFE0F72E5FF16D09A2220C8E /* VOKUtilities-16459c85.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/VOKUtilities-16459c85/VOKUtilities-16459c85-prefix.pch";
-				MODULEMAP_FILE = "Headers/Public/VOKUtilities/VOKUtilities-16459c85.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = VOKUtilities;
-				PRODUCT_NAME = "VOKUtilities-16459c85";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.1;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Release;
 		};
 		E3341B9D0B3C28C14C687DB6E2B867FC /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2341,6 +2315,31 @@
 			};
 			name = Debug;
 		};
+		B66D8827B52235F82AD6CAFFAED84A0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA244444FA745513389AB4AC30BB8402 /* VOKUtilities-70146e9b.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/VOKUtilities-70146e9b/VOKUtilities-70146e9b-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Headers/Public/VOKUtilities/VOKUtilities-70146e9b.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VOKUtilities;
+				PRODUCT_NAME = "VOKUtilities-70146e9b";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 		0409479C743AAF47CEF9B096DE794037 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 76A781B779B12B2F733B1116E68F29EB /* Pods-VOKUtilities-OSX-Tests-OSX.debug.xcconfig */;
@@ -2362,6 +2361,32 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
+		};
+		93A7EFBD859DC1C3E8CABC3F5DEF1E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAA562FAAFE0F72E5FF16D09A2220C8E /* VOKUtilities-16459c85.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/VOKUtilities-16459c85/VOKUtilities-16459c85-prefix.pch";
+				MODULEMAP_FILE = "Headers/Public/VOKUtilities/VOKUtilities-16459c85.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VOKUtilities;
+				PRODUCT_NAME = "VOKUtilities-16459c85";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
 		};
 		17D1333A8CE09030241354A8BE9C3104 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2386,6 +2411,31 @@
 			};
 			name = Release;
 		};
+		ED5D381843ADAAB5E34C0AD0B7767017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA244444FA745513389AB4AC30BB8402 /* VOKUtilities-70146e9b.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/VOKUtilities-70146e9b/VOKUtilities-70146e9b-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Headers/Public/VOKUtilities/VOKUtilities-70146e9b.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VOKUtilities;
+				PRODUCT_NAME = "VOKUtilities-70146e9b";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
 		25812A11847E1245E4458F9F22B9FB14 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F0986C9E216ADEE673E9422FE401F0E1 /* Pods-VOKUtilities-tvOS.release.xcconfig */;
@@ -2402,31 +2452,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		44BE43532ABD977C29B5BCEF5E3F4FB4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20F4DBC781B7840612E1CBBB69994F84 /* VOKUtilities-53b372b9.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/VOKUtilities-53b372b9/VOKUtilities-53b372b9-prefix.pch";
-				MODULEMAP_FILE = "Headers/Public/VOKUtilities/VOKUtilities-53b372b9.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = VOKUtilities;
-				PRODUCT_NAME = "VOKUtilities-53b372b9";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
@@ -2542,56 +2567,6 @@
 			};
 			name = Release;
 		};
-		25E8BAD6FF05FE5D0C6B0D6C3B7DB29F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF15B543402F7F49A37C463991728D76 /* KIF.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/KIF/KIF-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = KIF;
-				PRODUCT_NAME = KIF;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		489ACF41353EA16C894D479349DEA24C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAA562FAAFE0F72E5FF16D09A2220C8E /* VOKUtilities-16459c85.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/VOKUtilities-16459c85/VOKUtilities-16459c85-prefix.pch";
-				MODULEMAP_FILE = "Headers/Public/VOKUtilities/VOKUtilities-16459c85.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = VOKUtilities;
-				PRODUCT_NAME = "VOKUtilities-16459c85";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.1;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Debug;
-		};
 		E26C0451C833134B6BBCE37DE0C1C998 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 64DD439F1A6E7228733309C3C4B2F0F1 /* Pods-VOKUtilities-tvOS.debug.xcconfig */;
@@ -2610,6 +2585,31 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		D78EF48B0F3173A8EFECFE2C804D4354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F66D42ACC4DFF844005E41B9E0CBC148 /* VOKUtilities.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/VOKUtilities/VOKUtilities-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/VOKUtilities/VOKUtilities.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VOKUtilities;
+				PRODUCT_NAME = VOKUtilities;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
