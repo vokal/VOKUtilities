@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "VOKUtilities"
-  s.version          = "0.12.0"
+  s.version          = "0.13.0"
   s.summary          = "Assorted category and utility classes for iDevelopment"
   s.homepage         = "https://github.com/vokal/VOKUtilities"
   s.license          = { :type => "MIT", :file => "LICENSE" }
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = "10.9"
   s.watchos.deployment_target = "3.0"
   s.requires_arc     = true
-  s.swift_version    = '4.1'
+  s.swift_version = "5.0"
 
   #cross platform specs:
   s.subspec 'VOKKeyPathHelper' do |ss|
