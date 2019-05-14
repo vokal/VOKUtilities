@@ -21,6 +21,7 @@
     "watchos": "3.0"
   },
   "requires_arc": true,
+  "swift_version": "5.0",
   "subspecs": [
     {
       "name": "VOKKeyPathHelper",
