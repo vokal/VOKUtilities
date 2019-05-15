@@ -10,7 +10,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "# Get the path to the local copy of xUnique&#10;XUNIQUE_PATH=&quot;${SRCROOT}/xUnique.py&quot;&#10;&#10;# Run it against the main project&#10;python &quot;${XUNIQUE_PATH}&quot; &quot;${PROJECT_FILE_PATH}/project.pbxproj&quot;&#10;&#10;# Run it against CocoaPods&#10;python &quot;${XUNIQUE_PATH}&quot; &quot;${PODS_ROOT}/Pods.xcodeproj&quot;&#10;">
+               scriptText = "# Get the path to the local copy of xUnique&#10;#XUNIQUE_PATH=&quot;${SRCROOT}/xUnique.py&quot;&#10;&#10;# Run it against the main project&#10;#python &quot;${XUNIQUE_PATH}&quot; &quot;${PROJECT_FILE_PATH}/project.pbxproj&quot;&#10;&#10;# Run it against CocoaPods&#10;#python &quot;${XUNIQUE_PATH}&quot; &quot;${PODS_ROOT}/Pods.xcodeproj&quot;&#10;">
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
