@@ -10,56 +10,58 @@ import VOKUtilities
 
 class UITableViewExtensionsTests: XCTestCase {
     func testRegistersCell() {
-        class ExampleCell: UITableViewCell {}
+        class TestCell: UITableViewCell {}
         
         let tableView = UITableView()
-        let reuseIdentifier = ExampleCell.defaultReuseIdentifier
+        let reuseIdentifier = TestCell.defaultReuseIdentifier
         
-        var exampleCell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier) as? ExampleCell
+        var exampleCell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier) as? TestCell
         XCTAssertNil(exampleCell)
         
-        tableView.register(ExampleCell.self)
+        tableView.register(TestCell.self)
         
-        exampleCell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier) as? ExampleCell
+        exampleCell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier) as? TestCell
         XCTAssertNotNil(exampleCell)
     }
     
-//    func testRegistersNibForCell() {
-//        let tableView = UITableView()
-//        
-//        let reuseIdentifier = ExampleTableViewCell.defaultReuseIdentifier
-//        var exampleCell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier) as? ExampleTableViewCell
-//        XCTAssertNil(exampleCell)
-//        
-//        tableView.registerNib(forCell: ExampleTableViewCell.self)
-//        exampleCell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier) as? ExampleTableViewCell
-//        XCTAssertNotNil(exampleCell)
-//    }
+    func testRegistersNibForCell() {
+        let tableView = UITableView()
+        let reuseIdentifier = ExampleTableViewCell.defaultReuseIdentifier
+        
+        var exampleCell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier) as? ExampleTableViewCell
+        XCTAssertNil(exampleCell)
+        
+        tableView.registerNib(forCell: ExampleTableViewCell.self)
+        
+        exampleCell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier) as? ExampleTableViewCell
+        XCTAssertNotNil(exampleCell)
+    }
     
     func testRegistersHeaderFooterView() {
-        class ExampleHeaderFooterView: UITableViewHeaderFooterView {}
+        class TestFooterView: UITableViewHeaderFooterView {}
         
         let tableView = UITableView()
-        let reuseIdentifier = ExampleHeaderFooterView.defaultReuseIdentifier
+        let reuseIdentifier = TestFooterView.defaultReuseIdentifier
         
-        var exampleHeaderFooterView = tableView.dequeueReusableHeaderFooterView(withIdentifier: reuseIdentifier) as? ExampleHeaderFooterView
+        var exampleHeaderFooterView = tableView.dequeueReusableHeaderFooterView(withIdentifier: reuseIdentifier) as? TestFooterView
         XCTAssertNil(exampleHeaderFooterView)
         
-        tableView.register(ExampleHeaderFooterView.self)
+        tableView.register(TestFooterView.self)
         
-        exampleHeaderFooterView = tableView.dequeueReusableHeaderFooterView(withIdentifier: reuseIdentifier) as? ExampleHeaderFooterView
+        exampleHeaderFooterView = tableView.dequeueReusableHeaderFooterView(withIdentifier: reuseIdentifier) as? TestFooterView
         XCTAssertNotNil(exampleHeaderFooterView)
     }
     
     func testRegistersNibForHeaderFooterView() {
         let tableView = UITableView()
+        let reuseIdentifier = ExampleHeaderFooterView.defaultReuseIdentifier
         
-//        let reuseIdentifier = ExampleTableViewCell.defaultReuseIdentifier
-//        var exampleCell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier) as? ExampleTableViewCell
-//        XCTAssertNil(exampleCell)
-//
-//        tableView.registerNib(forCell: ExampleTableViewCell.self)
-//        exampleCell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier) as? ExampleTableViewCell
-//        XCTAssertNotNil(exampleCell)
+        var exampleHeaderFooter = tableView.dequeueReusableHeaderFooterView(withIdentifier: reuseIdentifier) as? ExampleHeaderFooterView
+        XCTAssertNil(exampleHeaderFooter)
+        
+        tableView.registerNib(forHeaderFooterView: ExampleHeaderFooterView.self)
+        
+        exampleHeaderFooter = tableView.dequeueReusableHeaderFooterView(withIdentifier: reuseIdentifier) as? ExampleHeaderFooterView
+        XCTAssertNotNil(exampleHeaderFooter)
     }
 }

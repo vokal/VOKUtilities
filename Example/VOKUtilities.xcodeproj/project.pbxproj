@@ -48,6 +48,12 @@
 		903A2D0E228CB4EE003CC939 /* IntExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A2D0B228CB4ED003CC939 /* IntExtensionsTests.swift */; };
 		903A2D0F228CB4EE003CC939 /* UITableViewExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A2D0C228CB4EE003CC939 /* UITableViewExtensionsTests.swift */; };
 		903A2D10228CB4EE003CC939 /* StringExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A2D0D228CB4EE003CC939 /* StringExtensionsTests.swift */; };
+		903A2D27228CB7E5003CC939 /* ExampleHeaderFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 903A2D21228CB7E5003CC939 /* ExampleHeaderFooterView.xib */; };
+		903A2D28228CB7E5003CC939 /* ExampleHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A2D22228CB7E5003CC939 /* ExampleHeaderFooterView.swift */; };
+		903A2D29228CB7E5003CC939 /* ExampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A2D23228CB7E5003CC939 /* ExampleCollectionViewCell.swift */; };
+		903A2D2A228CB7E5003CC939 /* ExampleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 903A2D24228CB7E5003CC939 /* ExampleCollectionViewCell.xib */; };
+		903A2D2B228CB7E5003CC939 /* ExampleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 903A2D25228CB7E5003CC939 /* ExampleTableViewCell.xib */; };
+		903A2D2C228CB7E5003CC939 /* ExampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A2D26228CB7E5003CC939 /* ExampleTableViewCell.swift */; };
 		93399C2AF001CC7CA820506A591F99C6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1414AF7F8D2543DF6DA238BB32F258E2 /* XCTest.framework */; };
 		A0B8F9231D209C27763CFEEF80AD632A /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2014524F61656C2D8929927C8F65CD6 /* InterfaceController.m */; };
 		A3BD758D681FFFE094FDDE68E20392C3 /* NSPredicate_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FEE28427C1277C3D9CD5B1716EF9FF /* NSPredicate_VOKAL_Tests.m */; };
@@ -202,6 +208,12 @@
 		903A2D0B228CB4ED003CC939 /* IntExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntExtensionsTests.swift; path = ../../../../../Downloads/Temp/IntExtensionsTests.swift; sourceTree = "<group>"; };
 		903A2D0C228CB4EE003CC939 /* UITableViewExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtensionsTests.swift; sourceTree = "<group>"; };
 		903A2D0D228CB4EE003CC939 /* StringExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtensionsTests.swift; path = ../../../../../Downloads/Temp/StringExtensionsTests.swift; sourceTree = "<group>"; };
+		903A2D21228CB7E5003CC939 /* ExampleHeaderFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleHeaderFooterView.xib; sourceTree = "<group>"; };
+		903A2D22228CB7E5003CC939 /* ExampleHeaderFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleHeaderFooterView.swift; sourceTree = "<group>"; };
+		903A2D23228CB7E5003CC939 /* ExampleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCollectionViewCell.swift; sourceTree = "<group>"; };
+		903A2D24228CB7E5003CC939 /* ExampleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleCollectionViewCell.xib; sourceTree = "<group>"; };
+		903A2D25228CB7E5003CC939 /* ExampleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleTableViewCell.xib; sourceTree = "<group>"; };
+		903A2D26228CB7E5003CC939 /* ExampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTableViewCell.swift; sourceTree = "<group>"; };
 		95D338A52C82D3F4950BF51B71E2BE73 /* Pods-VOKUtilities-tvOS-Tests-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-tvOS-Tests-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-tvOS-Tests-tvOS/Pods-VOKUtilities-tvOS-Tests-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		97E3AAD05EA689878AF2790C74601314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		985FAF06CDDC26B6F5FEBD8208432C33 /* Pods-VOKUtilities-OSX-Tests-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-OSX-Tests-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-OSX-Tests-OSX/Pods-VOKUtilities-OSX-Tests-OSX.debug.xcconfig"; sourceTree = "<group>"; };
@@ -471,6 +483,19 @@
 			);
 			sourceTree = "<group>";
 		};
+		903A2D20228CB7E5003CC939 /* ExampleCells */ = {
+			isa = PBXGroup;
+			children = (
+				903A2D22228CB7E5003CC939 /* ExampleHeaderFooterView.swift */,
+				903A2D21228CB7E5003CC939 /* ExampleHeaderFooterView.xib */,
+				903A2D23228CB7E5003CC939 /* ExampleCollectionViewCell.swift */,
+				903A2D24228CB7E5003CC939 /* ExampleCollectionViewCell.xib */,
+				903A2D26228CB7E5003CC939 /* ExampleTableViewCell.swift */,
+				903A2D25228CB7E5003CC939 /* ExampleTableViewCell.xib */,
+			);
+			path = ExampleCells;
+			sourceTree = "<group>";
+		};
 		90F0A3B3B8828F61ECDBC37E18FA2567 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -523,6 +548,7 @@
 			isa = PBXGroup;
 			children = (
 				7CC8F5330184AA24D1C85C4555CAD942 /* Supporting Files */,
+				903A2D20228CB7E5003CC939 /* ExampleCells */,
 				9DA495983AF48F5C2F1C1DACEBA20C19 /* CollectionExtensionsTests.swift */,
 				903A2D0B228CB4ED003CC939 /* IntExtensionsTests.swift */,
 				903A2D0D228CB4EE003CC939 /* StringExtensionsTests.swift */,
@@ -846,7 +872,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				903A2D2B228CB7E5003CC939 /* ExampleTableViewCell.xib in Resources */,
 				2DB1DDCB4DFAD0F456DD71758947C216 /* InfoPlist.strings in Resources */,
+				903A2D27228CB7E5003CC939 /* ExampleHeaderFooterView.xib in Resources */,
+				903A2D2A228CB7E5003CC939 /* ExampleCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1053,6 +1082,8 @@
 				0FF8373B0EB3EA86A414212A736DB637 /* CollectionExtensionsTests.swift in Sources */,
 				0529F65AEC801852D6EC3E948E7D2EAC /* NSCalendar_VOKAL_Tests.m in Sources */,
 				903A2D0F228CB4EE003CC939 /* UITableViewExtensionsTests.swift in Sources */,
+				903A2D28228CB7E5003CC939 /* ExampleHeaderFooterView.swift in Sources */,
+				903A2D2C228CB7E5003CC939 /* ExampleTableViewCell.swift in Sources */,
 				E18633348D706743144B98222999CB4A /* NSNumberFormatter_VOKAL_Tests.m in Sources */,
 				A3BD758D681FFFE094FDDE68E20392C3 /* NSPredicate_VOKAL_Tests.m in Sources */,
 				ECA11D82737DF4A99D60E235A24329D0 /* NSString_VOKValidation_Tests.m in Sources */,
@@ -1061,6 +1092,7 @@
 				50C91464E6FA9E82C648B7C1A453B40B /* UIColor_VOKAL_Tests.m in Sources */,
 				83F9FBB51AE06D5C4B74D5793F51D3B2 /* UIViewController_VOKKeyboard_Tests.m in Sources */,
 				C68F32857F07A8C4386D1DD3C8C6194D /* UIView_VOKCircle_Tests.m in Sources */,
+				903A2D29228CB7E5003CC939 /* ExampleCollectionViewCell.swift in Sources */,
 				B055004A95DAD2F86284B6A148CC464A /* UIView_VOKDebug_Tests.m in Sources */,
 				5C86A1DEEE565D527AF1CFE2616D4FA9 /* VOKAlertHelper_Tests.m in Sources */,
 			);
