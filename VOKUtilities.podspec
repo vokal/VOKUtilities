@@ -33,10 +33,6 @@ Pod::Spec.new do |s|
   s.subspec 'NSNumberFormatter+VOKAL' do |ss|
     ss.source_files = 'Pod/NSNumberFormatter+VOKAL/*.{h,m}'
   end
-
-  s.subspec 'VOKSwiftHelpers' do |ss|
-    ss.source_files = 'Pod/VOKSwiftHelpers/*.swift'
-  end
   
   #UIKit specs:
   s.subspec 'UIColor+VOKAL' do |ss|
@@ -85,6 +81,11 @@ Pod::Spec.new do |s|
   s.subspec 'VOKNavigationHelper' do |ss|
     ss.platform = :ios
     ss.source_files = 'Pod/VOKNavigationHelper/*.{h,m}'
+  end
+  
+  s.subspec 'VOKSwiftHelpers' do |ss|
+    ss.platform = :ios
+    ss.source_files = 'Pod/VOKSwiftHelpers/*.swift'
   end
   
   s.subspec 'VOKSwiftTestingHelpers' do |ss|
