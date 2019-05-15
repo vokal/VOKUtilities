@@ -9,163 +9,164 @@
 /* Begin PBXBuildFile section */
 		0611CAEE1DF6AF8AF75F92706953D7D4 /* Pods-VOKUtilities-Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C4DFE92C1AB4425A1D4CEEB44BE99B7 /* Pods-VOKUtilities-Tests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0725F1ED5316A20F9E260C3CC74CF568 /* UIApplication-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 854F92281C52D313E09054364985B3F2 /* UIApplication-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		072B93A6C679291D15A6347CC78E34F4 /* VOKKeyPathHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = BFAC9907F459A7A2B687E0D3A74B7CCB /* VOKKeyPathHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		08CA2F747CB12754C5514B666319D663 /* NSString+VOKValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E42161E4F8B7BB0E1EC504C1E65BCAB /* NSString+VOKValidation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		072B93A6C679291D15A6347CC78E34F4 /* VOKKeyPathHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E1503CD0D89DB1211452BE8EA44C3F /* VOKKeyPathHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		08CA2F747CB12754C5514B666319D663 /* NSString+VOKValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A3A0C7DBD08DBDC050F186DD4B546B /* NSString+VOKValidation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0ADCC2F9A01259005F64E5D255E2852B /* UITouch-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FEE1D005D3112F1D8D6B6745AE0787 /* UITouch-KIFAdditions.m */; };
 		0AE31ACBCCE9A2707996ADE884F666CF /* KIFUITestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7697DDA6C6D9D87F9A980B8B157429C3 /* KIFUITestActor.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0B0971B545D372D0FA9D861BF2F8FD8C /* KIF-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D532C4FDE263005AE3E45A6159F494F9 /* KIF-dummy.m */; };
 		0C24C52EF8992C938F044B1E72CEFBE1 /* UIScrollView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A774923F68A562D8B5E73138EB25B6B3 /* UIScrollView-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0C998E08632DC5ED2B50CBCBDD0F3C9B /* KIF.h in Headers */ = {isa = PBXBuildFile; fileRef = A9FC0111911F91B4B3633785129A44EF /* KIF.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0CD7D25C5E26C4F85227489B9291E5AC /* NSPredicate+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DCED89A51BE779AF73349F7BEA43C20 /* NSPredicate+KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0D09EA687E3247692ECBC7F87B29C375 /* UIView+VOKCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BEA4F5A8207DA67A675E3F7CC2BC6D7 /* UIView+VOKCircle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0D09EA687E3247692ECBC7F87B29C375 /* UIView+VOKCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A8AFBD8F1FA5291B017F4D5507818E /* UIView+VOKCircle.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0E439FDA88BF2E88ACC856500FCC0944 /* UIScreen+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 538BBDDC3B252DF7264E6A4E7BFB2B21 /* UIScreen+KIFAdditions.m */; };
-		1100D998695377094CC5C38F1FEDDDC9 /* VOKNavigationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 147F21BBE4D9F983509172BC21DD2295 /* VOKNavigationHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1100D998695377094CC5C38F1FEDDDC9 /* VOKNavigationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6728CF64519BCB72B519DEDEB3503F7F /* VOKNavigationHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		16894F3F6CA6A4DB6EE2F26948ADF571 /* Pods-VOKUtilities-UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A03C585586FB4FA6F08DC89532F3B631 /* Pods-VOKUtilities-UITests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		19606BD5186D80F8F61C1D443937F7BF /* NSError-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C55DA82A69EE9C2B3F21408133B34C /* NSError-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1B80D4AD271FF2E0004A81BB038CFF9F /* NSCalendar+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A133B65283251034B16CD9015693375 /* NSCalendar+VOKAL.m */; };
+		1B80D4AD271FF2E0004A81BB038CFF9F /* NSCalendar+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3ED9D41C6C793868B0D3EC850F4FC /* NSCalendar+VOKAL.m */; };
 		1BFAD4ADF50F22C372B1E7244313BBFA /* KIFTypist.h in Headers */ = {isa = PBXBuildFile; fileRef = 0628C7508D9B470AC9CD580FE62C1576 /* KIFTypist.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1D973885E8ACC927116B91BB2B63B6C9 /* VOKUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD744D0B6F05DA1DE154D0E46EA95D1 /* VOKUtilities-dummy.m */; };
 		2182A60D0D5D40212A831F32122020FB /* CALayer-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A1F05556841D38228A95FCFD0B1AA5F /* CALayer-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		219F0F4DC47C956ACEFC20EE789D9C35 /* VOKAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = C46B28AB7A64280480FD89AFB264A908 /* VOKAlertAction.m */; };
-		23000423BE3DAC3991C359CF0A96511F /* UIColor+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C675D5036790B01E016922403EA711D /* UIColor+VOKAL.m */; };
 		231A9B39B9757C75ABD0E00847121911 /* UIAccessibilityElement-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3418016153F5D176B9DB1E184B0DE146 /* UIAccessibilityElement-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		244E8735ACF061A67FF2D9A64ED4E115 /* UIView+VOKCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BEA4F5A8207DA67A675E3F7CC2BC6D7 /* UIView+VOKCircle.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2691B6E31CAE44240836863538E47CD7 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D84595435674BD969CE71F29C5BCDA /* StringExtensions.swift */; };
-		276A03904A75CEE82AA6CF2E1820F1DD /* NSString+VOKValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = A9261887E22C2B9BB3DBF135FEB44246 /* NSString+VOKValidation.m */; };
+		244E8735ACF061A67FF2D9A64ED4E115 /* UIView+VOKCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A8AFBD8F1FA5291B017F4D5507818E /* UIView+VOKCircle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		276A03904A75CEE82AA6CF2E1820F1DD /* NSString+VOKValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = A221008C3AD7C24542E934C2F80A46F9 /* NSString+VOKValidation.m */; };
 		2792749A0345F5691039C59716EEC634 /* KIFTestActor_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2110388300356A68BC40BFAAAD211494 /* KIFTestActor_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		29DD15ABB74097A1C643DB7F9788A0B2 /* UIColor+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C755AE0B31C164228B989957E42142 /* UIColor+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		29DD15ABB74097A1C643DB7F9788A0B2 /* UIColor+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4DF7A6FD4A9565B855BF0B13D0D5AA /* UIColor+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2ABF8F457882F18C212ABD87FAAC608E /* XCTestCase-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C1BEF536910A3CDA231CA993468D16 /* XCTestCase-KIFAdditions.m */; };
+		2B2027D8A28F300E0C1F8D9F0798F144 /* UIColor+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1202845B0C1B5172D61D65754EF418 /* UIColor+VOKAL.m */; };
 		2B9BD8A97C3B2C65964FE148C4DA0147 /* UIAutomationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 12C0B8CD6FBBC70995B3F538FA11F845 /* UIAutomationHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2BA5F8910999DE5D86399BC362704EFC /* KIFAccessibilityEnabler.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7A4A1C3FAEE1F78712067B580CFEA6 /* KIFAccessibilityEnabler.m */; };
 		2C5636799AE488754118E038194911DA /* KIFTypist.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBCE8CB3B7020F39234BD0E66AC7730 /* KIFTypist.m */; };
-		2E4965E503AF1C511ADC6D7C6B4F9933 /* VOKAlertAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 53C39A78B9CBC5CDF616629E1BB3BFEF /* VOKAlertAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2F60C457213A3898FBEE96C79F99A2C5 /* NSCalendar+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C35A3B0CEAFF232A36EA14E0DD288EA /* NSCalendar+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2E4965E503AF1C511ADC6D7C6B4F9933 /* VOKAlertAction.h in Headers */ = {isa = PBXBuildFile; fileRef = FF9FC89F6B979536076461B9636C6074 /* VOKAlertAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2F60C457213A3898FBEE96C79F99A2C5 /* NSCalendar+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CED3512100019D07D445B011E0D4D33 /* NSCalendar+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3010B47B6BCA1F998BC7B7177149BCA5 /* NSFileManager-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 31A8FA141DEE9ACB87524A9278292C9E /* NSFileManager-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		30FD752D90381984ADB5A87B7591E3A1 /* IOHIDEvent+KIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 1733BDF9134BF6748003424ACA210E9C /* IOHIDEvent+KIF.m */; };
 		32C9E5128545F24B904518BA0DE623A0 /* Pods-VOKUtilities-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39722953EC010F554309FCF7B10081C2 /* Pods-VOKUtilities-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		32DCDEDBDEDDB4DC666E8B7BBA3143AE /* KIFUIViewTestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C31ABE1AEF1452985D106AE9FA36CA /* KIFUIViewTestActor.m */; };
-		3313734EA89F7EC8C2D94194E936B84E /* NSNumberFormatter+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 466F329EEDDE982D2599AB9EE7EA0C21 /* NSNumberFormatter+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3348D6408C82798BEC8CDF5B2F85F9C4 /* NSNumberFormatter+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 466F329EEDDE982D2599AB9EE7EA0C21 /* NSNumberFormatter+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		33DA2D22C985733B632AD1F5F1FF0F29 /* NSNumberFormatter+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F14848F130BBE992B07A7C668B89F95 /* NSNumberFormatter+VOKAL.m */; };
-		358C514DE14C7A159F4AB4CF4CA010F8 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F862AD3DA54BB7DF37B23B67DB3135C /* IntExtensions.swift */; };
+		3313734EA89F7EC8C2D94194E936B84E /* NSNumberFormatter+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = C45EADA5600759E94EEFAD186810E412 /* NSNumberFormatter+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3348D6408C82798BEC8CDF5B2F85F9C4 /* NSNumberFormatter+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = C45EADA5600759E94EEFAD186810E412 /* NSNumberFormatter+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		33DA2D22C985733B632AD1F5F1FF0F29 /* NSNumberFormatter+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB606DFD5BA1AFC7212F9C9C727D48F /* NSNumberFormatter+VOKAL.m */; };
+		35FA270C8EF8B0C32036D6AC190AD2ED /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61DF12D178C63CE3E46AE57C7F84DC0 /* UITableViewExtensions.swift */; };
 		372B6A052AFDF4B1D21DBCD3C46B4A1E /* KIFUITestActor-ConditionalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3098C8519EE5AF9DDE725384502A6C1 /* KIFUITestActor-ConditionalTests.m */; };
+		375A928A050A02928DE39288533FE7A3 /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F05C8FA41AD4F0F6B69A07E0CE99CA9 /* CollectionExtensions.swift */; };
 		3842D677146F399787E910C525F03257 /* KIFTextInputTraitsOverrides.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDA604BF363ECAA962F96DB56F18EFD /* KIFTextInputTraitsOverrides.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		39D8A5A0C9CAD791D2141C7E6D9316F9 /* UITouch-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 21011118BE437CCF36D574B3B2CBAB58 /* UITouch-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3A7C35D799BF06DFB5A3FCA328007752 /* UIViewController+VOKKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1C44D857EBB43DCEEE7510629D6FD8 /* UIViewController+VOKKeyboard.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3E7669B7BEE459BCF0CAB8E9B7C00872 /* VOKUtilities-6aa4e1e5-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CE89B938ED4B515669C6E5BA87AD71 /* VOKUtilities-6aa4e1e5-dummy.m */; };
+		3A7C35D799BF06DFB5A3FCA328007752 /* UIViewController+VOKKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7EC07C2683DFC5808114406438D53B /* UIViewController+VOKKeyboard.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3E7669B7BEE459BCF0CAB8E9B7C00872 /* VOKUtilities-6aa4e1e5-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE43381B9E4219DA4ED31E2729BFA53 /* VOKUtilities-6aa4e1e5-dummy.m */; };
 		3FE69190C5FB7292106727813FCDC791 /* KIFSystemTestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 151518AF274D7B5563E21402EE88AB43 /* KIFSystemTestActor.m */; };
+		400FCAC93BDF10A1F6E30CDE1BCC60DF /* VOKNavigationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B34F138766DC84C07B905D48FA88B28 /* VOKNavigationHelper.m */; };
+		4068C4F526C493E8832D13980962DED3 /* VOKEmailHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 361DEDF72551668686A1F4BDB6F1CD5E /* VOKEmailHelper.m */; };
 		447B089C6AB266B5A46C611174491663 /* Pods-VOKUtilities-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83485C7C73EBA2B330891D183E40D562 /* Pods-VOKUtilities-Tests-dummy.m */; };
-		472B794958E1C15F5525D65652BF29B4 /* NSPredicate+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5D89788D3B1F53952F887ADDB670DC /* NSPredicate+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		491E7912323540F8C045894EB916BD19 /* NSString+VOKValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = A9261887E22C2B9BB3DBF135FEB44246 /* NSString+VOKValidation.m */; };
-		4D6D78CAB422CD8C7DFF52AD193E0ECD /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FFB7B7560FAF91821D5C1C23844B78 /* UITableViewExtensions.swift */; };
+		472B794958E1C15F5525D65652BF29B4 /* NSPredicate+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B354C38474CFDEDB0954682E0FC7175 /* NSPredicate+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4E294EC294512F4B27C518056D631DB7 /* Pods-VOKUtilities-tvOS-Tests-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA7F3D50FFE083C48A97A824A19FD2 /* Pods-VOKUtilities-tvOS-Tests-tvOS-dummy.m */; };
-		4E614A29676750B8E54748437AA6AC2B /* VOKKeyPathHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = BFAC9907F459A7A2B687E0D3A74B7CCB /* VOKKeyPathHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4E614A29676750B8E54748437AA6AC2B /* VOKKeyPathHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E1503CD0D89DB1211452BE8EA44C3F /* VOKKeyPathHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4F621D0FE826BAF7C4779182BFC88688 /* NSException-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 47805D74E14B19FB9C15DE43425C4309 /* NSException-KIFAdditions.m */; };
-		504964211EAA4E5D3EB4C0E61B48A87A /* NSPredicate+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5D89788D3B1F53952F887ADDB670DC /* NSPredicate+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		504964211EAA4E5D3EB4C0E61B48A87A /* NSPredicate+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B354C38474CFDEDB0954682E0FC7175 /* NSPredicate+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5150B5579B19DE3D61047E30C09CDD22 /* CAAnimation+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2A86B6D1842B348AD599F343A7618D7 /* CAAnimation+KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		55A3EDF57589EC97B0A97F2808025FCE /* VOKAlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 355C6EFBCEF3AA2BD705EEB026340750 /* VOKAlertHelper.m */; };
-		5770CB8B5A30D803234E5492BD0913EF /* NSCalendar+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C35A3B0CEAFF232A36EA14E0DD288EA /* NSCalendar+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		57F9F0F4B79DBC580EE1AD13E8F09341 /* NSString+VOKValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E42161E4F8B7BB0E1EC504C1E65BCAB /* NSString+VOKValidation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		599B300D3F770C23142920DEF270E032 /* NSPredicate+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = A310239208C64AC23ED9615A4B5E64B2 /* NSPredicate+VOKAL.m */; };
-		5A4A159F7CE7FA9BD7D3B0F7F4180464 /* VOKKeyPathHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD20D34445AFCA6BD52698A78276A6D /* VOKKeyPathHelper.m */; };
-		5C93115E6995B423BEE2CC5C311AD260 /* VOKIBHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 81BB4813D8FADF0147AFE4090C14C0A3 /* VOKIBHelpers.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		53A9DE00428433F4633F5A08D90E21F0 /* NSPredicate+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BA1B9291F37CE708E93F5CC53D517D /* NSPredicate+VOKAL.m */; };
+		54610C75AF83FC7DEF8DC2BDD7EDFC32 /* NSString+VOKValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = A221008C3AD7C24542E934C2F80A46F9 /* NSString+VOKValidation.m */; };
+		5770CB8B5A30D803234E5492BD0913EF /* NSCalendar+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CED3512100019D07D445B011E0D4D33 /* NSCalendar+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		57F9F0F4B79DBC580EE1AD13E8F09341 /* NSString+VOKValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A3A0C7DBD08DBDC050F186DD4B546B /* NSString+VOKValidation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		599B300D3F770C23142920DEF270E032 /* NSPredicate+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BA1B9291F37CE708E93F5CC53D517D /* NSPredicate+VOKAL.m */; };
+		5A4A159F7CE7FA9BD7D3B0F7F4180464 /* VOKKeyPathHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1CF863380A811092928B4555B46C1E /* VOKKeyPathHelper.m */; };
+		5B9B378A2B62A09E380925F2FD34B05C /* NSNumberFormatter+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB606DFD5BA1AFC7212F9C9C727D48F /* NSNumberFormatter+VOKAL.m */; };
+		5C93115E6995B423BEE2CC5C311AD260 /* VOKIBHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 440942E6F31181FF843AC459A865E355 /* VOKIBHelpers.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5E7EDD5BF37E2A1542FE5788E22FA2D0 /* NSString+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3DAFAAB509AD7639094B6BBF3CAD63 /* NSString+KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5F3FB0DB12D5F1A19D1626F6AF5DD527 /* NSCalendar+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3ED9D41C6C793868B0D3EC850F4FC /* NSCalendar+VOKAL.m */; };
 		5F9CF4BF6451C918438382ACF5ABC5F7 /* Pods-VOKUtilities-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF268E9E4A06FAD59C701B09281816D /* Pods-VOKUtilities-OSX-dummy.m */; };
 		5FF6E4275D74E2EE4BD4B9347A26B0C4 /* CALayer-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C437DF83D3678232026C72E05C16175 /* CALayer-KIFAdditions.m */; };
-		60079CE33BC49A803EEBFA6AF2416873 /* NSNumberFormatter+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F14848F130BBE992B07A7C668B89F95 /* NSNumberFormatter+VOKAL.m */; };
 		6043A0A78D9A8B57B55EEDB875DD4E59 /* Pods-VOKUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B41C7A039F78E5386CA01BB57828E11F /* Pods-VOKUtilities-dummy.m */; };
-		62E1F93B0D1FFA0FCE24FD3AD8A367B7 /* NSString+VOKValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = A9261887E22C2B9BB3DBF135FEB44246 /* NSString+VOKValidation.m */; };
+		60E6CBB044834ED9D029038891D929F2 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7047E01AFB9EF866F84F2636CDECC989 /* IntExtensions.swift */; };
+		62E1F93B0D1FFA0FCE24FD3AD8A367B7 /* NSString+VOKValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = A221008C3AD7C24542E934C2F80A46F9 /* NSString+VOKValidation.m */; };
 		62FBC1EBDB0E804D04C2FABB20DF8442 /* KIFTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A77E97D7F4C0E843CB4B3D2991F502 /* KIFTestCase.m */; };
-		65F6C045E93013601945767BB65FB59C /* UIView+VOKDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = C198CB62E34F95B839F931A0555C8D7A /* UIView+VOKDebug.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		65F6C045E93013601945767BB65FB59C /* UIView+VOKDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA37A91E945C0CC2ED5E46B8B0CDAD8 /* UIView+VOKDebug.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		668AE6317D5CCF211BF02A144AEE9773 /* KIFTestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C73F729A165741634A0DE2025D9EC6 /* KIFTestActor.m */; };
-		67E6B3953783BA623FB6F7F9A9CACE57 /* VOKKeyPathHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD20D34445AFCA6BD52698A78276A6D /* VOKKeyPathHelper.m */; };
 		6A65FF06F13304ABC3C13A5018AB760E /* Pods-VOKUtilities-OSX-Tests-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A37EFF16CB19CD93D1B7F50C97E551 /* Pods-VOKUtilities-OSX-Tests-OSX-dummy.m */; };
 		6C55F29BE4925B80E048109C2D2D4410 /* UIWindow-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BB310251167202CD6D1B795EA47FBF6 /* UIWindow-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		70E75FDF77D8701AA74ADE7C435CDDA0 /* UIViewController+VOKKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB1821F01DAF935A492E8D0B4D0C32 /* UIViewController+VOKKeyboard.m */; };
 		7274809D7B27EB21EBEDC478A30A56C8 /* IOHIDEvent+KIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 8479B8B4FA726F58EF98CF614BADB1C8 /* IOHIDEvent+KIF.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		727DE9FFBECCD18CB3BFDAE193F1DB3C /* VOKEmailHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5792F16D4DACEFB3B7474ACFA0EF5BC8 /* VOKEmailHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7287D9584EEC8A418ED0917CDE2FD0EC /* ReuseIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7F47111F3201E8DD57587D66381230 /* ReuseIdentifiable.swift */; };
+		727DE9FFBECCD18CB3BFDAE193F1DB3C /* VOKEmailHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 789F47BD8AAFBBB9AEBF56AAE4D0540D /* VOKEmailHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		73EE6413F89D5DED331A26E6A3E2C07B /* NSException-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 588A84EBF6E4626961568D6F5C8510FB /* NSException-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		74A84094A7EBB52107F68DA5E70B8F5C /* UITableView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE9FA8F23E882B18A648AB3435B8672 /* UITableView-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		75DBA5C0E5B0BBB4CB4CE25F8FA92139 /* UIColor+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C755AE0B31C164228B989957E42142 /* UIColor+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		75DBA5C0E5B0BBB4CB4CE25F8FA92139 /* UIColor+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4DF7A6FD4A9565B855BF0B13D0D5AA /* UIColor+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		784E9487C33486AB2354C10B4CE54057 /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AF60D74A1E306CF8826B940816FE7C /* UICollectionViewExtensions.swift */; };
+		7A1304A3C7683556C90AAE029A656453 /* UIView+VOKDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B6C226AED3B4CB2820306109AF33EC /* UIView+VOKDebug.m */; };
 		8050B464C77CDC1B3627F7504E410392 /* UIView-Debugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 5734BB6D663D1A0FFB3A2741FBE8CA2B /* UIView-Debugging.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		80E608893F016FF54B56E00898C53CCC /* UIEvent+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E174346EF518EF57D6970EB1DFD60E /* UIEvent+KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		86D5FD1FB7082A926BE2077D2F6FED71 /* NSError-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B10EE802DA2A88FE0BF6A6A9A60F8B /* NSError-KIFAdditions.m */; };
 		86E05146CFC8D414E715550894D95DC9 /* Pods-VOKUtilities-watchOS Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F93316D7B8B6B844EF451E989B6704 /* Pods-VOKUtilities-watchOS Extension-dummy.m */; };
 		87F588E29193866FB8E5378971E07BC0 /* KIFTestStepValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = FB44C47791414A455E267E8891F8B68B /* KIFTestStepValidation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		883DF04D2A5EB62376A50B3FBC09024D /* NSPredicate+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = A310239208C64AC23ED9615A4B5E64B2 /* NSPredicate+VOKAL.m */; };
+		883DF04D2A5EB62376A50B3FBC09024D /* NSPredicate+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BA1B9291F37CE708E93F5CC53D517D /* NSPredicate+VOKAL.m */; };
 		890C4244259B7ED1ADE33F3FAB8E85D2 /* NSString+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C52BD3A6262DE52698132DFFB4F083E2 /* NSString+KIFAdditions.m */; };
-		8AC158C6EEE22DEEA22E42436D811835 /* NSPredicate+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = A310239208C64AC23ED9615A4B5E64B2 /* NSPredicate+VOKAL.m */; };
 		8C44C14D877C52CF94E44FC252BE4A8B /* UIWindow-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A3EF57781043041FB25E9FD58162E8 /* UIWindow-KIFAdditions.m */; };
-		8C9F53B16722BE8D752E99A25C7E9CE7 /* NSCalendar+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A133B65283251034B16CD9015693375 /* NSCalendar+VOKAL.m */; };
-		8CD1335B07EFF294001EEDDE9F164C12 /* NSString+VOKValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E42161E4F8B7BB0E1EC504C1E65BCAB /* NSString+VOKValidation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8D6CD32E6BFD162D9146ED144069C62F /* VOKAlertHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FCB3171106771D3F40CAA84AECF6C1C2 /* VOKAlertHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8C9F53B16722BE8D752E99A25C7E9CE7 /* NSCalendar+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3ED9D41C6C793868B0D3EC850F4FC /* NSCalendar+VOKAL.m */; };
+		8CD1335B07EFF294001EEDDE9F164C12 /* NSString+VOKValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A3A0C7DBD08DBDC050F186DD4B546B /* NSString+VOKValidation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8D6CD32E6BFD162D9146ED144069C62F /* VOKAlertHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF182CEDC1AB37C562DE2898B3FDEC7 /* VOKAlertHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8DAD241E55FD8978D0602F7C2E8388D7 /* UIView+VOKCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = A668B1C75C535FDA92BACB5528F82618 /* UIView+VOKCircle.m */; };
 		8EC68F180523EBDC9DBF6883F7863AD9 /* UIApplication-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AC22A5FFB2B3AEF9F5B10B38E22AA7 /* UIApplication-KIFAdditions.m */; };
 		8FAA6AB6DA9BFD572114AD156FC772A5 /* CAAnimation+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29998B1C83CF1353932885487FA87E55 /* CAAnimation+KIFAdditions.m */; };
-		915D9C66AD5A3CC8FBDF173C64BA4FAB /* NSString+VOKValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = A9261887E22C2B9BB3DBF135FEB44246 /* NSString+VOKValidation.m */; };
-		92D0257F35B144281ACD0AD7D2842740 /* UIView+VOKDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA320FAD1863DF499579DECEF2A7DDB /* UIView+VOKDebug.m */; };
+		915D9C66AD5A3CC8FBDF173C64BA4FAB /* NSString+VOKValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = A221008C3AD7C24542E934C2F80A46F9 /* NSString+VOKValidation.m */; };
+		92D0257F35B144281ACD0AD7D2842740 /* UIView+VOKDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B6C226AED3B4CB2820306109AF33EC /* UIView+VOKDebug.m */; };
 		94C099A22B94FC034BE41EAD078873CC /* KIFTestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = EA6F1D3242408C554EB696E3246C5425 /* KIFTestActor.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		955E77D04F2E7A708EBA752EF3FF8130 /* UIColor+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C755AE0B31C164228B989957E42142 /* UIColor+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		955E77D04F2E7A708EBA752EF3FF8130 /* UIColor+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4DF7A6FD4A9565B855BF0B13D0D5AA /* UIColor+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		95BB13FA72195BD7C3CA4E7516DF8B09 /* KIFSystemTestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D5FCFAF0D919A05EAF4D9CD89A5B52B /* KIFSystemTestActor.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		95FE1506A275C4977B08FD34B0E91441 /* NSPredicate+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5D89788D3B1F53952F887ADDB670DC /* NSPredicate+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		95FE1506A275C4977B08FD34B0E91441 /* NSPredicate+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B354C38474CFDEDB0954682E0FC7175 /* NSPredicate+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		97382B37F557FD160C4D7DA00F96C47F /* UIScrollView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E555C713CC262BFDB7E64E16B225020 /* UIScrollView-KIFAdditions.m */; };
 		978E15EE907FC6389523D84A5ED948E0 /* XCTestCase-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2664C9DB97286469AF27C2AE5F92AE89 /* XCTestCase-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9CC98A84883AA3B1D6F4428075EFB933 /* UIView+VOKCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6343C959FCB9C5A3BC72ACF7B5B08D /* UIView+VOKCircle.m */; };
-		A09FDA775CF35AC310CE6FA29EF9E42C /* VOKEmailHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6002AF8B7AFADC8AA4892E9FBC6E48 /* VOKEmailHelper.m */; };
 		A279E04B38CFD7A58D4AF239204C3D73 /* UIView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4494072B5F328320B13EA6B772126744 /* UIView-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A294247DAF0C0FC7B76F6C2B07D91AB2 /* UIView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7963DAD342448711DD63B8A5D3B341A9 /* UIView-KIFAdditions.m */; };
+		A4590B57057DB182E6734EB65459CEBD /* ReuseIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83C5236050ABC9EF90BFC157106A643 /* ReuseIdentifiable.swift */; };
 		A6755A2D31E1190C0665360C7A944938 /* KIFUITestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D0C6B5C2D53C77FDD91058B39768C /* KIFUITestActor.m */; };
 		A7ED4E297A0894439DBEFF110B9AE2A4 /* KIFUIObject.h in Headers */ = {isa = PBXBuildFile; fileRef = EEDA80244BF2D570DC3C97F1D1074C95 /* KIFUIObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A8BA5A8EDC7357BB61937F1EC0FD7801 /* VOKUtilities-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8F9CE525656D72E8D23E42014510BC /* VOKUtilities-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A95CEFFD16563829091B7BF584A60644 /* NSNumberFormatter+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 466F329EEDDE982D2599AB9EE7EA0C21 /* NSNumberFormatter+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A8BA5A8EDC7357BB61937F1EC0FD7801 /* VOKUtilities-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1FB2784B2443854A150A76324264BD2 /* VOKUtilities-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A95CEFFD16563829091B7BF584A60644 /* NSNumberFormatter+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = C45EADA5600759E94EEFAD186810E412 /* NSNumberFormatter+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AC226C5DE415849579749F9749090C3A /* VOKAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FD55EBCEA653BF8E90FEE5ED3BF865 /* VOKAlertAction.m */; };
 		ACFA1EEF02C6E9C435ADCD46FA27FA05 /* KIFUIViewTestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F2A72BE90AF2CB286A2E020E8C865A /* KIFUIViewTestActor.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AEA349B4CC765593ED7519DA692040C2 /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CDB6FBD53DD782179AAB79D6B429E9 /* CollectionExtensions.swift */; };
 		AEAE2361860B3F768E61BF41C1318E88 /* Pods-VOKUtilities-UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 500CF15B061A6A075A8FC952674FAFF7 /* Pods-VOKUtilities-UITests-dummy.m */; };
 		B028E4EFBBDD4836CFF6F80E55454B72 /* UITableView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C048D3CCBA504CFBB9FD426AA9BF6ED4 /* UITableView-KIFAdditions.m */; };
 		B2427CB25D09BC7A33A783EC7EFB5F1E /* UIAutomationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E67506E53B7B6A3D8656FB3A3658D /* UIAutomationHelper.m */; };
+		B27D5F7924A2695BCFBF3C5FB96303D3 /* VOKKeyPathHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1CF863380A811092928B4555B46C1E /* VOKKeyPathHelper.m */; };
 		B5E170609650585C0A02F89941417231 /* UIView-Debugging.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A35E91D78D246461515D0033E384C3 /* UIView-Debugging.m */; };
 		B7E6A8C6D565C740CB26D7B44867209E /* LoadableCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FCE101BA6858E3A0D2583689E71B9B /* LoadableCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B831AA84D91D95D36263A591FB237F1F /* KIFUITestActor-ConditionalTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 17283AB5B6D087C8561522349235F7C2 /* KIFUITestActor-ConditionalTests.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B8C847ADC53B46887777AA683B9F1AEF /* VOKUtilities-3288a73d-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5F59AAD928F015ED2C036CFB7DDF55 /* VOKUtilities-3288a73d-dummy.m */; };
+		B8C847ADC53B46887777AA683B9F1AEF /* VOKUtilities-3288a73d-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6AF5DC947034159D59CEA7FF861557 /* VOKUtilities-3288a73d-dummy.m */; };
 		BC1A9CB30616230A9A6F45AEE6FD1B33 /* KIFAccessibilityEnabler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F07EA44B20310380C2D2AC2A0A49700 /* KIFAccessibilityEnabler.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BF3502FFEFD84DFFF4B50B1F47E6E023 /* Pods-VOKUtilities-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 114C99483DA0435B8B321E3BB40EFC77 /* Pods-VOKUtilities-tvOS-dummy.m */; };
-		C72BCEDA013D5FE383FD8AD4809A879E /* VOKIBHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 81BB4813D8FADF0147AFE4090C14C0A3 /* VOKIBHelpers.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C85A7C372A8812667149D1B875EB4200 /* UIView+VOKDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA320FAD1863DF499579DECEF2A7DDB /* UIView+VOKDebug.m */; };
+		C42D47C04840B12524BAC284A08865A7 /* VOKUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAA9650090E08E7CFE16A70D67B992C /* VOKUtilities-dummy.m */; };
+		C72BCEDA013D5FE383FD8AD4809A879E /* VOKIBHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 440942E6F31181FF843AC459A865E355 /* VOKIBHelpers.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CBC4D8FE5D5131AB88382B5C435490DF /* KIFTestStepValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 50280113E17E0218C87036706C0401A1 /* KIFTestStepValidation.m */; };
 		CBC7420555649F358AFB44FFA8B7E780 /* KIFUITestActor_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ACE6DF3A25F0EAEC9C796E37356B60F /* KIFUITestActor_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CE96CBAF90197161B6CCBFFDC139F171 /* VOKNavigationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E91E44A397D15B44E7D967F948327009 /* VOKNavigationHelper.m */; };
 		D0CAAFC19EBE6056CE23E9EAB50C011D /* CGGeometry-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B07361F916AC43769A3654D7B05A3E7 /* CGGeometry-KIFAdditions.m */; };
 		D19407A808D8145667DFF3B1A836E64C /* CGGeometry-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E873F20D3342C2BF27D8BAF24630D1CA /* CGGeometry-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D210B1853E91CDF610CCD5B9066AC3FD /* NSNumberFormatter+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F14848F130BBE992B07A7C668B89F95 /* NSNumberFormatter+VOKAL.m */; };
+		D210B1853E91CDF610CCD5B9066AC3FD /* NSNumberFormatter+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB606DFD5BA1AFC7212F9C9C727D48F /* NSNumberFormatter+VOKAL.m */; };
 		D385BC7EF4C1663E3840DF195D894AD6 /* NSFileManager-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D28B0744F904025A3F206E815BF09DEE /* NSFileManager-KIFAdditions.m */; };
-		D401E25FD5ED818F050CBADC435981F9 /* UIView+VOKCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6343C959FCB9C5A3BC72ACF7B5B08D /* UIView+VOKCircle.m */; };
+		D401E25FD5ED818F050CBADC435981F9 /* UIView+VOKCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = A668B1C75C535FDA92BACB5528F82618 /* UIView+VOKCircle.m */; };
 		D4731F8D605D29C076C130BF0C9BA138 /* UIEvent+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A6E24EE3140BA74FCC95BD24334A3A /* UIEvent+KIFAdditions.m */; };
-		D491E20BE180269B324A5B91406E6D72 /* VOKKeyPathHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = BFAC9907F459A7A2B687E0D3A74B7CCB /* VOKKeyPathHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D491E20BE180269B324A5B91406E6D72 /* VOKKeyPathHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E1503CD0D89DB1211452BE8EA44C3F /* VOKKeyPathHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D6EDB021BCEF9A49F309DD04D945E73B /* NSBundle-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 842492CB1AC0B4E5D6D7DFEE33F41FBD /* NSBundle-KIFAdditions.m */; };
-		DC552B4224AB3A4587C50384BF9FFA76 /* NSNumberFormatter+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F14848F130BBE992B07A7C668B89F95 /* NSNumberFormatter+VOKAL.m */; };
-		DE9ED8148CB62F377BF959D2A8FD7921 /* VOKKeyPathHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD20D34445AFCA6BD52698A78276A6D /* VOKKeyPathHelper.m */; };
-		E14827121891573EB32D02E1E4A4C126 /* VOKKeyPathHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD20D34445AFCA6BD52698A78276A6D /* VOKKeyPathHelper.m */; };
+		DC552B4224AB3A4587C50384BF9FFA76 /* NSNumberFormatter+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB606DFD5BA1AFC7212F9C9C727D48F /* NSNumberFormatter+VOKAL.m */; };
+		DE9ED8148CB62F377BF959D2A8FD7921 /* VOKKeyPathHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1CF863380A811092928B4555B46C1E /* VOKKeyPathHelper.m */; };
+		E14827121891573EB32D02E1E4A4C126 /* VOKKeyPathHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1CF863380A811092928B4555B46C1E /* VOKKeyPathHelper.m */; };
 		E1FA3022843EEDCD4E5AA6757054C557 /* NSBundle-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 045631F0B93D8D1FA2584AB11FB94E6F /* NSBundle-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E54401843E2E081F23B6016BB0912350 /* VOKKeyPathHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = BFAC9907F459A7A2B687E0D3A74B7CCB /* VOKKeyPathHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E7E83BA49A445D275B475CAF7106596E /* TestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBEDF29EC57F63B11AA6864C2FBDFED /* TestExtensions.swift */; };
+		E54401843E2E081F23B6016BB0912350 /* VOKKeyPathHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E1503CD0D89DB1211452BE8EA44C3F /* VOKKeyPathHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5C597D937E0BEC0A5C7F29FA32237DF /* VOKAlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B37DB27B3B26E6D710CFBC5EAA88EA /* VOKAlertHelper.m */; };
+		E73EFB95087F98BE624F51A44D7B8C71 /* TestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FE49DB8409BAE5054B7B7397A2CDE0 /* TestExtensions.swift */; };
 		E889D9F2EAF028AA7B15FC03D6460740 /* UIScreen+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C90D6D5708BBCB067F6CD0F844367AD /* UIScreen+KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E896CA96CB3C5AA3FCBA154AFAF7B267 /* NSPredicate+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF1042957774E02A681A5371EAECD1F /* NSPredicate+KIFAdditions.m */; };
-		ECD1171EF20BE11A81607D5B22456F1F /* NSNumberFormatter+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 466F329EEDDE982D2599AB9EE7EA0C21 /* NSNumberFormatter+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ECD1171EF20BE11A81607D5B22456F1F /* NSNumberFormatter+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = C45EADA5600759E94EEFAD186810E412 /* NSNumberFormatter+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EDB5ACE558B13D8340F5E4E4674EA7F8 /* KIFTextInputTraitsOverrides.m in Sources */ = {isa = PBXBuildFile; fileRef = 5074A5530834DEC79BD80C045CE6C318 /* KIFTextInputTraitsOverrides.m */; };
-		EE6CF6FE1A7BA635436AD858F756125C /* NSString+VOKValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E42161E4F8B7BB0E1EC504C1E65BCAB /* NSString+VOKValidation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EF12C10C9AD352B25FE29BB7A116B7D1 /* UIView+VOKDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = C198CB62E34F95B839F931A0555C8D7A /* UIView+VOKDebug.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EF4D50B2328A6B2D6839AD06768B123F /* NSCalendar+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A133B65283251034B16CD9015693375 /* NSCalendar+VOKAL.m */; };
-		EFAF22C600622334AE6A73B1465588D1 /* NSPredicate+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = A310239208C64AC23ED9615A4B5E64B2 /* NSPredicate+VOKAL.m */; };
+		EE6CF6FE1A7BA635436AD858F756125C /* NSString+VOKValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A3A0C7DBD08DBDC050F186DD4B546B /* NSString+VOKValidation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF12C10C9AD352B25FE29BB7A116B7D1 /* UIView+VOKDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA37A91E945C0CC2ED5E46B8B0CDAD8 /* UIView+VOKDebug.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF4D50B2328A6B2D6839AD06768B123F /* NSCalendar+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3ED9D41C6C793868B0D3EC850F4FC /* NSCalendar+VOKAL.m */; };
+		EFAF22C600622334AE6A73B1465588D1 /* NSPredicate+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BA1B9291F37CE708E93F5CC53D517D /* NSPredicate+VOKAL.m */; };
 		F399558B771479398EF0C3C64AB1368A /* KIFUIObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B5BE9854D2A4C595E9202CD6A00E07 /* KIFUIObject.m */; };
-		F6062079B0E8BDBCD2B05EB1EEDBF7BE /* NSPredicate+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5D89788D3B1F53952F887ADDB670DC /* NSPredicate+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F616C936209D5FF6F1633BAC21C15DAC /* NSCalendar+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C35A3B0CEAFF232A36EA14E0DD288EA /* NSCalendar+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F7759CBFC03752CFD6FF2088EBD9DF8C /* NSCalendar+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A133B65283251034B16CD9015693375 /* NSCalendar+VOKAL.m */; };
-		F965F50D649F7751950B0B6EBE0A75CC /* UIColor+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C675D5036790B01E016922403EA711D /* UIColor+VOKAL.m */; };
-		F9ED1B0D8BEDF210853D58B6B08564E0 /* NSCalendar+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C35A3B0CEAFF232A36EA14E0DD288EA /* NSCalendar+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FBECB8D1A53230B278F153377E6623BA /* UIColor+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C675D5036790B01E016922403EA711D /* UIColor+VOKAL.m */; };
-		FBF80CACD8AB40962A6896237FA2DC91 /* VOKUtilities-d8783a65-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 021331BC3B64AC1242A660910C1FAB1E /* VOKUtilities-d8783a65-dummy.m */; };
+		F6062079B0E8BDBCD2B05EB1EEDBF7BE /* NSPredicate+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B354C38474CFDEDB0954682E0FC7175 /* NSPredicate+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F616C936209D5FF6F1633BAC21C15DAC /* NSCalendar+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CED3512100019D07D445B011E0D4D33 /* NSCalendar+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F943B70758FF48B7A7D2C1DA405F78CC /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319FDAFE5350A57AD4D925AAAC61787B /* StringExtensions.swift */; };
+		F965F50D649F7751950B0B6EBE0A75CC /* UIColor+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1202845B0C1B5172D61D65754EF418 /* UIColor+VOKAL.m */; };
+		F9ED1B0D8BEDF210853D58B6B08564E0 /* NSCalendar+VOKAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CED3512100019D07D445B011E0D4D33 /* NSCalendar+VOKAL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FBECB8D1A53230B278F153377E6623BA /* UIColor+VOKAL.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1202845B0C1B5172D61D65754EF418 /* UIColor+VOKAL.m */; };
+		FBF80CACD8AB40962A6896237FA2DC91 /* VOKUtilities-d8783a65-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6F76877DEA04A8ADA66B100B935230 /* VOKUtilities-d8783a65-dummy.m */; };
 		FC0BB8CFCE30B53AF07223E5A9409BD1 /* UIAccessibilityElement-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7294262BA948BA9031979409009917CE /* UIAccessibilityElement-KIFAdditions.m */; };
 		FCF0867F51700338CEBB3D0B05B01062 /* KIFTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 59293049DB68A9CFE017936B9D71F2A1 /* KIFTestCase.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FE4603E6F2242FD19A33B6131DCBD720 /* UIViewController+VOKKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = D06872317D36BA88325C7FAC2ADA4E2F /* UIViewController+VOKKeyboard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -235,70 +236,69 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01CDB6FBD53DD782179AAB79D6B429E9 /* CollectionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionExtensions.swift; path = Pod/VOKSwiftHelpers/CollectionExtensions.swift; sourceTree = "<group>"; };
-		021331BC3B64AC1242A660910C1FAB1E /* VOKUtilities-d8783a65-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "VOKUtilities-d8783a65-dummy.m"; path = "../VOKUtilities-d8783a65/VOKUtilities-d8783a65-dummy.m"; sourceTree = "<group>"; };
+		01A3A0C7DBD08DBDC050F186DD4B546B /* NSString+VOKValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+VOKValidation.h"; path = "Pod/NSString+VOKValidation/NSString+VOKValidation.h"; sourceTree = "<group>"; };
 		0323B2E7B3935FD08D198AD047C5EE5F /* libPods-VOKUtilities-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VOKUtilities-OSX.a"; path = "libPods-VOKUtilities-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		044D6204E7DB69094D57D5C1A1233A86 /* VOKUtilities-6aa4e1e5-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "VOKUtilities-6aa4e1e5-prefix.pch"; path = "../VOKUtilities-6aa4e1e5/VOKUtilities-6aa4e1e5-prefix.pch"; sourceTree = "<group>"; };
 		045631F0B93D8D1FA2584AB11FB94E6F /* NSBundle-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle-KIFAdditions.h"; path = "Additions/NSBundle-KIFAdditions.h"; sourceTree = "<group>"; };
 		0517A9AC6133FD1B2804E8E5E6824807 /* Pods-VOKUtilities-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOKUtilities-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0628C7508D9B470AC9CD580FE62C1576 /* KIFTypist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTypist.h; path = Classes/KIFTypist.h; sourceTree = "<group>"; };
 		0740D885F6BF96D914FE155B29BD9254 /* Pods-VOKUtilities-OSX-Tests-OSX-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VOKUtilities-OSX-Tests-OSX-acknowledgements.markdown"; sourceTree = "<group>"; };
-		096FC220C1CD05363C1DFF9991A3867E /* VOKUtilities-3288a73d.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "VOKUtilities-3288a73d.xcconfig"; path = "../VOKUtilities-3288a73d/VOKUtilities-3288a73d.xcconfig"; sourceTree = "<group>"; };
-		0A133B65283251034B16CD9015693375 /* NSCalendar+VOKAL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCalendar+VOKAL.m"; path = "Pod/NSCalendar+VOKAL/NSCalendar+VOKAL.m"; sourceTree = "<group>"; };
+		0B34F138766DC84C07B905D48FA88B28 /* VOKNavigationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VOKNavigationHelper.m; path = Pod/VOKNavigationHelper/VOKNavigationHelper.m; sourceTree = "<group>"; };
+		0BB3ED9D41C6C793868B0D3EC850F4FC /* NSCalendar+VOKAL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCalendar+VOKAL.m"; path = "Pod/NSCalendar+VOKAL/NSCalendar+VOKAL.m"; sourceTree = "<group>"; };
 		0BBCE8CB3B7020F39234BD0E66AC7730 /* KIFTypist.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTypist.m; path = Classes/KIFTypist.m; sourceTree = "<group>"; };
+		0CB606DFD5BA1AFC7212F9C9C727D48F /* NSNumberFormatter+VOKAL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumberFormatter+VOKAL.m"; path = "Pod/NSNumberFormatter+VOKAL/NSNumberFormatter+VOKAL.m"; sourceTree = "<group>"; };
 		0CB62E3C55E68B91C2F902844B260D2E /* Pods-VOKUtilities-UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VOKUtilities-UITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0D5FCFAF0D919A05EAF4D9CD89A5B52B /* KIFSystemTestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFSystemTestActor.h; path = Classes/KIFSystemTestActor.h; sourceTree = "<group>"; };
+		0F6AF5DC947034159D59CEA7FF861557 /* VOKUtilities-3288a73d-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "VOKUtilities-3288a73d-dummy.m"; path = "../VOKUtilities-3288a73d/VOKUtilities-3288a73d-dummy.m"; sourceTree = "<group>"; };
 		114C99483DA0435B8B321E3BB40EFC77 /* Pods-VOKUtilities-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VOKUtilities-tvOS-dummy.m"; sourceTree = "<group>"; };
+		116311CC76D604EFB4B8C47D27C3F294 /* VOKUtilities-d8783a65.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "VOKUtilities-d8783a65.xcconfig"; path = "../VOKUtilities-d8783a65/VOKUtilities-d8783a65.xcconfig"; sourceTree = "<group>"; };
 		122F88ABE31C9661F41BF8C723518A9B /* Pods-VOKUtilities-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOKUtilities-OSX.debug.xcconfig"; sourceTree = "<group>"; };
 		12C0B8CD6FBBC70995B3F538FA11F845 /* UIAutomationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIAutomationHelper.h; path = Classes/UIAutomationHelper.h; sourceTree = "<group>"; };
 		1370D45A652E01B5A12123D70C2F6109 /* Pods-VOKUtilities-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VOKUtilities-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		147F21BBE4D9F983509172BC21DD2295 /* VOKNavigationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VOKNavigationHelper.h; path = Pod/VOKNavigationHelper/VOKNavigationHelper.h; sourceTree = "<group>"; };
 		151518AF274D7B5563E21402EE88AB43 /* KIFSystemTestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFSystemTestActor.m; path = Classes/KIFSystemTestActor.m; sourceTree = "<group>"; };
 		16ACF05D99F205680763E44C25073327 /* Pods-VOKUtilities-tvOS-Tests-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOKUtilities-tvOS-Tests-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		17283AB5B6D087C8561522349235F7C2 /* KIFUITestActor-ConditionalTests.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KIFUITestActor-ConditionalTests.h"; path = "Classes/KIFUITestActor-ConditionalTests.h"; sourceTree = "<group>"; };
 		1733BDF9134BF6748003424ACA210E9C /* IOHIDEvent+KIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IOHIDEvent+KIF.m"; path = "Classes/IOHIDEvent+KIF.m"; sourceTree = "<group>"; };
 		18951E6700E59990FC623EA7184983D9 /* Pods-VOKUtilities-UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VOKUtilities-UITests.modulemap"; sourceTree = "<group>"; };
 		1983AB640BD3B786ED8CEF6ABEE7055F /* Pods-VOKUtilities-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOKUtilities-OSX.release.xcconfig"; sourceTree = "<group>"; };
-		1A5ABD3AF7135F4815680C6075105855 /* VOKUtilities-d8783a65-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "VOKUtilities-d8783a65-prefix.pch"; path = "../VOKUtilities-d8783a65/VOKUtilities-d8783a65-prefix.pch"; sourceTree = "<group>"; };
 		1A9B9EF968E0FF4C24C53B00C2F1B574 /* Pods-VOKUtilities-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOKUtilities-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1AD3EFA66DC824F480C5F01638C6D155 /* VOKUtilities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VOKUtilities.modulemap; sourceTree = "<group>"; };
-		1B5D89788D3B1F53952F887ADDB670DC /* NSPredicate+VOKAL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPredicate+VOKAL.h"; path = "Pod/NSPredicate+VOKAL/NSPredicate+VOKAL.h"; sourceTree = "<group>"; };
 		1BADF65E39AFB8DA21FE55349C987D8D /* Pods-VOKUtilities-tvOS-Tests-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VOKUtilities-tvOS-Tests-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1BBB2BBA833A924B5C84F5BECA59DD1E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1D3DAFAAB509AD7639094B6BBF3CAD63 /* NSString+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+KIFAdditions.h"; path = "Additions/NSString+KIFAdditions.h"; sourceTree = "<group>"; };
 		1DCED89A51BE779AF73349F7BEA43C20 /* NSPredicate+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPredicate+KIFAdditions.h"; path = "Additions/NSPredicate+KIFAdditions.h"; sourceTree = "<group>"; };
-		1E42161E4F8B7BB0E1EC504C1E65BCAB /* NSString+VOKValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+VOKValidation.h"; path = "Pod/NSString+VOKValidation/NSString+VOKValidation.h"; sourceTree = "<group>"; };
 		1EC901FB7E6B1006E52A354BCE0C78E8 /* Pods-VOKUtilities-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VOKUtilities-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F4DF7A6FD4A9565B855BF0B13D0D5AA /* UIColor+VOKAL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+VOKAL.h"; path = "Pod/UIColor+VOKAL/UIColor+VOKAL.h"; sourceTree = "<group>"; };
+		20FD55EBCEA653BF8E90FEE5ED3BF865 /* VOKAlertAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VOKAlertAction.m; path = Pod/VOKAlertHelper/VOKAlertAction.m; sourceTree = "<group>"; };
 		21011118BE437CCF36D574B3B2CBAB58 /* UITouch-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITouch-KIFAdditions.h"; path = "Additions/UITouch-KIFAdditions.h"; sourceTree = "<group>"; };
 		2110388300356A68BC40BFAAAD211494 /* KIFTestActor_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestActor_Private.h; path = Classes/KIFTestActor_Private.h; sourceTree = "<group>"; };
-		22CE89B938ED4B515669C6E5BA87AD71 /* VOKUtilities-6aa4e1e5-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "VOKUtilities-6aa4e1e5-dummy.m"; path = "../VOKUtilities-6aa4e1e5/VOKUtilities-6aa4e1e5-dummy.m"; sourceTree = "<group>"; };
 		2664C9DB97286469AF27C2AE5F92AE89 /* XCTestCase-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase-KIFAdditions.h"; path = "Additions/XCTestCase-KIFAdditions.h"; sourceTree = "<group>"; };
 		28A3EF57781043041FB25E9FD58162E8 /* UIWindow-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow-KIFAdditions.m"; path = "Additions/UIWindow-KIFAdditions.m"; sourceTree = "<group>"; };
 		29998B1C83CF1353932885487FA87E55 /* CAAnimation+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+KIFAdditions.m"; path = "Additions/CAAnimation+KIFAdditions.m"; sourceTree = "<group>"; };
 		29C8F167BEDFA04DF429BC1FA428BF2B /* libPods-VOKUtilities-tvOS-Tests-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VOKUtilities-tvOS-Tests-tvOS.a"; path = "libPods-VOKUtilities-tvOS-Tests-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ACE6DF3A25F0EAEC9C796E37356B60F /* KIFUITestActor_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUITestActor_Private.h; path = Classes/KIFUITestActor_Private.h; sourceTree = "<group>"; };
-		2BA320FAD1863DF499579DECEF2A7DDB /* UIView+VOKDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+VOKDebug.m"; path = "Pod/UIView+VOKDebug/UIView+VOKDebug.m"; sourceTree = "<group>"; };
+		2AE43381B9E4219DA4ED31E2729BFA53 /* VOKUtilities-6aa4e1e5-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "VOKUtilities-6aa4e1e5-dummy.m"; path = "../VOKUtilities-6aa4e1e5/VOKUtilities-6aa4e1e5-dummy.m"; sourceTree = "<group>"; };
 		2C437DF83D3678232026C72E05C16175 /* CALayer-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer-KIFAdditions.m"; path = "Additions/CALayer-KIFAdditions.m"; sourceTree = "<group>"; };
 		2C4DFE92C1AB4425A1D4CEEB44BE99B7 /* Pods-VOKUtilities-Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VOKUtilities-Tests-umbrella.h"; sourceTree = "<group>"; };
 		2C5D0C6B5C2D53C77FDD91058B39768C /* KIFUITestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFUITestActor.m; path = Classes/KIFUITestActor.m; sourceTree = "<group>"; };
 		2DF28D9FB0A77A7D6810DA3DA867835F /* Pods-VOKUtilities-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOKUtilities-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		308B8869DF208C08C36B1785FDEE019F /* libVOKUtilities-6aa4e1e5.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libVOKUtilities-6aa4e1e5.a"; path = "libVOKUtilities-6aa4e1e5.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		319FDAFE5350A57AD4D925AAAC61787B /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = Pod/VOKSwiftHelpers/StringExtensions.swift; sourceTree = "<group>"; };
 		31A8FA141DEE9ACB87524A9278292C9E /* NSFileManager-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager-KIFAdditions.h"; path = "Additions/NSFileManager-KIFAdditions.h"; sourceTree = "<group>"; };
 		33C31ABE1AEF1452985D106AE9FA36CA /* KIFUIViewTestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFUIViewTestActor.m; path = Classes/KIFUIViewTestActor.m; sourceTree = "<group>"; };
 		3418016153F5D176B9DB1E184B0DE146 /* UIAccessibilityElement-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAccessibilityElement-KIFAdditions.h"; path = "Additions/UIAccessibilityElement-KIFAdditions.h"; sourceTree = "<group>"; };
+		3469A1E0588C18E9EDB15F33A1A323AE /* VOKUtilities-6aa4e1e5.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "VOKUtilities-6aa4e1e5.xcconfig"; path = "../VOKUtilities-6aa4e1e5/VOKUtilities-6aa4e1e5.xcconfig"; sourceTree = "<group>"; };
 		34E174346EF518EF57D6970EB1DFD60E /* UIEvent+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIEvent+KIFAdditions.h"; path = "Additions/UIEvent+KIFAdditions.h"; sourceTree = "<group>"; };
-		355C6EFBCEF3AA2BD705EEB026340750 /* VOKAlertHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VOKAlertHelper.m; path = Pod/VOKAlertHelper/VOKAlertHelper.m; sourceTree = "<group>"; };
+		361DEDF72551668686A1F4BDB6F1CD5E /* VOKEmailHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VOKEmailHelper.m; path = Pod/VOKEmailHelper/VOKEmailHelper.m; sourceTree = "<group>"; };
+		38E1503CD0D89DB1211452BE8EA44C3F /* VOKKeyPathHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VOKKeyPathHelper.h; path = Pod/VOKKeyPathHelper/VOKKeyPathHelper.h; sourceTree = "<group>"; };
 		39722953EC010F554309FCF7B10081C2 /* Pods-VOKUtilities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VOKUtilities-umbrella.h"; sourceTree = "<group>"; };
 		3ABA7F3D50FFE083C48A97A824A19FD2 /* Pods-VOKUtilities-tvOS-Tests-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VOKUtilities-tvOS-Tests-tvOS-dummy.m"; sourceTree = "<group>"; };
-		3F862AD3DA54BB7DF37B23B67DB3135C /* IntExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntExtensions.swift; path = Pod/VOKSwiftHelpers/IntExtensions.swift; sourceTree = "<group>"; };
 		40A6E24EE3140BA74FCC95BD24334A3A /* UIEvent+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIEvent+KIFAdditions.m"; path = "Additions/UIEvent+KIFAdditions.m"; sourceTree = "<group>"; };
+		440942E6F31181FF843AC459A865E355 /* VOKIBHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VOKIBHelpers.h; path = Pod/VOKIBHelpers/VOKIBHelpers.h; sourceTree = "<group>"; };
 		4494072B5F328320B13EA6B772126744 /* UIView-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView-KIFAdditions.h"; path = "Additions/UIView-KIFAdditions.h"; sourceTree = "<group>"; };
 		44AC22A5FFB2B3AEF9F5B10B38E22AA7 /* UIApplication-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication-KIFAdditions.m"; path = "Additions/UIApplication-KIFAdditions.m"; sourceTree = "<group>"; };
-		466F329EEDDE982D2599AB9EE7EA0C21 /* NSNumberFormatter+VOKAL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumberFormatter+VOKAL.h"; path = "Pod/NSNumberFormatter+VOKAL/NSNumberFormatter+VOKAL.h"; sourceTree = "<group>"; };
 		477C6FDE8319E8DE89215F370869DC4E /* Pods-VOKUtilities-UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOKUtilities-UITests.release.xcconfig"; sourceTree = "<group>"; };
 		47805D74E14B19FB9C15DE43425C4309 /* NSException-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSException-KIFAdditions.m"; path = "Additions/NSException-KIFAdditions.m"; sourceTree = "<group>"; };
 		47C1BEF536910A3CDA231CA993468D16 /* XCTestCase-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase-KIFAdditions.m"; path = "Additions/XCTestCase-KIFAdditions.m"; sourceTree = "<group>"; };
-		4BEA4F5A8207DA67A675E3F7CC2BC6D7 /* UIView+VOKCircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+VOKCircle.h"; path = "Pod/UIView+VOKCircle/UIView+VOKCircle.h"; sourceTree = "<group>"; };
+		4F1CF863380A811092928B4555B46C1E /* VOKKeyPathHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VOKKeyPathHelper.m; path = Pod/VOKKeyPathHelper/VOKKeyPathHelper.m; sourceTree = "<group>"; };
+		4F6F76877DEA04A8ADA66B100B935230 /* VOKUtilities-d8783a65-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "VOKUtilities-d8783a65-dummy.m"; path = "../VOKUtilities-d8783a65/VOKUtilities-d8783a65-dummy.m"; sourceTree = "<group>"; };
 		4FDA604BF363ECAA962F96DB56F18EFD /* KIFTextInputTraitsOverrides.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTextInputTraitsOverrides.h; path = Classes/KIFTextInputTraitsOverrides.h; sourceTree = "<group>"; };
 		500CF15B061A6A075A8FC952674FAFF7 /* Pods-VOKUtilities-UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VOKUtilities-UITests-dummy.m"; sourceTree = "<group>"; };
 		50280113E17E0218C87036706C0401A1 /* KIFTestStepValidation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTestStepValidation.m; path = Classes/KIFTestStepValidation.m; sourceTree = "<group>"; };
@@ -307,89 +307,91 @@
 		51A35E91D78D246461515D0033E384C3 /* UIView-Debugging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView-Debugging.m"; path = "Additions/UIView-Debugging.m"; sourceTree = "<group>"; };
 		535DEC30191070958A7B52EFA68E623D /* Pods-VOKUtilities-tvOS-Tests-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOKUtilities-tvOS-Tests-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		538BBDDC3B252DF7264E6A4E7BFB2B21 /* UIScreen+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+KIFAdditions.m"; path = "Additions/UIScreen+KIFAdditions.m"; sourceTree = "<group>"; };
-		53C39A78B9CBC5CDF616629E1BB3BFEF /* VOKAlertAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VOKAlertAction.h; path = Pod/VOKAlertHelper/VOKAlertAction.h; sourceTree = "<group>"; };
 		541E67506E53B7B6A3D8656FB3A3658D /* UIAutomationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIAutomationHelper.m; path = Classes/UIAutomationHelper.m; sourceTree = "<group>"; };
 		5734BB6D663D1A0FFB3A2741FBE8CA2B /* UIView-Debugging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView-Debugging.h"; path = "Additions/UIView-Debugging.h"; sourceTree = "<group>"; };
 		574C008DD62A18FBCD1B780A1D2F0185 /* Pods-VOKUtilities-Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VOKUtilities-Tests.modulemap"; sourceTree = "<group>"; };
-		5792F16D4DACEFB3B7474ACFA0EF5BC8 /* VOKEmailHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VOKEmailHelper.h; path = Pod/VOKEmailHelper/VOKEmailHelper.h; sourceTree = "<group>"; };
-		5796D834E9CB78CA83619627F7460335 /* VOKUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VOKUtilities-prefix.pch"; sourceTree = "<group>"; };
 		588A84EBF6E4626961568D6F5C8510FB /* NSException-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSException-KIFAdditions.h"; path = "Additions/NSException-KIFAdditions.h"; sourceTree = "<group>"; };
 		58B99DC0D6F954E7E2947E02D026A960 /* Pods-VOKUtilities-watchOS Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOKUtilities-watchOS Extension.release.xcconfig"; sourceTree = "<group>"; };
 		59293049DB68A9CFE017936B9D71F2A1 /* KIFTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestCase.h; path = Classes/KIFTestCase.h; sourceTree = "<group>"; };
 		5AE9FA8F23E882B18A648AB3435B8672 /* UITableView-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView-KIFAdditions.h"; path = "Additions/UITableView-KIFAdditions.h"; sourceTree = "<group>"; };
+		5C5C33F5180C3F47B227B9217435A01D /* VOKUtilities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VOKUtilities.modulemap; sourceTree = "<group>"; };
 		5F07EA44B20310380C2D2AC2A0A49700 /* KIFAccessibilityEnabler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFAccessibilityEnabler.h; path = Classes/KIFAccessibilityEnabler.h; sourceTree = "<group>"; };
+		61B37DB27B3B26E6D710CFBC5EAA88EA /* VOKAlertHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VOKAlertHelper.m; path = Pod/VOKAlertHelper/VOKAlertHelper.m; sourceTree = "<group>"; };
+		65B6C226AED3B4CB2820306109AF33EC /* UIView+VOKDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+VOKDebug.m"; path = "Pod/UIView+VOKDebug/UIView+VOKDebug.m"; sourceTree = "<group>"; };
 		65FCE101BA6858E3A0D2583689E71B9B /* LoadableCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoadableCategory.h; path = Additions/LoadableCategory.h; sourceTree = "<group>"; };
+		6728CF64519BCB72B519DEDEB3503F7F /* VOKNavigationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VOKNavigationHelper.h; path = Pod/VOKNavigationHelper/VOKNavigationHelper.h; sourceTree = "<group>"; };
 		6A1F05556841D38228A95FCFD0B1AA5F /* CALayer-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer-KIFAdditions.h"; path = "Additions/CALayer-KIFAdditions.h"; sourceTree = "<group>"; };
-		6A7F47111F3201E8DD57587D66381230 /* ReuseIdentifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReuseIdentifiable.swift; path = Pod/VOKSwiftHelpers/ReuseIdentifiable.swift; sourceTree = "<group>"; };
+		6AAB1821F01DAF935A492E8D0B4D0C32 /* UIViewController+VOKKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+VOKKeyboard.m"; path = "Pod/UIViewController+VOKKeyboard/UIViewController+VOKKeyboard.m"; sourceTree = "<group>"; };
+		6B354C38474CFDEDB0954682E0FC7175 /* NSPredicate+VOKAL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPredicate+VOKAL.h"; path = "Pod/NSPredicate+VOKAL/NSPredicate+VOKAL.h"; sourceTree = "<group>"; };
 		6BB310251167202CD6D1B795EA47FBF6 /* UIWindow-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow-KIFAdditions.h"; path = "Additions/UIWindow-KIFAdditions.h"; sourceTree = "<group>"; };
-		6C35A3B0CEAFF232A36EA14E0DD288EA /* NSCalendar+VOKAL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCalendar+VOKAL.h"; path = "Pod/NSCalendar+VOKAL/NSCalendar+VOKAL.h"; sourceTree = "<group>"; };
-		6C8F9CE525656D72E8D23E42014510BC /* VOKUtilities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VOKUtilities-umbrella.h"; sourceTree = "<group>"; };
+		6CED3512100019D07D445B011E0D4D33 /* NSCalendar+VOKAL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCalendar+VOKAL.h"; path = "Pod/NSCalendar+VOKAL/NSCalendar+VOKAL.h"; sourceTree = "<group>"; };
 		6DC5BCE78DF9B83DFA827C00999804D2 /* Pods-VOKUtilities-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOKUtilities-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		6E555C713CC262BFDB7E64E16B225020 /* UIScrollView-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView-KIFAdditions.m"; path = "Additions/UIScrollView-KIFAdditions.m"; sourceTree = "<group>"; };
-		6FD20D34445AFCA6BD52698A78276A6D /* VOKKeyPathHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VOKKeyPathHelper.m; path = Pod/VOKKeyPathHelper/VOKKeyPathHelper.m; sourceTree = "<group>"; };
+		6F05C8FA41AD4F0F6B69A07E0CE99CA9 /* CollectionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionExtensions.swift; path = Pod/VOKSwiftHelpers/CollectionExtensions.swift; sourceTree = "<group>"; };
+		6FE15A842EB2B20DDD020A494E2033E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7047E01AFB9EF866F84F2636CDECC989 /* IntExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntExtensions.swift; path = Pod/VOKSwiftHelpers/IntExtensions.swift; sourceTree = "<group>"; };
 		7294262BA948BA9031979409009917CE /* UIAccessibilityElement-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAccessibilityElement-KIFAdditions.m"; path = "Additions/UIAccessibilityElement-KIFAdditions.m"; sourceTree = "<group>"; };
 		7379E0BB7B9148E56C92D029622AB3DE /* Pods-VOKUtilities-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VOKUtilities-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		747B0771580A841155B0929388B47E06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		757DC2EBFACA2FDDD756AEAC3298FD09 /* libVOKUtilities-3288a73d.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libVOKUtilities-3288a73d.a"; path = "libVOKUtilities-3288a73d.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7697DDA6C6D9D87F9A980B8B157429C3 /* KIFUITestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUITestActor.h; path = Classes/KIFUITestActor.h; sourceTree = "<group>"; };
+		789F47BD8AAFBBB9AEBF56AAE4D0540D /* VOKEmailHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VOKEmailHelper.h; path = Pod/VOKEmailHelper/VOKEmailHelper.h; sourceTree = "<group>"; };
 		7963DAD342448711DD63B8A5D3B341A9 /* UIView-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView-KIFAdditions.m"; path = "Additions/UIView-KIFAdditions.m"; sourceTree = "<group>"; };
-		7A355831EB910FA0F4B606C752740650 /* VOKUtilities-6aa4e1e5.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "VOKUtilities-6aa4e1e5.xcconfig"; path = "../VOKUtilities-6aa4e1e5/VOKUtilities-6aa4e1e5.xcconfig"; sourceTree = "<group>"; };
 		7AF1042957774E02A681A5371EAECD1F /* NSPredicate+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPredicate+KIFAdditions.m"; path = "Additions/NSPredicate+KIFAdditions.m"; sourceTree = "<group>"; };
 		7B07361F916AC43769A3654D7B05A3E7 /* CGGeometry-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CGGeometry-KIFAdditions.m"; path = "Additions/CGGeometry-KIFAdditions.m"; sourceTree = "<group>"; };
 		7C90D6D5708BBCB067F6CD0F844367AD /* UIScreen+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+KIFAdditions.h"; path = "Additions/UIScreen+KIFAdditions.h"; sourceTree = "<group>"; };
-		7F14848F130BBE992B07A7C668B89F95 /* NSNumberFormatter+VOKAL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumberFormatter+VOKAL.m"; path = "Pod/NSNumberFormatter+VOKAL/NSNumberFormatter+VOKAL.m"; sourceTree = "<group>"; };
+		7D9F61558C6394A736B70ADCECA270E0 /* VOKUtilities.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VOKUtilities.xcconfig; sourceTree = "<group>"; };
 		81A17D35F50E350E5ADA4F8213AC0ADB /* KIF.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KIF.xcconfig; sourceTree = "<group>"; };
-		81BB4813D8FADF0147AFE4090C14C0A3 /* VOKIBHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VOKIBHelpers.h; path = Pod/VOKIBHelpers/VOKIBHelpers.h; sourceTree = "<group>"; };
 		83485C7C73EBA2B330891D183E40D562 /* Pods-VOKUtilities-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VOKUtilities-Tests-dummy.m"; sourceTree = "<group>"; };
 		83508BC317EB0EDC6E8DA3A2F00E757A /* Pods-VOKUtilities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VOKUtilities.modulemap"; sourceTree = "<group>"; };
 		83C55DA82A69EE9C2B3F21408133B34C /* NSError-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError-KIFAdditions.h"; path = "Additions/NSError-KIFAdditions.h"; sourceTree = "<group>"; };
 		842492CB1AC0B4E5D6D7DFEE33F41FBD /* NSBundle-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle-KIFAdditions.m"; path = "Additions/NSBundle-KIFAdditions.m"; sourceTree = "<group>"; };
 		8479B8B4FA726F58EF98CF614BADB1C8 /* IOHIDEvent+KIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IOHIDEvent+KIF.h"; path = "Classes/IOHIDEvent+KIF.h"; sourceTree = "<group>"; };
 		854F92281C52D313E09054364985B3F2 /* UIApplication-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication-KIFAdditions.h"; path = "Additions/UIApplication-KIFAdditions.h"; sourceTree = "<group>"; };
+		8660A2BB842CB6DA8940327621408D59 /* VOKUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VOKUtilities-prefix.pch"; sourceTree = "<group>"; };
 		8800680AA42C25DA643210E051BD64C2 /* libPods-VOKUtilities-UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VOKUtilities-UITests.a"; path = "libPods-VOKUtilities-UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C675D5036790B01E016922403EA711D /* UIColor+VOKAL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+VOKAL.m"; path = "Pod/UIColor+VOKAL/UIColor+VOKAL.m"; sourceTree = "<group>"; };
+		8EACFD2FE176837CD55BD761F98668FE /* VOKUtilities-3288a73d.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "VOKUtilities-3288a73d.xcconfig"; path = "../VOKUtilities-3288a73d/VOKUtilities-3288a73d.xcconfig"; sourceTree = "<group>"; };
+		8F7EC07C2683DFC5808114406438D53B /* UIViewController+VOKKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+VOKKeyboard.h"; path = "Pod/UIViewController+VOKKeyboard/UIViewController+VOKKeyboard.h"; sourceTree = "<group>"; };
 		917BAEA5E6FE1ECA0EC4E03E35BEE1DA /* KIF-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KIF-prefix.pch"; sourceTree = "<group>"; };
-		92550110644F2DBC11CA60EC1FCE34E7 /* VOKUtilities.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VOKUtilities.xcconfig; sourceTree = "<group>"; };
 		936B509B358510D3EADBF473EAA85AC2 /* libPods-VOKUtilities-OSX-Tests-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VOKUtilities-OSX-Tests-OSX.a"; path = "libPods-VOKUtilities-OSX-Tests-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		958BC9F6D4BAAAEC382EEF1AA6C2563A /* Pods-VOKUtilities-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VOKUtilities-acknowledgements.markdown"; sourceTree = "<group>"; };
+		95A8AFBD8F1FA5291B017F4D5507818E /* UIView+VOKCircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+VOKCircle.h"; path = "Pod/UIView+VOKCircle/UIView+VOKCircle.h"; sourceTree = "<group>"; };
 		96C73F729A165741634A0DE2025D9EC6 /* KIFTestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTestActor.m; path = Classes/KIFTestActor.m; sourceTree = "<group>"; };
-		9A5F59AAD928F015ED2C036CFB7DDF55 /* VOKUtilities-3288a73d-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "VOKUtilities-3288a73d-dummy.m"; path = "../VOKUtilities-3288a73d/VOKUtilities-3288a73d-dummy.m"; sourceTree = "<group>"; };
 		9A70988694FC02FC177D68D52C526C0D /* Pods-VOKUtilities-OSX-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VOKUtilities-OSX-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FBEDF29EC57F63B11AA6864C2FBDFED /* TestExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestExtensions.swift; path = Pod/VOKSwiftTestingHelpers/TestExtensions.swift; sourceTree = "<group>"; };
+		9DA8D9D7321EEB8B7929B14FFAF50409 /* VOKUtilities-6aa4e1e5-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "VOKUtilities-6aa4e1e5-prefix.pch"; path = "../VOKUtilities-6aa4e1e5/VOKUtilities-6aa4e1e5-prefix.pch"; sourceTree = "<group>"; };
+		9EA37A91E945C0CC2ED5E46B8B0CDAD8 /* UIView+VOKDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+VOKDebug.h"; path = "Pod/UIView+VOKDebug/UIView+VOKDebug.h"; sourceTree = "<group>"; };
 		A03C585586FB4FA6F08DC89532F3B631 /* Pods-VOKUtilities-UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VOKUtilities-UITests-umbrella.h"; sourceTree = "<group>"; };
 		A1F46A1672C999E6E7F27CC368D40F9F /* libVOKUtilities-d8783a65.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libVOKUtilities-d8783a65.a"; path = "libVOKUtilities-d8783a65.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A310239208C64AC23ED9615A4B5E64B2 /* NSPredicate+VOKAL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPredicate+VOKAL.m"; path = "Pod/NSPredicate+VOKAL/NSPredicate+VOKAL.m"; sourceTree = "<group>"; };
-		A4D84595435674BD969CE71F29C5BCDA /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = Pod/VOKSwiftHelpers/StringExtensions.swift; sourceTree = "<group>"; };
-		A556615CEB9D5C0388878DA5BD72FDCC /* VOKUtilities-3288a73d-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "VOKUtilities-3288a73d-prefix.pch"; path = "../VOKUtilities-3288a73d/VOKUtilities-3288a73d-prefix.pch"; sourceTree = "<group>"; };
+		A221008C3AD7C24542E934C2F80A46F9 /* NSString+VOKValidation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+VOKValidation.m"; path = "Pod/NSString+VOKValidation/NSString+VOKValidation.m"; sourceTree = "<group>"; };
+		A668B1C75C535FDA92BACB5528F82618 /* UIView+VOKCircle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+VOKCircle.m"; path = "Pod/UIView+VOKCircle/UIView+VOKCircle.m"; sourceTree = "<group>"; };
 		A6B10EE802DA2A88FE0BF6A6A9A60F8B /* NSError-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError-KIFAdditions.m"; path = "Additions/NSError-KIFAdditions.m"; sourceTree = "<group>"; };
 		A774923F68A562D8B5E73138EB25B6B3 /* UIScrollView-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView-KIFAdditions.h"; path = "Additions/UIScrollView-KIFAdditions.h"; sourceTree = "<group>"; };
+		A83C5236050ABC9EF90BFC157106A643 /* ReuseIdentifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReuseIdentifiable.swift; path = Pod/VOKSwiftHelpers/ReuseIdentifiable.swift; sourceTree = "<group>"; };
+		A872B60A24ABED9C95C065097A1A80B0 /* VOKUtilities-d8783a65-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "VOKUtilities-d8783a65-prefix.pch"; path = "../VOKUtilities-d8783a65/VOKUtilities-d8783a65-prefix.pch"; sourceTree = "<group>"; };
 		A8A77E97D7F4C0E843CB4B3D2991F502 /* KIFTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTestCase.m; path = Classes/KIFTestCase.m; sourceTree = "<group>"; };
-		A9261887E22C2B9BB3DBF135FEB44246 /* NSString+VOKValidation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+VOKValidation.m"; path = "Pod/NSString+VOKValidation/NSString+VOKValidation.m"; sourceTree = "<group>"; };
+		A9DE6089C453B19B231B83218C8213E9 /* VOKUtilities.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VOKUtilities.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9FC0111911F91B4B3633785129A44EF /* KIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIF.h; path = Classes/KIF.h; sourceTree = "<group>"; };
 		AAF268E9E4A06FAD59C701B09281816D /* Pods-VOKUtilities-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VOKUtilities-OSX-dummy.m"; sourceTree = "<group>"; };
 		AB89795847149BFD57F40652E55F4666 /* libPods-VOKUtilities-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VOKUtilities-tvOS.a"; path = "libPods-VOKUtilities-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC85B484287AB5C191B492814CE5B59A /* libPods-VOKUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VOKUtilities.a"; path = "libPods-VOKUtilities.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1FB2784B2443854A150A76324264BD2 /* VOKUtilities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VOKUtilities-umbrella.h"; sourceTree = "<group>"; };
 		B3F93316D7B8B6B844EF451E989B6704 /* Pods-VOKUtilities-watchOS Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VOKUtilities-watchOS Extension-dummy.m"; sourceTree = "<group>"; };
 		B41C7A039F78E5386CA01BB57828E11F /* Pods-VOKUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VOKUtilities-dummy.m"; sourceTree = "<group>"; };
-		B7056F3BDF5C4E1E56A9FB812B734D4E /* VOKUtilities-d8783a65.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "VOKUtilities-d8783a65.xcconfig"; path = "../VOKUtilities-d8783a65/VOKUtilities-d8783a65.xcconfig"; sourceTree = "<group>"; };
 		BA841049A5BC321DEE9BDFC72F97BB67 /* Pods-VOKUtilities-watchOS Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VOKUtilities-watchOS Extension-acknowledgements.plist"; sourceTree = "<group>"; };
-		BB6002AF8B7AFADC8AA4892E9FBC6E48 /* VOKEmailHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VOKEmailHelper.m; path = Pod/VOKEmailHelper/VOKEmailHelper.m; sourceTree = "<group>"; };
 		BB61F8D7346713C87C910D82A030E7A2 /* Pods-VOKUtilities-watchOS Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOKUtilities-watchOS Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		BEFA062B53BA6DD40FCEC89CBCC19AA3 /* Pods-VOKUtilities-OSX-Tests-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOKUtilities-OSX-Tests-OSX.release.xcconfig"; sourceTree = "<group>"; };
-		BFAC9907F459A7A2B687E0D3A74B7CCB /* VOKKeyPathHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VOKKeyPathHelper.h; path = Pod/VOKKeyPathHelper/VOKKeyPathHelper.h; sourceTree = "<group>"; };
 		C048D3CCBA504CFBB9FD426AA9BF6ED4 /* UITableView-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView-KIFAdditions.m"; path = "Additions/UITableView-KIFAdditions.m"; sourceTree = "<group>"; };
-		C198CB62E34F95B839F931A0555C8D7A /* UIView+VOKDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+VOKDebug.h"; path = "Pod/UIView+VOKDebug/UIView+VOKDebug.h"; sourceTree = "<group>"; };
 		C1B5BE9854D2A4C595E9202CD6A00E07 /* KIFUIObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFUIObject.m; path = Classes/KIFUIObject.m; sourceTree = "<group>"; };
 		C2FEE1D005D3112F1D8D6B6745AE0787 /* UITouch-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITouch-KIFAdditions.m"; path = "Additions/UITouch-KIFAdditions.m"; sourceTree = "<group>"; };
-		C46B28AB7A64280480FD89AFB264A908 /* VOKAlertAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VOKAlertAction.m; path = Pod/VOKAlertHelper/VOKAlertAction.m; sourceTree = "<group>"; };
+		C45EADA5600759E94EEFAD186810E412 /* NSNumberFormatter+VOKAL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumberFormatter+VOKAL.h"; path = "Pod/NSNumberFormatter+VOKAL/NSNumberFormatter+VOKAL.h"; sourceTree = "<group>"; };
 		C4B495B81B1987A183CB1523CE6A95C8 /* Pods-VOKUtilities-OSX-Tests-OSX-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VOKUtilities-OSX-Tests-OSX-acknowledgements.plist"; sourceTree = "<group>"; };
 		C52BD3A6262DE52698132DFFB4F083E2 /* NSString+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+KIFAdditions.m"; path = "Additions/NSString+KIFAdditions.m"; sourceTree = "<group>"; };
+		C61DF12D178C63CE3E46AE57C7F84DC0 /* UITableViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewExtensions.swift; path = Pod/VOKSwiftHelpers/UITableViewExtensions.swift; sourceTree = "<group>"; };
 		CF7FC0370196B29F9A66BC2D86BE2DFD /* libPods-VOKUtilities-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VOKUtilities-Tests.a"; path = "libPods-VOKUtilities-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF943555FA063345C8719799BFA5CCAB /* Pods-VOKUtilities-tvOS-Tests-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VOKUtilities-tvOS-Tests-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		D06872317D36BA88325C7FAC2ADA4E2F /* UIViewController+VOKKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+VOKKeyboard.m"; path = "Pod/UIViewController+VOKKeyboard/UIViewController+VOKKeyboard.m"; sourceTree = "<group>"; };
 		D28B0744F904025A3F206E815BF09DEE /* NSFileManager-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager-KIFAdditions.m"; path = "Additions/NSFileManager-KIFAdditions.m"; sourceTree = "<group>"; };
 		D49B7E75B2EC784410F6020249886EB7 /* Pods-VOKUtilities-UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOKUtilities-UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D4FFB7B7560FAF91821D5C1C23844B78 /* UITableViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewExtensions.swift; path = Pod/VOKSwiftHelpers/UITableViewExtensions.swift; sourceTree = "<group>"; };
 		D532C4FDE263005AE3E45A6159F494F9 /* KIF-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KIF-dummy.m"; sourceTree = "<group>"; };
 		D75E027F8AE2A5091E8454AEA4CDCB6B /* Pods-VOKUtilities-watchOS Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VOKUtilities-watchOS Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D9A37EFF16CB19CD93D1B7F50C97E551 /* Pods-VOKUtilities-OSX-Tests-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VOKUtilities-OSX-Tests-OSX-dummy.m"; sourceTree = "<group>"; };
@@ -398,26 +400,26 @@
 		E1079F5001C1EE90DDC9BCC4B7837489 /* libKIF.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKIF.a; path = libKIF.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15A0718E6081AF268BECFC1D9BCBE1F /* Pods-VOKUtilities-OSX-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VOKUtilities-OSX-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E1F2A72BE90AF2CB286A2E020E8C865A /* KIFUIViewTestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUIViewTestActor.h; path = Classes/KIFUIViewTestActor.h; sourceTree = "<group>"; };
-		E1F374D134BCAF06D05E946AEC55B890 /* VOKUtilities.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VOKUtilities.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E2A86B6D1842B348AD599F343A7618D7 /* CAAnimation+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+KIFAdditions.h"; path = "Additions/CAAnimation+KIFAdditions.h"; sourceTree = "<group>"; };
 		E51AFD8212C6F6786C56EACF2B507253 /* libVOKUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libVOKUtilities.a; path = libVOKUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E873F20D3342C2BF27D8BAF24630D1CA /* CGGeometry-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CGGeometry-KIFAdditions.h"; path = "Additions/CGGeometry-KIFAdditions.h"; sourceTree = "<group>"; };
-		E91E44A397D15B44E7D967F948327009 /* VOKNavigationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VOKNavigationHelper.m; path = Pod/VOKNavigationHelper/VOKNavigationHelper.m; sourceTree = "<group>"; };
 		EA6F1D3242408C554EB696E3246C5425 /* KIFTestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestActor.h; path = Classes/KIFTestActor.h; sourceTree = "<group>"; };
-		EB69A024022E4FBA684C3428E0D63BBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		EDD744D0B6F05DA1DE154D0E46EA95D1 /* VOKUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VOKUtilities-dummy.m"; sourceTree = "<group>"; };
+		EAAA9650090E08E7CFE16A70D67B992C /* VOKUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VOKUtilities-dummy.m"; sourceTree = "<group>"; };
 		EEDA80244BF2D570DC3C97F1D1074C95 /* KIFUIObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUIObject.h; path = Classes/KIFUIObject.h; sourceTree = "<group>"; };
+		F086844EEB9989C0B1C950D40293CE0C /* VOKUtilities-3288a73d-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "VOKUtilities-3288a73d-prefix.pch"; path = "../VOKUtilities-3288a73d/VOKUtilities-3288a73d-prefix.pch"; sourceTree = "<group>"; };
+		F0FE49DB8409BAE5054B7B7397A2CDE0 /* TestExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestExtensions.swift; path = Pod/VOKSwiftTestingHelpers/TestExtensions.swift; sourceTree = "<group>"; };
+		F1BA1B9291F37CE708E93F5CC53D517D /* NSPredicate+VOKAL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPredicate+VOKAL.m"; path = "Pod/NSPredicate+VOKAL/NSPredicate+VOKAL.m"; sourceTree = "<group>"; };
 		F3098C8519EE5AF9DDE725384502A6C1 /* KIFUITestActor-ConditionalTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "KIFUITestActor-ConditionalTests.m"; path = "Classes/KIFUITestActor-ConditionalTests.m"; sourceTree = "<group>"; };
 		F50A757635B8105A815CB4D4BDA70021 /* Pods-VOKUtilities-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VOKUtilities-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F844F4295C7FF47A9665AC336786D99E /* Pods-VOKUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOKUtilities.debug.xcconfig"; sourceTree = "<group>"; };
-		F8C755AE0B31C164228B989957E42142 /* UIColor+VOKAL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+VOKAL.h"; path = "Pod/UIColor+VOKAL/UIColor+VOKAL.h"; sourceTree = "<group>"; };
+		F9AF60D74A1E306CF8826B940816FE7C /* UICollectionViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICollectionViewExtensions.swift; path = Pod/VOKSwiftHelpers/UICollectionViewExtensions.swift; sourceTree = "<group>"; };
 		FAE725F274AABEA1C96774248F696C44 /* libPods-VOKUtilities-watchOS Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VOKUtilities-watchOS Extension.a"; path = "libPods-VOKUtilities-watchOS Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB44C47791414A455E267E8891F8B68B /* KIFTestStepValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestStepValidation.h; path = Classes/KIFTestStepValidation.h; sourceTree = "<group>"; };
-		FCB3171106771D3F40CAA84AECF6C1C2 /* VOKAlertHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VOKAlertHelper.h; path = Pod/VOKAlertHelper/VOKAlertHelper.h; sourceTree = "<group>"; };
-		FD6343C959FCB9C5A3BC72ACF7B5B08D /* UIView+VOKCircle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+VOKCircle.m"; path = "Pod/UIView+VOKCircle/UIView+VOKCircle.m"; sourceTree = "<group>"; };
-		FE1C44D857EBB43DCEEE7510629D6FD8 /* UIViewController+VOKKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+VOKKeyboard.h"; path = "Pod/UIViewController+VOKKeyboard/UIViewController+VOKKeyboard.h"; sourceTree = "<group>"; };
+		FBF182CEDC1AB37C562DE2898B3FDEC7 /* VOKAlertHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VOKAlertHelper.h; path = Pod/VOKAlertHelper/VOKAlertHelper.h; sourceTree = "<group>"; };
+		FE1202845B0C1B5172D61D65754EF418 /* UIColor+VOKAL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+VOKAL.m"; path = "Pod/UIColor+VOKAL/UIColor+VOKAL.m"; sourceTree = "<group>"; };
 		FE369C5F2C1AB17D1047FB1AE2F917AB /* Pods-VOKUtilities-UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VOKUtilities-UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FF7A4A1C3FAEE1F78712067B580CFEA6 /* KIFAccessibilityEnabler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFAccessibilityEnabler.m; path = Classes/KIFAccessibilityEnabler.m; sourceTree = "<group>"; };
+		FF9FC89F6B979536076461B9636C6074 /* VOKAlertAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VOKAlertAction.h; path = Pod/VOKAlertHelper/VOKAlertAction.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -515,16 +517,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0385E17AC7A9B3B51F6AFE9843EBE985 /* VOKSwiftHelpers */ = {
+		074E83A099DFA24861CA2916B806E5F2 /* UIView+VOKCircle */ = {
 			isa = PBXGroup;
 			children = (
-				01CDB6FBD53DD782179AAB79D6B429E9 /* CollectionExtensions.swift */,
-				3F862AD3DA54BB7DF37B23B67DB3135C /* IntExtensions.swift */,
-				6A7F47111F3201E8DD57587D66381230 /* ReuseIdentifiable.swift */,
-				A4D84595435674BD969CE71F29C5BCDA /* StringExtensions.swift */,
-				D4FFB7B7560FAF91821D5C1C23844B78 /* UITableViewExtensions.swift */,
+				95A8AFBD8F1FA5291B017F4D5507818E /* UIView+VOKCircle.h */,
+				A668B1C75C535FDA92BACB5528F82618 /* UIView+VOKCircle.m */,
 			);
-			name = VOKSwiftHelpers;
+			name = "UIView+VOKCircle";
+			sourceTree = "<group>";
+		};
+		0A0242EE8C6F28B5C8DE649C121129F5 /* VOKNavigationHelper */ = {
+			isa = PBXGroup;
+			children = (
+				6728CF64519BCB72B519DEDEB3503F7F /* VOKNavigationHelper.h */,
+				0B34F138766DC84C07B905D48FA88B28 /* VOKNavigationHelper.m */,
+			);
+			name = VOKNavigationHelper;
+			sourceTree = "<group>";
+		};
+		19DFBB0CDCABCB462275353F65A7DA8E /* VOKSwiftTestingHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				F0FE49DB8409BAE5054B7B7397A2CDE0 /* TestExtensions.swift */,
+			);
+			name = VOKSwiftTestingHelpers;
 			sourceTree = "<group>";
 		};
 		1A62038D029009BE5E9843A9FFB63F5F /* KIF */ = {
@@ -537,22 +553,56 @@
 			path = KIF;
 			sourceTree = "<group>";
 		};
-		2881A27D28C05E69224128E0935F9C55 /* VOKNavigationHelper */ = {
+		20C705BF0D27F4915CBFA00D441A14D4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				147F21BBE4D9F983509172BC21DD2295 /* VOKNavigationHelper.h */,
-				E91E44A397D15B44E7D967F948327009 /* VOKNavigationHelper.m */,
+				5C5C33F5180C3F47B227B9217435A01D /* VOKUtilities.modulemap */,
+				7D9F61558C6394A736B70ADCECA270E0 /* VOKUtilities.xcconfig */,
+				8EACFD2FE176837CD55BD761F98668FE /* VOKUtilities-3288a73d.xcconfig */,
+				0F6AF5DC947034159D59CEA7FF861557 /* VOKUtilities-3288a73d-dummy.m */,
+				F086844EEB9989C0B1C950D40293CE0C /* VOKUtilities-3288a73d-prefix.pch */,
+				3469A1E0588C18E9EDB15F33A1A323AE /* VOKUtilities-6aa4e1e5.xcconfig */,
+				2AE43381B9E4219DA4ED31E2729BFA53 /* VOKUtilities-6aa4e1e5-dummy.m */,
+				9DA8D9D7321EEB8B7929B14FFAF50409 /* VOKUtilities-6aa4e1e5-prefix.pch */,
+				116311CC76D604EFB4B8C47D27C3F294 /* VOKUtilities-d8783a65.xcconfig */,
+				4F6F76877DEA04A8ADA66B100B935230 /* VOKUtilities-d8783a65-dummy.m */,
+				A872B60A24ABED9C95C065097A1A80B0 /* VOKUtilities-d8783a65-prefix.pch */,
+				EAAA9650090E08E7CFE16A70D67B992C /* VOKUtilities-dummy.m */,
+				8660A2BB842CB6DA8940327621408D59 /* VOKUtilities-prefix.pch */,
+				B1FB2784B2443854A150A76324264BD2 /* VOKUtilities-umbrella.h */,
 			);
-			name = VOKNavigationHelper;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VOKUtilities";
 			sourceTree = "<group>";
 		};
-		30259D81C86BF21F844FFECD77B0F9B2 /* NSPredicate+VOKAL */ = {
+		2243E2DC40A0D5F4D91BF4A879402699 /* VOKEmailHelper */ = {
 			isa = PBXGroup;
 			children = (
-				1B5D89788D3B1F53952F887ADDB670DC /* NSPredicate+VOKAL.h */,
-				A310239208C64AC23ED9615A4B5E64B2 /* NSPredicate+VOKAL.m */,
+				789F47BD8AAFBBB9AEBF56AAE4D0540D /* VOKEmailHelper.h */,
+				361DEDF72551668686A1F4BDB6F1CD5E /* VOKEmailHelper.m */,
 			);
-			name = "NSPredicate+VOKAL";
+			name = VOKEmailHelper;
+			sourceTree = "<group>";
+		};
+		242F03AEB24D8A3CBD355532D8E3BACF /* VOKSwiftHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				6F05C8FA41AD4F0F6B69A07E0CE99CA9 /* CollectionExtensions.swift */,
+				7047E01AFB9EF866F84F2636CDECC989 /* IntExtensions.swift */,
+				A83C5236050ABC9EF90BFC157106A643 /* ReuseIdentifiable.swift */,
+				319FDAFE5350A57AD4D925AAAC61787B /* StringExtensions.swift */,
+				F9AF60D74A1E306CF8826B940816FE7C /* UICollectionViewExtensions.swift */,
+				C61DF12D178C63CE3E46AE57C7F84DC0 /* UITableViewExtensions.swift */,
+			);
+			name = VOKSwiftHelpers;
+			sourceTree = "<group>";
+		};
+		2B7227D167939387252C9B0ABC781ADF /* VOKIBHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				440942E6F31181FF843AC459A865E355 /* VOKIBHelpers.h */,
+			);
+			name = VOKIBHelpers;
 			sourceTree = "<group>";
 		};
 		3126EA124D2A373088920D6F08030685 /* Pods-VOKUtilities */ = {
@@ -568,15 +618,6 @@
 			);
 			name = "Pods-VOKUtilities";
 			path = "Target Support Files/Pods-VOKUtilities";
-			sourceTree = "<group>";
-		};
-		388E7E23B198DA98409CDD6C13FF5BCB /* VOKKeyPathHelper */ = {
-			isa = PBXGroup;
-			children = (
-				BFAC9907F459A7A2B687E0D3A74B7CCB /* VOKKeyPathHelper.h */,
-				6FD20D34445AFCA6BD52698A78276A6D /* VOKKeyPathHelper.m */,
-			);
-			name = VOKKeyPathHelper;
 			sourceTree = "<group>";
 		};
 		393E484A9C78B81210CB8769D46478BA /* Targets Support Files */ = {
@@ -607,16 +648,6 @@
 			);
 			name = "Pods-VOKUtilities-Tests";
 			path = "Target Support Files/Pods-VOKUtilities-Tests";
-			sourceTree = "<group>";
-		};
-		3D5A32198D04861CA28E38EB749B19C4 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1BBB2BBA833A924B5C84F5BECA59DD1E /* LICENSE */,
-				EB69A024022E4FBA684C3428E0D63BBE /* README.md */,
-				E1F374D134BCAF06D05E946AEC55B890 /* VOKUtilities.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		503ED63732A06581915885AFA5D40EFD /* Pods-VOKUtilities-watchOS Extension */ = {
@@ -660,24 +691,38 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		743D46020D7586A630F55BAE805F8D5E /* VOKAlertHelper */ = {
+		64D51A2FE6D3571252ECCDF6DB2B6F8D /* VOKKeyPathHelper */ = {
 			isa = PBXGroup;
 			children = (
-				53C39A78B9CBC5CDF616629E1BB3BFEF /* VOKAlertAction.h */,
-				C46B28AB7A64280480FD89AFB264A908 /* VOKAlertAction.m */,
-				FCB3171106771D3F40CAA84AECF6C1C2 /* VOKAlertHelper.h */,
-				355C6EFBCEF3AA2BD705EEB026340750 /* VOKAlertHelper.m */,
+				38E1503CD0D89DB1211452BE8EA44C3F /* VOKKeyPathHelper.h */,
+				4F1CF863380A811092928B4555B46C1E /* VOKKeyPathHelper.m */,
 			);
-			name = VOKAlertHelper;
+			name = VOKKeyPathHelper;
 			sourceTree = "<group>";
 		};
-		748AEF95EA8D9271D815DB3FD1BC0A33 /* UIView+VOKCircle */ = {
+		67A0E1852BE74A27A28B28CD52D39721 /* VOKUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				4BEA4F5A8207DA67A675E3F7CC2BC6D7 /* UIView+VOKCircle.h */,
-				FD6343C959FCB9C5A3BC72ACF7B5B08D /* UIView+VOKCircle.m */,
+				A9E77C8D4EF63091A398AD2AE09270FC /* NSCalendar+VOKAL */,
+				976A8D77F3CEB89688930A6371F6EC75 /* NSNumberFormatter+VOKAL */,
+				8DF7696B4A788F8FEAAA19EE90C5711A /* NSPredicate+VOKAL */,
+				A2CE3A7C224AEF72775E56D44C7E8807 /* NSString+VOKValidation */,
+				C6D825E2E36210E587F4AD9223E12E5F /* Pod */,
+				20C705BF0D27F4915CBFA00D441A14D4 /* Support Files */,
+				E66D90B512C5390C7D93797A4C53F7A3 /* UIColor+VOKAL */,
+				074E83A099DFA24861CA2916B806E5F2 /* UIView+VOKCircle */,
+				B468F43815EEF7B84EF24CD99C3D262A /* UIView+VOKDebug */,
+				9DD08E38BFC312A4D131058D7B8BD4A5 /* UIViewController+VOKKeyboard */,
+				8C0947ADC70E417FC58E26A767D2E239 /* VOKAlertHelper */,
+				2243E2DC40A0D5F4D91BF4A879402699 /* VOKEmailHelper */,
+				2B7227D167939387252C9B0ABC781ADF /* VOKIBHelpers */,
+				64D51A2FE6D3571252ECCDF6DB2B6F8D /* VOKKeyPathHelper */,
+				0A0242EE8C6F28B5C8DE649C121129F5 /* VOKNavigationHelper */,
+				242F03AEB24D8A3CBD355532D8E3BACF /* VOKSwiftHelpers */,
+				19DFBB0CDCABCB462275353F65A7DA8E /* VOKSwiftTestingHelpers */,
 			);
-			name = "UIView+VOKCircle";
+			name = VOKUtilities;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7A6F22B9297063E968A61846560F22CB /* Pods-VOKUtilities-OSX */ = {
@@ -704,35 +749,33 @@
 			path = "../Target Support Files/KIF";
 			sourceTree = "<group>";
 		};
-		87D20233FD0ECD504153522057BC0279 /* UIView+VOKDebug */ = {
+		8C0947ADC70E417FC58E26A767D2E239 /* VOKAlertHelper */ = {
 			isa = PBXGroup;
 			children = (
-				C198CB62E34F95B839F931A0555C8D7A /* UIView+VOKDebug.h */,
-				2BA320FAD1863DF499579DECEF2A7DDB /* UIView+VOKDebug.m */,
+				FF9FC89F6B979536076461B9636C6074 /* VOKAlertAction.h */,
+				20FD55EBCEA653BF8E90FEE5ED3BF865 /* VOKAlertAction.m */,
+				FBF182CEDC1AB37C562DE2898B3FDEC7 /* VOKAlertHelper.h */,
+				61B37DB27B3B26E6D710CFBC5EAA88EA /* VOKAlertHelper.m */,
 			);
-			name = "UIView+VOKDebug";
+			name = VOKAlertHelper;
 			sourceTree = "<group>";
 		};
-		88F0913159FD61481C2F0BCE8CD6D96E /* Support Files */ = {
+		8DF7696B4A788F8FEAAA19EE90C5711A /* NSPredicate+VOKAL */ = {
 			isa = PBXGroup;
 			children = (
-				1AD3EFA66DC824F480C5F01638C6D155 /* VOKUtilities.modulemap */,
-				92550110644F2DBC11CA60EC1FCE34E7 /* VOKUtilities.xcconfig */,
-				096FC220C1CD05363C1DFF9991A3867E /* VOKUtilities-3288a73d.xcconfig */,
-				9A5F59AAD928F015ED2C036CFB7DDF55 /* VOKUtilities-3288a73d-dummy.m */,
-				A556615CEB9D5C0388878DA5BD72FDCC /* VOKUtilities-3288a73d-prefix.pch */,
-				7A355831EB910FA0F4B606C752740650 /* VOKUtilities-6aa4e1e5.xcconfig */,
-				22CE89B938ED4B515669C6E5BA87AD71 /* VOKUtilities-6aa4e1e5-dummy.m */,
-				044D6204E7DB69094D57D5C1A1233A86 /* VOKUtilities-6aa4e1e5-prefix.pch */,
-				B7056F3BDF5C4E1E56A9FB812B734D4E /* VOKUtilities-d8783a65.xcconfig */,
-				021331BC3B64AC1242A660910C1FAB1E /* VOKUtilities-d8783a65-dummy.m */,
-				1A5ABD3AF7135F4815680C6075105855 /* VOKUtilities-d8783a65-prefix.pch */,
-				EDD744D0B6F05DA1DE154D0E46EA95D1 /* VOKUtilities-dummy.m */,
-				5796D834E9CB78CA83619627F7460335 /* VOKUtilities-prefix.pch */,
-				6C8F9CE525656D72E8D23E42014510BC /* VOKUtilities-umbrella.h */,
+				6B354C38474CFDEDB0954682E0FC7175 /* NSPredicate+VOKAL.h */,
+				F1BA1B9291F37CE708E93F5CC53D517D /* NSPredicate+VOKAL.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/VOKUtilities";
+			name = "NSPredicate+VOKAL";
+			sourceTree = "<group>";
+		};
+		976A8D77F3CEB89688930A6371F6EC75 /* NSNumberFormatter+VOKAL */ = {
+			isa = PBXGroup;
+			children = (
+				C45EADA5600759E94EEFAD186810E412 /* NSNumberFormatter+VOKAL.h */,
+				0CB606DFD5BA1AFC7212F9C9C727D48F /* NSNumberFormatter+VOKAL.m */,
+			);
+			name = "NSNumberFormatter+VOKAL";
 			sourceTree = "<group>";
 		};
 		987A8D512B6CFD55FA64FA71F10AAAC9 /* Pods-VOKUtilities-tvOS-Tests-tvOS */ = {
@@ -748,12 +791,31 @@
 			path = "Target Support Files/Pods-VOKUtilities-tvOS-Tests-tvOS";
 			sourceTree = "<group>";
 		};
-		A47E48AEBE7D473F5E7B9A24216D5BE8 /* VOKSwiftTestingHelpers */ = {
+		9DD08E38BFC312A4D131058D7B8BD4A5 /* UIViewController+VOKKeyboard */ = {
 			isa = PBXGroup;
 			children = (
-				9FBEDF29EC57F63B11AA6864C2FBDFED /* TestExtensions.swift */,
+				8F7EC07C2683DFC5808114406438D53B /* UIViewController+VOKKeyboard.h */,
+				6AAB1821F01DAF935A492E8D0B4D0C32 /* UIViewController+VOKKeyboard.m */,
 			);
-			name = VOKSwiftTestingHelpers;
+			name = "UIViewController+VOKKeyboard";
+			sourceTree = "<group>";
+		};
+		A2CE3A7C224AEF72775E56D44C7E8807 /* NSString+VOKValidation */ = {
+			isa = PBXGroup;
+			children = (
+				01A3A0C7DBD08DBDC050F186DD4B546B /* NSString+VOKValidation.h */,
+				A221008C3AD7C24542E934C2F80A46F9 /* NSString+VOKValidation.m */,
+			);
+			name = "NSString+VOKValidation";
+			sourceTree = "<group>";
+		};
+		A9E77C8D4EF63091A398AD2AE09270FC /* NSCalendar+VOKAL */ = {
+			isa = PBXGroup;
+			children = (
+				6CED3512100019D07D445B011E0D4D33 /* NSCalendar+VOKAL.h */,
+				0BB3ED9D41C6C793868B0D3EC850F4FC /* NSCalendar+VOKAL.m */,
+			);
+			name = "NSCalendar+VOKAL";
 			sourceTree = "<group>";
 		};
 		AA387E120A4CE4AC23FA42702D4A9991 /* Pods-VOKUtilities-OSX-Tests-OSX */ = {
@@ -769,31 +831,13 @@
 			path = "Target Support Files/Pods-VOKUtilities-OSX-Tests-OSX";
 			sourceTree = "<group>";
 		};
-		B5129EC4D446632E379C5A1A8D4B0992 /* UIColor+VOKAL */ = {
+		B468F43815EEF7B84EF24CD99C3D262A /* UIView+VOKDebug */ = {
 			isa = PBXGroup;
 			children = (
-				F8C755AE0B31C164228B989957E42142 /* UIColor+VOKAL.h */,
-				8C675D5036790B01E016922403EA711D /* UIColor+VOKAL.m */,
+				9EA37A91E945C0CC2ED5E46B8B0CDAD8 /* UIView+VOKDebug.h */,
+				65B6C226AED3B4CB2820306109AF33EC /* UIView+VOKDebug.m */,
 			);
-			name = "UIColor+VOKAL";
-			sourceTree = "<group>";
-		};
-		B594E1CFD8C4A54189BE6617FD34A69E /* NSString+VOKValidation */ = {
-			isa = PBXGroup;
-			children = (
-				1E42161E4F8B7BB0E1EC504C1E65BCAB /* NSString+VOKValidation.h */,
-				A9261887E22C2B9BB3DBF135FEB44246 /* NSString+VOKValidation.m */,
-			);
-			name = "NSString+VOKValidation";
-			sourceTree = "<group>";
-		};
-		B6C149ABD93C8AC43E44C67DA2D200CA /* NSCalendar+VOKAL */ = {
-			isa = PBXGroup;
-			children = (
-				6C35A3B0CEAFF232A36EA14E0DD288EA /* NSCalendar+VOKAL.h */,
-				0A133B65283251034B16CD9015693375 /* NSCalendar+VOKAL.m */,
-			);
-			name = "NSCalendar+VOKAL";
+			name = "UIView+VOKDebug";
 			sourceTree = "<group>";
 		};
 		BC94433A41AC1255ABAFDDE31EFC7423 /* Pods-VOKUtilities-tvOS */ = {
@@ -809,22 +853,14 @@
 			path = "Target Support Files/Pods-VOKUtilities-tvOS";
 			sourceTree = "<group>";
 		};
-		BE8D0FBD24348043D17F13351DECD467 /* NSNumberFormatter+VOKAL */ = {
+		C6D825E2E36210E587F4AD9223E12E5F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				466F329EEDDE982D2599AB9EE7EA0C21 /* NSNumberFormatter+VOKAL.h */,
-				7F14848F130BBE992B07A7C668B89F95 /* NSNumberFormatter+VOKAL.m */,
+				6FE15A842EB2B20DDD020A494E2033E0 /* LICENSE */,
+				747B0771580A841155B0929388B47E06 /* README.md */,
+				A9DE6089C453B19B231B83218C8213E9 /* VOKUtilities.podspec */,
 			);
-			name = "NSNumberFormatter+VOKAL";
-			sourceTree = "<group>";
-		};
-		C135B900DA2EFF3A3BAEA496A5FCC89D /* UIViewController+VOKKeyboard */ = {
-			isa = PBXGroup;
-			children = (
-				FE1C44D857EBB43DCEEE7510629D6FD8 /* UIViewController+VOKKeyboard.h */,
-				D06872317D36BA88325C7FAC2ADA4E2F /* UIViewController+VOKKeyboard.m */,
-			);
-			name = "UIViewController+VOKKeyboard";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -846,6 +882,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E66D90B512C5390C7D93797A4C53F7A3 /* UIColor+VOKAL */ = {
+			isa = PBXGroup;
+			children = (
+				1F4DF7A6FD4A9565B855BF0B13D0D5AA /* UIColor+VOKAL.h */,
+				FE1202845B0C1B5172D61D65754EF418 /* UIColor+VOKAL.m */,
+			);
+			name = "UIColor+VOKAL";
+			sourceTree = "<group>";
+		};
 		F04C288E520C5BB29EFB002D63E19D0F /* Pods-VOKUtilities-UITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -861,19 +906,10 @@
 			path = "Target Support Files/Pods-VOKUtilities-UITests";
 			sourceTree = "<group>";
 		};
-		F3BA9E09B4839050B308CA365EEDE087 /* VOKEmailHelper */ = {
-			isa = PBXGroup;
-			children = (
-				5792F16D4DACEFB3B7474ACFA0EF5BC8 /* VOKEmailHelper.h */,
-				BB6002AF8B7AFADC8AA4892E9FBC6E48 /* VOKEmailHelper.m */,
-			);
-			name = VOKEmailHelper;
-			sourceTree = "<group>";
-		};
 		F9462C07D08D22EB7E5BAAF3A7DEF929 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FA3CC5DCB6DEE9C2FF506504F69B2158 /* VOKUtilities */,
+				67A0E1852BE74A27A28B28CD52D39721 /* VOKUtilities */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -953,39 +989,6 @@
 				47C1BEF536910A3CDA231CA993468D16 /* XCTestCase-KIFAdditions.m */,
 			);
 			name = Core;
-			sourceTree = "<group>";
-		};
-		FA3CC5DCB6DEE9C2FF506504F69B2158 /* VOKUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				B6C149ABD93C8AC43E44C67DA2D200CA /* NSCalendar+VOKAL */,
-				BE8D0FBD24348043D17F13351DECD467 /* NSNumberFormatter+VOKAL */,
-				30259D81C86BF21F844FFECD77B0F9B2 /* NSPredicate+VOKAL */,
-				B594E1CFD8C4A54189BE6617FD34A69E /* NSString+VOKValidation */,
-				3D5A32198D04861CA28E38EB749B19C4 /* Pod */,
-				88F0913159FD61481C2F0BCE8CD6D96E /* Support Files */,
-				B5129EC4D446632E379C5A1A8D4B0992 /* UIColor+VOKAL */,
-				748AEF95EA8D9271D815DB3FD1BC0A33 /* UIView+VOKCircle */,
-				87D20233FD0ECD504153522057BC0279 /* UIView+VOKDebug */,
-				C135B900DA2EFF3A3BAEA496A5FCC89D /* UIViewController+VOKKeyboard */,
-				743D46020D7586A630F55BAE805F8D5E /* VOKAlertHelper */,
-				F3BA9E09B4839050B308CA365EEDE087 /* VOKEmailHelper */,
-				FDF1512A4887ADA57344A909F0B45CF8 /* VOKIBHelpers */,
-				388E7E23B198DA98409CDD6C13FF5BCB /* VOKKeyPathHelper */,
-				2881A27D28C05E69224128E0935F9C55 /* VOKNavigationHelper */,
-				0385E17AC7A9B3B51F6AFE9843EBE985 /* VOKSwiftHelpers */,
-				A47E48AEBE7D473F5E7B9A24216D5BE8 /* VOKSwiftTestingHelpers */,
-			);
-			name = VOKUtilities;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		FDF1512A4887ADA57344A909F0B45CF8 /* VOKIBHelpers */ = {
-			isa = PBXGroup;
-			children = (
-				81BB4813D8FADF0147AFE4090C14C0A3 /* VOKIBHelpers.h */,
-			);
-			name = VOKIBHelpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1165,7 +1168,7 @@
 			buildConfigurationList = 636CD395F9E1F15BCE729FD6B5FCD30E /* Build configuration list for PBXNativeTarget "VOKUtilities" */;
 			buildPhases = (
 				F32DF16C5520B7CE89107F93962F07B9 /* Headers */,
-				ED6CD9B649540C9B85420C9F0BA5F669 /* Sources */,
+				B1BA894655ACE634B58EA6D058E68E34 /* Sources */,
 				6CCD7E53AAC839DFA9F4E4FAE796441B /* Frameworks */,
 				45E4990BFF011CACCF1841F1D4AD4942 /* Copy generated compatibility header */,
 			);
@@ -1584,6 +1587,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B1BA894655ACE634B58EA6D058E68E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375A928A050A02928DE39288533FE7A3 /* CollectionExtensions.swift in Sources */,
+				60E6CBB044834ED9D029038891D929F2 /* IntExtensions.swift in Sources */,
+				5F3FB0DB12D5F1A19D1626F6AF5DD527 /* NSCalendar+VOKAL.m in Sources */,
+				5B9B378A2B62A09E380925F2FD34B05C /* NSNumberFormatter+VOKAL.m in Sources */,
+				53A9DE00428433F4633F5A08D90E21F0 /* NSPredicate+VOKAL.m in Sources */,
+				54610C75AF83FC7DEF8DC2BDD7EDFC32 /* NSString+VOKValidation.m in Sources */,
+				A4590B57057DB182E6734EB65459CEBD /* ReuseIdentifiable.swift in Sources */,
+				F943B70758FF48B7A7D2C1DA405F78CC /* StringExtensions.swift in Sources */,
+				E73EFB95087F98BE624F51A44D7B8C71 /* TestExtensions.swift in Sources */,
+				784E9487C33486AB2354C10B4CE54057 /* UICollectionViewExtensions.swift in Sources */,
+				2B2027D8A28F300E0C1F8D9F0798F144 /* UIColor+VOKAL.m in Sources */,
+				35FA270C8EF8B0C32036D6AC190AD2ED /* UITableViewExtensions.swift in Sources */,
+				8DAD241E55FD8978D0602F7C2E8388D7 /* UIView+VOKCircle.m in Sources */,
+				7A1304A3C7683556C90AAE029A656453 /* UIView+VOKDebug.m in Sources */,
+				70E75FDF77D8701AA74ADE7C435CDDA0 /* UIViewController+VOKKeyboard.m in Sources */,
+				AC226C5DE415849579749F9749090C3A /* VOKAlertAction.m in Sources */,
+				E5C597D937E0BEC0A5C7F29FA32237DF /* VOKAlertHelper.m in Sources */,
+				4068C4F526C493E8832D13980962DED3 /* VOKEmailHelper.m in Sources */,
+				B27D5F7924A2695BCFBF3C5FB96303D3 /* VOKKeyPathHelper.m in Sources */,
+				400FCAC93BDF10A1F6E30CDE1BCC60DF /* VOKNavigationHelper.m in Sources */,
+				C42D47C04840B12524BAC284A08865A7 /* VOKUtilities-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C36A3A443B261F40F78D33C0ACAB31EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1602,33 +1633,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E294EC294512F4B27C518056D631DB7 /* Pods-VOKUtilities-tvOS-Tests-tvOS-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ED6CD9B649540C9B85420C9F0BA5F669 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AEA349B4CC765593ED7519DA692040C2 /* CollectionExtensions.swift in Sources */,
-				358C514DE14C7A159F4AB4CF4CA010F8 /* IntExtensions.swift in Sources */,
-				F7759CBFC03752CFD6FF2088EBD9DF8C /* NSCalendar+VOKAL.m in Sources */,
-				60079CE33BC49A803EEBFA6AF2416873 /* NSNumberFormatter+VOKAL.m in Sources */,
-				8AC158C6EEE22DEEA22E42436D811835 /* NSPredicate+VOKAL.m in Sources */,
-				491E7912323540F8C045894EB916BD19 /* NSString+VOKValidation.m in Sources */,
-				7287D9584EEC8A418ED0917CDE2FD0EC /* ReuseIdentifiable.swift in Sources */,
-				2691B6E31CAE44240836863538E47CD7 /* StringExtensions.swift in Sources */,
-				E7E83BA49A445D275B475CAF7106596E /* TestExtensions.swift in Sources */,
-				23000423BE3DAC3991C359CF0A96511F /* UIColor+VOKAL.m in Sources */,
-				4D6D78CAB422CD8C7DFF52AD193E0ECD /* UITableViewExtensions.swift in Sources */,
-				9CC98A84883AA3B1D6F4428075EFB933 /* UIView+VOKCircle.m in Sources */,
-				C85A7C372A8812667149D1B875EB4200 /* UIView+VOKDebug.m in Sources */,
-				FE4603E6F2242FD19A33B6131DCBD720 /* UIViewController+VOKKeyboard.m in Sources */,
-				219F0F4DC47C956ACEFC20EE789D9C35 /* VOKAlertAction.m in Sources */,
-				55A3EDF57589EC97B0A97F2808025FCE /* VOKAlertHelper.m in Sources */,
-				A09FDA775CF35AC310CE6FA29EF9E42C /* VOKEmailHelper.m in Sources */,
-				67E6B3953783BA623FB6F7F9A9CACE57 /* VOKKeyPathHelper.m in Sources */,
-				CE96CBAF90197161B6CCBFFDC139F171 /* VOKNavigationHelper.m in Sources */,
-				1D973885E8ACC927116B91BB2B63B6C9 /* VOKUtilities-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1718,7 +1722,7 @@
 		};
 		1414C632429815DECF1773911613F874 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92550110644F2DBC11CA60EC1FCE34E7 /* VOKUtilities.xcconfig */;
+			baseConfigurationReference = 7D9F61558C6394A736B70ADCECA270E0 /* VOKUtilities.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1835,7 +1839,7 @@
 		};
 		5B22D4AFFA7494CECB0216E92757609D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A355831EB910FA0F4B606C752740650 /* VOKUtilities-6aa4e1e5.xcconfig */;
+			baseConfigurationReference = 3469A1E0588C18E9EDB15F33A1A323AE /* VOKUtilities-6aa4e1e5.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2007,7 +2011,7 @@
 		};
 		8E123715414D7BD84B164C7F873315E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 096FC220C1CD05363C1DFF9991A3867E /* VOKUtilities-3288a73d.xcconfig */;
+			baseConfigurationReference = 8EACFD2FE176837CD55BD761F98668FE /* VOKUtilities-3288a73d.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "-";
@@ -2077,7 +2081,7 @@
 		};
 		965632F0D9C1679DD9F3D457F2BF2DC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7056F3BDF5C4E1E56A9FB812B734D4E /* VOKUtilities-d8783a65.xcconfig */;
+			baseConfigurationReference = 116311CC76D604EFB4B8C47D27C3F294 /* VOKUtilities-d8783a65.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2189,7 +2193,7 @@
 		};
 		AD2C13E748D899537748BB10027053DE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 096FC220C1CD05363C1DFF9991A3867E /* VOKUtilities-3288a73d.xcconfig */;
+			baseConfigurationReference = 8EACFD2FE176837CD55BD761F98668FE /* VOKUtilities-3288a73d.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "-";
@@ -2234,7 +2238,7 @@
 		};
 		B27EDF2D1C4B4D00BC490BFD0E2685B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A355831EB910FA0F4B606C752740650 /* VOKUtilities-6aa4e1e5.xcconfig */;
+			baseConfigurationReference = 3469A1E0588C18E9EDB15F33A1A323AE /* VOKUtilities-6aa4e1e5.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2303,7 +2307,7 @@
 		};
 		D4083DD2DB646E335CCECD299B0C3748 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7056F3BDF5C4E1E56A9FB812B734D4E /* VOKUtilities-d8783a65.xcconfig */;
+			baseConfigurationReference = 116311CC76D604EFB4B8C47D27C3F294 /* VOKUtilities-d8783a65.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2393,7 +2397,7 @@
 		};
 		F561B196529F4990610D76390D424D7C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92550110644F2DBC11CA60EC1FCE34E7 /* VOKUtilities.xcconfig */;
+			baseConfigurationReference = 7D9F61558C6394A736B70ADCECA270E0 /* VOKUtilities.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
