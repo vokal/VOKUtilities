@@ -45,6 +45,9 @@
 		83F9FBB51AE06D5C4B74D5793F51D3B2 /* UIViewController_VOKKeyboard_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D80FCEB83D06907EEECCB4E59E640343 /* UIViewController_VOKKeyboard_Tests.m */; };
 		85883CF6A2710A9D37414606C4EE4B78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5707297BB8525593A9C9D65D6E6B900 /* main.m */; };
 		88B6A55D1DE41586FB8DEF1323EDE839 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4398514A99A7240965FBDA9627FD43 /* ExtensionDelegate.m */; };
+		903A2D0E228CB4EE003CC939 /* IntExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A2D0B228CB4ED003CC939 /* IntExtensionsTests.swift */; };
+		903A2D0F228CB4EE003CC939 /* UITableViewExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A2D0C228CB4EE003CC939 /* UITableViewExtensionsTests.swift */; };
+		903A2D10228CB4EE003CC939 /* StringExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A2D0D228CB4EE003CC939 /* StringExtensionsTests.swift */; };
 		93399C2AF001CC7CA820506A591F99C6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1414AF7F8D2543DF6DA238BB32F258E2 /* XCTest.framework */; };
 		A0B8F9231D209C27763CFEEF80AD632A /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2014524F61656C2D8929927C8F65CD6 /* InterfaceController.m */; };
 		A3BD758D681FFFE094FDDE68E20392C3 /* NSPredicate_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FEE28427C1277C3D9CD5B1716EF9FF /* NSPredicate_VOKAL_Tests.m */; };
@@ -196,6 +199,9 @@
 		8428880378805CF08926FAB186DEAA7D /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Launch Screen.xib"; path = "../Tests/Launch Screen.xib"; sourceTree = "<group>"; };
 		8DD369650F89B53A3EE34BF5F6F3AC6B /* VOKAlertHelper_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOKAlertHelper_Tests.m; sourceTree = "<group>"; };
 		8F63C235044BFE715494785F4A969DE7 /* Pods-VOKUtilities-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-OSX/Pods-VOKUtilities-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		903A2D0B228CB4ED003CC939 /* IntExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntExtensionsTests.swift; path = ../../../../../Downloads/Temp/IntExtensionsTests.swift; sourceTree = "<group>"; };
+		903A2D0C228CB4EE003CC939 /* UITableViewExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtensionsTests.swift; sourceTree = "<group>"; };
+		903A2D0D228CB4EE003CC939 /* StringExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtensionsTests.swift; path = ../../../../../Downloads/Temp/StringExtensionsTests.swift; sourceTree = "<group>"; };
 		95D338A52C82D3F4950BF51B71E2BE73 /* Pods-VOKUtilities-tvOS-Tests-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-tvOS-Tests-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-tvOS-Tests-tvOS/Pods-VOKUtilities-tvOS-Tests-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		97E3AAD05EA689878AF2790C74601314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		985FAF06CDDC26B6F5FEBD8208432C33 /* Pods-VOKUtilities-OSX-Tests-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-OSX-Tests-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-OSX-Tests-OSX/Pods-VOKUtilities-OSX-Tests-OSX.debug.xcconfig"; sourceTree = "<group>"; };
@@ -518,6 +524,9 @@
 			children = (
 				7CC8F5330184AA24D1C85C4555CAD942 /* Supporting Files */,
 				9DA495983AF48F5C2F1C1DACEBA20C19 /* CollectionExtensionsTests.swift */,
+				903A2D0B228CB4ED003CC939 /* IntExtensionsTests.swift */,
+				903A2D0D228CB4EE003CC939 /* StringExtensionsTests.swift */,
+				903A2D0C228CB4EE003CC939 /* UITableViewExtensionsTests.swift */,
 				81B3EC1E9A081DFD3E84F73606C4FFF9 /* NSCalendar_VOKAL_Tests.m */,
 				57FDD4E0D337F3AC5A11511F64396B2B /* NSNumberFormatter_VOKAL_Tests.m */,
 				09FEE28427C1277C3D9CD5B1716EF9FF /* NSPredicate_VOKAL_Tests.m */,
@@ -1043,9 +1052,12 @@
 			files = (
 				0FF8373B0EB3EA86A414212A736DB637 /* CollectionExtensionsTests.swift in Sources */,
 				0529F65AEC801852D6EC3E948E7D2EAC /* NSCalendar_VOKAL_Tests.m in Sources */,
+				903A2D0F228CB4EE003CC939 /* UITableViewExtensionsTests.swift in Sources */,
 				E18633348D706743144B98222999CB4A /* NSNumberFormatter_VOKAL_Tests.m in Sources */,
 				A3BD758D681FFFE094FDDE68E20392C3 /* NSPredicate_VOKAL_Tests.m in Sources */,
 				ECA11D82737DF4A99D60E235A24329D0 /* NSString_VOKValidation_Tests.m in Sources */,
+				903A2D0E228CB4EE003CC939 /* IntExtensionsTests.swift in Sources */,
+				903A2D10228CB4EE003CC939 /* StringExtensionsTests.swift in Sources */,
 				50C91464E6FA9E82C648B7C1A453B40B /* UIColor_VOKAL_Tests.m in Sources */,
 				83F9FBB51AE06D5C4B74D5793F51D3B2 /* UIViewController_VOKKeyboard_Tests.m in Sources */,
 				C68F32857F07A8C4386D1DD3C8C6194D /* UIView_VOKCircle_Tests.m in Sources */,
