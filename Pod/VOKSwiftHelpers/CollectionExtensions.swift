@@ -13,7 +13,7 @@ extension Array {
     /// - Parameter index: the index to look up in the array.
     /// - Returns: an element if the index is within bounds of the array; otherwise, nil.
     public subscript(safe index: Index) -> Element? {
-        guard self.indices.contains(index) else { return nil }
+        guard indices.contains(index) else { return nil }
         return self[index]
     }
 }
