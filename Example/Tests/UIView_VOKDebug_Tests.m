@@ -8,7 +8,8 @@
 
 #import <XCTest/XCTest.h>
 #import <UIKit/UIKit.h>
-#import "UIView+VOKDebug.h"
+
+#import <UIView+VOKDebug.h>
 
 @interface UIView_VOKDebug_Tests : XCTestCase
 @property (nonatomic) BOOL debugDefinitionChanged;

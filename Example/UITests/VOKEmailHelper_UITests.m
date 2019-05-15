@@ -8,8 +8,9 @@
 
 #import <KIF/KIF.h>
 #import "VOKAppDelegate.h"
-#import "VOKEmailHelper.h"
 #import <MessageUI/MessageUI.h>
+
+#import <VOKEmailHelper.h>
 
 @interface VOKEmailHelper_UITests : KIFTestCase
 @property (nonatomic) NSArray *recipients;

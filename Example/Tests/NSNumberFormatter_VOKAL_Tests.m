@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <XCTest/XCTest.h>
 
-#import "NSNumberFormatter+VOKAL.h"
+#import <NSNumberFormatter+VOKAL.h>
 
 @interface NSNumberFormatter_VOKAL_Tests : XCTestCase
 

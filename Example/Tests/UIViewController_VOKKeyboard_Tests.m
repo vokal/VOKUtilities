@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-#import "UIVIewController+VOKKeyboard.h"
+#import <UIViewController+VOKKeyboard.h>
 
 @interface UIViewController_VOKKeyboard_Tests : XCTestCase
 @property (nonatomic) UIViewController *viewController;

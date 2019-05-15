@@ -9,7 +9,7 @@
 #import <KIF/KIF.h>
 #import <UIKit/UIKit.h>
 
-#import "VOKAlertHelper.h"
+#import <VOKAlertHelper.h>
 
 @interface VOKAlertHelper_UITests : KIFTestCase
 

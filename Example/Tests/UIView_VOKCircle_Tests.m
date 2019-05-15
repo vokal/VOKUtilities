@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
-#import "UIView+VOKCircle.h"
+
+#import <UIView+VOKCircle.h>
 
 @interface UIView_VOKCircle_Tests : XCTestCase
 
