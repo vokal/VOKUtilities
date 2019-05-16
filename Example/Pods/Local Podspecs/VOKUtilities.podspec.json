@@ -1,6 +1,6 @@
 {
   "name": "VOKUtilities",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "summary": "Assorted category and utility classes for iDevelopment",
   "homepage": "https://github.com/vokal/VOKUtilities",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/vokal/VOKUtilities.git",
-    "tag": "0.13.0"
+    "tag": "0.14.0"
   },
   "platforms": {
     "ios": "8.0",
