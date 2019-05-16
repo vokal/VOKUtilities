@@ -9,30 +9,41 @@ import XCTest
 import VOKUtilities
 
 class UICollectionViewExtensionsTests: XCTestCase {
-    func testRegistersNibForCell() {
-        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewLayout())
-        let dataSource = ExampleDataSource()
-        collectionView.dataSource = dataSource
+    private var collectionView: UICollectionView = .configuredForTesting
+    
+    override func setUp() {
+        super.setUp()
         
-        collectionView.registerNib(forCell: ExampleCollectionViewCell.self)
-
-        let reuseIdentifier = ExampleCollectionViewCell.defaultReuseIdentifier
-        let indexPath = IndexPath(item: 0, section: 0)
-        let exampleCell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier,
-                                                             for: indexPath) as? ExampleCollectionViewCell
-        XCTAssertNotNil(exampleCell)
+        collectionView = .configuredForTesting
+    }
+    
+    func testRegistersCell() {
+        class TestCell: UICollectionViewCell {}
+        
+        let cellType = TestCell.self
+        collectionView.register(cellType)
+        assertRegistersCell(cellType)
+    }
+    
+    func testRegistersNibForCell() {
+        let cellType = ExampleCollectionViewCell.self
+        collectionView.registerNib(forCell: cellType)
+        assertRegistersCell(cellType)
     }
 }
 
-private class ExampleDataSource: NSObject, UICollectionViewDataSource {
-    // MARK: - UICollectionViewDataSource
-    
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 1
+private extension UICollectionViewExtensionsTests {
+    func assertRegistersCell<Cell: ReuseIdentifiableView>(_ cellType: Cell.Type,
+                                                          file: StaticString = #file,
+                                                          line: UInt = #line) {
+        let exampleCell = collectionView.dequeueReusableCell(withReuseIdentifier: cellType.defaultReuseIdentifier,
+                                                             for: IndexPath(item: 0, section: 0)) as? Cell
+        XCTAssertNotNil(exampleCell, file: file, line: line)
     }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        return collectionView.dequeueReusableCell(withReuseIdentifier: ExampleCollectionViewCell.defaultReuseIdentifier,
-                                                  for: indexPath)
+}
+
+private extension UICollectionView {
+    static var configuredForTesting: UICollectionView {
+        return UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewLayout())
     }
 }

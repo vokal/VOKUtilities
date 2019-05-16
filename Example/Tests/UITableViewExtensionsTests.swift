@@ -9,59 +9,55 @@ import XCTest
 import VOKUtilities
 
 class UITableViewExtensionsTests: XCTestCase {
+    private var tableView = UITableView()
+    
+    override func setUp() {
+        super.setUp()
+        
+        tableView = UITableView()
+    }
+    
     func testRegistersCell() {
         class TestCell: UITableViewCell {}
         
-        let tableView = UITableView()
-        let reuseIdentifier = TestCell.defaultReuseIdentifier
-        
-        var exampleCell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier) as? TestCell
-        XCTAssertNil(exampleCell)
-        
-        tableView.register(TestCell.self)
-        
-        exampleCell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier) as? TestCell
-        XCTAssertNotNil(exampleCell)
+        let cellType = TestCell.self
+        tableView.register(cellType)
+        assertDequeuesCell(cellType)
     }
     
     func testRegistersNibForCell() {
-        let tableView = UITableView()
-        let reuseIdentifier = ExampleTableViewCell.defaultReuseIdentifier
-        
-        var exampleCell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier) as? ExampleTableViewCell
-        XCTAssertNil(exampleCell)
-        
-        tableView.registerNib(forCell: ExampleTableViewCell.self)
-        
-        exampleCell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier) as? ExampleTableViewCell
-        XCTAssertNotNil(exampleCell)
+        let cellType = ExampleTableViewCell.self
+        tableView.registerNib(forCell: cellType)
+        assertDequeuesCell(cellType)
     }
     
     func testRegistersHeaderFooterView() {
         class TestFooterView: UITableViewHeaderFooterView {}
         
-        let tableView = UITableView()
-        let reuseIdentifier = TestFooterView.defaultReuseIdentifier
-        
-        var exampleHeaderFooterView = tableView.dequeueReusableHeaderFooterView(withIdentifier: reuseIdentifier) as? TestFooterView
-        XCTAssertNil(exampleHeaderFooterView)
-        
-        tableView.register(TestFooterView.self)
-        
-        exampleHeaderFooterView = tableView.dequeueReusableHeaderFooterView(withIdentifier: reuseIdentifier) as? TestFooterView
-        XCTAssertNotNil(exampleHeaderFooterView)
+        let viewType = TestFooterView.self
+        tableView.register(viewType)
+        assertDequeuesHeaderFooterView(viewType)
     }
     
     func testRegistersNibForHeaderFooterView() {
-        let tableView = UITableView()
-        let reuseIdentifier = ExampleHeaderFooterView.defaultReuseIdentifier
-        
-        var exampleHeaderFooter = tableView.dequeueReusableHeaderFooterView(withIdentifier: reuseIdentifier) as? ExampleHeaderFooterView
-        XCTAssertNil(exampleHeaderFooter)
-        
-        tableView.registerNib(forHeaderFooterView: ExampleHeaderFooterView.self)
-        
-        exampleHeaderFooter = tableView.dequeueReusableHeaderFooterView(withIdentifier: reuseIdentifier) as? ExampleHeaderFooterView
-        XCTAssertNotNil(exampleHeaderFooter)
+        let viewType = ExampleHeaderFooterView.self
+        tableView.registerNib(forHeaderFooterView: viewType)
+        assertDequeuesHeaderFooterView(viewType)
+    }
+}
+
+private extension UITableViewExtensionsTests {
+    func assertDequeuesCell<Cell: ReuseIdentifiableView>(_ cellType: Cell.Type,
+                                                         file: StaticString = #file,
+                                                         line: UInt = #line) {
+        let exampleCell = tableView.dequeueReusableCell(withIdentifier: cellType.defaultReuseIdentifier) as? Cell
+        XCTAssertNotNil(exampleCell, file: file, line: line)
+    }
+    
+    func assertDequeuesHeaderFooterView<View: ReuseIdentifiableView>(_ viewType: View.Type,
+                                                                     file: StaticString = #file,
+                                                                     line: UInt = #line) {
+        let exampleView = tableView.dequeueReusableHeaderFooterView(withIdentifier: viewType.defaultReuseIdentifier) as? View
+        XCTAssertNotNil(exampleView, file: file, line: line)
     }
 }
