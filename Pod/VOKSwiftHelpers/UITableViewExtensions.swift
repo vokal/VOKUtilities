@@ -12,9 +12,8 @@ extension UITableView {
     ///
     /// - Parameter cellType: the cell type with nib to register with the table view.
     public func registerNib(forCell cellType: UITableViewCell.Type) {
-        let identifier = cellType.defaultReuseIdentifier
-        let nib = UINib(nibName: identifier, bundle: Bundle(for: cellType))
-        register(nib, forCellReuseIdentifier: identifier)
+        let nib = UINib(viewType: cellType)
+        register(nib, forCellReuseIdentifier: cellType.defaultReuseIdentifier)
     }
     
     /// Convenience method to register a `ReuseIdentifiable` cell type for creating new cells.
@@ -28,9 +27,8 @@ extension UITableView {
     ///
     /// - Parameter cellType: the cell type with nib to register with the table view.
     public func registerNib(forHeaderFooterView headerFooterViewType: UITableViewHeaderFooterView.Type) {
-        let identifier = headerFooterViewType.defaultReuseIdentifier
-        let nib = UINib(nibName: identifier, bundle: Bundle(for: headerFooterViewType))
-        register(nib, forHeaderFooterViewReuseIdentifier: identifier)
+        let nib = UINib(viewType: headerFooterViewType)
+        register(nib, forHeaderFooterViewReuseIdentifier: headerFooterViewType.defaultReuseIdentifier)
     }
     
     /// Convenience method to register a `ReuseIdentifiable` header footer view type for creating new views.

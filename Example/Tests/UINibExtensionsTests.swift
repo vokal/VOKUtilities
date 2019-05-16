@@ -17,9 +17,9 @@ class UINibExtensionsTests: XCTestCase {
 }
 
 private extension UINibExtensionsTests {
-    func assertInitNib<View: ReuseIdentifiable>(forViewType viewType: View.Type,
-                                                file: StaticString = #file,
-                                                line: UInt = #line) {
+    func assertInitNib<View: ReuseIdentifiableView>(forViewType viewType: View.Type,
+                                                    file: StaticString = #file,
+                                                    line: UInt = #line) {
         let nib = UINib(viewType: viewType)
         let nibView = nib.instantiate(withOwner: nil).first as? View
         XCTAssertNotNil(nibView, file: file, line: line)

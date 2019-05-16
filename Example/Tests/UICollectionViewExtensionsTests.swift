@@ -6,6 +6,7 @@
 //
 
 import XCTest
+import VOKUtilities
 
 class UICollectionViewExtensionsTests: XCTestCase {
     func testRegistersNibForCell() {
