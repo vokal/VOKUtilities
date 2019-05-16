@@ -17,6 +17,8 @@ public protocol ReuseIdentifiable: class {
 /// A `ReuseIdentifiable` `UIView`.
 public typealias ReuseIdentifiableView = ReuseIdentifiable & UIView
 
+// MARK: - ReuseIdentifiable Conformances
+
 extension ReuseIdentifiable where Self: UIView {
     public static var defaultReuseIdentifier: String {
         return String(describing: self)

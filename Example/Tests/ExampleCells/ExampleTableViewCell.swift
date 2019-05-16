@@ -8,4 +8,5 @@
 import UIKit
 
 class ExampleTableViewCell: UITableViewCell {
+    // Empty cell used for testing purposes.
 }

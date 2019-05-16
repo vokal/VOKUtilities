@@ -10,7 +10,7 @@ import Foundation
 extension String {
     /// Get a new string by removing non-digits.
     public var digits: String {
-        return self.components(separatedBy: CharacterSet.decimalDigits.inverted).joined()
+        return components(separatedBy: CharacterSet.decimalDigits.inverted).joined()
     }
     
     /// Get the double value of a string. Will return nil if it can't convert.

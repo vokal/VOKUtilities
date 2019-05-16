@@ -8,4 +8,5 @@
 import UIKit
 
 class ExampleCollectionViewCell: UICollectionViewCell {
+    // Empty cell used for testing purposes.
 }
