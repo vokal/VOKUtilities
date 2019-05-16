@@ -15,7 +15,6 @@
 		0FF8373B0EB3EA86A414212A736DB637 /* CollectionExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA495983AF48F5C2F1C1DACEBA20C19 /* CollectionExtensionsTests.swift */; };
 		108CA27B1E5B0C93A0A902157F8A2DAB /* ExampleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DFB4EE61619798FE2372BDFCCB2926A /* ExampleCollectionViewCell.xib */; };
 		164906665CBA68AAC2384170975E05AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA936DC1D941D75B58380CDE427BEB2A /* main.m */; };
-		1CA8972DC23F195FDAFF4BB3AB3385B4 /* CollectionExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA495983AF48F5C2F1C1DACEBA20C19 /* CollectionExtensionsTests.swift */; };
 		216D206523C13A7775CE25E2ED058625 /* VOKUtilities-watchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F1748634007EEA6C5AF818F8C3B34F2B /* VOKUtilities-watchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		250859DE7206E0781673C92BAF8FD500 /* NSPredicate_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FEE28427C1277C3D9CD5B1716EF9FF /* NSPredicate_VOKAL_Tests.m */; };
 		29A196E01DFE523E7440EAAE760233F3 /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C931322F94DB48A1D1591FC9C2A954E /* First.storyboard */; };
@@ -72,7 +71,6 @@
 		CC1B16FD877482126E51CA42A85796BB /* ExampleHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE69E291C06453B82865ADC483E6F9E /* ExampleHeaderFooterView.swift */; };
 		CE81964C6E11C5CC61343780ACE5D50B /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AB01577E64C958FC240CE2E4BCE683 /* AnotherViewController.m */; };
 		D543FF512B65B037A8AFF69B07E6D968 /* ExampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3950603750EDE14E64B5C2A20890E833 /* ExampleCollectionViewCell.swift */; };
-		DC035EB24EE1964FCB9E23C5004A13AD /* CollectionExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA495983AF48F5C2F1C1DACEBA20C19 /* CollectionExtensionsTests.swift */; };
 		E18633348D706743144B98222999CB4A /* NSNumberFormatter_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FDD4E0D337F3AC5A11511F64396B2B /* NSNumberFormatter_VOKAL_Tests.m */; };
 		E1E41020DCE2111E07532B53A02762F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64A536D2BECDE1E3C9125554D817D3DA /* InfoPlist.strings */; };
 		E3DD410F86AC0C9EAEA2C6FD39F32796 /* libPods-VOKUtilities-watchOS Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5129D7DAEA596DF6F813289D0E58737C /* libPods-VOKUtilities-watchOS Extension.a */; };
@@ -1070,7 +1068,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CA8972DC23F195FDAFF4BB3AB3385B4 /* CollectionExtensionsTests.swift in Sources */,
 				F2CD18DB49E94FBBD39CE1CD73E2F842 /* NSCalendar_VOKAL_Tests.m in Sources */,
 				2C9B92D12A58F3CF7C559224EED1DC0C /* NSNumberFormatter_VOKAL_Tests.m in Sources */,
 				250859DE7206E0781673C92BAF8FD500 /* NSPredicate_VOKAL_Tests.m in Sources */,
@@ -1150,7 +1147,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC035EB24EE1964FCB9E23C5004A13AD /* CollectionExtensionsTests.swift in Sources */,
 				62AD3C5EB78AA0F41990EB26207BFFA9 /* NSCalendar_VOKAL_Tests.m in Sources */,
 				7BE71B258EE539BD95E687B16C42D9C8 /* NSNumberFormatter_VOKAL_Tests.m in Sources */,
 				7C8A1CF4A40E824A26A90DDD7F428BB4 /* NSPredicate_VOKAL_Tests.m in Sources */,
