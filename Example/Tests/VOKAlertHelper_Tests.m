@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-#import "VOKAlertHelper.h"
+#import <VOKAlertHelper.h>
 
 @interface VOKAlertHelper_Tests : XCTestCase
 

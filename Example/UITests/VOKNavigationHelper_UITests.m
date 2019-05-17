@@ -7,9 +7,10 @@
 //
 
 #import <KIF/KIF.h>
-#import "VOKNavigationHelper.h"
 #import "AnotherViewController.h"
 #import "TestViewController.h"
+
+#import <VOKNavigationHelper.h>
 
 static NSString *FirstStoryboardLabelText = @"This is in the first storyboard";
 static NSString *SecondStoryboardLabelText = @"This is in the second storyboard";

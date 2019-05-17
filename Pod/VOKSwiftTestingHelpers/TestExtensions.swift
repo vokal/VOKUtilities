@@ -17,7 +17,7 @@ extension UIViewController {
     
     /// The view controller that will be transitioned to. You may need to call `makeRootForWindow()` before calling this.
     public var toViewController: UIViewController? {
-        return self.transitionCoordinator?.viewController(forKey: .to)
+        return transitionCoordinator?.viewController(forKey: .to)
     }
 }
 
@@ -50,13 +50,13 @@ extension UIView {
 extension UIBarButtonItem {
     /// Programatically fire a bar button item action.
     public func fire() {
-        guard let action = self.action else {
+        guard let action = action else {
             assertionFailure("We tried to fire a nil bar button item action")
             return
         }
         
         UIApplication.shared.sendAction(action,
-                                        to: self.target,
+                                        to: target,
                                         from: nil,
                                         for: nil)
     }
@@ -65,7 +65,7 @@ extension UIBarButtonItem {
 extension UITableView {
     /// Programatically select a row for a unit test. This will also invoke the `didSelectRowAt` delegate method.
     public func selectRow(at indexPath: IndexPath) {
-        self.selectRow(at: indexPath, animated: false, scrollPosition: .none)
-        self.delegate?.tableView?(self, didSelectRowAt: indexPath)
+        selectRow(at: indexPath, animated: false, scrollPosition: .none)
+        delegate?.tableView?(self, didSelectRowAt: indexPath)
     }
 }
