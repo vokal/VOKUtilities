@@ -8,7 +8,7 @@
 import UIKit
 
 extension UICollectionView {
-    /// Convenience method to register a nib for a `ReuseIdentifiable` cell type for creating new cells.
+    /// Convenience method to register a nib for a `ReuseIdentifiableView` cell type for creating new cells.
     ///
     /// - Parameter cellType: the cell type with nib to register with the collection view.
     public func registerNib(forCell cellType: UICollectionViewCell.Type) {
@@ -16,7 +16,7 @@ extension UICollectionView {
         register(nib, forCellWithReuseIdentifier: cellType.defaultReuseIdentifier)
     }
     
-    /// Convenience method to register a `ReuseIdentifiable` cell type for creating new cells.
+    /// Convenience method to register a `ReuseIdentifiableView` cell type for creating new cells.
     ///
     /// - Parameter cellType: the cell type to register with the collection view.
     public func register(_ cellType: UICollectionViewCell.Type) {
