@@ -15,7 +15,7 @@
     "tag": "0.14.0"
   },
   "platforms": {
-    "ios": "9.0",
+    "ios": "11.0",
     "tvos": "9.0",
     "osx": "10.9",
     "watchos": "3.0"
@@ -45,7 +45,7 @@
     {
       "name": "UIColor+VOKAL",
       "platforms": {
-        "ios": "9.0",
+        "ios": "11.0",
         "tvos": "9.0",
         "watchos": "3.0"
       },
@@ -54,7 +54,7 @@
     {
       "name": "VOKIBHelpers",
       "platforms": {
-        "ios": "9.0",
+        "ios": "11.0",
         "tvos": "9.0"
       },
       "source_files": "Pod/VOKIBHelpers/*.{h,m}"
@@ -62,7 +62,7 @@
     {
       "name": "UIView+VOKDebug",
       "platforms": {
-        "ios": "9.0",
+        "ios": "11.0",
         "tvos": "9.0"
       },
       "source_files": "Pod/UIView+VOKDebug/*.{h,m}"
@@ -70,7 +70,7 @@
     {
       "name": "UIView+VOKCircle",
       "platforms": {
-        "ios": "9.0",
+        "ios": "11.0",
         "tvos": "9.0"
       },
       "source_files": "Pod/UIView+VOKCircle/*.{h,m}"
@@ -78,42 +78,42 @@
     {
       "name": "UIViewController+VOKKeyboard",
       "platforms": {
-        "ios": "9.0"
+        "ios": "11.0"
       },
       "source_files": "Pod/UIViewController+VOKKeyboard/*.{h,m}"
     },
     {
       "name": "VOKEmailHelper",
       "platforms": {
-        "ios": "9.0"
+        "ios": "11.0"
       },
       "source_files": "Pod/VOKEmailHelper/*.{h,m}"
     },
     {
       "name": "VOKAlertHelper",
       "platforms": {
-        "ios": "9.0"
+        "ios": "11.0"
       },
       "source_files": "Pod/VOKAlertHelper/*.{h,m}"
     },
     {
       "name": "VOKNavigationHelper",
       "platforms": {
-        "ios": "9.0"
+        "ios": "11.0"
       },
       "source_files": "Pod/VOKNavigationHelper/*.{h,m}"
     },
     {
       "name": "VOKSwiftHelpers",
       "platforms": {
-        "ios": "9.0"
+        "ios": "11.0"
       },
       "source_files": "Pod/VOKSwiftHelpers/*.swift"
     },
     {
       "name": "VOKSwiftTestingHelpers",
       "platforms": {
-        "ios": "9.0"
+        "ios": "11.0"
       },
       "source_files": "Pod/VOKSwiftTestingHelpers/*.swift"
     }

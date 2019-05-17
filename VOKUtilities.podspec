@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author           = { "Vokal" => "ios@vokal.io" }
   s.source           = { :git => "https://github.com/vokal/VOKUtilities.git", :tag => s.version.to_s }
 
-  IOS_DEPLOYMENT_TARGET = "9.0"
+  IOS_DEPLOYMENT_TARGET = "11.0"
 
   s.ios.deployment_target = IOS_DEPLOYMENT_TARGET
   s.tvos.deployment_target = "9.0"
