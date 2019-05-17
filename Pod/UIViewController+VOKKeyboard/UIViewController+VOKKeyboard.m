@@ -10,7 +10,6 @@
 
 @implementation UIViewController (VOKKeyboard)
 
-
 - (void)vok_addKeyboardObserverWithHandler:(SEL)notificationHandler
 {
     [[NSNotificationCenter defaultCenter] addObserver:self
@@ -61,21 +60,20 @@
     CGFloat deltaHeight = CGRectGetMinY(startFrame) - CGRectGetMinY(endFrame);
     
     //Account for the bottom layout guide (ie, tab bars).
-    
-        CGFloat adjustment = 0;
-        if (self.navigationController) {
-            adjustment = self.navigationController.bottomLayoutGuide.length;
-        } else {
-            adjustment = self.bottomLayoutGuide.length;
-        }
+    CGFloat adjustment = 0;
+    if (self.navigationController) {
+        adjustment = self.navigationController.view.safeAreaInsets.bottom;
+    } else {
+        adjustment = self.view.safeAreaInsets.bottom;
+    }
         
-        //Only account for the adjustment if the delta height is bigger than the adjustment.
-        if (fabs(deltaHeight) > adjustment) {
-            if (deltaHeight < 0) {
-                deltaHeight += adjustment;
-            } else {
-                deltaHeight -= adjustment;
-            }
+    //Only account for the adjustment if the delta height is bigger than the adjustment.
+    if (fabs(deltaHeight) > adjustment) {
+        if (deltaHeight < 0) {
+            deltaHeight += adjustment;
+        } else {
+            deltaHeight -= adjustment;
+        }
     }
     
     CGFloat currentConstant = constraintToAdjust.constant;
