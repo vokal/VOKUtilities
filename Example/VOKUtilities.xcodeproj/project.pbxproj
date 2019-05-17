@@ -71,6 +71,7 @@
 		CC1B16FD877482126E51CA42A85796BB /* ExampleHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE69E291C06453B82865ADC483E6F9E /* ExampleHeaderFooterView.swift */; };
 		CE81964C6E11C5CC61343780ACE5D50B /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AB01577E64C958FC240CE2E4BCE683 /* AnotherViewController.m */; };
 		D543FF512B65B037A8AFF69B07E6D968 /* ExampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3950603750EDE14E64B5C2A20890E833 /* ExampleCollectionViewCell.swift */; };
+		DE2F26D221AF7701D8B6E72270F87213 /* UIViewExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54DC1FDD1CF61FFB82C093999A9CCE6 /* UIViewExtensionsTests.swift */; };
 		E18633348D706743144B98222999CB4A /* NSNumberFormatter_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FDD4E0D337F3AC5A11511F64396B2B /* NSNumberFormatter_VOKAL_Tests.m */; };
 		E1E41020DCE2111E07532B53A02762F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64A536D2BECDE1E3C9125554D817D3DA /* InfoPlist.strings */; };
 		E3DD410F86AC0C9EAEA2C6FD39F32796 /* libPods-VOKUtilities-watchOS Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5129D7DAEA596DF6F813289D0E58737C /* libPods-VOKUtilities-watchOS Extension.a */; };
@@ -247,6 +248,7 @@
 		D5AB01577E64C958FC240CE2E4BCE683 /* AnotherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherViewController.m; sourceTree = "<group>"; };
 		D80FCEB83D06907EEECCB4E59E640343 /* UIViewController_VOKKeyboard_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewController_VOKKeyboard_Tests.m; sourceTree = "<group>"; };
 		DE0B92743B9DDA88B921DD1EB224C3BD /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		E54DC1FDD1CF61FFB82C093999A9CCE6 /* UIViewExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensionsTests.swift; sourceTree = "<group>"; };
 		E5707297BB8525593A9C9D65D6E6B900 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E7552BEB87465D2E10EF50AAE9FF47A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E95FDA376A7A8F90EE8C94F99F61163F /* AnotherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherViewController.h; sourceTree = "<group>"; };
@@ -550,6 +552,7 @@
 				AC4E1326E3EC8F78C44CFA2094C6D386 /* UINibExtensionsTests.swift */,
 				6CE317AD592F9F401B6341108E710BC4 /* UITableViewExtensionsTests.swift */,
 				D80FCEB83D06907EEECCB4E59E640343 /* UIViewController_VOKKeyboard_Tests.m */,
+				E54DC1FDD1CF61FFB82C093999A9CCE6 /* UIViewExtensionsTests.swift */,
 				7204D657702E967C62E84EB3DDE5E9C5 /* UIView_VOKCircle_Tests.m */,
 				9FD0E90C9086C74B623837E86F8893F3 /* UIView_VOKDebug_Tests.m */,
 				8DD369650F89B53A3EE34BF5F6F3AC6B /* VOKAlertHelper_Tests.m */,
@@ -1097,6 +1100,7 @@
 				77BA38506641BEE9EDA86A379FCEF61A /* UINibExtensionsTests.swift in Sources */,
 				FCAF69056FF3765CB884FF0D2206B252 /* UITableViewExtensionsTests.swift in Sources */,
 				83F9FBB51AE06D5C4B74D5793F51D3B2 /* UIViewController_VOKKeyboard_Tests.m in Sources */,
+				DE2F26D221AF7701D8B6E72270F87213 /* UIViewExtensionsTests.swift in Sources */,
 				C68F32857F07A8C4386D1DD3C8C6194D /* UIView_VOKCircle_Tests.m in Sources */,
 				B055004A95DAD2F86284B6A148CC464A /* UIView_VOKDebug_Tests.m in Sources */,
 				5C86A1DEEE565D527AF1CFE2616D4FA9 /* VOKAlertHelper_Tests.m in Sources */,
