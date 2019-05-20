@@ -6,6 +6,7 @@
 //
 
 import XCTest
+import VOKUtilities
 
 class UIViewExtensionsTests: XCTestCase {
     private class SomeView: UIView {}
