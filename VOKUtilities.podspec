@@ -8,11 +8,15 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/vokal/VOKUtilities.git", :tag => s.version.to_s }
 
   ios_deployment_target = "11.0"
+  tvos_deployment_target = "9.0"
+  osx_deployment_target = "10.9"
+  watchos_deployment_target = "3.0"
 
   s.ios.deployment_target = ios_deployment_target
-  s.tvos.deployment_target = "9.0"
-  s.osx.deployment_target = "10.9"
-  s.watchos.deployment_target = "3.0"
+  s.tvos.deployment_target = tvos_deployment_target
+  s.osx.deployment_target = osx_deployment_target
+  s.watchos.deployment_target = watchos_deployment_target
+
   s.swift_version = "5.0"
 
   #cross platform specs:
@@ -39,28 +43,28 @@ Pod::Spec.new do |s|
   #UIKit specs:
   s.subspec 'UIColor+VOKAL' do |ss|
     ss.ios.deployment_target = ios_deployment_target
-    ss.tvos.deployment_target = "9.0"
+    ss.tvos.deployment_target = tvos_deployment_target
     
     # most of the rest of UIKit isn't available on the watch, but UIColor is.
-    ss.watchos.deployment_target = "3.0" 
+    ss.watchos.deployment_target = watchos_deployment_target 
     ss.source_files = 'Pod/UIColor+VOKAL/*.{h,m}'
   end
   
   s.subspec 'VOKIBHelpers' do |ss|
     ss.ios.deployment_target = ios_deployment_target
-    ss.tvos.deployment_target = "9.0"
+    ss.tvos.deployment_target = tvos_deployment_target
     ss.source_files = 'Pod/VOKIBHelpers/*.{h,m}'
   end
 
   s.subspec 'UIView+VOKDebug' do |ss|
     ss.ios.deployment_target = ios_deployment_target
-    ss.tvos.deployment_target = "9.0"
+    ss.tvos.deployment_target = tvos_deployment_target
     ss.source_files = 'Pod/UIView+VOKDebug/*.{h,m}'
   end
   
   s.subspec 'UIView+VOKCircle' do |ss| 
     ss.ios.deployment_target = ios_deployment_target
-    ss.tvos.deployment_target = "9.0"
+    ss.tvos.deployment_target = tvos_deployment_target
     ss.source_files = 'Pod/UIView+VOKCircle/*.{h,m}'
   end
 
