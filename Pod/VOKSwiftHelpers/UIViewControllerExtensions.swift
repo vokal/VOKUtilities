@@ -19,7 +19,7 @@ extension UIViewController {
         child.endAppearanceTransition()
     }
     
-    /// Remove from the parent view controller.
+    /// Remove self from the parent view controller.
     public func removeFromParentVC() {
         guard parent != nil else { return }
         

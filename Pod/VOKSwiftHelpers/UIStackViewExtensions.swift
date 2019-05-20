@@ -8,7 +8,7 @@
 import UIKit
 
 extension UIStackView {
-    /// Remove an arranged subview from the stackview. This will call through the normal UIStackView method but will
+    /// Remove an arranged subview from the stackview. This will call through the normal `UIStackView` method but will
     /// also call `removeFromSuperview` on the passed in view per the docs.
     ///
     /// - Parameter subview: the arranged subview to remove.

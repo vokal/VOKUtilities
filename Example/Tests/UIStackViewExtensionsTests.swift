@@ -18,11 +18,11 @@ class UIStackViewExtensionsTests: XCTestCase {
     }
     
     func testRemovingArrangedSubview() {
-        let aView = UIView()
-        stackView.addArrangedSubview(aView)
-        stackView.removeArrangedSubview(forView: aView)
+        let subview = UIView()
+        stackView.addArrangedSubview(subview)
+        stackView.remove(arrangedSubview: subview)
         
-        XCTAssertFalse(stackView.arrangedSubviews.contains(aView))
+        XCTAssertFalse(stackView.arrangedSubviews.contains(subview))
     }
     
     func testRemoveAllArrangedSubviews() {
