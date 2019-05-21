@@ -5,6 +5,7 @@ def utilities_pod
 end
 
 target 'VOKUtilities' do
+  platform :ios, '11.0'
   utilities_pod
 
   #nested target block will inherit all settings from parent

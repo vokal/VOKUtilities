@@ -75,27 +75,18 @@
     //ಠ_ಠ: http://stackoverflow.com/questions/25604552/i-have-real-misunderstanding-with-mfmailcomposeviewcontroller-in-swift-ios8-in/25864182#25864182
     NSString *title = [self simulatorBorkedTitle];
     NSString *cancelButtonTitle = [self simulatorBorkedButtonTitle];
-    if ([UIAlertController class]) {
-        //iOS 8 - Use UIAlertController
-        UIAlertController *simulatorSucksAlert = [UIAlertController alertControllerWithTitle:title                                                                                     message:messageString
-                                                                              preferredStyle:UIAlertControllerStyleAlert];
-        UIAlertAction *closeAction = [UIAlertAction actionWithTitle:cancelButtonTitle
-                                                              style:UIAlertActionStyleDefault
-                                                            handler:^(UIAlertAction *action) {
-                                                                [simulatorSucksAlert dismissViewControllerAnimated:YES completion:nil];
-                                                            }];
-        [simulatorSucksAlert addAction:closeAction];
-        
-        [presenter presentViewController:simulatorSucksAlert animated:NO completion:nil];
-    } else {
-        //iOS 7 - Use UIAlertView
-        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:title
-                                                            message:messageString
-                                                           delegate:nil
-                                                  cancelButtonTitle:cancelButtonTitle
-                                                  otherButtonTitles:nil];
-        [alertView show];
-    }
+    
+    UIAlertController *simulatorSucksAlert = [UIAlertController alertControllerWithTitle:title
+                                                                                 message:messageString
+                                                                          preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *closeAction = [UIAlertAction actionWithTitle:cancelButtonTitle
+                                                          style:UIAlertActionStyleDefault
+                                                        handler:^(UIAlertAction *action) {
+                                                            [simulatorSucksAlert dismissViewControllerAnimated:YES completion:nil];
+                                                        }];
+    [simulatorSucksAlert addAction:closeAction];
+    
+    [presenter presentViewController:simulatorSucksAlert animated:NO completion:nil];
 }
 
 + (NSString *)simulatorBorkedMessageForSubject:(NSString *)subject

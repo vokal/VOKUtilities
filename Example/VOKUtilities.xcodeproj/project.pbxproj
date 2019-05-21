@@ -53,6 +53,7 @@
 		88B6A55D1DE41586FB8DEF1323EDE839 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4398514A99A7240965FBDA9627FD43 /* ExtensionDelegate.m */; };
 		93399C2AF001CC7CA820506A591F99C6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1414AF7F8D2543DF6DA238BB32F258E2 /* XCTest.framework */; };
 		A0B8F9231D209C27763CFEEF80AD632A /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2014524F61656C2D8929927C8F65CD6 /* InterfaceController.m */; };
+		A270E4E5393F5B848F8B4C66FCDA1E60 /* UIViewControllerExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A2EC0DB8F7A5EC8722BF5FA79CFF3F /* UIViewControllerExtensionsTests.swift */; };
 		A31BA972049969E09E598B0C9006B559 /* UICollectionViewExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E569AFA00FAA5AF555C213AB3A14CF /* UICollectionViewExtensionsTests.swift */; };
 		A3BD758D681FFFE094FDDE68E20392C3 /* NSPredicate_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FEE28427C1277C3D9CD5B1716EF9FF /* NSPredicate_VOKAL_Tests.m */; };
 		A922AB203650A638CF03E178468CEE4A /* NSString_VOKValidation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D5FDE7C6A774D4D63BE08861719979 /* NSString_VOKValidation_Tests.m */; };
@@ -69,8 +70,10 @@
 		C7AEC7FAC5DF5050C23E14EB3F0B1660 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135B1F314C9ADE2AFE962AC23EF4E680 /* UIKit.framework */; };
 		CB8BA1879BF2D6442AD602BE6DEBE3F3 /* libPods-VOKUtilities-UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2672D8C9487E58B8556A9E76913F3856 /* libPods-VOKUtilities-UITests.a */; };
 		CC1B16FD877482126E51CA42A85796BB /* ExampleHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE69E291C06453B82865ADC483E6F9E /* ExampleHeaderFooterView.swift */; };
+		CDCDD0998B9AA0230E298CCFAC32F653 /* UIStackViewExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616CC6A3C081CAE80CD531EAC76ECF76 /* UIStackViewExtensionsTests.swift */; };
 		CE81964C6E11C5CC61343780ACE5D50B /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AB01577E64C958FC240CE2E4BCE683 /* AnotherViewController.m */; };
 		D543FF512B65B037A8AFF69B07E6D968 /* ExampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3950603750EDE14E64B5C2A20890E833 /* ExampleCollectionViewCell.swift */; };
+		DE2F26D221AF7701D8B6E72270F87213 /* UIViewExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54DC1FDD1CF61FFB82C093999A9CCE6 /* UIViewExtensionsTests.swift */; };
 		E18633348D706743144B98222999CB4A /* NSNumberFormatter_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FDD4E0D337F3AC5A11511F64396B2B /* NSNumberFormatter_VOKAL_Tests.m */; };
 		E1E41020DCE2111E07532B53A02762F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64A536D2BECDE1E3C9125554D817D3DA /* InfoPlist.strings */; };
 		E3DD410F86AC0C9EAEA2C6FD39F32796 /* libPods-VOKUtilities-watchOS Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5129D7DAEA596DF6F813289D0E58737C /* libPods-VOKUtilities-watchOS Extension.a */; };
@@ -197,6 +200,7 @@
 		57A622A81D619649F75DDE2EE6CEFF36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57FDD4E0D337F3AC5A11511F64396B2B /* NSNumberFormatter_VOKAL_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNumberFormatter_VOKAL_Tests.m; sourceTree = "<group>"; };
 		5D203223FC626726A02E9E3A9BB0A85F /* Pods-VOKUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities/Pods-VOKUtilities.debug.xcconfig"; sourceTree = "<group>"; };
+		616CC6A3C081CAE80CD531EAC76ECF76 /* UIStackViewExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewExtensionsTests.swift; sourceTree = "<group>"; };
 		663FC58F7A0062944780CF838603620B /* VOKUtilities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VOKUtilities.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69E569AFA00FAA5AF555C213AB3A14CF /* UICollectionViewExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtensionsTests.swift; sourceTree = "<group>"; };
 		6C730E89F192265DD7A5362032076DB6 /* Pods-VOKUtilities-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-Tests/Pods-VOKUtilities-Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -223,6 +227,7 @@
 		9FD0E90C9086C74B623837E86F8893F3 /* UIView_VOKDebug_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_VOKDebug_Tests.m; sourceTree = "<group>"; };
 		A1B2FF42B0073883959676E05CF20383 /* libPods-VOKUtilities-OSX-Tests-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOKUtilities-OSX-Tests-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2014524F61656C2D8929927C8F65CD6 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		A3A2EC0DB8F7A5EC8722BF5FA79CFF3F /* UIViewControllerExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensionsTests.swift; sourceTree = "<group>"; };
 		A994C16B7246E172908D4DC8954B9B85 /* VOKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VOKAppDelegate.m; sourceTree = "<group>"; };
 		AA936DC1D941D75B58380CDE427BEB2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB96D2EBEB93B0A068A81DB7FB0AC91C /* Pods-VOKUtilities-watchOS Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-watchOS Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-watchOS Extension/Pods-VOKUtilities-watchOS Extension.release.xcconfig"; sourceTree = "<group>"; };
@@ -247,6 +252,7 @@
 		D5AB01577E64C958FC240CE2E4BCE683 /* AnotherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherViewController.m; sourceTree = "<group>"; };
 		D80FCEB83D06907EEECCB4E59E640343 /* UIViewController_VOKKeyboard_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewController_VOKKeyboard_Tests.m; sourceTree = "<group>"; };
 		DE0B92743B9DDA88B921DD1EB224C3BD /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		E54DC1FDD1CF61FFB82C093999A9CCE6 /* UIViewExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensionsTests.swift; sourceTree = "<group>"; };
 		E5707297BB8525593A9C9D65D6E6B900 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E7552BEB87465D2E10EF50AAE9FF47A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E95FDA376A7A8F90EE8C94F99F61163F /* AnotherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherViewController.h; sourceTree = "<group>"; };
@@ -548,8 +554,11 @@
 				69E569AFA00FAA5AF555C213AB3A14CF /* UICollectionViewExtensionsTests.swift */,
 				7BB3B7342011ECC58611A62CD7DDEE16 /* UIColor_VOKAL_Tests.m */,
 				AC4E1326E3EC8F78C44CFA2094C6D386 /* UINibExtensionsTests.swift */,
+				616CC6A3C081CAE80CD531EAC76ECF76 /* UIStackViewExtensionsTests.swift */,
 				6CE317AD592F9F401B6341108E710BC4 /* UITableViewExtensionsTests.swift */,
+				A3A2EC0DB8F7A5EC8722BF5FA79CFF3F /* UIViewControllerExtensionsTests.swift */,
 				D80FCEB83D06907EEECCB4E59E640343 /* UIViewController_VOKKeyboard_Tests.m */,
+				E54DC1FDD1CF61FFB82C093999A9CCE6 /* UIViewExtensionsTests.swift */,
 				7204D657702E967C62E84EB3DDE5E9C5 /* UIView_VOKCircle_Tests.m */,
 				9FD0E90C9086C74B623837E86F8893F3 /* UIView_VOKDebug_Tests.m */,
 				8DD369650F89B53A3EE34BF5F6F3AC6B /* VOKAlertHelper_Tests.m */,
@@ -1095,8 +1104,11 @@
 				A31BA972049969E09E598B0C9006B559 /* UICollectionViewExtensionsTests.swift in Sources */,
 				50C91464E6FA9E82C648B7C1A453B40B /* UIColor_VOKAL_Tests.m in Sources */,
 				77BA38506641BEE9EDA86A379FCEF61A /* UINibExtensionsTests.swift in Sources */,
+				CDCDD0998B9AA0230E298CCFAC32F653 /* UIStackViewExtensionsTests.swift in Sources */,
 				FCAF69056FF3765CB884FF0D2206B252 /* UITableViewExtensionsTests.swift in Sources */,
+				A270E4E5393F5B848F8B4C66FCDA1E60 /* UIViewControllerExtensionsTests.swift in Sources */,
 				83F9FBB51AE06D5C4B74D5793F51D3B2 /* UIViewController_VOKKeyboard_Tests.m in Sources */,
+				DE2F26D221AF7701D8B6E72270F87213 /* UIViewExtensionsTests.swift in Sources */,
 				C68F32857F07A8C4386D1DD3C8C6194D /* UIView_VOKCircle_Tests.m in Sources */,
 				B055004A95DAD2F86284B6A148CC464A /* UIView_VOKDebug_Tests.m in Sources */,
 				5C86A1DEEE565D527AF1CFE2616D4FA9 /* VOKAlertHelper_Tests.m in Sources */,
@@ -1447,7 +1459,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -1587,7 +1599,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_VERSION = 5.0;
