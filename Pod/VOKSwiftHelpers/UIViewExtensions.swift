@@ -11,7 +11,7 @@ extension UIView {
     /// Pin a view to the top/bottom/leading/trailing anchors of a given view.
     ///
     /// - Parameter pinningView: the view to pin to.
-    func pin(to pinningView: UIView) {
+    public func pin(to pinningView: UIView) {
         translatesAutoresizingMaskIntoConstraints = false
         pinningView.addSubview(self)
         
@@ -20,7 +20,7 @@ extension UIView {
             bottomAnchor.constraint(equalTo: pinningView.bottomAnchor),
             leadingAnchor.constraint(equalTo: pinningView.leadingAnchor),
             trailingAnchor.constraint(equalTo: pinningView.trailingAnchor),
-        ])
+            ])
     }
     
     /// Convenience static member for a view with a clear background color.
