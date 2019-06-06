@@ -2,37 +2,37 @@ PODS:
   - KIF (3.7.4):
     - KIF/Core (= 3.7.4)
   - KIF/Core (3.7.4)
-  - VOKUtilities (0.14.0):
-    - "VOKUtilities/NSCalendar+VOKAL (= 0.14.0)"
-    - "VOKUtilities/NSNumberFormatter+VOKAL (= 0.14.0)"
-    - "VOKUtilities/NSPredicate+VOKAL (= 0.14.0)"
-    - "VOKUtilities/NSString+VOKValidation (= 0.14.0)"
-    - "VOKUtilities/UIColor+VOKAL (= 0.14.0)"
-    - "VOKUtilities/UIView+VOKCircle (= 0.14.0)"
-    - "VOKUtilities/UIView+VOKDebug (= 0.14.0)"
-    - "VOKUtilities/UIViewController+VOKKeyboard (= 0.14.0)"
-    - VOKUtilities/VOKAlertHelper (= 0.14.0)
-    - VOKUtilities/VOKEmailHelper (= 0.14.0)
-    - VOKUtilities/VOKIBHelpers (= 0.14.0)
-    - VOKUtilities/VOKKeyPathHelper (= 0.14.0)
-    - VOKUtilities/VOKNavigationHelper (= 0.14.0)
-    - VOKUtilities/VOKSwiftHelpers (= 0.14.0)
-    - VOKUtilities/VOKSwiftTestingHelpers (= 0.14.0)
-  - "VOKUtilities/NSCalendar+VOKAL (0.14.0)"
-  - "VOKUtilities/NSNumberFormatter+VOKAL (0.14.0)"
-  - "VOKUtilities/NSPredicate+VOKAL (0.14.0)"
-  - "VOKUtilities/NSString+VOKValidation (0.14.0)"
-  - "VOKUtilities/UIColor+VOKAL (0.14.0)"
-  - "VOKUtilities/UIView+VOKCircle (0.14.0)"
-  - "VOKUtilities/UIView+VOKDebug (0.14.0)"
-  - "VOKUtilities/UIViewController+VOKKeyboard (0.14.0)"
-  - VOKUtilities/VOKAlertHelper (0.14.0)
-  - VOKUtilities/VOKEmailHelper (0.14.0)
-  - VOKUtilities/VOKIBHelpers (0.14.0)
-  - VOKUtilities/VOKKeyPathHelper (0.14.0)
-  - VOKUtilities/VOKNavigationHelper (0.14.0)
-  - VOKUtilities/VOKSwiftHelpers (0.14.0)
-  - VOKUtilities/VOKSwiftTestingHelpers (0.14.0)
+  - VOKUtilities (0.15.0):
+    - "VOKUtilities/NSCalendar+VOKAL (= 0.15.0)"
+    - "VOKUtilities/NSNumberFormatter+VOKAL (= 0.15.0)"
+    - "VOKUtilities/NSPredicate+VOKAL (= 0.15.0)"
+    - "VOKUtilities/NSString+VOKValidation (= 0.15.0)"
+    - "VOKUtilities/UIColor+VOKAL (= 0.15.0)"
+    - "VOKUtilities/UIView+VOKCircle (= 0.15.0)"
+    - "VOKUtilities/UIView+VOKDebug (= 0.15.0)"
+    - "VOKUtilities/UIViewController+VOKKeyboard (= 0.15.0)"
+    - VOKUtilities/VOKAlertHelper (= 0.15.0)
+    - VOKUtilities/VOKEmailHelper (= 0.15.0)
+    - VOKUtilities/VOKIBHelpers (= 0.15.0)
+    - VOKUtilities/VOKKeyPathHelper (= 0.15.0)
+    - VOKUtilities/VOKNavigationHelper (= 0.15.0)
+    - VOKUtilities/VOKSwiftHelpers (= 0.15.0)
+    - VOKUtilities/VOKSwiftTestingHelpers (= 0.15.0)
+  - "VOKUtilities/NSCalendar+VOKAL (0.15.0)"
+  - "VOKUtilities/NSNumberFormatter+VOKAL (0.15.0)"
+  - "VOKUtilities/NSPredicate+VOKAL (0.15.0)"
+  - "VOKUtilities/NSString+VOKValidation (0.15.0)"
+  - "VOKUtilities/UIColor+VOKAL (0.15.0)"
+  - "VOKUtilities/UIView+VOKCircle (0.15.0)"
+  - "VOKUtilities/UIView+VOKDebug (0.15.0)"
+  - "VOKUtilities/UIViewController+VOKKeyboard (0.15.0)"
+  - VOKUtilities/VOKAlertHelper (0.15.0)
+  - VOKUtilities/VOKEmailHelper (0.15.0)
+  - VOKUtilities/VOKIBHelpers (0.15.0)
+  - VOKUtilities/VOKKeyPathHelper (0.15.0)
+  - VOKUtilities/VOKNavigationHelper (0.15.0)
+  - VOKUtilities/VOKSwiftHelpers (0.15.0)
+  - VOKUtilities/VOKSwiftTestingHelpers (0.15.0)
 
 DEPENDENCIES:
   - KIF (~> 3.7.4)
@@ -48,7 +48,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   KIF: f3d01c109ee9d1cfe6b0f2bb2aa278e807e971e2
-  VOKUtilities: 0fb1775399971a0ef31ea7b978257b701149bd1f
+  VOKUtilities: 0eedfe8360fdf475b33c3dede2eb4cc80bc0c4ec
 
 PODFILE CHECKSUM: 23511bacd73dc18331115b71ac9e98783d790099
 
