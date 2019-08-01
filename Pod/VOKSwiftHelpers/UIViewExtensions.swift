@@ -20,11 +20,24 @@ extension UIView {
             bottomAnchor.constraint(equalTo: pinningView.bottomAnchor),
             leadingAnchor.constraint(equalTo: pinningView.leadingAnchor),
             trailingAnchor.constraint(equalTo: pinningView.trailingAnchor),
-            ])
+        ])
+    }
+    
+    /// Center a view with another view.
+    ///
+    /// - Parameter centeringView: the view to center to.
+    public func center(to centeringView: UIView) {
+        translatesAutoresizingMaskIntoConstraints = false
+        centeringView.addSubview(self)
+        
+        NSLayoutConstraint.activate([
+            centerXAnchor.constraint(equalTo: centeringView.centerXAnchor),
+            centerYAnchor.constraint(equalTo: centeringView.centerYAnchor),
+        ])
     }
     
     /// Convenience static member for a view with a clear background color.
-    static var clear: UIView {
+    public static var clear: UIView {
         let clearView = UIView()
         clearView.backgroundColor = .clear
         return clearView
