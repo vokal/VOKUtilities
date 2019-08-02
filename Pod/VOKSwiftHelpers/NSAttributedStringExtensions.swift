@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension NSAttributedString {
+public extension NSAttributedString {
     /// Create a new attributed string from an HTML string.
     ///
     /// This will configure and style an attributed string with an HTML document type.

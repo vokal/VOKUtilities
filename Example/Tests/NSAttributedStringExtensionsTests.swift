@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import VOKUtilities
+import VOKUtilities
 
 class NSAttributedStringExtensionsTests: XCTestCase {
     func testInitWithHTMLString() {

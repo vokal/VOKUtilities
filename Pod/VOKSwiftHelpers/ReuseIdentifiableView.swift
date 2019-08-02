@@ -18,8 +18,8 @@ public protocol ReuseIdentifiableView: UIView {
 
 // MARK: - ReuseIdentifiableView Conformances
 
-extension ReuseIdentifiableView {
-    public static var defaultReuseIdentifier: String {
+public extension ReuseIdentifiableView {
+    static var defaultReuseIdentifier: String {
         // Default implementation.
         return String(describing: self)
     }

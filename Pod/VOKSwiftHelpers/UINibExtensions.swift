@@ -7,11 +7,11 @@
 
 import UIKit
 
-extension UINib {
+public extension UINib {
     /// Convenience initializer to get a nib from a `ReuseIdentifiableView` type.
     ///
     /// - Parameter viewType: the view type to initialize the nib with.
-    public convenience init<View: ReuseIdentifiableView>(viewType: View.Type) {
+    convenience init<View: ReuseIdentifiableView>(viewType: View.Type) {
         self.init(nibName: viewType.defaultReuseIdentifier, bundle: Bundle(for: viewType))
     }
 }

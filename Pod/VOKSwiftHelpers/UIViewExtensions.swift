@@ -7,11 +7,11 @@
 
 import UIKit
 
-extension UIView {
+public extension UIView {
     /// Pin a view to the top/bottom/leading/trailing anchors of a given view.
     ///
     /// - Parameter pinningView: the view to pin to.
-    public func pin(to pinningView: UIView) {
+    func pin(to pinningView: UIView) {
         translatesAutoresizingMaskIntoConstraints = false
         pinningView.addSubview(self)
         
@@ -26,7 +26,7 @@ extension UIView {
     /// Center a view with another view.
     ///
     /// - Parameter centeringView: the view to center to.
-    public func center(to centeringView: UIView) {
+    func center(to centeringView: UIView) {
         translatesAutoresizingMaskIntoConstraints = false
         centeringView.addSubview(self)
         
@@ -37,7 +37,7 @@ extension UIView {
     }
     
     /// Convenience static member for a view with a clear background color.
-    public static var clear: UIView {
+    static var clear: UIView {
         let clearView = UIView()
         clearView.backgroundColor = .clear
         return clearView
@@ -47,7 +47,7 @@ extension UIView {
     ///
     /// - Parameter type: The type of superview to search through.
     /// - Returns: The desired superview or nil if not found.
-    public func firstSuperview<View: UIView>(of type: View.Type) -> View? {
+    func firstSuperview<View: UIView>(of type: View.Type) -> View? {
         return superview as? View ?? superview.flatMap { $0.firstSuperview(of: type) }
     }
 }

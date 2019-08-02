@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIImageView {
+public extension UIImageView {
     /// Applies a desired tint color to the image view.
     ///
     /// - Parameter newTintColor: the tint color to apply on the image view.
