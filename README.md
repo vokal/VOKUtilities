@@ -1,5 +1,5 @@
 # VOKUtilities
-> Maintained by @bryanluby
+> Maintained by [@bryanluby](https://github.com/bryanluby)
 
 [![CI Status](https://travis-ci.org/vokal/VOKUtilities.svg?branch=master)](https://travis-ci.org/vokal/VOKUtilities)
 [![Version](https://img.shields.io/cocoapods/v/VOKUtilities.svg?style=flat)](http://cocoadocs.org/docsets/VOKUtilities)

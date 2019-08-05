@@ -7,20 +7,22 @@
 
 import UIKit
 
-extension UIViewController {
+public extension UIViewController {
     /// Add a child view controller.
     ///
     /// - Parameter child: the child view controller to add.
-    public func addChildVC(_ child: UIViewController) {
+    /// - Parameter pinningView: the view to pin the child VC's view to. Default is nil which will pin to the parent
+    ///   VC's main view.
+    func addChildVC(_ child: UIViewController, pinningView: UIView? = nil) {
         child.beginAppearanceTransition(true, animated: false)
         addChild(child)
-        child.view.pin(to: view)
+        child.view.pin(to: pinningView ?? view)
         child.didMove(toParent: self)
         child.endAppearanceTransition()
     }
     
     /// Remove self from the parent view controller.
-    public func removeFromParentVC() {
+    func removeFromParentVC() {
         guard parent != nil else { return }
         
         beginAppearanceTransition(false, animated: false)
@@ -37,7 +39,7 @@ extension UIViewController {
     ///     let navVC: SomeNavSubclass = someViewController.embeddedInNav()
     ///
     /// - Returns: a new navigation controller instance with self as the root view controller.
-    public func embeddedInNav<NavigationController: UINavigationController>() -> NavigationController {
+    func embeddedInNav<NavigationController: UINavigationController>() -> NavigationController {
         return NavigationController(rootViewController: self)
     }
 }

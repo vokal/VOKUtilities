@@ -7,19 +7,19 @@
 
 import Foundation
 
-extension String {
+public extension String {
     /// Get a new string by removing non-digits.
-    public var digits: String {
+    var digits: String {
         return components(separatedBy: CharacterSet.decimalDigits.inverted).joined()
     }
     
     /// Get the double value of a string. Will return nil if it can't convert.
-    public var doubleValue: Double? {
+    var doubleValue: Double? {
         return Double(self)
     }
     
     /// Get the int value of a string. Will return nil if it can't convert.
-    public var intValue: Int? {
+    var intValue: Int? {
         return Int(self)
     }
 }

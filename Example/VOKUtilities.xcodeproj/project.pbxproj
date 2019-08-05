@@ -10,6 +10,7 @@
 		0053277E091BAFE30ABDFAEB7CE28E73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24926CDA7FBB04AFC767AEF5B9BB7A42 /* CoreGraphics.framework */; };
 		01D81258FD50C1B823D69EC0E43581E5 /* ExampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E1DAEE03066B8DC7FEBB1CD75E1A51 /* ExampleTableViewCell.swift */; };
 		0529F65AEC801852D6EC3E948E7D2EAC /* NSCalendar_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B3EC1E9A081DFD3E84F73606C4FFF9 /* NSCalendar_VOKAL_Tests.m */; };
+		06D643A14C935AF312B9697C73950107 /* UIImageViewExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F900E9BEF5CCD08CEBCF7443DAEC9B /* UIImageViewExtensionsTests.swift */; };
 		06DA28EBBDCD11BA6059C3B64892051C /* ExampleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFBF22226A651DCEC6C355CDB2ACBBBE /* ExampleTableViewCell.xib */; };
 		0B8ED12CD8AF9F9763B3643D73D46DB5 /* libPods-VOKUtilities-tvOS-Tests-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F01D609ECF7FC23D60D5D99476C930 /* libPods-VOKUtilities-tvOS-Tests-tvOS.a */; };
 		0FF8373B0EB3EA86A414212A736DB637 /* CollectionExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA495983AF48F5C2F1C1DACEBA20C19 /* CollectionExtensionsTests.swift */; };
@@ -20,6 +21,7 @@
 		29A196E01DFE523E7440EAAE760233F3 /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C931322F94DB48A1D1591FC9C2A954E /* First.storyboard */; };
 		2C073FD42D6A561CC81D9EC7D7F02D6F /* IntExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A83849EC146CD37A9BA19F67BA118E /* IntExtensionsTests.swift */; };
 		2C9B92D12A58F3CF7C559224EED1DC0C /* NSNumberFormatter_VOKAL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FDD4E0D337F3AC5A11511F64396B2B /* NSNumberFormatter_VOKAL_Tests.m */; };
+		2D5B1A6D1F48B29AC3C57409C285B827 /* NSAttributedStringExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA1A5DC6191503C6D2E3832C04B2721 /* NSAttributedStringExtensionsTests.swift */; };
 		2DB1DDCB4DFAD0F456DD71758947C216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 189C69E5C7BB81B5DA6529C87719C553 /* InfoPlist.strings */; };
 		2EF8BF9A7382D975A58C9C7104DFF8A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CD2B98C25A86899F736FEF4E148322F /* Foundation.framework */; };
 		3184FF096E7294079F3D24F6E46A89BB /* UIView_VOKDebug_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD0E90C9086C74B623837E86F8893F3 /* UIView_VOKDebug_Tests.m */; };
@@ -163,6 +165,7 @@
 		06CC4F454A8ABD3FDE282DA9D1A2A0A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		076E5FF7CC6BCA912E463E33D107B99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09FEE28427C1277C3D9CD5B1716EF9FF /* NSPredicate_VOKAL_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSPredicate_VOKAL_Tests.m; sourceTree = "<group>"; };
+		10F900E9BEF5CCD08CEBCF7443DAEC9B /* UIImageViewExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensionsTests.swift; sourceTree = "<group>"; };
 		11A36D4228F2EBCEE3578CA009426401 /* VOKUtilities-watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VOKUtilities-watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F5E0180B9240FD939BD8DF293E67E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		120F654AF5DE8F532A09C168F72D2F0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -189,6 +192,7 @@
 		38D5FDE7C6A774D4D63BE08861719979 /* NSString_VOKValidation_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_VOKValidation_Tests.m; sourceTree = "<group>"; };
 		3950603750EDE14E64B5C2A20890E833 /* ExampleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCollectionViewCell.swift; sourceTree = "<group>"; };
 		3B3A6408D5B0B0128224984F32B569EF /* libPods-Tests-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA1A5DC6191503C6D2E3832C04B2721 /* NSAttributedStringExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtensionsTests.swift; sourceTree = "<group>"; };
 		3DFB4EE61619798FE2372BDFCCB2926A /* ExampleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleCollectionViewCell.xib; sourceTree = "<group>"; };
 		41300325A877D2E149E0FEB2DEF80906 /* Pods-VOKUtilities-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKUtilities-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-VOKUtilities-tvOS/Pods-VOKUtilities-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		4FB1A1804D66D20509D274DFEBC1CB6D /* VOKUtilities-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VOKUtilities-Info.plist"; sourceTree = "<group>"; };
@@ -546,6 +550,7 @@
 				7CC8F5330184AA24D1C85C4555CAD942 /* Supporting Files */,
 				9DA495983AF48F5C2F1C1DACEBA20C19 /* CollectionExtensionsTests.swift */,
 				B2A83849EC146CD37A9BA19F67BA118E /* IntExtensionsTests.swift */,
+				3DA1A5DC6191503C6D2E3832C04B2721 /* NSAttributedStringExtensionsTests.swift */,
 				81B3EC1E9A081DFD3E84F73606C4FFF9 /* NSCalendar_VOKAL_Tests.m */,
 				57FDD4E0D337F3AC5A11511F64396B2B /* NSNumberFormatter_VOKAL_Tests.m */,
 				09FEE28427C1277C3D9CD5B1716EF9FF /* NSPredicate_VOKAL_Tests.m */,
@@ -553,6 +558,7 @@
 				C4EF5DF9A86864EFD759B238AF892C1D /* StringExtensionsTests.swift */,
 				69E569AFA00FAA5AF555C213AB3A14CF /* UICollectionViewExtensionsTests.swift */,
 				7BB3B7342011ECC58611A62CD7DDEE16 /* UIColor_VOKAL_Tests.m */,
+				10F900E9BEF5CCD08CEBCF7443DAEC9B /* UIImageViewExtensionsTests.swift */,
 				AC4E1326E3EC8F78C44CFA2094C6D386 /* UINibExtensionsTests.swift */,
 				616CC6A3C081CAE80CD531EAC76ECF76 /* UIStackViewExtensionsTests.swift */,
 				6CE317AD592F9F401B6341108E710BC4 /* UITableViewExtensionsTests.swift */,
@@ -1096,6 +1102,7 @@
 				CC1B16FD877482126E51CA42A85796BB /* ExampleHeaderFooterView.swift in Sources */,
 				01D81258FD50C1B823D69EC0E43581E5 /* ExampleTableViewCell.swift in Sources */,
 				2C073FD42D6A561CC81D9EC7D7F02D6F /* IntExtensionsTests.swift in Sources */,
+				2D5B1A6D1F48B29AC3C57409C285B827 /* NSAttributedStringExtensionsTests.swift in Sources */,
 				0529F65AEC801852D6EC3E948E7D2EAC /* NSCalendar_VOKAL_Tests.m in Sources */,
 				E18633348D706743144B98222999CB4A /* NSNumberFormatter_VOKAL_Tests.m in Sources */,
 				A3BD758D681FFFE094FDDE68E20392C3 /* NSPredicate_VOKAL_Tests.m in Sources */,
@@ -1103,6 +1110,7 @@
 				54EE588C5DB13897689D9C7C5398AE42 /* StringExtensionsTests.swift in Sources */,
 				A31BA972049969E09E598B0C9006B559 /* UICollectionViewExtensionsTests.swift in Sources */,
 				50C91464E6FA9E82C648B7C1A453B40B /* UIColor_VOKAL_Tests.m in Sources */,
+				06D643A14C935AF312B9697C73950107 /* UIImageViewExtensionsTests.swift in Sources */,
 				77BA38506641BEE9EDA86A379FCEF61A /* UINibExtensionsTests.swift in Sources */,
 				CDCDD0998B9AA0230E298CCFAC32F653 /* UIStackViewExtensionsTests.swift in Sources */,
 				FCAF69056FF3765CB884FF0D2206B252 /* UITableViewExtensionsTests.swift in Sources */,

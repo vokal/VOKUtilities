@@ -7,14 +7,14 @@
 
 import Foundation
 
-extension Int {
+public extension Int {
     /// Increment self by 1.
-    public mutating func increment() {
+    mutating func increment() {
         self += 1
     }
     
     /// Decrement self by 1.
-    public mutating func decrement() {
+    mutating func decrement() {
         self -= 1
     }
 }
