@@ -1433,6 +1433,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 5DECD2D2DDBCF1DF25E1166EAF85634C;
 			productRefGroup = F11F3D9AADDE75DD48B2D75FDE6D0F2A /* Products */;
@@ -1750,30 +1751,6 @@
 			};
 			name = Debug;
 		};
-		06EF23E849CEA892C878BCAC7276AFCE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13E8F743E7B20474C0FC3B5DAB277F35 /* VOKUtilities-6aa4e1e5.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/VOKUtilities-6aa4e1e5/VOKUtilities-6aa4e1e5-prefix.pch";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = VOKUtilities;
-				PRODUCT_NAME = "VOKUtilities-6aa4e1e5";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Debug;
-		};
 		65DB5717148C5892D54B9E3045C6A0AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8C1A8A4CBFE4925DA8C6F9B10FE36B53 /* Pods-VOKUtilities-Tests.debug.xcconfig */;
@@ -1797,6 +1774,30 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		6221ADDE2DD1FEB406B968989D15E4C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E8F743E7B20474C0FC3B5DAB277F35 /* VOKUtilities-6aa4e1e5.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/VOKUtilities-6aa4e1e5/VOKUtilities-6aa4e1e5-prefix.pch";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VOKUtilities;
+				PRODUCT_NAME = "VOKUtilities-6aa4e1e5";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
 		};
 		25812A11847E1245E4458F9F22B9FB14 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1942,28 +1943,6 @@
 			};
 			name = Debug;
 		};
-		E3341B9D0B3C28C14C687DB6E2B867FC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13B07AA527C974F3D6DF671BAF5F0800 /* Pods-VOKUtilities-watchOS Extension.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Release;
-		};
 		17D1333A8CE09030241354A8BE9C3104 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD9901C057035ECE56BB8051D55F0633 /* Pods-VOKUtilities.release.xcconfig */;
@@ -2086,27 +2065,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		71EB15ABC7BDB55B570851E63C22F961 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BE35F55E952595F1F570BE22C10323A /* Pods-VOKUtilities-watchOS Extension.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
 		};
@@ -2244,11 +2202,10 @@
 			};
 			name = Debug;
 		};
-		6221ADDE2DD1FEB406B968989D15E4C8 /* Release */ = {
+		06EF23E849CEA892C878BCAC7276AFCE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 13E8F743E7B20474C0FC3B5DAB277F35 /* VOKUtilities-6aa4e1e5.xcconfig */;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -2264,10 +2221,9 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
-			name = Release;
+			name = Debug;
 		};
 		A6FF0DAD7D4E9C3DE3D35EF806C0B9B5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2288,6 +2244,27 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E3341B9D0B3C28C14C687DB6E2B867FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13B07AA527C974F3D6DF671BAF5F0800 /* Pods-VOKUtilities-watchOS Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
@@ -2378,6 +2355,26 @@
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
+		};
+		71EB15ABC7BDB55B570851E63C22F961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BE35F55E952595F1F570BE22C10323A /* Pods-VOKUtilities-watchOS Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
 		};
 		5F43FD6CA053CFE317F55116BEE879BD /* Debug */ = {
 			isa = XCBuildConfiguration;
